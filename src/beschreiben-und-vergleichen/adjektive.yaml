@@ -80,6 +80,7 @@ blocks:
           - [bike, Fahrrad]
           - [table, Tisch]
           - [this is, das ist]
+          - [two, zwei]
           - [a, ein / eine]
   - type: section
     id: uebung
@@ -253,4 +254,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Die Karten hängen jetzt an den Fotos. Mr Hill zeigt auf zwei Bäume und fragt in die Klasse: „Welcher Baum ist größer?“ Auf der nächsten Seite lernst du, wie du das auf Englisch sagst."
+        text: "Die Karten hängen jetzt an den Fotos. Mr Hill will jetzt wissen, wer in der Klasse wie groß ist. Auf der nächsten Seite lernst du, wie du das auf Englisch sagst."

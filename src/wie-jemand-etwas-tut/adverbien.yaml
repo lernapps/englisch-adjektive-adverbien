@@ -40,7 +40,7 @@ blocks:
     title: Der Adverb-Anhänger
     blocks:
       - type: text
-        text: "Ein **Adverb** sagt, **wie** jemand etwas tut. Mr Hill gibt den Kindern dafür **orangefarbene Anhänger**. Sie hängen am **Verb**, dem Wort für das, was jemand tut (run, sing). Meistens hängst du **-ly** an das Adjektiv: quick – quickly. Endet das Adjektiv auf **-y**, wird aus y ein **i**: happy – happily."
+        text: "Ein **Adverb** sagt, **wie** jemand etwas tut. Mr Hill gibt den Kindern dafür **orangefarbene Anhänger**. Sie hängen am **Verb**, dem Wort für das, was jemand tut (run, sing). Bei he, she und it hängt am Verb ein -s (Peter runs), das kennst du schon von den Verben. Meistens hängst du **-ly** an das Adjektiv: quick – quickly. Endet das Adjektiv auf **-y**, wird aus y ein **i**: happy – happily."
       - type: figure
         image: images/anhaenger-adverbien.svg
         alt: Drei Kartenpaare. Bei Peter runs hängt ein orangefarbener Anhänger mit quickly, bei einem zweiten Peter runs einer mit fast, bei He sings einer mit well.
@@ -169,6 +169,8 @@ blocks:
             mistakes:
               - answer: Amir plays football good.
                 message: good beschreibt ein Ding. Wenn jemand etwas gut tut, heißt das Wort well.
+              - answer: Amir plays good football.
+                message: Das ist ein anderer Satz, denn good football heißt „guter Fußball“. Gemeint ist, wie Amir spielt, und dafür steht well.
           - cue: Ellie · work · hard
             target: Ellie works hard.
             mistakes:

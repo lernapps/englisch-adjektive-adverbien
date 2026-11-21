@@ -132,7 +132,7 @@ blocks:
         id: vergleiche-richtig
         text: "Peter ist neun und Ellie ist elf. Peter sagt: „I am older than Ellie.“ Stimmt der Satz?"
         answer: false
-        explanation: older bedeutet „älter“. Peter ist jünger. Richtig wäre „I am younger than Ellie.“ oder „Ellie is older than me.“
+        explanation: older bedeutet „älter“. Peter ist aber jünger als Ellie. Richtig wäre „Ellie is older than Peter.“
         links:
           - title: Lernlandkarte Englisch · Vergleiche mit than und as … as
             url: https://lernapps.net/apps/map/englisch/c/vergleiche/

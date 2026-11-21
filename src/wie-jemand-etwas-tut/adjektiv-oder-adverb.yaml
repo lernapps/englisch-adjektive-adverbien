@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: Mr Hill hat zwei Karten über Peter aufgehängt. Auf die eine kommt ein blauer Anhänger, auf die andere ein orangefarbener. Die Kinder müssen entscheiden, welcher wohin gehört.
+        text: Mr Hill hat zwei Karten über Amir aufgehängt. Auf die eine kommt ein blauer Anhänger, auf die andere ein orangefarbener. Die Kinder müssen entscheiden, welcher wohin gehört.
       - type: single-choice
         id: adjektiv-oder-adverb-start
         text: "Sophie schreibt eine Karte über Amir: „Amir is a … boy.“ Er ist vorsichtig. Welches Wort passt?"

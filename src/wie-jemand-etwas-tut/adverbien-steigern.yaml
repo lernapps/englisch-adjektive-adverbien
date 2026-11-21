@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
-title: "Die zweite Treppe: Adverbien steigern"
+title: "Die Treppe, zweite Seite: Adverbien steigern"
 description: "Peter rennt schneller als Amir. Du lernst, Adverbien zu steigern und damit Handlungen zu vergleichen."
 competencies: [adverbien-steigern]
 scope: Die Seite führt die Steigerung der Adverbien ein. Kurze Adverbien wie fast, hard, early und late steigern mit -er und -est (fast – faster – the fastest, early – earlier – the earliest). Adverbien auf -ly steigern mit more und most (carefully – more carefully – the most carefully). well und badly haben eigene Formen (well – better – the best, badly – worse – the worst). Mit than werden zwei Handlungen verglichen (Peter runs faster than Amir). Nicht hier, weil es spätere Seiten sind. Die Stellung der Adverbien im Satz und Gradadverbien.
@@ -10,8 +10,8 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-adverbien-steigern.svg
-        alt: Peter rennt im Flur vor Amir her. Ellie steht rechts und schaut zu.
-        caption: "Von links: Amir (Brille), Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz)."
+        alt: Peter rennt im Flur vor Amir her. Ellie und Sophie stehen rechts und schauen zu.
+        caption: "Von links: Amir (Brille), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz) und Sophie (Zöpfe)."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -37,10 +37,10 @@ blocks:
         text: "**Das kannst du danach:** Du steigerst Adverbien und vergleichst damit, wie jemand etwas tut."
   - type: section
     id: neu
-    title: Die zweite Seite der Treppe
+    title: Die Treppe für Adverbien
     blocks:
       - type: text
-        text: "Mr Hill baut eine zweite Treppe, die **Adverb-Treppe**. Sie hat dieselben drei Stufen wie die erste. Kurze Adverbien wie **fast** steigen mit **-er** und **-est**. Adverbien auf **-ly** bekommen **more** und **the most**. **well** hat eine eigene Treppe, genau wie good."
+        text: "Die Treppe hat eine zweite Seite für Adverbien. Sie hat dieselben drei Stufen wie die erste Seite. Kurze Adverbien wie **fast** steigen mit **-er** und **-est**. Adverbien auf **-ly** bekommen **more** und **the most**. **well** hat eine eigene Treppe, genau wie good."
       - type: figure
         image: images/treppe-adverbien-steigern.svg
         alt: Zwei orangefarbene Treppen mit je drei Stufen. Oben steht fast, faster, the fastest. Unten steht carefully, more carefully, the most carefully.
@@ -49,7 +49,7 @@ blocks:
         licence: CC-BY-4.0
       - type: table
         caption: Klassenzimmer-Poster · Die Treppe der Adverbien
-        header: [Grundform, Steigerung, Höchststufe]
+        header: [Grundform, Stei­gerung, Höchst­stufe]
         rows:
           - [fast, faster, the fastest]
           - [hard, harder, the hardest]
@@ -61,7 +61,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Wie bei den Adjektiven: **kurz** gibt **-er** und **-est**, **-ly** gibt **more** und **most**. Zwei Handlungen vergleichst du mit **than**: Peter runs **faster than** Amir. **early** endet auf -ly, ist aber kurz: earlier, the earliest.
+              Wie bei den Adjektiven: **kurz** gibt **-er** und **-est**, **-ly** gibt **more** und **most**. Zwei Handlungen vergleichst du mit **than**: Peter runs **faster than** Amir. Vor der Höchststufe darfst du bei Adverbien das the weglassen (Ellie plays best). **early** endet auf -ly, ist aber kurz: earlier, the earliest.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -91,7 +91,7 @@ blocks:
           rows:
             - [Grundform, early]
             - [Steigerung, "[earlier]"]
-            - [Höchststufe, "[the earliest]"]
+            - [Höchststufe, "[(the |)earliest]"]
         hint: early ist kurz und endet auf -y. Aus y wird i.
       - type: matching
         id: adverbien-steigern-paare
@@ -176,12 +176,12 @@ blocks:
             mistakes:
               - answer: Ellie plays goodest.
                 message: well hat eine eigene Treppe. Die Höchststufe ist best.
-          - source: Peter kommt früher als Amir.
-            target: Peter comes earlier than Amir.
+          - source: Peter spielt früher als Amir.
+            target: Peter plays earlier than Amir.
             mistakes:
-              - answer: Peter comes more early than Amir.
+              - answer: Peter plays more early than Amir.
                 message: early ist kurz. Es bekommt -er, und aus y wird i.
-              - answer: Peter comes earlyer than Amir.
+              - answer: Peter plays earlyer than Amir.
                 message: Aus y wird i, bevor -er kommt.
         hint: Prüfe, ob das Wort kurz ist, auf -ly endet oder eine Sonderform hat.
       - type: language-task
@@ -192,6 +192,7 @@ blocks:
         items:
           - cue: Peter runs more fast than Amir.
             target: Peter runs faster than Amir.
+            accepted: [Peter runs more quickly than Amir.]
             mistakes:
               - answer: Peter runs more fast than Amir.
                 message: fast ist kurz. Welche Endung braucht es?
@@ -245,7 +246,7 @@ blocks:
     title: Rückblick auf das Kapitel
     blocks:
       - type: text
-        text: "Du hast jetzt zwei Anhänger und zwei Treppen. Der blaue Anhänger beschreibt Dinge und Personen, der orangefarbene sagt, wie jemand etwas tut. Beide Treppen steigen gleich: kurz mit -er und -est, lang mit more und most. Mr Hill hängt die Karten auf, und die Ausstellung „Our Millbrook“ kann beginnen."
+        text: "Du hast jetzt zwei Anhänger und die Treppe mit ihren zwei Seiten. Der blaue Anhänger beschreibt Dinge und Personen, der orangefarbene sagt, wie jemand etwas tut. Beide Seiten der Treppe steigen gleich: kurz mit -er und -est, lang mit more und most. Mr Hill hängt die Karten auf, und die Ausstellung „Our Millbrook“ kann beginnen."
       - type: table
         caption: Schulkalender · Rückblick Kapitel 2
         header: [Das willst du sagen, "So geht es"]

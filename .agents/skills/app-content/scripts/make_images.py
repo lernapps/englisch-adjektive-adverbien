@@ -91,9 +91,9 @@ def szene_adjektive_steigern():
 
 @image
 def treppe_adjektive_steigern():
-    b = text(320, 28, "kurzes Wort", 20)
+    b = text(320, 30, "kurzes Wort", 26)
     b += stairs(80, 190, ["tall", "taller", "the tallest"], w=160, step=30)
-    b += text(320, 238, "langes Wort", 20)
+    b += text(320, 242, "langes Wort", 26)
     b += stairs(5, 400, ["interesting", "more interesting", "the most interesting"], w=210, step=30)
     return svg(640, 420, "Zwei Treppen mit drei Stufen: tall, taller, the tallest und interesting, more interesting, the most interesting", b)
 
@@ -101,7 +101,7 @@ def treppe_adjektive_steigern():
 def szene_vergleiche():
     b = wall()
     b += frame(70, 15, 230, 150, house(185, 70, 1.25, "#e8c9a0")) + frame(340, 15, 230, 150, house(455, 95, .7, "#b9d3e8"))
-    b += text(185, 195, "das alte Haus", 22) + text(455, 195, "das neue Haus", 22)
+    b += text(185, 195, "old house", 24) + text(455, 195, "new house", 24)
     b += kid("sophie", 30, 185, .65) + kid("amir", 290, 195, .6) + kid("ellie", 540, 185, .65)
     return svg(640, 340, "Drei Kinder stehen vor zwei Fotos: ein großes altes Haus und ein kleines neues Haus", b)
 
@@ -156,18 +156,18 @@ def entscheidung():
 def szene_adverbien_steigern():
     b = wall()
     b += '  <rect x="20" y="238" width="600" height="8" fill="#fff" opacity=".7"/>\n'
-    b += kid("peter", 330, 150, .7) + kid("amir", 150, 120, .85) + kid("ellie", 480, 120, .85)
+    b += kid("peter", 330, 150, .7) + kid("amir", 150, 120, .85) + kid("ellie", 480, 120, .85) + kid("sophie", 570, 150, .6)
     for i, y in enumerate((200, 220, 240)):
         b += f'  <line x1="{285 - i * 8}" y1="{y}" x2="{325 - i * 8}" y2="{y}" stroke="{INK}" stroke-width="3" stroke-linecap="round"/>\n'
     for i, y in enumerate((200, 225)):
         b += f'  <line x1="{110 - i * 8}" y1="{y}" x2="{135 - i * 8}" y2="{y}" stroke="{INK}" stroke-width="3" stroke-linecap="round"/>\n'
-    return svg(640, 340, "Peter rennt vor Amir her, Ellie schaut zu", b)
+    return svg(640, 340, "Peter rennt vor Amir her, Ellie und Sophie schauen zu", b)
 
 @image
 def treppe_adverbien_steigern():
-    b = text(320, 28, "kurzes Adverb", 20)
+    b = text(320, 30, "kurzes Adverb", 26)
     b += stairs(80, 190, ["fast", "faster", "the fastest"], w=160, step=30, colour=ORANGE)
-    b += text(320, 238, "langes Adverb mit -ly", 20)
+    b += text(320, 242, "langes Adverb mit -ly", 26)
     b += stairs(5, 400, ["carefully", "more carefully", "the most carefully"], w=210, step=30, colour=ORANGE)
     return svg(640, 420, "Zwei Treppen mit drei Stufen: fast, faster, the fastest und carefully, more carefully, the most carefully", b)
 
