@@ -9,7 +9,7 @@ blocks:
     title: Das solltest du schon können
     blocks:
       - type: text
-        text: "Kannst du das schon? **Ich kann die Formen von „to be“ (am, is, are) in Aussagen, Verneinungen und Fragen verwenden.** Das ist der Baustein „Verb to be“. Du brauchst ihn gleich: Das Adjektiv steht oft nach be (The house is big.). Lies die Tabelle und prüfe in Gedanken, ob du alle Formen kennst."
+        text: "Kannst du das schon? **Ich kann die Formen von „to be“ (am, is, are) in Aussagen, Verneinungen und Fragen verwenden.** Das ist der Baustein „Verb to be“. Du brauchst ihn gleich: Das Adjektiv steht oft nach be, einem Verb (The house is big.). Ein Verb ist ein Wort für das, was jemand tut oder ist. Lies die Tabelle und prüfe in Gedanken, ob du alle Formen kennst."
       - type: table
         caption: Klassenzimmer-Poster · Die Formen von be
         header: [Person, Form]

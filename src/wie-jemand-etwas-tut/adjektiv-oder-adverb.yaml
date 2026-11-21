@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Blau oder orange? Adjektiv oder Adverb"
-description: "Amir ist ein vorsichtiger Junge und malt vorsichtig. Du lernst mit einer Frage zu entscheiden, welcher Anhänger gebraucht wird."
+description: "Zwei Wörter sehen fast gleich aus, mit und ohne -ly. Du lernst mit einer Frage zu entscheiden, welcher Anhänger gebraucht wird."
 competencies: [adjektiv-oder-adverb]
 scope: Die Seite lehrt die Entscheidung zwischen Adjektiv und Adverb. Beschreibt das Wort ein Ding oder eine Person, steht das Adjektiv, auch nach be (The boys are loud). Beschreibt es eine Handlung, steht das Adverb am Verb. Für good gilt a good friend, aber plays well. Nicht hier, weil es spätere Seiten sind. Die Steigerung der Adverbien, die Stellung der Adverbien im Satz und Gradadverbien.
 blocks:
@@ -59,7 +59,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Nach **be** steht immer der blaue Anhänger: The boys are **quiet**. Ein Sonderfall ist **good**: a **good** friend, aber Ellie plays **well**.
+              Nach **be** steht bei Wörtern wie quiet, loud und careful das Adjektiv ohne -ly: The boys are **quiet**, nicht The boys are quietly. Ein Sonderfall ist **good**: a **good** friend, aber Ellie plays **well**.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -124,6 +124,7 @@ blocks:
         items:
           - cue: Ellie · be · a · careful · girl
             target: Ellie is a careful girl.
+            accepted: [Ellie's a careful girl.]
             mistakes:
               - answer: Ellie is a carefully girl.
                 message: girl ist eine Person. Dafür steht das Adjektiv ohne -ly.
@@ -173,6 +174,7 @@ blocks:
                 message: boy ist eine Person. Dafür steht das Adjektiv.
           - source: Amir malt vorsichtig.
             target: Amir draws carefully.
+            accepted: [Amir paints carefully.]
             mistakes:
               - answer: Amir draws careful.
                 message: Hier sagt das Wort, wie Amir malt. Dafür steht das Adverb.

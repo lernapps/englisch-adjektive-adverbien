@@ -61,7 +61,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Wie bei den Adjektiven: **kurz** gibt **-er** und **-est**, **-ly** gibt **more** und **most**. Zwei Handlungen vergleichst du mit **than**: Peter runs **faster than** Amir. Bei **early** wird aus y ein i: earlier.
+              Wie bei den Adjektiven: **kurz** gibt **-er** und **-est**, **-ly** gibt **more** und **most**. Zwei Handlungen vergleichst du mit **than**: Peter runs **faster than** Amir. **early** endet auf -ly, ist aber kurz: earlier, the earliest.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]

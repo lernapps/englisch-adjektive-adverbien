@@ -40,7 +40,7 @@ blocks:
     title: Der Adverb-Anhänger
     blocks:
       - type: text
-        text: "Ein **Adverb** sagt, **wie** jemand etwas tut. Mr Hill gibt den Kindern dafür **orangefarbene Anhänger**. Sie hängen am **Verb**. Meistens hängst du **-ly** an das Adjektiv: quick – quickly. Endet das Adjektiv auf **-y**, wird aus y ein **i**: happy – happily."
+        text: "Ein **Adverb** sagt, **wie** jemand etwas tut. Mr Hill gibt den Kindern dafür **orangefarbene Anhänger**. Sie hängen am **Verb**, dem Wort für das, was jemand tut (run, sing). Meistens hängst du **-ly** an das Adjektiv: quick – quickly. Endet das Adjektiv auf **-y**, wird aus y ein **i**: happy – happily."
       - type: figure
         image: images/anhaenger-adverbien.svg
         alt: Drei Kartenpaare. Bei Peter runs hängt ein orangefarbener Anhänger mit quickly, bei einem zweiten Peter runs einer mit fast, bei He sings einer mit well.
@@ -80,6 +80,14 @@ blocks:
           - [read, lesen]
           - [write, schreiben]
           - [football, Fußball]
+          - [book, Buch]
+          - [fast, schnell]
+          - [hard, hart / schwer arbeiten]
+          - [hardly, kaum]
+          - [happy, froh]
+          - [quick, schnell]
+          - [slow, langsam]
+          - [good / well, gut]
   - type: section
     id: uebung
     title: Übung
@@ -115,13 +123,13 @@ blocks:
                 message: Das Wort sagt, wie Amir malt. Es braucht -ly.
               - answer: Amir draws carefuly.
                 message: careful endet auf l, also kommt -ly dazu und du hast zwei l (carefully).
-          - cue: Sophie schreibt den Test leicht.
-            target: Sophie writes the test [easily].
+          - cue: Sophie liest das Buch leicht.
+            target: Sophie reads the book [easily].
             distractors: [[easy, easyly]]
             mistakes:
-              - answer: Sophie writes the test easy.
-                message: Das Wort sagt, wie Sophie schreibt. Es braucht -ly.
-              - answer: Sophie writes the test easyly.
+              - answer: Sophie reads the book easy.
+                message: Das Wort sagt, wie Sophie liest. Es braucht -ly.
+              - answer: Sophie reads the book easyly.
                 message: Aus y wird i, bevor -ly kommt.
         hint: Die Frage ist „wie?“. Dann braucht das Wort -ly.
       - type: matching
@@ -139,7 +147,7 @@ blocks:
           - left: good
             right: well
         explanation: Meist kommt -ly an das Wort, bei easy wird aus y ein i. fast und hard bleiben gleich, good wird well.
-        hint: Prüfe zuerst die vier Sonderfälle, sie haben kein -ly.
+        hint: Prüfe zuerst die Sonderfälle fast, hard und good. Sie haben kein -ly.
         links:
           - title: Lernlandkarte Englisch · Adverbien der Art und Weise
             url: https://lernapps.net/apps/map/englisch/c/adverbien-art-und-weise/
@@ -158,7 +166,6 @@ blocks:
                 message: He, she, it – das s muss mit. Peter ist „er“.
           - cue: Amir · play · good · football
             target: Amir plays football well.
-            accepted: [Amir plays well football.]
             mistakes:
               - answer: Amir plays football good.
                 message: good beschreibt ein Ding. Wenn jemand etwas gut tut, heißt das Wort well.
@@ -258,4 +265,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mr Hill lobt: „Amir is a careful boy, and he draws carefully.“ Die beiden Teile klingen ähnlich, aber nur einer hat -ly. Auf der nächsten Seite lernst du, wann du welchen Anhänger brauchst."
+        text: "Mr Hill lobt die Kinder. Ihm fällt auf, dass manche Wörter fast gleich aussehen, mit oder ohne -ly. Auf der nächsten Seite lernst du, wann du welchen Anhänger brauchst."

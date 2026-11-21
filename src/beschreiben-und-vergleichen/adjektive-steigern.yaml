@@ -63,7 +63,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Eine Silbe** (tall) und **-y** (happy): **-er** und **-est**. Bei big kommt der letzte Buchstabe doppelt (bigger), aus y wird i (happier). **Drei Silben und mehr** (interesting): **more** und **the most**, das Wort selbst bleibt gleich. **good** und **bad** haben eigene Formen. Vor der Höchststufe steht immer **the**.
+              **Eine Silbe** (tall) und **-y** (happy): **-er** und **-est**. Steht vor dem letzten Buchstaben ein Vokal und danach nur ein Konsonant, kommt er doppelt (big – bigger), bei cheap nicht. Aus y wird i (happier). **Zwei Silben ohne -y** (boring) und **drei Silben und mehr** (interesting): **more** und **the most**, das Wort selbst bleibt gleich. **good** und **bad** haben eigene Formen. Vor der Höchststufe steht immer **the**.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -77,6 +77,9 @@ blocks:
           - [funny, lustig]
           - [difficult, schwierig]
           - [exciting, spannend]
+          - [interesting, interessant]
+          - [film, Film]
+          - [boring, langweilig]
           - [beautiful, schön]
           - [boy, Junge]
           - [girl, Mädchen]
@@ -161,7 +164,7 @@ blocks:
                 message: good hat eine eigene Treppe. Die Höchststufe ist best.
               - answer: This is the most good pizza.
                 message: good hat eine eigene Treppe. Die Höchststufe ist best.
-        hint: Zähle die Silben. Suche dann das Wort auf der Treppe.
+        hint: Zähle die Silben. Suche dann das Wort auf der Treppe. Für die Körpergröße von Menschen steht short.
       - type: language-task
         id: adjektive-steigern-zweite
         languages: { source: de, target: en }
@@ -172,7 +175,7 @@ blocks:
             target: easier
             mistakes:
               - answer: more easy
-                message: easy ist kurz und endet auf -y. Es bekommt -er, und aus y wird i.
+                message: easy endet auf -y. Es bekommt -er, und aus y wird i.
               - answer: easyer
                 message: Aus y wird i, bevor -er kommt.
           - cue: cheap
@@ -201,7 +204,7 @@ blocks:
             target: This is the easiest game.
             mistakes:
               - answer: This is the most easy game.
-                message: easy ist kurz. Es braucht -est, nicht most.
+                message: easy endet auf -y. Es braucht -est, nicht most.
           - cue: This is the interestingest film.
             target: This is the most interesting film.
             mistakes:
@@ -221,6 +224,7 @@ blocks:
                 message: small ist kurz. Es bekommt -est.
           - source: Das ist das schwierigste Spiel.
             target: This is the most difficult game.
+            accepted: [This is the hardest game.]
             mistakes:
               - answer: This is the difficultest game.
                 message: difficult ist lang. Es bekommt most davor.

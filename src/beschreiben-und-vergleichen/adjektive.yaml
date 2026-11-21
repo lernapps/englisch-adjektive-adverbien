@@ -150,7 +150,6 @@ blocks:
                 message: Zu garden (ein Garten) gehört is, nicht are.
           - cue: this · be · a · hamster · small
             target: This is a small hamster.
-            accepted: [This's a small hamster.]
             mistakes:
               - answer: This is a hamster small.
                 message: Das Nomen steht hinten, der Anhänger davor.
@@ -177,7 +176,7 @@ blocks:
               - answer: This is a jacket new.
                 message: Noch nicht ganz. Schau, wo das Nomen steht.
               - answer: This is a jackets new.
-                message: Das Nomen und der Anhänger sind vertauscht. Der Anhänger hängt vor jacket.
+                message: Hier stimmen Platz und -s nicht. Der Anhänger kommt vor jacket, und jacket bleibt Einzahl.
           - cue: The houses are olds.
             target: The houses are old.
             mistakes:
@@ -192,6 +191,7 @@ blocks:
         items:
           - source: Das Haus ist neu.
             target: The house is new.
+            accepted: [The house's new.]
             mistakes:
               - answer: The house new.
                 message: Nach dem Nomen kommt erst be. Dir fehlt is.

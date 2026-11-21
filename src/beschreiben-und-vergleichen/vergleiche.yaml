@@ -75,6 +75,12 @@ blocks:
           - [test, Test]
           - [expensive, teuer]
           - [boring, langweilig]
+          - [film, Film]
+          - [garden, Garten]
+          - [pizza, Pizza]
+          - [cheap, billig]
+          - [easy, leicht]
+          - [difficult, schwierig]
   - type: section
     id: uebung
     title: Übung
@@ -145,18 +151,18 @@ blocks:
                 message: Für „als“ brauchst du than, nicht then.
           - source: Das Spiel ist so schwierig wie der Test.
             target: The game is as difficult as the test.
+            accepted: [The game is as hard as the test.]
             mistakes:
               - answer: The game is as more difficult as the test.
                 message: Bei as … as steht die Grundform, ohne more.
               - answer: The game is so difficult as the test.
-                message: „So … wie“ heißt im Englischen as … as.
+                message: Im Unterricht nimmst du as … as für „so … wie“.
           - source: Der Kuchen ist nicht so billig wie die Pizza.
             target: The cake is not as cheap as the pizza.
+            accepted: [The cake isn't as cheap as the pizza., The cake is not so cheap as the pizza.]
             mistakes:
               - answer: The cake is not as cheaper as the pizza.
                 message: Bei as … as steht die Grundform cheap, nicht cheaper.
-              - answer: The cake is not so cheap as the pizza.
-                message: „Nicht so … wie“ heißt not as … as.
         hint: Suche zuerst das Wort für verschieden, gleich oder weniger.
       - type: language-task
         id: vergleiche-korrektur
