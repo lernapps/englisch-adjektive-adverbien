@@ -37,21 +37,21 @@
   <rect width="640" height="340" fill="#f4efe2"/>
   <rect y="262" width="640" height="78" fill="#c9a77a"/>
   <rect width="640" height="262" fill="#efe7d3"/>
-  <rect x="70" y="30" width="200" height="90" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>
-  <text x="170.0" y="82.33333333333333" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="normal" fill="#333"></text>
-  <line x1="170" y1="120" x2="170" y2="142" stroke="#333" stroke-width="2"/>
-  <circle cx="170" cy="170" r="28" fill="#2c6fd8" stroke="#333" stroke-width="2"/>
-  <circle cx="170" cy="148" r="3" fill="#f4efe2"/>
-  <text x="170" y="176.0" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#fff"></text>
-  <rect x="370" y="30" width="200" height="90" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>
-  <text x="470.0" y="82.33333333333333" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="normal" fill="#333"></text>
-  <line x1="470" y1="120" x2="470" y2="142" stroke="#333" stroke-width="2"/>
-  <circle cx="470" cy="170" r="28" fill="#d35400" stroke="#333" stroke-width="2"/>
-  <circle cx="470" cy="148" r="3" fill="#f4efe2"/>
-  <text x="470" y="176.0" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#fff"></text>
-  <use href="#sophie" transform="translate(40,150) scale(0.7)"/>
-  <use href="#ellie" transform="translate(190,150) scale(0.7)"/>
-  <use href="#amir" transform="translate(400,150) scale(0.7)"/>
-  <use href="#peter" transform="translate(540,170) scale(0.55)"/>
+  <rect x="70" y="15" width="200" height="70" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="170.0" y="57.333333333333336" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="normal" fill="#333"></text>
+  <line x1="170" y1="85" x2="170" y2="107" stroke="#333" stroke-width="2"/>
+  <circle cx="170" cy="131" r="24" fill="#2c6fd8" stroke="#333" stroke-width="2"/>
+  <circle cx="170" cy="113" r="3" fill="#f4efe2"/>
+  <text x="170" y="137.0" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#fff"></text>
+  <rect x="370" y="15" width="200" height="70" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="470.0" y="57.333333333333336" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="normal" fill="#333"></text>
+  <line x1="470" y1="85" x2="470" y2="107" stroke="#333" stroke-width="2"/>
+  <circle cx="470" cy="131" r="24" fill="#d35400" stroke="#333" stroke-width="2"/>
+  <circle cx="470" cy="113" r="3" fill="#f4efe2"/>
+  <text x="470" y="137.0" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#fff"></text>
+  <use href="#sophie" transform="translate(40,175) scale(0.65)"/>
+  <use href="#ellie" transform="translate(190,175) scale(0.65)"/>
+  <use href="#amir" transform="translate(400,175) scale(0.65)"/>
+  <use href="#peter" transform="translate(540,190) scale(0.5)"/>
 
 </svg>

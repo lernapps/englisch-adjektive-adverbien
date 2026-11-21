@@ -43,7 +43,7 @@
   <g transform="translate(330,250) scale(0.75)" stroke="#333" stroke-width="2"><rect x="-45" y="0" width="90" height="60" fill="#b9d3e8"/><path d="M-55 0 L0 -40 L55 0 Z" fill="#b5501e"/><rect x="-10" y="25" width="20" height="35" fill="#7a5a35"/></g>
   <line x1="150" y1="260" x2="270" y2="260" stroke="#333" stroke-width="2" stroke-dasharray="6 4"/>
   <text x="210" y="245" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="normal" fill="#333">as big as</text>
-  <text x="480" y="120" text-anchor="start" font-family="sans-serif" font-size="20" font-weight="normal" fill="#333">Unterschied: than</text>
-  <text x="480" y="290" text-anchor="start" font-family="sans-serif" font-size="20" font-weight="normal" fill="#333">gleich: as … as</text>
+  <text x="455" y="120" text-anchor="start" font-family="sans-serif" font-size="20" font-weight="normal" fill="#333">Unterschied: than</text>
+  <text x="455" y="290" text-anchor="start" font-family="sans-serif" font-size="20" font-weight="normal" fill="#333">gleich: as … as</text>
 
 </svg>

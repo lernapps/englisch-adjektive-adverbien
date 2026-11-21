@@ -224,11 +224,11 @@ page, which a link. -->
 - [x] Seite `vergleiche` (than, as … as, not as … as), Kapitel-Rückblick, Selbsteinschätzung des Kapitels, sechs Audiosätze.
 - [x] Kapitel `wie-jemand-etwas-tut` mit `chapter.yaml` und Seite `adverbien` (-ly, y → ily, well, fast, hard), Bilder, Übungen, sechs Audiosätze.
 - [x] Seite `adjektiv-oder-adverb` (Frage Ding oder Handlung, nach be, good ↔ well), Übungen, sechs Audiosätze.
-- [ ] Seite `adverbien-steigern` (zweite Seite der Treppe, Rückblick beider Treppen), Kapitel-Rückblick, Selbsteinschätzung, sechs Audiosätze.
-- [ ] `app.yaml` (Titel, intro, scope, chapters) und Audio-Liste `audio-texte.json`, `regen_audio.py` aus #472, alle 36 Sätze erzeugt und angehört (Ausklingen abgeschnitten).
+- [x] Seite `adverbien-steigern` (zweite Seite der Treppe, Rückblick beider Treppen), Kapitel-Rückblick, Selbsteinschätzung, sechs Audiosätze.
+- [x] `app.yaml` (Titel, intro, scope, chapters) und Audio-Liste `audio-texte.json`, `regen_audio.py` aus #472, alle 36 Sätze erzeugt und angehört (Ausklingen abgeschnitten).
 <!-- tasks: pages (7 added): the other pages or screens, after the pattern -->
-- [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
+- [x] Update the content guide so that it describes the app as built (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
 - [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you

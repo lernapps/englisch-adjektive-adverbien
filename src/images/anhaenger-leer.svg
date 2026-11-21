@@ -45,9 +45,9 @@
   <circle cx="290" cy="48" r="3" fill="#f4efe2"/>
   <text x="290" y="82.0" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#fff">orange</text>
   <text x="290" y="140" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="normal" fill="#333">Adverb-Anhänger</text>
-  <rect x="400" y="100" width="70" height="50" fill="#138d75" stroke="#333" stroke-width="2"/>
-  <rect x="470" y="70" width="70" height="80" fill="#138d75" stroke="#333" stroke-width="2"/>
-  <rect x="540" y="40" width="70" height="110" fill="#138d75" stroke="#333" stroke-width="2"/>
+  <rect x="400" y="86" width="70" height="64" fill="#138d75" stroke="#333" stroke-width="2"/>
+  <rect x="470" y="56" width="70" height="94" fill="#138d75" stroke="#333" stroke-width="2"/>
+  <rect x="540" y="26" width="70" height="124" fill="#138d75" stroke="#333" stroke-width="2"/>
   <text x="505" y="190" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="normal" fill="#333">Treppe</text>
 
 </svg>

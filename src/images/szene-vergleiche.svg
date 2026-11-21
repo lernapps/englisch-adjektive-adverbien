@@ -43,8 +43,8 @@
   <g transform="translate(455,95) scale(0.7)" stroke="#333" stroke-width="2"><rect x="-45" y="0" width="90" height="60" fill="#b9d3e8"/><path d="M-55 0 L0 -40 L55 0 Z" fill="#b5501e"/><rect x="-10" y="25" width="20" height="35" fill="#7a5a35"/></g>
   <text x="185" y="195" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="normal" fill="#333">das alte Haus</text>
   <text x="455" y="195" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="normal" fill="#333">das neue Haus</text>
-  <use href="#sophie" transform="translate(30,150) scale(0.7)"/>
-  <use href="#amir" transform="translate(300,160) scale(0.65)"/>
-  <use href="#ellie" transform="translate(520,150) scale(0.7)"/>
+  <use href="#sophie" transform="translate(30,185) scale(0.65)"/>
+  <use href="#amir" transform="translate(290,195) scale(0.6)"/>
+  <use href="#ellie" transform="translate(540,185) scale(0.65)"/>
 
 </svg>

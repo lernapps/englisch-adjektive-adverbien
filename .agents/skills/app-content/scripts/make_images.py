@@ -55,13 +55,20 @@ def anhaenger_adjektive():
     b += text(95, 225, "vor dem Nomen", 20) + text(430, 225, "nach is", 20)
     return svg(540, 250, "Ein blauer Anhänger hängt vor dem Nomen und nach is", b)
 
-def stairs(x0, y0, labels, colour=GREEN, w=130, step=40):
-    """Three steps rising to the right; labels are the texts on the steps (empty string = blank step)."""
+def stairs(x0, y0, labels, colour=GREEN, w=130, step=40, size=22):
+    """Three steps rising to the right; labels are the texts on the steps (empty string = blank step).
+    A label of more than 12 characters is split into two lines at its last space."""
     b = ""
     for i, l in enumerate(labels):
-        h = 50 + i * step
+        h = 64 + i * step
         b += f'  <rect x="{x0 + i * w}" y="{y0 - h}" width="{w}" height="{h}" fill="{colour}" stroke="{INK}" stroke-width="2"/>\n'
-        if l: b += text(x0 + i * w + w / 2, y0 - h + 34, l, 22, fill="#fff", weight="bold")
+        if l:
+            cx = x0 + i * w + w / 2
+            if len(l) > 12 and " " in l:
+                a, c = l.rsplit(" ", 1)
+                b += text(cx, y0 - h + 26, a, size, fill="#fff", weight="bold") + text(cx, y0 - h + 26 + size + 4, c, size, fill="#fff", weight="bold")
+            else:
+                b += text(cx, y0 - h + 36, l, size, fill="#fff", weight="bold")
     return b
 
 @image
@@ -87,7 +94,7 @@ def treppe_adjektive_steigern():
     b = text(320, 28, "kurzes Wort", 20)
     b += stairs(80, 190, ["tall", "taller", "the tallest"], w=160, step=30)
     b += text(320, 238, "langes Wort", 20)
-    b += stairs(5, 400, ["interesting", "more interesting", "the most interesting"], w=210, step=30).replace('font-size="22"', 'font-size="17"')
+    b += stairs(5, 400, ["interesting", "more interesting", "the most interesting"], w=210, step=30)
     return svg(640, 420, "Zwei Treppen mit drei Stufen: tall, taller, the tallest und interesting, more interesting, the most interesting", b)
 
 @image
@@ -95,7 +102,7 @@ def szene_vergleiche():
     b = wall()
     b += frame(70, 15, 230, 150, house(185, 70, 1.25, "#e8c9a0")) + frame(340, 15, 230, 150, house(455, 95, .7, "#b9d3e8"))
     b += text(185, 195, "das alte Haus", 22) + text(455, 195, "das neue Haus", 22)
-    b += kid("sophie", 30, 150, .7) + kid("amir", 300, 160, .65) + kid("ellie", 520, 150, .7)
+    b += kid("sophie", 30, 185, .65) + kid("amir", 290, 195, .6) + kid("ellie", 540, 185, .65)
     return svg(640, 340, "Drei Kinder stehen vor zwei Fotos: ein großes altes Haus und ein kleines neues Haus", b)
 
 @image
@@ -106,7 +113,7 @@ def vergleiche_diagramm():
     b += house(80, 250, .75, "#e8c9a0") + house(330, 250, .75, "#b9d3e8")
     b += f'  <line x1="150" y1="260" x2="270" y2="260" stroke="{INK}" stroke-width="2" stroke-dasharray="6 4"/>\n'
     b += text(210, 245, "as big as", 22)
-    b += text(480, 120, "Unterschied: than", 20, "start") + text(480, 290, "gleich: as … as", 20, "start")
+    b += text(455, 120, "Unterschied: than", 20, "start") + text(455, 290, "gleich: as … as", 20, "start")
     return svg(640, 330, "Oben ein großes Haus und ein kleines Haus mit bigger than, unten zwei gleich große Häuser mit as big as", b)
 
 @image
@@ -132,9 +139,9 @@ def anhaenger_adverbien():
 @image
 def szene_adjektiv_oder_adverb():
     b = wall()
-    b += card(70, 30, 200, 90, "", 22) + tag(170, 120, "", BLUE, 28, 18)
-    b += card(370, 30, 200, 90, "", 22) + tag(470, 120, "", ORANGE, 28, 18)
-    b += kid("sophie", 40, 150, .7) + kid("ellie", 190, 150, .7) + kid("amir", 400, 150, .7) + kid("peter", 540, 170, .55)
+    b += card(70, 15, 200, 70, "", 22) + tag(170, 85, "", BLUE, 24, 18)
+    b += card(370, 15, 200, 70, "", 22) + tag(470, 85, "", ORANGE, 24, 18)
+    b += kid("sophie", 40, 175, .65) + kid("ellie", 190, 175, .65) + kid("amir", 400, 175, .65) + kid("peter", 540, 190, .5)
     return svg(640, 340, "Zwei leere Karten an der Wand, an der linken hängt ein blauer, an der rechten ein orangefarbener Anhänger, davor stehen vier Kinder", b)
 
 @image
@@ -161,7 +168,7 @@ def treppe_adverbien_steigern():
     b = text(320, 28, "kurzes Adverb", 20)
     b += stairs(80, 190, ["fast", "faster", "the fastest"], w=160, step=30, colour=ORANGE)
     b += text(320, 238, "langes Adverb mit -ly", 20)
-    b += stairs(5, 400, ["carefully", "more carefully", "the most carefully"], w=210, step=30, colour=ORANGE).replace('font-size="22"', 'font-size="18"')
+    b += stairs(5, 400, ["carefully", "more carefully", "the most carefully"], w=210, step=30, colour=ORANGE)
     return svg(640, 420, "Zwei Treppen mit drei Stufen: fast, faster, the fastest und carefully, more carefully, the most carefully", b)
 
 if __name__ == "__main__":
