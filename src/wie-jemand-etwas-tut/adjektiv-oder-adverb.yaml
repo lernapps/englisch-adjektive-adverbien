@@ -26,9 +26,9 @@ blocks:
           - text: carefully
             correct: false
             info: carefully sagt, wie jemand etwas tut. Hier beschreibt das Wort den Jungen.
-          - text: carefuly
+          - text: carefuller
             correct: false
-            info: Dir fehlt ein l, aber das Wort wäre ohnehin falsch, weil boy eine Person ist.
+            info: Hier steht keine Steigerung. Gefragt ist nur das Wort, das den Jungen beschreibt.
         explanation: Vor einem Nomen steht das Adjektiv, der blaue Anhänger.
         links:
           - title: Lernlandkarte Englisch · Adjektiv oder Adverb
@@ -51,15 +51,15 @@ blocks:
         caption: Klassenzimmer-Poster · Blau oder orange
         header: [Frage, Anhänger, Beispiel]
         rows:
-          - [Ding oder Person, blau, Peter is a quick boy.]
-          - [nach be, blau, The boys are quiet.]
-          - [Handlung, orange, Peter runs quickly.]
+          - [Ding oder Person, blau, Mr Hill is a kind teacher.]
+          - [nach be, blau, The cake is nice.]
+          - [Handlung, orange, Mr Hill speaks slowly.]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              Nach **be** steht bei Wörtern wie quiet, loud und careful das Adjektiv ohne -ly: The boys are **quiet**, nicht The boys are quietly. Ein Sonderfall ist **good**: a **good** friend, aber Ellie plays **well**.
+              Nach **be** steht bei Wörtern wie nice, kind und slow das Adjektiv ohne -ly: The cake is **nice**, nicht The cake is nicely. Ein Sonderfall ist **good**: Mr Hill is a **good** teacher, aber he speaks **well**.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -69,6 +69,10 @@ blocks:
           - [girls, Mädchen]
           - [quick, schnell]
           - [careful, vorsichtig]
+          - [teacher, Lehrer]
+          - [kind, freundlich]
+          - [nice, nett / schön]
+          - [cake, Kuchen]
           - [loud, laut]
           - [quiet, leise]
           - [easy, leicht]
@@ -85,25 +89,25 @@ blocks:
         items:
           - cue: Sophie ist eine gute Freundin.
             target: Sophie is a [good] friend.
-            distractors: [[well, goodly]]
+            distractors: [[well]]
             mistakes:
               - answer: Sophie is a well friend.
                 message: friend ist eine Person. Dafür steht das Adjektiv good, nicht well.
           - cue: Ellie spielt gut.
             target: Ellie plays [well].
-            distractors: [[good, goodly]]
+            distractors: [[good]]
             mistakes:
               - answer: Ellie plays good.
                 message: plays ist eine Handlung. Dafür steht well, nicht good.
           - cue: Die Jungen sind laut.
             target: The boys are [loud].
-            distractors: [[loudly, loudy]]
+            distractors: [[loudly]]
             mistakes:
               - answer: The boys are loudly.
                 message: Nach are steht der blaue Anhänger, also loud.
           - cue: Peter läuft schnell.
             target: Peter runs [quickly].
-            distractors: [[quick, quickky]]
+            distractors: [[quick]]
             mistakes:
               - answer: Peter runs quick.
                 message: runs ist eine Handlung. Dafür braucht das Wort -ly.

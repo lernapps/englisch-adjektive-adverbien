@@ -57,12 +57,13 @@ blocks:
           - [fast, fast]
           - [hard, hard]
           - [good, well]
+          - [late, late]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              Meist gilt: Adjektiv + **-ly** (quick – quickly). Bei **-y** wird aus y ein i (happy – happily). **fast** und **hard** bleiben gleich, **good** wird **well**. Achtung: **hardly** heißt „kaum“, nicht „hart“.
+              Meist gilt: Adjektiv + **-ly** (quick – quickly). Bei **-y** wird aus y ein i (happy – happily). **fast**, **hard** und **late** bleiben gleich, **good** wird **well**. Achtung: **hardly** heißt „kaum“, nicht „hart“.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -82,6 +83,7 @@ blocks:
           - [football, Fußball]
           - [book, Buch]
           - [fast, schnell]
+          - [late, spät]
           - [hard, hart / schwer arbeiten]
           - [hardly, kaum]
           - [happy, froh]
@@ -101,7 +103,7 @@ blocks:
         items:
           - cue: Ellie singt leise.
             target: Ellie sings [quietly].
-            distractors: [[quiet, quietely]]
+            distractors: [[quiet]]
             mistakes:
               - answer: Ellie sings quiet.
                 message: quiet beschreibt ein Ding oder eine Person. Hier sagt das Wort, wie Ellie singt, es braucht -ly.
@@ -109,7 +111,7 @@ blocks:
                 message: Nach quiet kommt -ly, ohne e dazwischen.
           - cue: Peter spricht laut.
             target: Peter speaks [loudly].
-            distractors: [[loud, loudy]]
+            distractors: [[loud]]
             mistakes:
               - answer: Peter speaks loud.
                 message: Das Wort sagt, wie Peter spricht. Es braucht -ly.
@@ -117,7 +119,7 @@ blocks:
                 message: Das Ende ist -ly, nicht -y.
           - cue: Amir malt vorsichtig.
             target: Amir draws [carefully].
-            distractors: [[careful, carefuly]]
+            distractors: [[careful]]
             mistakes:
               - answer: Amir draws careful.
                 message: Das Wort sagt, wie Amir malt. Es braucht -ly.
@@ -125,7 +127,7 @@ blocks:
                 message: careful endet auf l, also kommt -ly dazu und du hast zwei l (carefully).
           - cue: Sophie liest das Buch leicht.
             target: Sophie reads the book [easily].
-            distractors: [[easy, easyly]]
+            distractors: [[easy]]
             mistakes:
               - answer: Sophie reads the book easy.
                 message: Das Wort sagt, wie Sophie liest. Es braucht -ly.
@@ -140,14 +142,14 @@ blocks:
             right: quietly
           - left: easy
             right: easily
-          - left: fast
-            right: fast
+          - left: late
+            right: late
           - left: hard
             right: hard
           - left: good
             right: well
-        explanation: Meist kommt -ly an das Wort, bei easy wird aus y ein i. fast und hard bleiben gleich, good wird well.
-        hint: Prüfe zuerst die Sonderfälle fast, hard und good. Sie haben kein -ly.
+        explanation: Meist kommt -ly an das Wort, bei easy wird aus y ein i. late und hard bleiben gleich, good wird well.
+        hint: Prüfe zuerst die Sonderfälle late, hard und good. Sie haben kein -ly.
         links:
           - title: Lernlandkarte Englisch · Adverbien der Art und Weise
             url: https://lernapps.net/apps/map/englisch/c/adverbien-art-und-weise/
@@ -157,11 +159,13 @@ blocks:
         task: Schreibe den ganzen Satz.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Peter · run · fast
-            target: Peter runs fast.
+          - cue: Peter · play · late
+            target: Peter plays late.
             mistakes:
-              - answer: Peter runs fastly.
-                message: fast bleibt gleich, es bekommt kein -ly.
+              - answer: Peter plays lately.
+                message: lately heißt „in letzter Zeit“. Für „spät“ bleibt late gleich.
+              - answer: Peter plays latly.
+                message: late bekommt kein -ly, es bleibt gleich.
               - answer: Peter run fast.
                 message: He, she, it – das s muss mit. Peter ist „er“.
           - cue: Amir · play · good · football

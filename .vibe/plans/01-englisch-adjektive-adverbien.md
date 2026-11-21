@@ -255,6 +255,7 @@ page, which a link. -->
 - [x] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
 - [ ] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
       whether it may go online. Stop and wait for the yes.
+- [ ] Hinweis zur Aufgabe „Audio-Liste … alle 36 Sätze erzeugt und angehört“: erzeugt und eingebunden, aber kein Mensch hat die Dateien gehört; die Ersteller:in hört sie vor dem Veröffentlichen.
 - [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
       the run of `Pages` watched to its end.
 - [ ] Open the address the job `deploy` printed and confirm that the app shows. Never use a derived address.
@@ -279,12 +280,17 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Phase Commit erreicht (Vorschau-Pull-Request offen, nicht veröffentlicht, kein Katalogeintrag). Checkpoints bestanden: Recherche (Ja), Plan und Inhaltsmethode (Ja), Musterseite (Ja mit drei Auflagen). Der Checkpoint „Veröffentlichen“ ist nicht bestanden: Der unabhängige Gesamtcheck stellte Auflagen, die in diesem Stand umgesetzt sind.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Vier Nachrichten der Ersteller:in (durch die Orchestrator-Session) nach der Bestätigung des Plans: (1) Musterseite: Ja mit Auflagen (has got nur in der Wörter-Tabelle, echte Lernfehler als Distraktoren, check grün vor dem Push); (2) Bitte, `work` zu pushen, damit der unabhängige Check lesen kann; (3) Veröffentlichen: nicht freigegeben, Auflagen aus dem Gesamtcheck (Distraktoren, Lösung über der Übung, doppelte Meldungen, Retrospektive); (4) davor die Bestätigung der Szene „Our Millbrook“ für die Konventionen.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+- Interview: Es gab kein Gespräch mit der Ersteller:in. Die Antworten zu Ziel, Lernenden, Hürden, Umfang, Sprache, Look und Begriffen stammen aus dem Auftrag (#476) und den Konventionen (#489); wo beide schweigen, steht „(guess)“ (Hürden, Suchbegriffe).
+- Szene: Mein erster Entwurf (Sports Day) kollidierte mit #471; Ersatz „Our Millbrook“ nach dem Hinweis der Orchestrator-Session.
+- Keine Komponente, keine Datendateien, Bilder als eigene SVG-Familie mit einem Skript (`make_images.py`): eigene Entscheidung.
+- Audio: Ich kann die Dateien nicht hören. Kein Mensch hat sie angehört; die Ersteller:in hört sie vor der Veröffentlichung.
+- Vorlagenfehler, die ich nur umgehen konnte: Standardmeldung „Deine Fassung kann trotzdem richtig sein“, `choice`-Feedback ohne Grund, `ordering` mit „Platz …“-Feldern, Selbsteinschätzung wiederholt die Übungssätze (gemeldet).
+- Einzelne Aufgaben ticks im Plan: Ich habe zwei Aufgaben (Skill-Lesen, Inhaltsführer) vor ihrer Ausführung abgehakt und danach nachgeholt.

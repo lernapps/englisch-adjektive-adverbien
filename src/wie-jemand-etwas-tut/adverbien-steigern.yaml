@@ -140,13 +140,15 @@ blocks:
             distractors: [[gooder, more well]]
             mistakes:
               - answer: Amir sings gooder than Sophie.
-                message: well hat eine eigene Treppe. Die zweite Stufe ist better.
+                message: gooder gibt es nicht. Auf der Treppe von well steht better.
               - answer: Amir sings more well than Sophie.
-                message: well hat eine eigene Treppe. Die zweite Stufe ist better.
+                message: more brauchst du bei Wörtern auf -ly. well hat die eigene Stufe better.
           - cue: Sophie liest leiser als Amir.
             target: Sophie reads [more quietly] than Amir.
-            distractors: [[quietlier, most quietly]]
+            distractors: [[more quiet, most quietly]]
             mistakes:
+              - answer: Sophie reads more quiet than Amir.
+                message: Das Wort sagt, wie Sophie liest. Es braucht -ly.
               - answer: Sophie reads quietlier than Amir.
                 message: quietly ist lang. Es bekommt more davor.
               - answer: Sophie reads most quietly than Amir.
@@ -254,4 +256,4 @@ blocks:
           - [wie jemand etwas tut, "orangefarbener Anhänger am Verb, meist -ly"]
           - [ein Ding oder eine Person, "blauer Anhänger"]
           - [eine Handlung vergleichen, "Steigerung + than"]
-          - [das Beste nennen, "the + Höchststufe"]
+          - [das Beste nennen, "the + Höchststufe, bei Adverbien darf the fehlen"]

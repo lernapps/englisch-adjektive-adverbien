@@ -108,12 +108,12 @@ blocks:
                 message: Bei „so … wie“ stehen zwei as. than gehört nur nach der Steigerung.
           - cue: Das Spiel ist nicht so leicht wie der Test.
             target: The game is not as easy [as] the test.
-            distractors: [[than, so]]
+            distractors: [[than, then]]
             mistakes:
               - answer: The game is not as easy than the test.
                 message: Bei not as … as stehen zwei as.
-              - answer: The game is not as easy so the test.
-                message: so gehört nicht in die Reihe. Es heißt not as … as.
+              - answer: The game is not as easy then the test.
+                message: then heißt „dann“. Bei not as … as steht zum Schluss as.
         hint: Verschieden gibt than, gleich gibt as … as.
       - type: ordering
         id: vergleiche-reihe

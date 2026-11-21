@@ -161,9 +161,9 @@ blocks:
             distractors: [[goodest, most good]]
             mistakes:
               - answer: This is the goodest pizza.
-                message: good hat eine eigene Treppe. Die Höchststufe ist best.
+                message: goodest gibt es nicht. Auf der Treppe von good steht best.
               - answer: This is the most good pizza.
-                message: good hat eine eigene Treppe. Die Höchststufe ist best.
+                message: most brauchst du bei langen Wörtern. good hat die eigene Stufe best.
         hint: Zähle die Silben. Suche dann das Wort auf der Treppe. Für die Körpergröße von Menschen steht short.
       - type: language-task
         id: adjektive-steigern-zweite
