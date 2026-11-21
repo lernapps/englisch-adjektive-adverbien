@@ -129,6 +129,22 @@ def anhaenger_adverbien():
     b += text(155, 205, "quick + ly", 20) + text(395, 205, "bleibt gleich", 20) + text(580, 205, "good wird well", 20)
     return svg(680, 230, "Drei Kartenpaare mit orangefarbenem Anhänger am Verb: runs quickly, runs fast und sings well", b)
 
+@image
+def szene_adjektiv_oder_adverb():
+    b = wall()
+    b += card(70, 30, 200, 90, "", 22) + tag(170, 120, "", BLUE, 28, 18)
+    b += card(370, 30, 200, 90, "", 22) + tag(470, 120, "", ORANGE, 28, 18)
+    b += kid("sophie", 40, 150, .7) + kid("ellie", 190, 150, .7) + kid("amir", 400, 150, .7) + kid("peter", 540, 170, .55)
+    return svg(640, 340, "Zwei leere Karten an der Wand, an der linken hängt ein blauer, an der rechten ein orangefarbener Anhänger, davor stehen vier Kinder", b)
+
+@image
+def entscheidung():
+    b = text(160, 30, "Ding oder Person?", 22) + text(480, 30, "Handlung?", 22)
+    b += card(60, 55, 80, 50, "a", 24) + card(150, 55, 100, 50, "boy", 24) + tag(145, 105, "", BLUE, 30, 18)
+    b += card(380, 55, 100, 50, "Amir", 24) + card(490, 55, 110, 50, "draws", 24) + tag(545, 105, "", ORANGE, 30, 18)
+    b += text(160, 215, "blauer Anhänger", 22) + text(480, 215, "orangefarbener Anhänger", 22)
+    return svg(640, 240, "Links ein blauer Anhänger an einem Nomen für ein Ding oder eine Person, rechts ein orangefarbener Anhänger an einem Verb für eine Handlung", b)
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)
     for n in names:

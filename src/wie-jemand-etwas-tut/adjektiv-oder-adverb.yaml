@@ -1,0 +1,228 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Blau oder orange? Adjektiv oder Adverb"
+description: "Amir ist ein vorsichtiger Junge und malt vorsichtig. Du lernst mit einer Frage zu entscheiden, welcher Anhänger gebraucht wird."
+competencies: [adjektiv-oder-adverb]
+scope: Die Seite lehrt die Entscheidung zwischen Adjektiv und Adverb. Beschreibt das Wort ein Ding oder eine Person, steht das Adjektiv, auch nach be (The boys are loud). Beschreibt es eine Handlung, steht das Adverb am Verb. Für good gilt a good friend, aber plays well. Nicht hier, weil es spätere Seiten sind. Die Steigerung der Adverbien, die Stellung der Adverbien im Satz und Gradadverbien.
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Karten, zwei Anhänger
+    blocks:
+      - type: figure
+        image: images/szene-adjektiv-oder-adverb.svg
+        alt: Zwei leere Karten hängen an der Wand. An der linken hängt ein blauer, an der rechten ein orangefarbener Anhänger. Davor stehen vier Kinder.
+        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: Mr Hill hat zwei Karten über Peter aufgehängt. Auf die eine kommt ein blauer Anhänger, auf die andere ein orangefarbener. Die Kinder müssen entscheiden, welcher wohin gehört.
+      - type: single-choice
+        id: adjektiv-oder-adverb-start
+        text: "Sophie schreibt eine Karte über Amir: „Amir is a … boy.“ Er ist vorsichtig. Welches Wort passt?"
+        options:
+          - text: careful
+            correct: true
+            info: boy ist ein Nomen, also ein Ding oder eine Person. Dafür steht das Adjektiv.
+          - text: carefully
+            correct: false
+            info: carefully sagt, wie jemand etwas tut. Hier beschreibt das Wort den Jungen.
+          - text: carefuly
+            correct: false
+            info: Dir fehlt ein l, aber das Wort wäre ohnehin falsch, weil boy eine Person ist.
+        explanation: Vor einem Nomen steht das Adjektiv, der blaue Anhänger.
+        links:
+          - title: Lernlandkarte Englisch · Adjektiv oder Adverb
+            url: https://lernapps.net/apps/map/englisch/c/adjektiv-oder-adverb/
+      - type: text
+        text: "**Das kannst du danach:** Du entscheidest mit einer Frage, ob der blaue oder der orangefarbene Anhänger an die Karte gehört."
+  - type: section
+    id: neu
+    title: Die Frage Ding oder Handlung
+    blocks:
+      - type: text
+        text: "Beide Anhänger ähneln sich: careful und carefully. Mit einer Frage findest du den richtigen. **Beschreibt das Wort ein Ding oder eine Person?** Dann nimmst du den **blauen** Anhänger. **Beschreibt es eine Handlung?** Dann nimmst du den **orangefarbenen** am Verb."
+      - type: figure
+        image: images/entscheidung.svg
+        alt: Links ein blauer Anhänger an einem Nomen, darüber die Frage Ding oder Person. Rechts ein orangefarbener Anhänger an einem Verb, darüber das Wort Handlung.
+        caption: Ding oder Person gibt blau, Handlung gibt orange.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Blau oder orange
+        header: [Frage, Anhänger, Beispiel]
+        rows:
+          - [Ding oder Person, blau, Peter is a quick boy.]
+          - [nach be, blau, The boys are quiet.]
+          - [Handlung, orange, Peter runs quickly.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Nach **be** steht immer der blaue Anhänger: The boys are **quiet**. Ein Sonderfall ist **good**: a **good** friend, aber Ellie plays **well**.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [friend, Freund / Freundin]
+          - [boys, Jungen]
+          - [girls, Mädchen]
+          - [quick, schnell]
+          - [careful, vorsichtig]
+          - [loud, laut]
+          - [quiet, leise]
+          - [easy, leicht]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: adjektiv-oder-adverb-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle den passenden Anhänger.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Sophie ist eine gute Freundin.
+            target: Sophie is a [good] friend.
+            distractors: [[well, goodly]]
+            mistakes:
+              - answer: Sophie is a well friend.
+                message: friend ist eine Person. Dafür steht das Adjektiv good, nicht well.
+          - cue: Ellie spielt gut.
+            target: Ellie plays [well].
+            distractors: [[good, goodly]]
+            mistakes:
+              - answer: Ellie plays good.
+                message: plays ist eine Handlung. Dafür steht well, nicht good.
+          - cue: Die Jungen sind laut.
+            target: The boys are [loud].
+            distractors: [[loudly, loudy]]
+            mistakes:
+              - answer: The boys are loudly.
+                message: Nach are steht der blaue Anhänger, also loud.
+          - cue: Peter läuft schnell.
+            target: Peter runs [quickly].
+            distractors: [[quick, quickky]]
+            mistakes:
+              - answer: Peter runs quick.
+                message: runs ist eine Handlung. Dafür braucht das Wort -ly.
+        hint: Frage dich, ob das Wort ein Ding, eine Person oder eine Handlung beschreibt.
+      - type: true-false
+        id: adjektiv-oder-adverb-richtig
+        text: "Amir malt vorsichtig. Sophie schreibt: „Amir draws careful.“ Passt der Satz?"
+        answer: false
+        explanation: draws ist eine Handlung. Dafür braucht das Wort den orangefarbenen Anhänger, also carefully.
+        links:
+          - title: Lernlandkarte Englisch · Adjektiv oder Adverb
+            url: https://lernapps.net/apps/map/englisch/c/adjektiv-oder-adverb/
+      - type: language-task
+        id: adjektiv-oder-adverb-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ellie · be · a · careful · girl
+            target: Ellie is a careful girl.
+            mistakes:
+              - answer: Ellie is a carefully girl.
+                message: girl ist eine Person. Dafür steht das Adjektiv ohne -ly.
+          - cue: Ellie · draw · careful
+            target: Ellie draws carefully.
+            mistakes:
+              - answer: Ellie draws careful.
+                message: draws ist eine Handlung. Dafür braucht das Wort -ly.
+          - cue: the boys · be · quiet
+            target: The boys are quiet.
+            mistakes:
+              - answer: The boys are quietly.
+                message: Nach are steht der blaue Anhänger, also quiet.
+          - cue: Sophie · sing · good
+            target: Sophie sings well.
+            mistakes:
+              - answer: Sophie sings good.
+                message: sings ist eine Handlung. Dafür steht well.
+        hint: Ding oder Person gibt blau, Handlung gibt orange.
+      - type: language-task
+        id: adjektiv-oder-adverb-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter is a quickly boy.
+            target: Peter is a quick boy.
+            mistakes:
+              - answer: Peter is a quickly boy.
+                message: boy ist eine Person. Welcher Anhänger gehört an ein Nomen?
+          - cue: The girls are loudly.
+            target: The girls are loud.
+            mistakes:
+              - answer: The girls are loudly.
+                message: Welcher Anhänger steht nach be?
+        hint: Frage dich, ob das Wort ein Ding, eine Person oder eine Handlung beschreibt.
+      - type: language-task
+        id: adjektiv-oder-adverb-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Amir ist ein vorsichtiger Junge.
+            target: Amir is a careful boy.
+            mistakes:
+              - answer: Amir is a carefully boy.
+                message: boy ist eine Person. Dafür steht das Adjektiv.
+          - source: Amir malt vorsichtig.
+            target: Amir draws carefully.
+            mistakes:
+              - answer: Amir draws careful.
+                message: Hier sagt das Wort, wie Amir malt. Dafür steht das Adverb.
+          - source: Die Mädchen sind leise.
+            target: The girls are quiet.
+            mistakes:
+              - answer: The girls are quietly.
+                message: Nach are steht das Adjektiv.
+      - type: language-task
+        id: adjektiv-oder-adverb-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: ellie-is-a-good-friend.mp3
+            target: Ellie is a good friend.
+          - audio: the-boys-are-loud.mp3
+            target: The boys are loud.
+          - audio: ellie-plays-well.mp3
+            target: Ellie plays well.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: adjektiv-oder-adverb-nachsprechen
+        language: en
+        items:
+          - audio: peter-is-a-quick-boy.mp3
+            text: Peter is a quick boy.
+          - audio: peter-runs-fast.mp3
+            text: Peter runs fast.
+          - audio: the-girls-are-quiet.mp3
+            text: The girls are quiet.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: adjektiv-oder-adverb-karte
+        task: "Mr Hill will zwei Karten über Sophie. Schreibe zwei Sätze: einen mit einem Adjektiv und einen mit einem Adverb, beide mit demselben Wort, zum Beispiel careful und carefully oder quiet und quietly."
+        points:
+          - text: Ein Satz hat das Adjektiv bei einem Nomen oder nach be (zum Beispiel Sophie is a careful girl).
+            source: /wie-jemand-etwas-tut/adjektiv-oder-adverb/#neu
+          - text: Ein Satz hat das Adverb am Verb (zum Beispiel Sophie draws carefully).
+            source: /wie-jemand-etwas-tut/adjektiv-oder-adverb/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          Sophie is a quiet girl. Sophie reads quietly.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Beide Anhänger hängen jetzt am richtigen Platz. Peter ruft: „Ich laufe schneller als Amir!“ Ellie lacht. Auf der nächsten Seite lernst du, wie du Handlungen vergleichst."
