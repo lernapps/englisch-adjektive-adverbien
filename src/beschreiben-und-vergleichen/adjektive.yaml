@@ -97,13 +97,13 @@ blocks:
             distractors: [[rabbit small, small rabbits]]
             mistakes:
               - answer: This is a rabbit small.
-                message: Der Anhänger hängt vor dem Nomen, nicht dahinter.
+                message: Der Anhänger hängt davor, nicht dahinter.
           - cue: Das ist eine neue Jacke.
             target: This is a [new jacket].
             distractors: [[jacket new, jackets new]]
             mistakes:
               - answer: This is a jacket new.
-                message: Der Anhänger hängt vor dem Nomen, nicht dahinter.
+                message: "Falscher Platz: Der Anhänger kommt vor das Nomen."
           - cue: Das Haus ist alt.
             target: The house [is old].
             distractors: [[old, are old]]
@@ -120,7 +120,7 @@ blocks:
                 message: Nach dem Nomen kommt erst be. Dir fehlt are.
               - answer: The bikes is new.
                 message: Zu bikes (mehrere Fahrräder) gehört are, nicht is.
-        hint: Schau auf das Nomen und auf be im Satz. Wo hängt der blaue Anhänger?
+        hint: Suche das Nomen und be.
       - type: ordering
         id: adjektive-reihe
         text: Bringe die Teile in die richtige Reihenfolge, sodass ein Satz entsteht.
@@ -130,7 +130,7 @@ blocks:
           - a
           - big
           - garden
-        explanation: Der Anhänger big hängt zwischen a und garden, also vor dem Nomen. Wäre der Anhänger hinter garden (a garden big), stünde er am falschen Platz.
+        explanation: Der Anhänger big hängt zwischen a und garden, also vor dem Nomen.
         links:
           - title: Lernlandkarte Englisch · Stellung der Adjektive
             url: https://lernapps.net/apps/map/englisch/c/adjektive/
@@ -153,7 +153,7 @@ blocks:
             accepted: [This's a small hamster.]
             mistakes:
               - answer: This is a hamster small.
-                message: Der Anhänger hängt vor dem Nomen, nicht dahinter.
+                message: Das Nomen steht hinten, der Anhänger davor.
               - answer: This is a smalls hamster.
                 message: Der Anhänger bekommt nie ein -s.
           - cue: they · be · two · tall · trees
@@ -164,7 +164,7 @@ blocks:
                 message: Das -s gehört an das Nomen (trees), nicht an den Anhänger. Der Anhänger bleibt gleich.
               - answer: They are two trees tall.
                 message: Der Anhänger hängt vor dem Nomen.
-        hint: Frage dich, welches Wort das Nomen ist. Der blaue Anhänger hängt davor.
+        hint: Finde zuerst das Nomen.
       - type: language-task
         id: adjektive-korrektur
         languages: { source: de, target: en }
@@ -175,7 +175,7 @@ blocks:
             target: This is a new jacket.
             mistakes:
               - answer: This is a jacket new.
-                message: Noch nicht ganz. Wo hängt der blaue Anhänger, wenn ein Nomen da ist?
+                message: Noch nicht ganz. Schau, wo das Nomen steht.
               - answer: This is a jackets new.
                 message: Das Nomen und der Anhänger sind vertauscht. Der Anhänger hängt vor jacket.
           - cue: The houses are olds.
@@ -183,7 +183,7 @@ blocks:
             mistakes:
               - answer: The houses are olds.
                 message: Noch nicht ganz. Bekommt der Anhänger bei mehreren Dingen ein -s?
-        hint: Schau noch einmal, wo der Anhänger hängt und ob er ein -s trägt.
+        hint: Prüfe den Platz und das -s.
       - type: language-task
         id: adjektive-uebersetzen
         languages: { source: de, target: en }
