@@ -26,9 +26,9 @@ blocks:
           - text: slow
             correct: false
             info: slow beschreibt ein Ding oder eine Person, zum Beispiel a slow boy. Hier geht es um das Malen.
-          - text: slowy
+          - text: more slow
             correct: false
-            info: Dir fehlt das l. Das Ende ist -ly.
+            info: more brauchst du, wenn du etwas steigerst. Hier geht es um das Wort für „wie“.
         explanation: Das Wort für „wie“ endet meistens auf -ly.
         links:
           - title: Lernlandkarte Englisch · Adverbien der Art und Weise
@@ -166,6 +166,8 @@ blocks:
                 message: lately heißt „in letzter Zeit“. Für „spät“ bleibt late gleich.
               - answer: Peter plays latly.
                 message: late bekommt kein -ly, es bleibt gleich.
+              - answer: Peter plays later.
+                message: later heißt „später“. Für „spät“ bleibt late gleich.
               - answer: Peter run fast.
                 message: He, she, it – das s muss mit. Peter ist „er“.
           - cue: Amir · play · good · football

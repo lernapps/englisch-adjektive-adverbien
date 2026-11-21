@@ -26,9 +26,6 @@ blocks:
           - text: carefully
             correct: false
             info: carefully sagt, wie jemand etwas tut. Hier beschreibt das Wort den Jungen.
-          - text: carefuller
-            correct: false
-            info: Hier steht keine Steigerung. Gefragt ist nur das Wort, das den Jungen beschreibt.
         explanation: Vor einem Nomen steht das Adjektiv, der blaue Anhänger.
         links:
           - title: Lernlandkarte Englisch · Adjektiv oder Adverb

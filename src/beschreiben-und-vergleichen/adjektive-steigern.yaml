@@ -142,7 +142,7 @@ blocks:
                 message: Mit the brauchst du die dritte Stufe, also -est.
           - cue: Das ist der schönste Garten.
             target: This is the [most beautiful] garden.
-            distractors: [[beautifullest, more beautiful]]
+            distractors: [[beautiful, more beautiful]]
             mistakes:
               - answer: This is the beautifullest garden.
                 message: beautiful ist lang. Lange Wörter bekommen most davor.
@@ -150,7 +150,7 @@ blocks:
                 message: Mit the brauchst du die dritte Stufe, also the most.
           - cue: Das ist der lustigste Film.
             target: This is the [funniest] film.
-            distractors: [[funnyest, most funny]]
+            distractors: [[more funny, most funny]]
             mistakes:
               - answer: This is the funnyest film.
                 message: Bei -y wird das y zu i, bevor -est kommt.
@@ -158,7 +158,7 @@ blocks:
                 message: funny hat zwei Silben und endet auf -y. Es steigt mit -est.
           - cue: Das ist die beste Pizza.
             target: This is the [best] pizza.
-            distractors: [[goodest, most good]]
+            distractors: [[better, most good]]
             mistakes:
               - answer: This is the goodest pizza.
                 message: goodest gibt es nicht. Auf der Treppe von good steht best.

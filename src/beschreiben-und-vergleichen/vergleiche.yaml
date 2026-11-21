@@ -163,6 +163,10 @@ blocks:
             mistakes:
               - answer: The cake is not as cheaper as the pizza.
                 message: Bei as … as steht die Grundform cheap, nicht cheaper.
+              - answer: The cake is not as cheap than the pizza.
+                message: Bei not as … as steht zum Schluss as, nicht than.
+              - answer: The cake is not as cheap then the pizza.
+                message: then heißt „dann“. Bei not as … as steht zum Schluss as.
         hint: Suche zuerst das Wort für verschieden, gleich oder weniger.
       - type: language-task
         id: vergleiche-korrektur

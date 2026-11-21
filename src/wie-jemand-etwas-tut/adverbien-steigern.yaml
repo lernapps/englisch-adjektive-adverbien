@@ -61,7 +61,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Wie bei den Adjektiven: **kurz** gibt **-er** und **-est**, **-ly** gibt **more** und **most**. Zwei Handlungen vergleichst du mit **than**: Peter runs **faster than** Amir. Vor der Höchststufe darfst du bei Adverbien das the weglassen (Ellie plays best). **early** endet auf -ly, ist aber kurz: earlier, the earliest.
+              Wie bei den Adjektiven: **kurz** gibt **-er** und **-est**, **-ly** gibt **more** und **most**. Zwei Handlungen vergleichst du mit **than**: Peter runs **faster than** Amir. Vor der Höchststufe darfst du bei Adverbien das the weglassen (Sophie sings best). **early** endet auf -ly, ist aber kurz und steigt wie fast.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -119,17 +119,17 @@ blocks:
         task: Wähle die richtige Steigerung.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Peter rennt schneller als Amir.
-            target: Peter runs [faster] than Amir.
+          - cue: Amir rennt schneller als Ellie.
+            target: Amir runs [faster] than Ellie.
             distractors: [[more fast, fastest]]
             mistakes:
-              - answer: Peter runs more fast than Amir.
+              - answer: Amir runs more fast than Ellie.
                 message: fast ist kurz. Es bekommt -er, nicht more.
-              - answer: Peter runs fastest than Amir.
+              - answer: Amir runs fastest than Ellie.
                 message: Nach than steht die zweite Stufe, also faster.
           - cue: Ellie malt vorsichtiger als Peter.
             target: Ellie draws [more carefully] than Peter.
-            distractors: [[carefullier, more careful]]
+            distractors: [[most carefully, more careful]]
             mistakes:
               - answer: Ellie draws carefullier than Peter.
                 message: carefully ist lang. Lange Adverbien bekommen more davor.
@@ -137,7 +137,7 @@ blocks:
                 message: Das Wort sagt, wie Ellie malt. Es braucht -ly.
           - cue: Amir singt besser als Sophie.
             target: Amir sings [better] than Sophie.
-            distractors: [[gooder, more well]]
+            distractors: [[good, more well]]
             mistakes:
               - answer: Amir sings gooder than Sophie.
                 message: gooder gibt es nicht. Auf der Treppe von well steht better.
@@ -178,6 +178,10 @@ blocks:
             mistakes:
               - answer: Ellie plays goodest.
                 message: well hat eine eigene Treppe. Die Höchststufe ist best.
+              - answer: Ellie plays the goodest.
+                message: goodest gibt es nicht. Auf der Treppe von well steht best.
+              - answer: Ellie plays most well.
+                message: most brauchst du bei Wörtern auf -ly. well hat die eigene Stufe best.
           - source: Peter spielt früher als Amir.
             target: Peter plays earlier than Amir.
             mistakes:
@@ -185,6 +189,8 @@ blocks:
                 message: early ist kurz. Es bekommt -er, und aus y wird i.
               - answer: Peter plays earlyer than Amir.
                 message: Aus y wird i, bevor -er kommt.
+              - answer: Peter plays earlier then Amir.
+                message: Für „als“ brauchst du than, nicht then.
         hint: Prüfe, ob das Wort kurz ist, auf -ly endet oder eine Sonderform hat.
       - type: language-task
         id: adverbien-steigern-korrektur
@@ -192,15 +198,17 @@ blocks:
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Peter runs more fast than Amir.
-            target: Peter runs faster than Amir.
-            accepted: [Peter runs more quickly than Amir.]
+          - cue: Amir runs more fast than Ellie.
+            target: Amir runs faster than Ellie.
+            accepted: [Amir runs more quickly than Ellie.]
             mistakes:
-              - answer: Peter runs more fast than Amir.
+              - answer: Amir runs more fast than Ellie.
                 message: fast ist kurz. Welche Endung braucht es?
           - cue: Ellie sings gooder than Amir.
             target: Ellie sings better than Amir.
             mistakes:
+              - answer: Ellie sings more well than Amir.
+                message: more brauchst du bei Wörtern auf -ly. well hat die eigene Stufe better.
               - answer: Ellie sings gooder than Amir.
                 message: Für Handlungen gibt es eine eigene Treppe. Schau nach, wie well steigt.
         hint: Prüfe die Treppe.
