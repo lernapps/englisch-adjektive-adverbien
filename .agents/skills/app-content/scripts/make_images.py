@@ -90,6 +90,25 @@ def treppe_adjektive_steigern():
     b += stairs(5, 400, ["interesting", "more interesting", "the most interesting"], w=210, step=30).replace('font-size="22"', 'font-size="17"')
     return svg(640, 420, "Zwei Treppen mit drei Stufen: tall, taller, the tallest und interesting, more interesting, the most interesting", b)
 
+@image
+def szene_vergleiche():
+    b = wall()
+    b += frame(70, 15, 230, 150, house(185, 70, 1.25, "#e8c9a0")) + frame(340, 15, 230, 150, house(455, 95, .7, "#b9d3e8"))
+    b += text(185, 195, "das alte Haus", 22) + text(455, 195, "das neue Haus", 22)
+    b += kid("sophie", 30, 150, .7) + kid("amir", 300, 160, .65) + kid("ellie", 520, 150, .7)
+    return svg(640, 340, "Drei Kinder stehen vor zwei Fotos: ein großes altes Haus und ein kleines neues Haus", b)
+
+@image
+def vergleiche_diagramm():
+    b = house(80, 70, 1.0, "#e8c9a0") + house(330, 90, .6, "#b9d3e8")
+    b += f'  <line x1="150" y1="70" x2="270" y2="70" stroke="{INK}" stroke-width="2"/>\n'
+    b += text(210, 55, "bigger than", 22)
+    b += house(80, 250, .75, "#e8c9a0") + house(330, 250, .75, "#b9d3e8")
+    b += f'  <line x1="150" y1="260" x2="270" y2="260" stroke="{INK}" stroke-width="2" stroke-dasharray="6 4"/>\n'
+    b += text(210, 245, "as big as", 22)
+    b += text(480, 120, "Unterschied: than", 20, "start") + text(480, 290, "gleich: as … as", 20, "start")
+    return svg(640, 330, "Oben ein großes Haus und ein kleines Haus mit bigger than, unten zwei gleich große Häuser mit as big as", b)
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)
     for n in names:

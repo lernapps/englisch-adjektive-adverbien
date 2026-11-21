@@ -1,0 +1,230 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Zwei Dinge vergleichen: than und as … as"
+description: "Das alte Haus ist größer als das neue. Du lernst, zwei Dinge mit than und as … as zu vergleichen."
+competencies: [vergleiche]
+scope: Die Seite führt den Vergleich zweier Dinge ein. Nach der Steigerung steht than (bigger than), bei Gleichheit as … as mit der Grundform (as big as), bei Ungleichheit not as … as (not as big as). Typische Fehler sind then oder as statt than, die Steigerung statt der Grundform bei as … as und more bei einem kurzen Wort. Nicht hier, weil es spätere Seiten sind. Adverbien und die Steigerung der Adverbien.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das alte und das neue Haus
+    blocks:
+      - type: figure
+        image: images/szene-vergleiche.svg
+        alt: Drei Kinder stehen im Flur vor zwei Fotos. Das linke Foto zeigt ein großes Haus, das rechte ein kleines Haus.
+        caption: "Von links: Sophie (Zöpfe), Amir (Brille) und Ellie (roter Pferdeschwanz)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: Für die Ausstellung hängen zwei Fotos an der Wand, das alte Haus und das neue Haus. Das alte ist größer. Amir will das auf einer Karte sagen. Er braucht ein kleines Wort zwischen **bigger** und **the new house**.
+      - type: single-choice
+        id: vergleiche-start
+        text: "Amir schreibt: „The old house is bigger … the new house.“ Welches Wort fehlt?"
+        options:
+          - text: than
+            correct: true
+            info: than heißt „als“ und steht nach der Steigerung.
+          - text: then
+            correct: false
+            info: then heißt „dann“. Es klingt ähnlich, aber es passt hier nicht.
+          - text: as
+            correct: false
+            info: as brauchst du bei „so groß wie“, nicht bei „größer als“.
+        explanation: Nach der Steigerung steht than.
+        links:
+          - title: Lernlandkarte Englisch · Vergleiche mit than und as … as
+            url: https://lernapps.net/apps/map/englisch/c/vergleiche/
+      - type: text
+        text: "**Das kannst du danach:** Du vergleichst zwei Dinge auf Englisch und weißt, wann than und wann as … as dran ist."
+  - type: section
+    id: neu
+    title: than und as … as
+    blocks:
+      - type: text
+        text: "Zwei Dinge sind **verschieden**: Dann steht die Steigerung und danach **than** (als). Zwei Dinge sind **gleich**: Dann steht **as** + Grundform + **as** (so … wie). Ist das zweite Ding weniger, steht **not as** + Grundform + **as**."
+      - type: figure
+        image: images/vergleiche-diagramm.svg
+        alt: Oben ein großes und ein kleines Haus mit den Worten bigger than. Unten zwei gleich große Häuser mit den Worten as big as.
+        caption: Verschieden gibt than, gleich gibt as … as.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Vergleiche
+        header: [Das Verhältnis, Beispiel]
+        rows:
+          - [verschieden, Ellie is taller than Peter.]
+          - [gleich, Sophie is as tall as Amir.]
+          - [weniger, Peter is not as tall as Ellie.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Nach der Steigerung steht **than**, nie then. Bei **as … as** steht das Wort in der **Grundform**, nicht in der Steigerung: as tall as, nicht as taller as.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [than, als]
+          - [as … as, so … wie]
+          - [not as … as, nicht so … wie]
+          - [rabbit, Kaninchen]
+          - [hamster, Hamster]
+          - [dog, Hund]
+          - [bike, Fahrrad]
+          - [cake, Kuchen]
+          - [test, Test]
+          - [expensive, teuer]
+          - [boring, langweilig]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: vergleiche-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Das Kaninchen ist größer als der Hamster.
+            target: The rabbit is bigger [than] the hamster.
+            distractors: [[then, as]]
+            mistakes:
+              - answer: The rabbit is bigger then the hamster.
+                message: then heißt „dann“. Für „als“ brauchst du than.
+              - answer: The rabbit is bigger as the hamster.
+                message: as brauchst du bei „so groß wie“. Nach bigger steht than.
+          - cue: Das neue Fahrrad ist so teuer wie das alte Fahrrad.
+            target: The new bike is as expensive [as] the old bike.
+            distractors: [[than, then]]
+            mistakes:
+              - answer: The new bike is as expensive than the old bike.
+                message: Bei „so … wie“ stehen zwei as. than gehört nur nach der Steigerung.
+          - cue: Das Spiel ist nicht so leicht wie der Test.
+            target: The game is not as easy [as] the test.
+            distractors: [[than, so]]
+            mistakes:
+              - answer: The game is not as easy than the test.
+                message: Bei not as … as stehen zwei as.
+              - answer: The game is not as easy so the test.
+                message: so gehört nicht in die Reihe. Es heißt not as … as.
+        hint: Verschieden gibt than, gleich gibt as … as.
+      - type: ordering
+        id: vergleiche-reihe
+        text: Bringe die Teile in die richtige Reihenfolge, sodass ein Satz entsteht.
+        items:
+          - The dog
+          - is
+          - smaller
+          - than
+          - the rabbit
+        explanation: Die Steigerung smaller steht vor than, danach kommt das zweite Ding.
+        links:
+          - title: Lernlandkarte Englisch · Vergleiche mit than und as … as
+            url: https://lernapps.net/apps/map/englisch/c/vergleiche/
+      - type: true-false
+        id: vergleiche-richtig
+        text: "Peter ist neun und Ellie ist elf. Peter sagt: „I am older than Ellie.“ Stimmt der Satz?"
+        answer: false
+        explanation: older bedeutet „älter“. Peter ist jünger. Richtig wäre „I am younger than Ellie.“ oder „Ellie is older than me.“
+        links:
+          - title: Lernlandkarte Englisch · Vergleiche mit than und as … as
+            url: https://lernapps.net/apps/map/englisch/c/vergleiche/
+      - type: language-task
+        id: vergleiche-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Der Hamster ist kleiner als das Kaninchen.
+            target: The hamster is smaller than the rabbit.
+            mistakes:
+              - answer: The hamster is more small than the rabbit.
+                message: small ist kurz. Es bekommt -er, nicht more.
+              - answer: The hamster is smaller then the rabbit.
+                message: Für „als“ brauchst du than, nicht then.
+          - source: Das Spiel ist so schwierig wie der Test.
+            target: The game is as difficult as the test.
+            mistakes:
+              - answer: The game is as more difficult as the test.
+                message: Bei as … as steht die Grundform, ohne more.
+              - answer: The game is so difficult as the test.
+                message: „So … wie“ heißt im Englischen as … as.
+          - source: Der Kuchen ist nicht so billig wie die Pizza.
+            target: The cake is not as cheap as the pizza.
+            mistakes:
+              - answer: The cake is not as cheaper as the pizza.
+                message: Bei as … as steht die Grundform cheap, nicht cheaper.
+              - answer: The cake is not so cheap as the pizza.
+                message: „Nicht so … wie“ heißt not as … as.
+        hint: Suche zuerst das Wort für verschieden, gleich oder weniger.
+      - type: language-task
+        id: vergleiche-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: The rabbit is bigger then the hamster.
+            target: The rabbit is bigger than the hamster.
+            mistakes:
+              - answer: The rabbit is bigger then the hamster.
+                message: then heißt „dann“. Welches Wort heißt „als“?
+          - cue: The bike is as cheaper as the cake.
+            target: The bike is as cheap as the cake.
+            mistakes:
+              - answer: The bike is as cheaper as the cake.
+                message: Bei as … as steht die Grundform.
+        hint: Prüfe das Wort nach der Steigerung und die Form zwischen den as.
+      - type: language-task
+        id: vergleiche-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-garden-is-bigger-than-the-house.mp3
+            target: The garden is bigger than the house.
+          - audio: the-pizza-is-not-as-cheap-as-the-cake.mp3
+            target: The pizza is not as cheap as the cake.
+          - audio: the-old-house-is-as-big-as-the-new-house.mp3
+            target: The old house is as big as the new house.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: vergleiche-nachsprechen
+        language: en
+        items:
+          - audio: the-hamster-is-smaller-than-the-rabbit.mp3
+            text: The hamster is smaller than the rabbit.
+          - audio: the-film-is-better-than-the-game.mp3
+            text: The film is better than the game.
+          - audio: the-cake-is-as-big-as-the-pizza.mp3
+            text: The cake is as big as the pizza.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf than und as.
+      - type: open-task
+        id: vergleiche-karte
+        task: "Ellie und Peter streiten, wer mehr kann. Schreibe zwei Sätze für eine Karte in der Ausstellung: einen Vergleich mit than und einen mit as … as oder not as … as."
+        points:
+          - text: Ein Satz hat die Steigerung und than (zum Beispiel Ellie is taller than Peter).
+            source: /beschreiben-und-vergleichen/vergleiche/#neu
+          - text: Ein Satz hat as … as oder not as … as mit dem Adjektiv in der Grundform.
+            source: /beschreiben-und-vergleichen/vergleiche/#neu
+          - text: Es sind ganze Sätze mit is und einem Punkt am Ende.
+            kind: form
+        solution: |
+          Ellie is older than Peter. Peter is not as old as Amir.
+  - type: section
+    id: weiter
+    title: Rückblick auf das Kapitel
+    blocks:
+      - type: text
+        text: "Das hast du jetzt am Wandbild hängen: den blauen Anhänger vor dem Nomen und nach be, die Treppe mit drei Stufen und die kleinen Wörter than und as … as. Damit beschreibst du Dinge und vergleichst sie. Mr Hill ist zufrieden. Als Nächstes gibt es orangefarbene Anhänger, die sagen, **wie** jemand etwas tut."
+      - type: table
+        caption: Schulkalender · Rückblick Kapitel 1
+        header: [Das willst du sagen, "So geht es"]
+        rows:
+          - [ein Ding beschreiben, "blauer Anhänger vor dem Nomen oder nach be"]
+          - [zwei Dinge vergleichen, "Steigerung + than"]
+          - [zwei Dinge gleich nennen, "as + Grundform + as"]
+          - [das Beste nennen, "the + Höchststufe"]
