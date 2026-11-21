@@ -175,7 +175,7 @@ Mr Hill lobt die Kinder. Ihm fällt auf, dass manche Wörter fast gleich aussehe
      - Peter plays lately.: lately heißt „in letzter Zeit“. Für „spät“ bleibt late gleich.
      - Peter plays latly.: late bekommt kein -ly, es bleibt gleich.
      - Peter plays later.: later heißt „später“. Für „spät“ bleibt late gleich.
-     - Peter run fast.: He, she, it – das s muss mit. Peter ist „er“.
+     - Peter play late.: He, she, it – das s muss mit. Peter ist „er“.
 2. Amir · play · good · football → Amir plays football well.
      - Amir plays football good.: good beschreibt ein Ding. Wenn jemand etwas gut tut, heißt das Wort well.
      - Amir plays good football.: Das ist ein anderer Satz, denn good football heißt „guter Fußball“. Gemeint ist, wie Amir spielt, und dafür steht well.

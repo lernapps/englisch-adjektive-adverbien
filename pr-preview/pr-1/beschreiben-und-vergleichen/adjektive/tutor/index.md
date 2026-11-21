@@ -120,7 +120,7 @@ Die Karten hängen jetzt an den Fotos. Mr Hill will jetzt wissen, wer in der Kla
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ a big tree – Das Wort big sagt, wie der Baum ist. Es steht vor dem Nomen tree.
   - ✗ a tree big – Das Wort big steht im Englischen vor dem Nomen tree, nicht dahinter.
-  - ✗ a bigs tree – Das Wort big bekommt kein -s. Es sieht immer gleich aus.
+  - ✗ big a tree – Der Anhänger big steht nach a und vor dem Nomen, nicht am Anfang.
 - Lösung: a big tree
 - Erklärung: Das Wort big beschreibt den Baum und steht vor ihm.
 - Link: [../?via=tutor#adjektive-start](../?via=tutor#adjektive-start)

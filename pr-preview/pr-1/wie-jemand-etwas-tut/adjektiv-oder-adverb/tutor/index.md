@@ -115,6 +115,7 @@ Beide Anhänger hängen jetzt am richtigen Platz. Peter ruft: „Ich laufe schne
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ careful – boy ist ein Nomen, also ein Ding oder eine Person. Dafür steht das Adjektiv.
   - ✗ carefully – carefully sagt, wie jemand etwas tut. Hier beschreibt das Wort den Jungen.
+  - ✗ more careful – more careful heißt „vorsichtiger“. Gesagt ist aber nur, dass Amir vorsichtig ist.
 - Lösung: careful
 - Erklärung: Vor einem Nomen steht das Adjektiv, der blaue Anhänger.
 - Link: [../?via=tutor#adjektiv-oder-adverb-start](../?via=tutor#adjektiv-oder-adverb-start)

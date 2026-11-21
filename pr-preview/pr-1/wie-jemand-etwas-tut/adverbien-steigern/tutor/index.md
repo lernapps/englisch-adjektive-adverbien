@@ -238,9 +238,9 @@ Schulkalender · Rückblick Kapitel 2:
 - Aufgabe: Mr Hill schreibt die Ergebnisse des Wettrennens an die Wand. Schreibe zwei Sätze über die Kinder: einen mit einem kurzen Adverb und than und einen mit more … than oder better than.
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
-  - P1 (Inhalt) Ein Satz hat ein kurzes Adverb in der zweiten Stufe mit than (zum Beispiel Peter runs faster than Amir). Quelle: [/wie-jemand-etwas-tut/adverbien-steigern/#neu](../../../wie-jemand-etwas-tut/adverbien-steigern/#neu)
+  - P1 (Inhalt) Ein Satz hat ein kurzes Adverb in der zweiten Stufe mit than (zum Beispiel Sophie writes faster than Amir). Quelle: [/wie-jemand-etwas-tut/adverbien-steigern/#neu](../../../wie-jemand-etwas-tut/adverbien-steigern/#neu)
   - P2 (Inhalt) Ein Satz hat more mit einem Adverb auf -ly oder better als zweite Stufe von well. Quelle: [/wie-jemand-etwas-tut/adverbien-steigern/#neu](../../../wie-jemand-etwas-tut/adverbien-steigern/#neu)
   - P3 (Form) Es sind ganze Sätze mit einem Punkt am Ende.
-- Musterantwort: Peter runs faster than Amir. Ellie draws more carefully than Peter.
+- Musterantwort: Sophie writes faster than Amir. Ellie draws more carefully than Peter.
 - So hilfst du: Die App zeigt die Punkte erst nach der Antwort; das Kind hakt selbst ab, welche seine Antwort enthält, und „es fehlen P2, P4“ nennt die anderen. Fehlt dir die Antwort, bitte das Kind, sie einzufügen oder das Foto seines Blatts anzuhängen. Prüf Punkt für Punkt, auch die abgehakten, und sag zuerst, was gelungen ist. Zu einem fehlenden Punkt stell eine Frage, die dorthin führt, und nenn seine Quelle. Verrate die Musterantwort nicht, bevor das Kind es noch einmal versucht hat. Zu einem Punkt der Form zeig an einem Satz des Kindes, wie es besser geht.
 - Link: [../?via=tutor#adverbien-steigern-karte](../?via=tutor#adverbien-steigern-karte)
