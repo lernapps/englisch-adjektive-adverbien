@@ -122,7 +122,7 @@ Kinder der Klassen 5-6 (erstes und zweites Lernjahr Englisch) beschreiben und ve
 
 <!-- The interview: per topic the creator's answer, in their words. Keep the topics. -->
 
-Antworten der Ersteller:in: aus dem Auftrag (Issue #476, „unverändert“) und den Konventionen #489, die die Orchestrator-Session für sie vorgibt. Es gab kein Gespräch; wo der Auftrag schweigt, steht „(guess)“.
+Antworten der Orchestrator-Session (in der Rolle der Ersteller:in): aus dem Auftrag (Issue #476, „unverändert“) und den Konventionen #489, die die Orchestrator-Session für sie vorgibt. Es gab kein Gespräch; wo der Auftrag schweigt, steht „(guess)“.
 
 - Goal: „Ich kann Personen, Dinge und Handlungen genau beschreiben und vergleichen und weiß, ob ich ein Adjektiv oder ein Adverb brauche.“ Zwei Sorten Anhänger und eine Steigerungstreppe tragen den Explainer.
 - Learners: Klassen 5-6, erstes und zweites Lernjahr Englisch, Vorwissen Hello, Millbrook! (#470), Personalpronomen (#471) und to-be (#472).
@@ -285,11 +285,11 @@ Phase Commit erreicht (Vorschau-Pull-Request offen, nicht veröffentlicht, kein 
 
 ### Creator turns after the plan
 
-Vier Nachrichten der Ersteller:in (durch die Orchestrator-Session) nach der Bestätigung des Plans: (1) Musterseite: Ja mit Auflagen (has got nur in der Wörter-Tabelle, echte Lernfehler als Distraktoren, check grün vor dem Push); (2) Bitte, `work` zu pushen, damit der unabhängige Check lesen kann; (3) Veröffentlichen: nicht freigegeben, Auflagen aus dem Gesamtcheck (Distraktoren, Lösung über der Übung, doppelte Meldungen, Retrospektive); (4) davor die Bestätigung der Szene „Our Millbrook“ für die Konventionen.
+Menschliche Ersteller:in: keine Rückmeldung zu Inhalt oder Plan; ein Mensch hat nur die Berechtigung für den Schritt `init` freigegeben. Orchestrator-Session (in der Rolle der Ersteller:in): sechs Nachrichten nach der Bestätigung des Plans: (1) Musterseite: Ja mit Auflagen (has got nur in der Wörter-Tabelle, echte Lernfehler als Distraktoren, check grün vor dem Push); (2) Bitte, `work` zu pushen, damit der unabhängige Check lesen kann; (3) Veröffentlichen nicht freigegeben, Auflagen aus dem Gesamtcheck (Distraktoren, Lösung über der Übung, doppelte Meldungen, Retrospektive); (4) Freigabe mit vier kleinen Funden; (5) Korrektur der Retrospektive; dazu vorher (6) die Bestätigung der Szene „Our Millbrook“ für die Konventionen.
 
 ### Where I had to guess
 
-- Interview: Es gab kein Gespräch mit der Ersteller:in. Die Antworten zu Ziel, Lernenden, Hürden, Umfang, Sprache, Look und Begriffen stammen aus dem Auftrag (#476) und den Konventionen (#489); wo beide schweigen, steht „(guess)“ (Hürden, Suchbegriffe).
+- Interview: Es gab kein Gespräch mit einer menschlichen Ersteller:in. Die Antworten zu Ziel, Lernenden, Hürden, Umfang, Sprache, Look und Begriffen stammen aus dem Auftrag (#476) und den Konventionen (#489); wo beide schweigen, steht „(guess)“ (Hürden, Suchbegriffe).
 - Szene: Mein erster Entwurf (Sports Day) kollidierte mit #471; Ersatz „Our Millbrook“ nach dem Hinweis der Orchestrator-Session.
 - Keine Komponente, keine Datendateien, Bilder als eigene SVG-Familie mit einem Skript (`make_images.py`): eigene Entscheidung.
 - Audio: Ich kann die Dateien nicht hören. Kein Mensch hat sie angehört; die Ersteller:in hört sie vor der Veröffentlichung.
