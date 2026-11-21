@@ -27,9 +27,9 @@ blocks:
           - text: a tree big
             correct: false
             info: Das Wort big steht im Englischen vor dem Nomen tree, nicht dahinter.
-          - text: a bigs tree
+          - text: big a tree
             correct: false
-            info: Das Wort big bekommt kein -s. Es sieht immer gleich aus.
+            info: Der Anhänger big steht nach a und vor dem Nomen, nicht am Anfang.
         explanation: Das Wort big beschreibt den Baum und steht vor ihm.
         links:
           - title: Lernlandkarte Englisch · Stellung der Adjektive

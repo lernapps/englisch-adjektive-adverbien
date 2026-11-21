@@ -243,14 +243,14 @@ blocks:
         id: adverbien-steigern-karte
         task: "Mr Hill schreibt die Ergebnisse des Wettrennens an die Wand. Schreibe zwei Sätze über die Kinder: einen mit einem kurzen Adverb und than und einen mit more … than oder better than."
         points:
-          - text: Ein Satz hat ein kurzes Adverb in der zweiten Stufe mit than (zum Beispiel Peter runs faster than Amir).
+          - text: Ein Satz hat ein kurzes Adverb in der zweiten Stufe mit than (zum Beispiel Sophie writes faster than Amir).
             source: /wie-jemand-etwas-tut/adverbien-steigern/#neu
           - text: Ein Satz hat more mit einem Adverb auf -ly oder better als zweite Stufe von well.
             source: /wie-jemand-etwas-tut/adverbien-steigern/#neu
           - text: Es sind ganze Sätze mit einem Punkt am Ende.
             kind: form
         solution: |
-          Peter runs faster than Amir. Ellie draws more carefully than Peter.
+          Sophie writes faster than Amir. Ellie draws more carefully than Peter.
   - type: section
     id: weiter
     title: Rückblick auf das Kapitel

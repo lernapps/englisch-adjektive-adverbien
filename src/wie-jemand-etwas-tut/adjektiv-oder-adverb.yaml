@@ -26,6 +26,9 @@ blocks:
           - text: carefully
             correct: false
             info: carefully sagt, wie jemand etwas tut. Hier beschreibt das Wort den Jungen.
+          - text: more careful
+            correct: false
+            info: more careful heißt „vorsichtiger“. Gesagt ist aber nur, dass Amir vorsichtig ist.
         explanation: Vor einem Nomen steht das Adjektiv, der blaue Anhänger.
         links:
           - title: Lernlandkarte Englisch · Adjektiv oder Adverb

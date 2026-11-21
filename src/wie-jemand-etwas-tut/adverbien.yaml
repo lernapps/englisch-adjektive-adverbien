@@ -168,7 +168,7 @@ blocks:
                 message: late bekommt kein -ly, es bleibt gleich.
               - answer: Peter plays later.
                 message: later heißt „später“. Für „spät“ bleibt late gleich.
-              - answer: Peter run fast.
+              - answer: Peter play late.
                 message: He, she, it – das s muss mit. Peter ist „er“.
           - cue: Amir · play · good · football
             target: Amir plays football well.
