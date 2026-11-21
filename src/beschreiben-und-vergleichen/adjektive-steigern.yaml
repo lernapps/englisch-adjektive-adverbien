@@ -1,0 +1,276 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Die Treppe: Adjektive steigern"
+description: "Ellie ist größer als Peter. Du lernst, Adjektive auf der Treppe zu steigern, mit -er und -est, mit more und most und unregelmäßig."
+competencies: [adjektive-steigern]
+scope: Die Seite führt die Steigerung der Adjektive ein. Kurze Adjektive (eine Silbe) und Adjektive auf -y steigern mit -er und -est (tall – taller – the tallest, happy – happier – the happiest, big – bigger – the biggest mit doppeltem Buchstaben). Lange Adjektive (drei Silben und mehr) steigern mit more und most (interesting – more interesting – the most interesting). good und bad haben eigene Formen (good – better – the best, bad – worse – the worst). Nicht hier, weil es spätere Seiten sind. Vergleiche mit than und as … as, Adverbien und die Steigerung der Adverbien.
+blocks:
+  - type: section
+    id: einstieg
+    title: Wer ist größer?
+    blocks:
+      - type: figure
+        image: images/szene-adjektive-steigern.svg
+        alt: Ellie und Peter stehen im Flur neben einer Messlatte an der Wand. Ellie ist deutlich größer als Peter. Sophie steht links, Amir rechts.
+        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Peter (gelbe Jacke) und Amir (Brille)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: Für die Ausstellung misst Mr Hill, wer wie groß ist. Peter steht neben der Messlatte, dann Ellie. Sophie sagt, was sie sieht. Ellie ist **tall** (groß), aber Peter ist es nicht so sehr.
+      - type: single-choice
+        id: adjektive-steigern-start
+        text: "Sophie sagt: „Ellie is …“ Sie meint „Ellie ist größer“. Welches Wort fehlt?"
+        options:
+          - text: taller
+            correct: true
+            info: Bei einem kurzen Wort hängt -er hinten an tall.
+          - text: more tall
+            correct: false
+            info: more brauchst du nur bei langen Wörtern. tall ist kurz.
+          - text: tallest
+            correct: false
+            info: tallest heißt „am größten“. Sophie vergleicht nicht mit allen, sondern sagt nur „größer“.
+        explanation: Wenn etwas „mehr“ davon hat, hängst du bei kurzen Wörtern -er an.
+        links:
+          - title: Lernlandkarte Englisch · Steigerung der Adjektive
+            url: https://lernapps.net/apps/map/englisch/c/adjektive-steigern/
+      - type: text
+        text: "**Das kannst du danach:** Du steigerst Adjektive richtig und weißt, wann -er und -est und wann more und most dran sind."
+  - type: section
+    id: neu
+    title: Die Treppe mit drei Stufen
+    blocks:
+      - type: text
+        text: "Mr Hill baut eine **Treppe** an die Wand. Sie hat drei **Stufen**: die Grundform (tall), die Steigerung (taller) und die Höchststufe (the tallest). Kurze Wörter steigen mit **-er** und **-est**. Lange Wörter bekommen **more** und **the most** davor."
+      - type: figure
+        image: images/treppe-adjektive-steigern.svg
+        alt: Zwei Treppen mit je drei Stufen. Oben steht tall, taller, the tallest. Unten steht interesting, more interesting, the most interesting.
+        caption: Ein kurzes Wort steigt mit -er und -est, ein langes mit more und most.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Die Treppe der Adjektive
+        header: [Grundform, Steigerung, Höchststufe]
+        rows:
+          - [tall, taller, the tallest]
+          - [long, longer, the longest]
+          - [big, bigger, the biggest]
+          - [happy, happier, the happiest]
+          - [interesting, more interesting, the most interesting]
+          - [good, better, the best]
+          - [bad, worse, the worst]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Eine Silbe** (tall) und **-y** (happy): **-er** und **-est**. Bei big kommt der letzte Buchstabe doppelt (bigger), aus y wird i (happier). **Drei Silben und mehr** (interesting): **more** und **the most**, das Wort selbst bleibt gleich. **good** und **bad** haben eigene Formen. Vor der Höchststufe steht immer **the**.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [small, klein]
+          - [short, kurz / klein gewachsen]
+          - [old, alt]
+          - [cheap, billig]
+          - [easy, leicht]
+          - [hot, heiß]
+          - [funny, lustig]
+          - [difficult, schwierig]
+          - [exciting, spannend]
+          - [beautiful, schön]
+          - [boy, Junge]
+          - [girl, Mädchen]
+          - [day, Tag]
+          - [game, Spiel]
+          - [pizza, Pizza]
+          - [bike, Fahrrad]
+          - [this is, das ist]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: adjektive-steigern-treppe
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze die Treppe für das Wort small.
+        form: { case: hint }
+        table:
+          caption: Treppe · small
+          header: [Stufe, Wort]
+          rows:
+            - [Grundform, small]
+            - [Steigerung, "[smaller]"]
+            - [Höchststufe, "[the smallest]"]
+        hint: Small ist kurz. Hänge -er und -est an.
+      - type: matching
+        id: adjektive-steigern-paare
+        text: Welche Steigerung gehört zu welchem Wort?
+        pairs:
+          - left: old
+            right: older
+          - left: hot
+            right: hotter
+          - left: funny
+            right: funnier
+          - left: beautiful
+            right: more beautiful
+          - left: bad
+            right: worse
+        explanation: Kurze Wörter bekommen -er. Bei hot kommt das t doppelt, aus funny wird funnier. Bei beautiful steht more davor, und bad hat die eigene Form worse.
+        hint: Zähle die Silben. Danach prüfe, ob der letzte Buchstabe doppelt wird oder aus y ein i wird.
+        links:
+          - title: Lernlandkarte Englisch · Steigerung der Adjektive
+            url: https://lernapps.net/apps/map/englisch/c/adjektive-steigern/
+      - type: language-task
+        id: adjektive-steigern-hoechst
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die Höchststufe, die in den Satz passt.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter ist der kleinste Junge.
+            target: Peter is the [shortest] boy.
+            distractors: [[most short, shorter]]
+            mistakes:
+              - answer: Peter is the most short boy.
+                message: short ist ein kurzes Wort. Es bekommt -est, nicht most.
+              - answer: Peter is the shorter boy.
+                message: Mit the brauchst du die dritte Stufe, also -est.
+          - cue: Das ist der schönste Garten.
+            target: This is the [most beautiful] garden.
+            distractors: [[beautifullest, more beautiful]]
+            mistakes:
+              - answer: This is the beautifullest garden.
+                message: beautiful ist lang. Lange Wörter bekommen most davor.
+              - answer: This is the more beautiful garden.
+                message: Mit the brauchst du die dritte Stufe, also the most.
+          - cue: Das ist der lustigste Film.
+            target: This is the [funniest] film.
+            distractors: [[funnyest, most funny]]
+            mistakes:
+              - answer: This is the funnyest film.
+                message: Bei -y wird das y zu i, bevor -est kommt.
+              - answer: This is the most funny film.
+                message: funny hat zwei Silben und endet auf -y. Es steigt mit -est.
+          - cue: Das ist die beste Pizza.
+            target: This is the [best] pizza.
+            distractors: [[goodest, most good]]
+            mistakes:
+              - answer: This is the goodest pizza.
+                message: good hat eine eigene Treppe. Die Höchststufe ist best.
+              - answer: This is the most good pizza.
+                message: good hat eine eigene Treppe. Die Höchststufe ist best.
+        hint: Zähle die Silben. Suche dann das Wort auf der Treppe.
+      - type: language-task
+        id: adjektive-steigern-zweite
+        languages: { source: de, target: en }
+        task: Schreibe die zweite Stufe der Treppe.
+        form: { case: hint }
+        items:
+          - cue: easy
+            target: easier
+            mistakes:
+              - answer: more easy
+                message: easy ist kurz und endet auf -y. Es bekommt -er, und aus y wird i.
+              - answer: easyer
+                message: Aus y wird i, bevor -er kommt.
+          - cue: cheap
+            target: cheaper
+            mistakes:
+              - answer: cheapper
+                message: Der letzte Buchstabe wird nur bei kurzen Wörtern mit einem Vokal davor doppelt, wie bei hot und big. Bei cheap nicht.
+          - cue: hot
+            target: hotter
+            mistakes:
+              - answer: hoter
+                message: Bei hot kommt das t doppelt.
+          - cue: difficult
+            target: more difficult
+            mistakes:
+              - answer: difficulter
+                message: difficult ist lang. Lange Wörter bekommen more davor.
+        hint: Zähle die Silben, dann siehst du, ob -er oder more dran ist.
+      - type: language-task
+        id: adjektive-steigern-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: This is the most easy game.
+            target: This is the easiest game.
+            mistakes:
+              - answer: This is the most easy game.
+                message: easy ist kurz. Es braucht -est, nicht most.
+          - cue: This is the interestingest film.
+            target: This is the most interesting film.
+            mistakes:
+              - answer: This is the interestingest film.
+                message: interesting ist lang. Es braucht most davor.
+        hint: Zähle die Silben.
+      - type: language-task
+        id: adjektive-steigern-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Das ist der kleinste Hamster.
+            target: This is the smallest hamster.
+            mistakes:
+              - answer: This is the most small hamster.
+                message: small ist kurz. Es bekommt -est.
+          - source: Das ist das schwierigste Spiel.
+            target: This is the most difficult game.
+            mistakes:
+              - answer: This is the difficultest game.
+                message: difficult ist lang. Es bekommt most davor.
+          - source: Das ist der schlechteste Tag.
+            target: This is the worst day.
+            mistakes:
+              - answer: This is the baddest day.
+                message: bad hat eine eigene Treppe. Die Höchststufe ist worst.
+      - type: language-task
+        id: adjektive-steigern-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-tallest-girl-is-ellie.mp3
+            target: The tallest girl is Ellie.
+          - audio: this-is-the-best-bike.mp3
+            target: This is the best bike.
+          - audio: this-is-the-most-exciting-film.mp3
+            target: This is the most exciting film.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: adjektive-steigern-nachsprechen
+        language: en
+        items:
+          - audio: this-is-the-hottest-day.mp3
+            text: This is the hottest day.
+          - audio: the-shortest-boy-is-peter.mp3
+            text: The shortest boy is Peter.
+          - audio: this-is-the-cheapest-pizza.mp3
+            text: This is the cheapest pizza.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das -est am Ende.
+      - type: open-task
+        id: adjektive-steigern-karte
+        task: "Mr Hill sammelt Rekorde für die Ausstellung. Schreibe zwei Sätze mit der Höchststufe über etwas in Millbrook, zum Beispiel einen Garten, einen Tag oder ein Spiel."
+        points:
+          - text: Ein Satz hat ein kurzes Adjektiv mit the und -est (zum Beispiel the hottest day).
+            source: /beschreiben-und-vergleichen/adjektive-steigern/#neu
+          - text: Ein Satz hat ein langes Adjektiv mit the most (zum Beispiel the most beautiful garden).
+            source: /beschreiben-und-vergleichen/adjektive-steigern/#neu
+          - text: Es sind ganze Sätze mit is und einem Punkt am Ende.
+            kind: form
+        solution: |
+          This is the hottest day. This is the most beautiful garden.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "An der Wand hängt jetzt die Treppe. Ellie hat gesagt, sie sei größer als Peter. Peter findet das nicht fair. Auf der nächsten Seite lernst du, wie du zwei Dinge direkt vergleichst."

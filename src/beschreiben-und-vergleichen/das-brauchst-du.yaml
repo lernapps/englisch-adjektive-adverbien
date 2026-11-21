@@ -35,3 +35,10 @@ blocks:
         caption: Zwei Sorten Anhänger und die leere Treppe.
         source: eigene Zeichnung
         licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Anhänger und Treppe
+        header: [Das Zeichen, Das macht es]
+        rows:
+          - [blauer Anhänger, beschreibt ein Ding oder eine Person]
+          - [orangefarbener Anhänger, "sagt, wie jemand etwas tut"]
+          - [Treppe, steigert ein Wort in drei Stufen]

@@ -72,6 +72,24 @@ def anhaenger_leer():
     b += text(505, 190, "Treppe", 20)
     return svg(640, 200, "Ein blauer und ein orangefarbener Anhänger und eine leere Treppe mit drei Stufen", b)
 
+@image
+def szene_adjektive_steigern():
+    b = wall()
+    # height chart on the wall
+    b += '  <rect x="300" y="20" width="26" height="240" fill="#fff" stroke="#7a5a35" stroke-width="3"/>\n'
+    for i in range(1, 6): b += f'  <line x1="300" y1="{20 + i * 40}" x2="326" y2="{20 + i * 40}" stroke="#7a5a35" stroke-width="2"/>\n'
+    b += kid("ellie", 190, 90, .85) + kid("peter", 350, 150, .7)
+    b += kid("sophie", 30, 110, .85) + kid("amir", 470, 110, .85)
+    return svg(640, 340, "Ellie und Peter stehen neben der Messlatte an der Wand, Sophie und Amir schauen zu", b)
+
+@image
+def treppe_adjektive_steigern():
+    b = text(320, 28, "kurzes Wort", 20)
+    b += stairs(80, 190, ["tall", "taller", "the tallest"], w=160, step=30)
+    b += text(320, 238, "langes Wort", 20)
+    b += stairs(5, 400, ["interesting", "more interesting", "the most interesting"], w=210, step=30).replace('font-size="22"', 'font-size="17"')
+    return svg(640, 420, "Zwei Treppen mit drei Stufen: tall, taller, the tallest und interesting, more interesting, the most interesting", b)
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)
     for n in names:

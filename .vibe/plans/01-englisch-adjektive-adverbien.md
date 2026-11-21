@@ -215,10 +215,11 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Musterseite kapitel 1 `adjektive`: Kapitel `beschreiben-und-vergleichen` mit `chapter.yaml` und der Seite `adjektive` (einstieg, neu, uebung, anwenden, weiter), Bilder `szene-adjektive` und `anhaenger-adjektive`, sechs Audiosätze (Diktat, Nachsprechen); zeigt Anhänger am Nomen und nach be.
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-- [ ] Seite `das-brauchst-du` (Recap `englisch/to-be`, ohne Übung, mit leerer Anhängerleiste und leerer Treppe) und Tabelle `Klassenzimmer-Poster · Anhänger und Treppe`.
+      Creator: Ja, die anderen fünf Seiten dürfen nach diesem Muster folgen. Auflagen: has got/have got nur einmal in der Wörter-Tabelle, echte Lernfehler statt Unwörter als Distraktoren mit eigener Rückmeldung, lernapps check grün vor dem Push.
+- [x] Seite `das-brauchst-du` (Recap `englisch/to-be`, ohne Übung, mit leerer Anhängerleiste und leerer Treppe) und Tabelle `Klassenzimmer-Poster · Anhänger und Treppe`.
 - [ ] Seite `adjektive-steigern` mit Treppenbild (kurz, lang, unregelmäßig), Merke-Kasten für Rechtschreibung, Übungen, sechs Audiosätze.
 - [ ] Seite `vergleiche` (than, as … as, not as … as), Kapitel-Rückblick, Selbsteinschätzung des Kapitels, sechs Audiosätze.
 - [ ] Kapitel `wie-jemand-etwas-tut` mit `chapter.yaml` und Seite `adverbien` (-ly, y → ily, well, fast, hard), Bilder, Übungen, sechs Audiosätze.
