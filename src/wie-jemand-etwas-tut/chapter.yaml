@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wie jemand etwas tut
+summary: In der Ausstellung zeigen die Kinder, wie sie etwas tun. Du lernst orangefarbene Adverb-Anhänger mit -ly, die Frage Adjektiv oder Adverb und die zweite Seite der Treppe für Handlungen.
+pages: [adverbien]

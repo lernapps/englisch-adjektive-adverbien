@@ -109,6 +109,26 @@ def vergleiche_diagramm():
     b += text(480, 120, "Unterschied: than", 20, "start") + text(480, 290, "gleich: as … as", 20, "start")
     return svg(640, 330, "Oben ein großes Haus und ein kleines Haus mit bigger than, unten zwei gleich große Häuser mit as big as", b)
 
+@image
+def szene_adverbien():
+    b = wall()
+    # easel with a drawing for Amir, a running line for Peter
+    b += '  <g stroke="#333" stroke-width="3"><line x1="120" y1="262" x2="150" y2="120"/><line x1="220" y1="262" x2="190" y2="120"/><rect x="110" y="40" width="120" height="90" fill="#fff"/></g>\n'
+    b += '  <path d="M130 100 Q150 50 170 90 T210 80" fill="none" stroke="#2c6fd8" stroke-width="4"/>\n'
+    b += kid("amir", 235, 120, .85) + kid("sophie", 20, 110, .85) + kid("ellie", 480, 110, .85)
+    b += kid("peter", 410, 150, .7)
+    for i, y in enumerate((200, 225, 250)):
+        b += f'  <line x1="{345 - i * 6}" y1="{y}" x2="{385 - i * 6}" y2="{y}" stroke="{INK}" stroke-width="3" stroke-linecap="round"/>\n'
+    return svg(640, 340, "Amir malt vorsichtig an einer Staffelei, Peter rennt vorbei, Sophie und Ellie schauen zu", b)
+
+@image
+def anhaenger_adverbien():
+    b = card(10, 30, 90, 50, "Peter", 24) + card(110, 30, 90, 50, "runs", 24) + tag(155, 80, "quickly", ORANGE, 40, 17)
+    b += card(250, 30, 90, 50, "Peter", 24) + card(350, 30, 90, 50, "runs", 24) + tag(395, 80, "fast", ORANGE, 40, 20)
+    b += card(470, 30, 70, 50, "He", 24) + card(550, 30, 100, 50, "sings", 24) + tag(600, 80, "well", ORANGE, 40, 20)
+    b += text(155, 205, "quick + ly", 20) + text(395, 205, "bleibt gleich", 20) + text(580, 205, "good wird well", 20)
+    return svg(680, 230, "Drei Kartenpaare mit orangefarbenem Anhänger am Verb: runs quickly, runs fast und sings well", b)
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)
     for n in names:

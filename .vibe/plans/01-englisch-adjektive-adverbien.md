@@ -220,8 +220,8 @@ page, which a link. -->
       change: change the pattern first.
       Creator: Ja, die anderen fünf Seiten dürfen nach diesem Muster folgen. Auflagen: has got/have got nur einmal in der Wörter-Tabelle, echte Lernfehler statt Unwörter als Distraktoren mit eigener Rückmeldung, lernapps check grün vor dem Push.
 - [x] Seite `das-brauchst-du` (Recap `englisch/to-be`, ohne Übung, mit leerer Anhängerleiste und leerer Treppe) und Tabelle `Klassenzimmer-Poster · Anhänger und Treppe`.
-- [ ] Seite `adjektive-steigern` mit Treppenbild (kurz, lang, unregelmäßig), Merke-Kasten für Rechtschreibung, Übungen, sechs Audiosätze.
-- [ ] Seite `vergleiche` (than, as … as, not as … as), Kapitel-Rückblick, Selbsteinschätzung des Kapitels, sechs Audiosätze.
+- [x] Seite `adjektive-steigern` mit Treppenbild (kurz, lang, unregelmäßig), Merke-Kasten für Rechtschreibung, Übungen, sechs Audiosätze.
+- [x] Seite `vergleiche` (than, as … as, not as … as), Kapitel-Rückblick, Selbsteinschätzung des Kapitels, sechs Audiosätze.
 - [ ] Kapitel `wie-jemand-etwas-tut` mit `chapter.yaml` und Seite `adverbien` (-ly, y → ily, well, fast, hard), Bilder, Übungen, sechs Audiosätze.
 - [ ] Seite `adjektiv-oder-adverb` (Frage Ding oder Handlung, nach be, good ↔ well), Übungen, sechs Audiosätze.
 - [ ] Seite `adverbien-steigern` (zweite Seite der Treppe, Rückblick beider Treppen), Kapitel-Rückblick, Selbsteinschätzung, sechs Audiosätze.
