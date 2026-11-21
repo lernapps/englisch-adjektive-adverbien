@@ -180,6 +180,8 @@ Schulkalender · Rückblick Kapitel 1:
      - The game is so difficult as the test.: Im Unterricht nimmst du as … as für „so … wie“.
 3. Der Kuchen ist nicht so billig wie die Pizza. → The cake is not as cheap as the pizza. (auch richtig: The cake isn't as cheap as the pizza.; The cake is not so cheap as the pizza.)
      - The cake is not as cheaper as the pizza.: Bei as … as steht die Grundform cheap, nicht cheaper.
+     - The cake is not as cheap than the pizza.: Bei not as … as steht zum Schluss as, nicht than.
+     - The cake is not as cheap then the pizza.: then heißt „dann“. Bei not as … as steht zum Schluss as.
 - Tipp der App: Suche zuerst das Wort für verschieden, gleich oder weniger.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#vergleiche-bilden](../?via=tutor#vergleiche-bilden)

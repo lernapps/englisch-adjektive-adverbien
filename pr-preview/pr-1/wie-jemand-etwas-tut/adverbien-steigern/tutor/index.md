@@ -69,7 +69,7 @@ Klassenzimmer-Poster · Die Treppe der Adverbien:
 
 **Merke: Merke**
 
-Wie bei den Adjektiven: **kurz** gibt **-er** und **-est**, **-ly** gibt **more** und **most**. Zwei Handlungen vergleichst du mit **than**: Peter runs **faster than** Amir. Vor der Höchststufe darfst du bei Adverbien das the weglassen (Ellie plays best). **early** endet auf -ly, ist aber kurz: earlier, the earliest.
+Wie bei den Adjektiven: **kurz** gibt **-er** und **-est**, **-ly** gibt **more** und **most**. Zwei Handlungen vergleichst du mit **than**: Peter runs **faster than** Amir. Vor der Höchststufe darfst du bei Adverbien das the weglassen (Sophie sings best). **early** endet auf -ly, ist aber kurz und steigt wie fast.
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
@@ -154,9 +154,9 @@ Schulkalender · Rückblick Kapitel 2:
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter rennt schneller als Amir. → Peter runs faster than Amir.
-     - Peter runs more fast than Amir.: fast ist kurz. Es bekommt -er, nicht more.
-     - Peter runs fastest than Amir.: Nach than steht die zweite Stufe, also faster.
+1. Amir rennt schneller als Ellie. → Amir runs faster than Ellie.
+     - Amir runs more fast than Ellie.: fast ist kurz. Es bekommt -er, nicht more.
+     - Amir runs fastest than Ellie.: Nach than steht die zweite Stufe, also faster.
 2. Ellie malt vorsichtiger als Peter. → Ellie draws more carefully than Peter.
      - Ellie draws carefullier than Peter.: carefully ist lang. Lange Adverbien bekommen more davor.
      - Ellie draws more careful than Peter.: Das Wort sagt, wie Ellie malt. Es braucht -ly.
@@ -184,9 +184,12 @@ Schulkalender · Rückblick Kapitel 2:
      - Sophie speaks more loud than Ellie.: Das Wort sagt, wie Sophie spricht. Es braucht -ly.
 3. Ellie spielt am besten. → Ellie plays the best. (auch richtig: Ellie plays best.)
      - Ellie plays goodest.: well hat eine eigene Treppe. Die Höchststufe ist best.
+     - Ellie plays the goodest.: goodest gibt es nicht. Auf der Treppe von well steht best.
+     - Ellie plays most well.: most brauchst du bei Wörtern auf -ly. well hat die eigene Stufe best.
 4. Peter spielt früher als Amir. → Peter plays earlier than Amir.
      - Peter plays more early than Amir.: early ist kurz. Es bekommt -er, und aus y wird i.
      - Peter plays earlyer than Amir.: Aus y wird i, bevor -er kommt.
+     - Peter plays earlier then Amir.: Für „als“ brauchst du than, nicht then.
 - Tipp der App: Prüfe, ob das Wort kurz ist, auf -ly endet oder eine Sonderform hat.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#adverbien-steigern-bilden](../?via=tutor#adverbien-steigern-bilden)
@@ -197,9 +200,10 @@ Schulkalender · Rückblick Kapitel 2:
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter runs more fast than Amir. → Peter runs faster than Amir. (auch richtig: Peter runs more quickly than Amir.)
-     - Peter runs more fast than Amir.: fast ist kurz. Welche Endung braucht es?
+1. Amir runs more fast than Ellie. → Amir runs faster than Ellie. (auch richtig: Amir runs more quickly than Ellie.)
+     - Amir runs more fast than Ellie.: fast ist kurz. Welche Endung braucht es?
 2. Ellie sings gooder than Amir. → Ellie sings better than Amir.
+     - Ellie sings more well than Amir.: more brauchst du bei Wörtern auf -ly. well hat die eigene Stufe better.
      - Ellie sings gooder than Amir.: Für Handlungen gibt es eine eigene Treppe. Schau nach, wie well steigt.
 - Tipp der App: Prüfe die Treppe.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.

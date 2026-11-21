@@ -129,7 +129,7 @@ Mr Hill lobt die Kinder. Ihm fällt auf, dass manche Wörter fast gleich aussehe
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ slowly – Ein Wort, das sagt, wie jemand etwas tut, bekommt -ly. Aus slow wird slowly.
   - ✗ slow – slow beschreibt ein Ding oder eine Person, zum Beispiel a slow boy. Hier geht es um das Malen.
-  - ✗ slowy – Dir fehlt das l. Das Ende ist -ly.
+  - ✗ more slow – more brauchst du, wenn du etwas steigerst. Hier geht es um das Wort für „wie“.
 - Lösung: slowly
 - Erklärung: Das Wort für „wie“ endet meistens auf -ly.
 - Link: [../?via=tutor#adverbien-start](../?via=tutor#adverbien-start)
@@ -174,6 +174,7 @@ Mr Hill lobt die Kinder. Ihm fällt auf, dass manche Wörter fast gleich aussehe
 1. Peter · play · late → Peter plays late.
      - Peter plays lately.: lately heißt „in letzter Zeit“. Für „spät“ bleibt late gleich.
      - Peter plays latly.: late bekommt kein -ly, es bleibt gleich.
+     - Peter plays later.: later heißt „später“. Für „spät“ bleibt late gleich.
      - Peter run fast.: He, she, it – das s muss mit. Peter ist „er“.
 2. Amir · play · good · football → Amir plays football well.
      - Amir plays football good.: good beschreibt ein Ding. Wenn jemand etwas gut tut, heißt das Wort well.
