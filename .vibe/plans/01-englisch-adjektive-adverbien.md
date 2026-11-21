@@ -35,6 +35,7 @@ Kinder der Klassen 5-6 (erstes und zweites Lernjahr Englisch) beschreiben und ve
 - Leitbild: Mr Hill lässt die Klasse für den Schulflur die Ausstellung „Our Millbrook“ beschriften (Orte, Dinge und Leute der Kleinstadt). Es gibt Anhänger (Adjektiv-Anhänger blau am Nomen, Adverb-Anhänger orange mit -ly am Verb) und eine Steigerungstreppe (Grundform, Steigerung, Höchststufe). Nicht „Sports Day“: die Szene kommt schon in #471 vor (Hinweis des Orchestrators, 2026-11-21). Figuren bleiben wie in #470.
 - Audio: Stimme `bf_emma`, nur ganze Sätze, Diktat und Nachsprechen je Seite (Konventionen §5).
 - Keine Komponente, keine Datendateien (wie #472) (guess).
+- `scope` in `src/app.yaml` und auf jeder Seite: ja, weil die App `open-task` enthält (der Tutor beurteilt offene Antworten nach dem Scope).
 
 ## Notes
 
@@ -203,14 +204,14 @@ page, which a link. -->
       `npx --no -- lernapps create --archetype explainer`.
 - [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Musterseite kapitel 1 `adjektive`: Kapitel `beschreiben-und-vergleichen` mit `chapter.yaml` und der Seite `adjektive` (einstieg, neu, uebung, anwenden, weiter), Bilder `szene-adjektive` und `anhaenger-adjektive`, sechs Audiosätze (Diktat, Nachsprechen); zeigt Anhänger am Nomen und nach be.
+- [x] Musterseite kapitel 1 `adjektive`: Kapitel `beschreiben-und-vergleichen` mit `chapter.yaml` und der Seite `adjektive` (einstieg, neu, uebung, anwenden, weiter), Bilder `szene-adjektive` und `anhaenger-adjektive`, sechs Audiosätze (Diktat, Nachsprechen); zeigt Anhänger am Nomen und nach be.
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
