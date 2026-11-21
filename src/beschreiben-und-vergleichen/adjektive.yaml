@@ -79,7 +79,7 @@ blocks:
           - [jacket, Jacke]
           - [bike, Fahrrad]
           - [table, Tisch]
-          - ["has got / have got", "hat / haben (bei he, she, it: has got)"]
+          - [this is, das ist]
           - [a, ein / eine]
   - type: section
     id: uebung
@@ -92,29 +92,45 @@ blocks:
         task: Wähle die richtige Stelle für das Adjektiv.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Peter hat ein kleines Kaninchen.
-            target: Peter has got a [small rabbit].
-            distractors: [[rabbit small, smalls rabbit]]
-          - cue: Amir hat eine neue Jacke.
-            target: Amir has got a [new jacket].
-            distractors: [[jacket new, news jacket]]
+          - cue: Das ist ein kleines Kaninchen.
+            target: This is a [small rabbit].
+            distractors: [[rabbit small, small rabbits]]
+            mistakes:
+              - answer: This is a rabbit small.
+                message: Der Anhänger hängt vor dem Nomen, nicht dahinter.
+          - cue: Das ist eine neue Jacke.
+            target: This is a [new jacket].
+            distractors: [[jacket new, jackets new]]
+            mistakes:
+              - answer: This is a jacket new.
+                message: Der Anhänger hängt vor dem Nomen, nicht dahinter.
           - cue: Das Haus ist alt.
             target: The house [is old].
             distractors: [[old, are old]]
+            mistakes:
+              - answer: The house old.
+                message: Nach dem Nomen kommt erst be. Dir fehlt is.
+              - answer: The house are old.
+                message: Zu house (ein Haus) gehört is, nicht are.
           - cue: Die Fahrräder sind neu.
             target: The bikes [are new].
-            distractors: [[new, are news]]
+            distractors: [[new, is new]]
+            mistakes:
+              - answer: The bikes new.
+                message: Nach dem Nomen kommt erst be. Dir fehlt are.
+              - answer: The bikes is new.
+                message: Zu bikes (mehrere Fahrräder) gehört are, nicht is.
         hint: Schau auf das Nomen und auf be im Satz. Wo hängt der blaue Anhänger?
       - type: ordering
         id: adjektive-reihe
         text: Bringe die Teile in die richtige Reihenfolge, sodass ein Satz entsteht.
         items:
-          - Sophie
-          - has got
+          - This
+          - is
           - a
           - big
           - garden
-        explanation: Der Anhänger big hängt zwischen a und garden, also vor dem Nomen.
+        explanation: Der Anhänger big hängt zwischen a und garden, also vor dem Nomen. Wäre der Anhänger hinter garden (a garden big), stünde er am falschen Platz.
         links:
           - title: Lernlandkarte Englisch · Stellung der Adjektive
             url: https://lernapps.net/apps/map/englisch/c/adjektive/
@@ -132,15 +148,13 @@ blocks:
                 message: Nach dem Nomen kommt erst be, dann der Anhänger. Dir fehlt is.
               - answer: The garden are big.
                 message: Zu garden (ein Garten) gehört is, nicht are.
-          - cue: Peter · have got · a · hamster · small
-            target: Peter has got a small hamster.
-            accepted: [Peter has a small hamster., Peter's got a small hamster.]
+          - cue: this · be · a · hamster · small
+            target: This is a small hamster.
+            accepted: [This's a small hamster.]
             mistakes:
-              - answer: Peter have got a small hamster.
-                message: Zu Peter (he) gehört has got, nicht have got.
-              - answer: Peter has got a hamster small.
+              - answer: This is a hamster small.
                 message: Der Anhänger hängt vor dem Nomen, nicht dahinter.
-              - answer: Peter has got a smalls hamster.
+              - answer: This is a smalls hamster.
                 message: Der Anhänger bekommt nie ein -s.
           - cue: they · be · two · tall · trees
             target: They are two tall trees.
@@ -157,13 +171,13 @@ blocks:
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Ellie has got a jacket new.
-            target: Ellie has got a new jacket.
+          - cue: This is a jacket new.
+            target: This is a new jacket.
             mistakes:
-              - answer: Ellie has got a jacket new.
+              - answer: This is a jacket new.
                 message: Noch nicht ganz. Wo hängt der blaue Anhänger, wenn ein Nomen da ist?
-              - answer: Ellie has got a news jacket.
-                message: Der Anhänger new bekommt nie ein -s.
+              - answer: This is a jackets new.
+                message: Das Nomen und der Anhänger sind vertauscht. Der Anhänger hängt vor jacket.
           - cue: The houses are olds.
             target: The houses are old.
             mistakes:
@@ -183,11 +197,10 @@ blocks:
                 message: Nach dem Nomen kommt erst be. Dir fehlt is.
               - answer: The house are new.
                 message: Zu house (ein Haus) gehört is, nicht are.
-          - source: Peter hat ein großes Kaninchen.
-            target: Peter has got a big rabbit.
-            accepted: [Peter has a big rabbit., Peter's got a big rabbit.]
+          - source: Das ist ein großes Kaninchen.
+            target: This is a big rabbit.
             mistakes:
-              - answer: Peter has got a rabbit big.
+              - answer: This is a rabbit big.
                 message: Der Anhänger hängt vor dem Nomen.
           - source: Die Bäume sind alt.
             target: The trees are old.
@@ -202,10 +215,10 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: peter-has-got-a-small-rabbit.mp3
-            target: Peter has got a small rabbit.
-          - audio: ellie-has-got-a-new-jacket.mp3
-            target: Ellie has got a new jacket.
+          - audio: this-is-a-small-rabbit.mp3
+            target: This is a small rabbit.
+          - audio: this-is-a-new-jacket.mp3
+            target: This is a new jacket.
           - audio: the-garden-is-big.mp3
             target: The garden is big.
   - type: section
@@ -216,12 +229,12 @@ blocks:
         id: adjektive-nachsprechen
         language: en
         items:
-          - audio: amir-has-got-a-small-hamster.mp3
-            text: Amir has got a small hamster.
+          - audio: this-is-a-big-hamster.mp3
+            text: This is a big hamster.
           - audio: the-trees-are-tall.mp3
             text: The trees are tall.
-          - audio: mr-hill-has-got-a-big-garden.mp3
-            text: Mr Hill has got a big garden.
+          - audio: the-old-garden-is-big.mp3
+            text: The old garden is big.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: adjektive-karte
@@ -231,10 +244,10 @@ blocks:
             source: /beschreiben-und-vergleichen/adjektive/#neu
           - text: Ein Satz hat den Adjektiv-Anhänger nach is oder are (zum Beispiel The garden is big.).
             source: /beschreiben-und-vergleichen/adjektive/#neu
-          - text: Es sind ganze Sätze mit is, are oder has got und einem Punkt am Ende.
+          - text: Es sind ganze Sätze mit is oder are und einem Punkt am Ende.
             kind: form
         solution: |
-          Mr Hill has got a small house. The garden is big.
+          This is a small house. The garden is big.
   - type: section
     id: weiter
     title: Wie es weitergeht

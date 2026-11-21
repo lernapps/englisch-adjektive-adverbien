@@ -1,8 +1,8 @@
 {
-  "src/audio/peter-has-got-a-small-rabbit.mp3": "Peter has got a small rabbit.",
-  "src/audio/ellie-has-got-a-new-jacket.mp3": "Ellie has got a new jacket.",
+  "src/audio/this-is-a-small-rabbit.mp3": "This is a small rabbit.",
+  "src/audio/this-is-a-new-jacket.mp3": "This is a new jacket.",
   "src/audio/the-garden-is-big.mp3": "The garden is big.",
-  "src/audio/amir-has-got-a-small-hamster.mp3": "Amir has got a small hamster.",
+  "src/audio/this-is-a-big-hamster.mp3": "This is a big hamster.",
   "src/audio/the-trees-are-tall.mp3": "The trees are tall.",
-  "src/audio/mr-hill-has-got-a-big-garden.mp3": "Mr Hill has got a big garden."
+  "src/audio/the-old-garden-is-big.mp3": "The old garden is big."
 }

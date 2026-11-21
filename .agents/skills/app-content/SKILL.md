@@ -90,3 +90,8 @@ Aus #470 und #472 übernommen:
 - Der Merke-Kasten nennt andere Wörter als die Übungen, sonst schreiben die Kinder nur ab.
 - Als Auswahl nur echte Lernerfehler (more bigger, taller then), keine Unwörter.
 - Eine Übung für die Selbsteinschätzung nennt in Hinweis und Meldung weder „Spalte“ noch „Poster“ noch „oben“.
+Aus dem Checkpoint „Musterseite“ dieser App:
+- Fremde Bausteine (has got/have got, Kurzformen) nicht in die Items einer Seite mischen: höchstens eine Erwähnung in der Wörter-Tabelle, die Items nehmen be-Sätze und Nomen mit Adjektiv.
+- Als Distraktor im `choice` nur echte Lernerfehler (a house big, The house old, are old), keine Unwörter (news); jeder Distraktor-Satz steht als `mistakes`-Eintrag mit eigener Meldung.
+- Die Regel steht einmal im Merke-Kasten; Hinweise der Übungen verweisen auf das Bild, sie wiederholen die Regel nicht.
+- Der Pluralcue nennt die Mehrzahl (`trees`), sonst muss das Kind raten; big und tall sind nie beide richtig für dieselbe Aufgabe (hoch für Bäume nur tall).
