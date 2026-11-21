@@ -112,7 +112,7 @@ Schulkalender · Rückblick Kapitel 2:
 - wie jemand etwas tut | orangefarbener Anhänger am Verb, meist -ly
 - ein Ding oder eine Person | blauer Anhänger
 - eine Handlung vergleichen | Steigerung + than
-- das Beste nennen | the + Höchststufe
+- das Beste nennen | the + Höchststufe, bei Adverbien darf the fehlen
 
 ### Aufgabe adverbien-steigern-start
 
@@ -161,9 +161,10 @@ Schulkalender · Rückblick Kapitel 2:
      - Ellie draws carefullier than Peter.: carefully ist lang. Lange Adverbien bekommen more davor.
      - Ellie draws more careful than Peter.: Das Wort sagt, wie Ellie malt. Es braucht -ly.
 3. Amir singt besser als Sophie. → Amir sings better than Sophie.
-     - Amir sings gooder than Sophie.: well hat eine eigene Treppe. Die zweite Stufe ist better.
-     - Amir sings more well than Sophie.: well hat eine eigene Treppe. Die zweite Stufe ist better.
+     - Amir sings gooder than Sophie.: gooder gibt es nicht. Auf der Treppe von well steht better.
+     - Amir sings more well than Sophie.: more brauchst du bei Wörtern auf -ly. well hat die eigene Stufe better.
 4. Sophie liest leiser als Amir. → Sophie reads more quietly than Amir.
+     - Sophie reads more quiet than Amir.: Das Wort sagt, wie Sophie liest. Es braucht -ly.
      - Sophie reads quietlier than Amir.: quietly ist lang. Es bekommt more davor.
      - Sophie reads most quietly than Amir.: Nach than steht die zweite Stufe, also more.
 - Tipp der App: Suche das Wort auf der Treppe. Zwischen zwei Handlungen steht than.

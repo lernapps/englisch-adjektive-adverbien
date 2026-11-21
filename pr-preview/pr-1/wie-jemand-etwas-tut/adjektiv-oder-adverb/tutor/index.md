@@ -61,13 +61,13 @@ Bild: Links ein blauer Anhänger an einem Nomen, darüber die Frage Ding oder Pe
 
 Klassenzimmer-Poster · Blau oder orange:
 - Frage | Anhänger | Beispiel
-- Ding oder Person | blau | Peter is a quick boy.
-- nach be | blau | The boys are quiet.
-- Handlung | orange | Peter runs quickly.
+- Ding oder Person | blau | Mr Hill is a kind teacher.
+- nach be | blau | The cake is nice.
+- Handlung | orange | Mr Hill speaks slowly.
 
 **Merke: Merke**
 
-Nach **be** steht bei Wörtern wie quiet, loud und careful das Adjektiv ohne -ly: The boys are **quiet**, nicht The boys are quietly. Ein Sonderfall ist **good**: a **good** friend, aber Ellie plays **well**.
+Nach **be** steht bei Wörtern wie nice, kind und slow das Adjektiv ohne -ly: The cake is **nice**, nicht The cake is nicely. Ein Sonderfall ist **good**: Mr Hill is a **good** teacher, aber he speaks **well**.
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
@@ -76,6 +76,10 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - girls | Mädchen
 - quick | schnell
 - careful | vorsichtig
+- teacher | Lehrer
+- kind | freundlich
+- nice | nett / schön
+- cake | Kuchen
 - loud | laut
 - quiet | leise
 - easy | leicht
@@ -111,7 +115,7 @@ Beide Anhänger hängen jetzt am richtigen Platz. Peter ruft: „Ich laufe schne
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ careful – boy ist ein Nomen, also ein Ding oder eine Person. Dafür steht das Adjektiv.
   - ✗ carefully – carefully sagt, wie jemand etwas tut. Hier beschreibt das Wort den Jungen.
-  - ✗ carefuly – Dir fehlt ein l, aber das Wort wäre ohnehin falsch, weil boy eine Person ist.
+  - ✗ carefuller – Hier steht keine Steigerung. Gefragt ist nur das Wort, das den Jungen beschreibt.
 - Lösung: careful
 - Erklärung: Vor einem Nomen steht das Adjektiv, der blaue Anhänger.
 - Link: [../?via=tutor#adjektiv-oder-adverb-start](../?via=tutor#adjektiv-oder-adverb-start)

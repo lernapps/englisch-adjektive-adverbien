@@ -67,10 +67,11 @@ Klassenzimmer-Poster · Der Adverb-Anhänger:
 - fast | fast
 - hard | hard
 - good | well
+- late | late
 
 **Merke: Merke**
 
-Meist gilt: Adjektiv + **-ly** (quick – quickly). Bei **-y** wird aus y ein i (happy – happily). **fast** und **hard** bleiben gleich, **good** wird **well**. Achtung: **hardly** heißt „kaum“, nicht „hart“.
+Meist gilt: Adjektiv + **-ly** (quick – quickly). Bei **-y** wird aus y ein i (happy – happily). **fast**, **hard** und **late** bleiben gleich, **good** wird **well**. Achtung: **hardly** heißt „kaum“, nicht „hart“.
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
@@ -89,6 +90,7 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - football | Fußball
 - book | Buch
 - fast | schnell
+- late | spät
 - hard | hart / schwer arbeiten
 - hardly | kaum
 - happy | froh
@@ -158,9 +160,9 @@ Mr Hill lobt die Kinder. Ihm fällt auf, dass manche Wörter fast gleich aussehe
 
 - Aufgabe: Welches Adverb gehört zu welchem Adjektiv?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: quiet – quietly; easy – easily; fast – fast; hard – hard; good – well
-- Erklärung: Meist kommt -ly an das Wort, bei easy wird aus y ein i. fast und hard bleiben gleich, good wird well.
-- Tipp der App: Prüfe zuerst die Sonderfälle fast, hard und good. Sie haben kein -ly.
+- Lösung: quiet – quietly; easy – easily; late – late; hard – hard; good – well
+- Erklärung: Meist kommt -ly an das Wort, bei easy wird aus y ein i. late und hard bleiben gleich, good wird well.
+- Tipp der App: Prüfe zuerst die Sonderfälle late, hard und good. Sie haben kein -ly.
 - Link: [../?via=tutor#adverbien-paare](../?via=tutor#adverbien-paare)
 
 ### Aufgabe adverbien-bilden
@@ -169,8 +171,9 @@ Mr Hill lobt die Kinder. Ihm fällt auf, dass manche Wörter fast gleich aussehe
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter · run · fast → Peter runs fast.
-     - Peter runs fastly.: fast bleibt gleich, es bekommt kein -ly.
+1. Peter · play · late → Peter plays late.
+     - Peter plays lately.: lately heißt „in letzter Zeit“. Für „spät“ bleibt late gleich.
+     - Peter plays latly.: late bekommt kein -ly, es bleibt gleich.
      - Peter run fast.: He, she, it – das s muss mit. Peter ist „er“.
 2. Amir · play · good · football → Amir plays football well.
      - Amir plays football good.: good beschreibt ein Ding. Wenn jemand etwas gut tut, heißt das Wort well.

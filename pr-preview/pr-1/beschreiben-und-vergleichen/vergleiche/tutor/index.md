@@ -145,7 +145,7 @@ Schulkalender · Rückblick Kapitel 1:
      - The new bike is as expensive than the old bike.: Bei „so … wie“ stehen zwei as. than gehört nur nach der Steigerung.
 3. Das Spiel ist nicht so leicht wie der Test. → The game is not as easy as the test.
      - The game is not as easy than the test.: Bei not as … as stehen zwei as.
-     - The game is not as easy so the test.: so gehört nicht in die Reihe. Es heißt not as … as.
+     - The game is not as easy then the test.: then heißt „dann“. Bei not as … as steht zum Schluss as.
 - Tipp der App: Verschieden gibt than, gleich gibt as … as.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#vergleiche-wahl](../?via=tutor#vergleiche-wahl)

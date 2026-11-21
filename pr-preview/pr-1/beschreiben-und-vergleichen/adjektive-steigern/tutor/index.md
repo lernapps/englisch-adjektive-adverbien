@@ -172,8 +172,8 @@ An der Wand hängt jetzt die Treppe. Mr Hill hängt zwei Fotos von Häusern dane
      - This is the funnyest film.: Bei -y wird das y zu i, bevor -est kommt.
      - This is the most funny film.: funny hat zwei Silben und endet auf -y. Es steigt mit -est.
 4. Das ist die beste Pizza. → This is the best pizza.
-     - This is the goodest pizza.: good hat eine eigene Treppe. Die Höchststufe ist best.
-     - This is the most good pizza.: good hat eine eigene Treppe. Die Höchststufe ist best.
+     - This is the goodest pizza.: goodest gibt es nicht. Auf der Treppe von good steht best.
+     - This is the most good pizza.: most brauchst du bei langen Wörtern. good hat die eigene Stufe best.
 - Tipp der App: Zähle die Silben. Suche dann das Wort auf der Treppe. Für die Körpergröße von Menschen steht short.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#adjektive-steigern-hoechst](../?via=tutor#adjektive-steigern-hoechst)
