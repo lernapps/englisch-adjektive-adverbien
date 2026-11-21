@@ -43,16 +43,16 @@ def image(f):
 @image
 def szene_adjektive():
     b = wall()
-    b += frame(60, 20, 190, 140, tree(155, 55, 1.1)) + frame(290, 20, 190, 140, house(385, 75, 1.0))
-    b += text(155, 152, "tree", 22) + text(385, 152, "house", 22)
-    b += kid("sophie", 500, 100, .85) + kid("ellie", 40, 150, .75) + kid("amir", 140, 150, .75) + kid("peter", 300, 180, .6)
+    b += frame(60, 15, 190, 115, tree(155, 38, .85)) + frame(290, 15, 190, 115, house(385, 62, .85))
+    b += text(155, 160, "tree", 26) + text(385, 160, "house", 26)
+    b += kid("sophie", 510, 110, .85) + kid("ellie", 40, 165, .7) + kid("amir", 140, 165, .7) + kid("peter", 300, 185, .55)
     return svg(640, 340, "Vier Kinder hängen Karten an die Ausstellung im Flur der Millbrook School", b)
 
 @image
 def anhaenger_adjektive():
     b = card(20, 30, 70, 50, "a", 26) + card(100, 30, 130, 50, "house", 26) + tag(95, 80, "big")
-    b += card(260, 30, 130, 50, "The house", 24) + card(400, 30, 60, 50, "is", 26) + tag(500, 55, "big")
-    b += text(95, 225, "vor dem Nomen", 20) + text(450, 225, "nach is", 20)
+    b += card(260, 30, 130, 50, "The house", 24) + card(400, 30, 60, 50, "is", 26) + tag(462, 80, "big")
+    b += text(95, 225, "vor dem Nomen", 20) + text(430, 225, "nach is", 20)
     return svg(540, 250, "Ein blauer Anhänger hängt vor dem Nomen und nach is", b)
 
 def stairs(x0, y0, labels, colour=GREEN, w=130, step=40):
@@ -70,7 +70,7 @@ def anhaenger_leer():
     b += tag(290, 20, "orange", ORANGE, 34, 18) + text(290, 140, "Adverb-Anhänger", 20)
     b += stairs(400, 150, ["", "", ""], w=70, step=30)
     b += text(505, 190, "Treppe", 20)
-    return svg(640, 200, "Ein blauer und ein oranger Anhänger und eine leere Treppe mit drei Stufen", b)
+    return svg(640, 200, "Ein blauer und ein orangefarbener Anhänger und eine leere Treppe mit drei Stufen", b)
 
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)

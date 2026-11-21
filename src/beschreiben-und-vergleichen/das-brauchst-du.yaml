@@ -26,12 +26,12 @@ blocks:
     blocks:
       - type: text
         text: |
-          **Sophie** (11) kommt aus Deutschland und wohnt bei der Familie Parker. **Ellie Parker** (11) ist ihre Gastschwester, **Peter** (9) Ellies kleiner Bruder. **Amir** (11) ist ein Freund. **Mr Hill** ist der Englischlehrer. Er baut im Flur der Millbrook School die Ausstellung „Our Millbrook“ auf.
+          **Sophie** (11) kommt aus Deutschland und wohnt bei der Familie Parker. **Ellie Parker** (11) ist ihre Gastschwester, **Peter** (9) ist Ellies kleiner Bruder. **Amir** (11) ist ein Freund. **Mr Hill** ist der Englischlehrer. Er baut im Flur der Millbrook School die Ausstellung „Our Millbrook“ auf.
       - type: text
-        text: "Zum Beschriften gibt Mr Hill den Kindern zwei Sorten Anhänger. Die **blauen** beschreiben Dinge. Die **orangen** sagen, wie jemand etwas tut. Dazu kommt eine **Treppe**, auf der du Wörter steigerst. Auf den nächsten Seiten füllst du sie."
+        text: "Zum Beschriften gibt Mr Hill den Kindern zwei Sorten Anhänger. Die **blauen** beschreiben Dinge und Personen. Die **orangefarbenen** sagen, wie jemand etwas tut. Dazu kommt eine **Treppe**, auf der du Wörter steigerst (zum Beispiel big – bigger). Auf den nächsten Seiten füllst du sie."
       - type: figure
         image: images/anhaenger-leer.svg
-        alt: Ein blauer Anhänger, ein oranger Anhänger und eine leere Treppe mit drei Stufen.
+        alt: Ein blauer Anhänger, ein orangefarbener Anhänger und eine leere Treppe mit drei Stufen.
         caption: Zwei Sorten Anhänger und die leere Treppe.
         source: eigene Zeichnung
         licence: CC-BY-4.0

@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: {}
+failedChecks: { checks-pass: 1 }
 ---
 
 # Plan: englisch-adjektive-adverbien, first version
@@ -64,6 +64,8 @@ Kinder der Klassen 5-6 (erstes und zweites Lernjahr Englisch) beschreiben und ve
   - `adjektiv-oder-adverb`: Sie fragen „Ding oder Handlung?“ und entscheiden mit der Frage; nach be steht der Adjektiv-Anhänger. Fängt: She is carefully, a carefully driver, She drives careful, He is good at running – He runs good.
   - `adverbien-steigern`: Sie legen die Treppe für Handlungen und leiten ab: fast – faster, aber carefully – more carefully; well – better. Fängt: more fast, carefullier, She runs fastest than, better statt well in der Grundform.
 - Quellen (nur Fakten, geöffnet 2026-11-21): Wikipedia „Degrees of comparison of adjectives and adverbs“ (-er/-est bei einer Silbe, more/most bei drei und mehr, unregelmäßige Formen, than und as … as, Doppelsteigerung als Fehler) und „Adverb“ (Adverbien der Art und Weise oft mit -ly, flat adverbs wie fast, Steigerung der Adverbien mit more/most, well – better – best). Nicht geprüft: Klexikon, deutsche Wikipedia. Beispielsätze sind eigene aus dem Alltag der Figuren; Material der Ersteller:in: keines. Vorbild: `lernapps/englisch-zeiten` (#472, Branch `work`): Inhaltsführer, Seitenaufbau, Aufgabenmuster, Audio-Skript.
+- Lerner-Check der Musterseite `adjektive` (Sub-Agent, Kind Klasse 5, 1280 und 360 px, 2026-11-21): behoben: Szene (beide Fotos genannt, Beschriftungen nicht mehr auf dem Stamm), Anhänger nach is hängt am Wort, Einstiegs-Info ohne „Gedichte“, `has got / have got` in der Wörter-Tabelle erklärt, tall (Bäume) von big getrennt und die Übersetzung „Die Bäume sind alt“, Pluralcue `trees`, `punctuation: ok` gegen die irreführenden Satzzeichen-Meldungen bei richtigen Antworten, mehr `mistakes`, die Regel steht nur noch im Merke-Kasten statt dreimal (Hinweise der Übungen verweisen auf das Bild). Nicht behoben, Fehler der Vorlage (dem Orchestrator gemeldet): die Standardmeldung „Deine Fassung kann trotzdem richtig sein“ bei falschen Sätzen, die Auswahlfelder „Platz …“ bei `ordering`, das Wort „Fassung“ und die Lizenzzeile für Kinder.
+- Sprachprüfung Englisch/Deutsch der Musterseite (Sub-Agent): britisches Englisch, Regeln und Wörter-Tabelle ohne Fehler. Behoben: `accepted` für „has got“-Kurzformen und Kontraktionen, Meldung „Peter have got“, Nomen erklärt, „orangefarben“, „ist Ellies kleiner Bruder“, „sodass“.
 - Audio: Umgebung geprüft (`lernapps_audio.py preflight` ok).
 - Offene Fragen: keine.
 
