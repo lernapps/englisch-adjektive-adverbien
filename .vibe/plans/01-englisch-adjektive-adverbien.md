@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -35,6 +35,7 @@ Kinder der Klassen 5-6 (erstes und zweites Lernjahr Englisch) beschreiben und ve
 - Leitbild: Mr Hill lässt die Klasse für den Schulflur die Ausstellung „Our Millbrook“ beschriften (Orte, Dinge und Leute der Kleinstadt). Es gibt Anhänger (Adjektiv-Anhänger blau am Nomen, Adverb-Anhänger orange mit -ly am Verb) und eine Steigerungstreppe (Grundform, Steigerung, Höchststufe). Nicht „Sports Day“: die Szene kommt schon in #471 vor (Hinweis des Orchestrators, 2026-11-21). Figuren bleiben wie in #470.
 - Audio: Stimme `bf_emma`, nur ganze Sätze, Diktat und Nachsprechen je Seite (Konventionen §5).
 - Keine Komponente, keine Datendateien (wie #472) (guess).
+- Selbsteinschätzung: ja, in jedem Kapitel (`chapter.yaml`), je Seite zwei schreibende oder auswählende Übungen; die Wiederholungsseite wird nicht abgefragt.
 - `scope` in `src/app.yaml` und auf jeder Seite: ja, weil die App `open-task` enthält (der Tutor beurteilt offene Antworten nach dem Scope).
 
 ## Notes
@@ -234,7 +235,7 @@ page, which a link. -->
 - [x] Run `npx --no -- lernapps check` until it passes.
 - [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
-- [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
+- [x] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
 
 ## Commit
@@ -247,7 +248,7 @@ page, which a link. -->
 
 ### Tasks
 
-- [ ] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
+- [x] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
       decisions" why the app has none. Commit.
 - [ ] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.
