@@ -1,0 +1,256 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Die zweite Treppe: Adverbien steigern"
+description: "Peter rennt schneller als Amir. Du lernst, Adverbien zu steigern und damit Handlungen zu vergleichen."
+competencies: [adverbien-steigern]
+scope: Die Seite führt die Steigerung der Adverbien ein. Kurze Adverbien wie fast, hard, early und late steigern mit -er und -est (fast – faster – the fastest, early – earlier – the earliest). Adverbien auf -ly steigern mit more und most (carefully – more carefully – the most carefully). well und badly haben eigene Formen (well – better – the best, badly – worse – the worst). Mit than werden zwei Handlungen verglichen (Peter runs faster than Amir). Nicht hier, weil es spätere Seiten sind. Die Stellung der Adverbien im Satz und Gradadverbien.
+blocks:
+  - type: section
+    id: einstieg
+    title: Wer rennt schneller?
+    blocks:
+      - type: figure
+        image: images/szene-adverbien-steigern.svg
+        alt: Peter rennt im Flur vor Amir her. Ellie steht rechts und schaut zu.
+        caption: "Von links: Amir (Brille), Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: Die Kinder machen für die Ausstellung ein Wettrennen durch den Flur. Peter rennt, und Amir ist nur ein bisschen langsamer. Ellie sagt, wer vorn ist. Sie vergleicht keine Dinge, sondern **Handlungen**.
+      - type: single-choice
+        id: adverbien-steigern-start
+        text: "Ellie sagt: „Peter runs … than Amir.“ Welches Wort fehlt?"
+        options:
+          - text: faster
+            correct: true
+            info: fast ist ein kurzes Wort. Es steigt mit -er, auch als Adverb.
+          - text: more fast
+            correct: false
+            info: more brauchst du bei langen Wörtern. fast ist kurz.
+          - text: fastest
+            correct: false
+            info: fastest heißt „am schnellsten“. Nach than steht aber die zweite Stufe.
+        explanation: Wie bei den Adjektiven steigt ein kurzes Adverb mit -er.
+        links:
+          - title: Lernlandkarte Englisch · Steigerung der Adverbien
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-steigern/
+      - type: text
+        text: "**Das kannst du danach:** Du steigerst Adverbien und vergleichst damit, wie jemand etwas tut."
+  - type: section
+    id: neu
+    title: Die zweite Seite der Treppe
+    blocks:
+      - type: text
+        text: "Mr Hill baut eine zweite Treppe, die **Adverb-Treppe**. Sie hat dieselben drei Stufen wie die erste. Kurze Adverbien wie **fast** steigen mit **-er** und **-est**. Adverbien auf **-ly** bekommen **more** und **the most**. **well** hat eine eigene Treppe, genau wie good."
+      - type: figure
+        image: images/treppe-adverbien-steigern.svg
+        alt: Zwei orangefarbene Treppen mit je drei Stufen. Oben steht fast, faster, the fastest. Unten steht carefully, more carefully, the most carefully.
+        caption: Kurze Adverbien steigen mit -er und -est, Adverbien auf -ly mit more und most.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Die Treppe der Adverbien
+        header: [Grundform, Steigerung, Höchststufe]
+        rows:
+          - [fast, faster, the fastest]
+          - [hard, harder, the hardest]
+          - [carefully, more carefully, the most carefully]
+          - [well, better, the best]
+          - [badly, worse, the worst]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Wie bei den Adjektiven: **kurz** gibt **-er** und **-est**, **-ly** gibt **more** und **most**. Zwei Handlungen vergleichst du mit **than**: Peter runs **faster than** Amir. Bei **early** wird aus y ein i: earlier.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [slowly, langsam]
+          - [loudly, laut]
+          - [quietly, leise]
+          - [early, früh]
+          - [late, spät]
+          - [badly, schlecht]
+          - [speak, sprechen]
+          - [sing, singen]
+          - [work, arbeiten]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: adverbien-steigern-treppe
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze die Treppe für das Wort early.
+        form: { case: hint }
+        table:
+          caption: Treppe · early
+          header: [Stufe, Wort]
+          rows:
+            - [Grundform, early]
+            - [Steigerung, "[earlier]"]
+            - [Höchststufe, "[the earliest]"]
+        hint: early ist kurz und endet auf -y. Aus y wird i.
+      - type: matching
+        id: adverbien-steigern-paare
+        text: Welche Steigerung gehört zu welchem Adverb?
+        pairs:
+          - left: late
+            right: later
+          - left: loudly
+            right: more loudly
+          - left: well
+            right: better
+          - left: badly
+            right: worse
+          - left: slowly
+            right: more slowly
+        explanation: Kurze Adverbien bekommen -er. Adverbien auf -ly bekommen more. well und badly haben eigene Formen.
+        hint: Frage dich, ob das Wort kurz ist oder auf -ly endet. Prüfe dann die beiden Sonderformen.
+        links:
+          - title: Lernlandkarte Englisch · Steigerung der Adverbien
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-steigern/
+      - type: language-task
+        id: adverbien-steigern-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Steigerung.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter rennt schneller als Amir.
+            target: Peter runs [faster] than Amir.
+            distractors: [[more fast, fastest]]
+            mistakes:
+              - answer: Peter runs more fast than Amir.
+                message: fast ist kurz. Es bekommt -er, nicht more.
+              - answer: Peter runs fastest than Amir.
+                message: Nach than steht die zweite Stufe, also faster.
+          - cue: Ellie malt vorsichtiger als Peter.
+            target: Ellie draws [more carefully] than Peter.
+            distractors: [[carefullier, more careful]]
+            mistakes:
+              - answer: Ellie draws carefullier than Peter.
+                message: carefully ist lang. Lange Adverbien bekommen more davor.
+              - answer: Ellie draws more careful than Peter.
+                message: Das Wort sagt, wie Ellie malt. Es braucht -ly.
+          - cue: Amir singt besser als Sophie.
+            target: Amir sings [better] than Sophie.
+            distractors: [[gooder, more well]]
+            mistakes:
+              - answer: Amir sings gooder than Sophie.
+                message: well hat eine eigene Treppe. Die zweite Stufe ist better.
+              - answer: Amir sings more well than Sophie.
+                message: well hat eine eigene Treppe. Die zweite Stufe ist better.
+          - cue: Sophie liest leiser als Amir.
+            target: Sophie reads [more quietly] than Amir.
+            distractors: [[quietlier, most quietly]]
+            mistakes:
+              - answer: Sophie reads quietlier than Amir.
+                message: quietly ist lang. Es bekommt more davor.
+              - answer: Sophie reads most quietly than Amir.
+                message: Nach than steht die zweite Stufe, also more.
+        hint: Suche das Wort auf der Treppe. Zwischen zwei Handlungen steht than.
+      - type: language-task
+        id: adverbien-steigern-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Amir arbeitet härter als Peter.
+            target: Amir works harder than Peter.
+            mistakes:
+              - answer: Amir works more hard than Peter.
+                message: hard ist kurz. Es bekommt -er, nicht more.
+              - answer: Amir works harder then Peter.
+                message: Für „als“ brauchst du than, nicht then.
+          - source: Sophie spricht lauter als Ellie.
+            target: Sophie speaks more loudly than Ellie.
+            accepted: [Sophie speaks louder than Ellie.]
+            mistakes:
+              - answer: Sophie speaks more loud than Ellie.
+                message: Das Wort sagt, wie Sophie spricht. Es braucht -ly.
+          - source: Ellie spielt am besten.
+            target: Ellie plays (the |)best.
+            mistakes:
+              - answer: Ellie plays goodest.
+                message: well hat eine eigene Treppe. Die Höchststufe ist best.
+          - source: Peter kommt früher als Amir.
+            target: Peter comes earlier than Amir.
+            mistakes:
+              - answer: Peter comes more early than Amir.
+                message: early ist kurz. Es bekommt -er, und aus y wird i.
+              - answer: Peter comes earlyer than Amir.
+                message: Aus y wird i, bevor -er kommt.
+        hint: Prüfe, ob das Wort kurz ist, auf -ly endet oder eine Sonderform hat.
+      - type: language-task
+        id: adverbien-steigern-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter runs more fast than Amir.
+            target: Peter runs faster than Amir.
+            mistakes:
+              - answer: Peter runs more fast than Amir.
+                message: fast ist kurz. Welche Endung braucht es?
+          - cue: Ellie sings gooder than Amir.
+            target: Ellie sings better than Amir.
+            mistakes:
+              - answer: Ellie sings gooder than Amir.
+                message: Für Handlungen gibt es eine eigene Treppe. Schau nach, wie well steigt.
+        hint: Prüfe die Treppe.
+      - type: language-task
+        id: adverbien-steigern-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: ellie-runs-faster-than-sophie.mp3
+            target: Ellie runs faster than Sophie.
+          - audio: amir-draws-more-carefully-than-peter.mp3
+            target: Amir draws more carefully than Peter.
+          - audio: amir-plays-better-than-sophie.mp3
+            target: Amir plays better than Sophie.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: adverbien-steigern-nachsprechen
+        language: en
+        items:
+          - audio: peter-works-harder-than-ellie.mp3
+            text: Peter works harder than Ellie.
+          - audio: ellie-speaks-more-quietly-than-amir.mp3
+            text: Ellie speaks more quietly than Amir.
+          - audio: sophie-runs-the-fastest.mp3
+            text: Sophie runs the fastest.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf than und more.
+      - type: open-task
+        id: adverbien-steigern-karte
+        task: "Mr Hill schreibt die Ergebnisse des Wettrennens an die Wand. Schreibe zwei Sätze über die Kinder: einen mit einem kurzen Adverb und than und einen mit more … than oder better than."
+        points:
+          - text: Ein Satz hat ein kurzes Adverb in der zweiten Stufe mit than (zum Beispiel Peter runs faster than Amir).
+            source: /wie-jemand-etwas-tut/adverbien-steigern/#neu
+          - text: Ein Satz hat more mit einem Adverb auf -ly oder better als zweite Stufe von well.
+            source: /wie-jemand-etwas-tut/adverbien-steigern/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          Peter runs faster than Amir. Ellie draws more carefully than Peter.
+  - type: section
+    id: weiter
+    title: Rückblick auf das Kapitel
+    blocks:
+      - type: text
+        text: "Du hast jetzt zwei Anhänger und zwei Treppen. Der blaue Anhänger beschreibt Dinge und Personen, der orangefarbene sagt, wie jemand etwas tut. Beide Treppen steigen gleich: kurz mit -er und -est, lang mit more und most. Mr Hill hängt die Karten auf, und die Ausstellung „Our Millbrook“ kann beginnen."
+      - type: table
+        caption: Schulkalender · Rückblick Kapitel 2
+        header: [Das willst du sagen, "So geht es"]
+        rows:
+          - [wie jemand etwas tut, "orangefarbener Anhänger am Verb, meist -ly"]
+          - [ein Ding oder eine Person, "blauer Anhänger"]
+          - [eine Handlung vergleichen, "Steigerung + than"]
+          - [das Beste nennen, "the + Höchststufe"]

@@ -28,5 +28,11 @@
   "src/audio/ellie-plays-well.mp3": "Ellie plays well.",
   "src/audio/peter-is-a-quick-boy.mp3": "Peter is a quick boy.",
   "src/audio/peter-runs-fast.mp3": "Peter runs fast.",
-  "src/audio/the-girls-are-quiet.mp3": "The girls are quiet."
+  "src/audio/the-girls-are-quiet.mp3": "The girls are quiet.",
+  "src/audio/ellie-runs-faster-than-sophie.mp3": "Ellie runs faster than Sophie.",
+  "src/audio/amir-draws-more-carefully-than-peter.mp3": "Amir draws more carefully than Peter.",
+  "src/audio/amir-plays-better-than-sophie.mp3": "Amir plays better than Sophie.",
+  "src/audio/peter-works-harder-than-ellie.mp3": "Peter works harder than Ellie.",
+  "src/audio/ellie-speaks-more-quietly-than-amir.mp3": "Ellie speaks more quietly than Amir.",
+  "src/audio/sophie-runs-the-fastest.mp3": "Sophie runs the fastest."
 }

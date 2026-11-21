@@ -145,6 +145,25 @@ def entscheidung():
     b += text(160, 215, "blauer Anhänger", 22) + text(480, 215, "orangefarbener Anhänger", 22)
     return svg(640, 240, "Links ein blauer Anhänger an einem Nomen für ein Ding oder eine Person, rechts ein orangefarbener Anhänger an einem Verb für eine Handlung", b)
 
+@image
+def szene_adverbien_steigern():
+    b = wall()
+    b += '  <rect x="20" y="238" width="600" height="8" fill="#fff" opacity=".7"/>\n'
+    b += kid("peter", 330, 150, .7) + kid("amir", 150, 120, .85) + kid("ellie", 480, 120, .85)
+    for i, y in enumerate((200, 220, 240)):
+        b += f'  <line x1="{285 - i * 8}" y1="{y}" x2="{325 - i * 8}" y2="{y}" stroke="{INK}" stroke-width="3" stroke-linecap="round"/>\n'
+    for i, y in enumerate((200, 225)):
+        b += f'  <line x1="{110 - i * 8}" y1="{y}" x2="{135 - i * 8}" y2="{y}" stroke="{INK}" stroke-width="3" stroke-linecap="round"/>\n'
+    return svg(640, 340, "Peter rennt vor Amir her, Ellie schaut zu", b)
+
+@image
+def treppe_adverbien_steigern():
+    b = text(320, 28, "kurzes Adverb", 20)
+    b += stairs(80, 190, ["fast", "faster", "the fastest"], w=160, step=30, colour=ORANGE)
+    b += text(320, 238, "langes Adverb mit -ly", 20)
+    b += stairs(5, 400, ["carefully", "more carefully", "the most carefully"], w=210, step=30, colour=ORANGE).replace('font-size="22"', 'font-size="18"')
+    return svg(640, 420, "Zwei Treppen mit drei Stufen: fast, faster, the fastest und carefully, more carefully, the most carefully", b)
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)
     for n in names:

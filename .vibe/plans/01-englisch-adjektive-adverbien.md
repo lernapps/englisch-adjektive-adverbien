@@ -223,7 +223,7 @@ page, which a link. -->
 - [x] Seite `adjektive-steigern` mit Treppenbild (kurz, lang, unregelmäßig), Merke-Kasten für Rechtschreibung, Übungen, sechs Audiosätze.
 - [x] Seite `vergleiche` (than, as … as, not as … as), Kapitel-Rückblick, Selbsteinschätzung des Kapitels, sechs Audiosätze.
 - [x] Kapitel `wie-jemand-etwas-tut` mit `chapter.yaml` und Seite `adverbien` (-ly, y → ily, well, fast, hard), Bilder, Übungen, sechs Audiosätze.
-- [ ] Seite `adjektiv-oder-adverb` (Frage Ding oder Handlung, nach be, good ↔ well), Übungen, sechs Audiosätze.
+- [x] Seite `adjektiv-oder-adverb` (Frage Ding oder Handlung, nach be, good ↔ well), Übungen, sechs Audiosätze.
 - [ ] Seite `adverbien-steigern` (zweite Seite der Treppe, Rückblick beider Treppen), Kapitel-Rückblick, Selbsteinschätzung, sechs Audiosätze.
 - [ ] `app.yaml` (Titel, intro, scope, chapters) und Audio-Liste `audio-texte.json`, `regen_audio.py` aus #472, alle 36 Sätze erzeugt und angehört (Ausklingen abgeschnitten).
 <!-- tasks: pages (7 added): the other pages or screens, after the pattern -->
