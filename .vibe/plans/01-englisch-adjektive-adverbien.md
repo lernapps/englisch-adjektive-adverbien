@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -32,7 +32,7 @@ Kinder der Klassen 5-6 (erstes und zweites Lernjahr Englisch) beschreiben und ve
 - Archetyp `explainer`: Die Kinder brauchen erst Erklärung mit Bildern (Anhänger, Treppe) und dann Übungen mit Rückmeldung. Quiz trägt keine Erklärung, interactive wäre ein Spiel oder Training (Issue und Konventionen verlangen einen Explainer).
 - Strang-App `strand: englisch/grammatik`, Format 2, Sprache Deutsch, englische Beispiele, britisches Englisch, Anrede „du“ (Vorgabe Issue #476 und Konventionen #489).
 - Zwei Kapitel, sechs Bausteinseiten und eine Sammel-Wiederholung (`recap: englisch/to-be`): Kapitel 1 `beschreiben-und-vergleichen`, Kapitel 2 `wie-jemand-etwas-tut` (Issue, Stufe 5-6).
-- Leitbild: Mr Hill lässt die Klasse für das Sportfest („Sports Day“) ein Wandbild beschriften. Es gibt Anhänger (Adjektiv-Anhänger blau am Nomen, Adverb-Anhänger orange mit -ly am Verb) und eine Steigerungstreppe (Stufen: Grundform, Steigerung, Höchststufe) (guess: Sportfest als Geschichte; das Issue gibt nur Anhänger und Treppe vor).
+- Leitbild: Mr Hill lässt die Klasse für den Schulflur die Ausstellung „Our Millbrook“ beschriften (Orte, Dinge und Leute der Kleinstadt). Es gibt Anhänger (Adjektiv-Anhänger blau am Nomen, Adverb-Anhänger orange mit -ly am Verb) und eine Steigerungstreppe (Grundform, Steigerung, Höchststufe). Nicht „Sports Day“: die Szene kommt schon in #471 vor (Hinweis des Orchestrators, 2026-11-21). Figuren bleiben wie in #470.
 - Audio: Stimme `bf_emma`, nur ganze Sätze, Diktat und Nachsprechen je Seite (Konventionen §5).
 - Keine Komponente, keine Datendateien (wie #472) (guess).
 
@@ -105,9 +105,10 @@ Kinder der Klassen 5-6 (erstes und zweites Lernjahr Englisch) beschreiben und ve
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Ja, Plan so fortsetzen. Szene nicht Sports Day (kommt in #471 vor), andere Szene nehmen; Steigerungsformen vor dem Plan gegen den Grundwortschatz prüfen.
 
 ### Answers
 
@@ -135,25 +136,52 @@ Antworten der Ersteller:in: aus dem Auftrag (Issue #476, „unverändert“) und
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
+- [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
 
 ### Content method
 
-<!-- One line each: the patterns and where; the figures and how they are made; the data files; each component, what it
-checks and what it cannot; how a later agent adds a chapter. It becomes the content guide in Code. -->
+Geschichte: Mr Hill lässt die Klasse für den Schulflur die Ausstellung „Our Millbrook“ aufbauen: Fotos und Zeichnungen von Orten, Dingen und Leuten der Stadt. Sophie, Ellie, Peter und Amir beschriften sie mit Anhängern. Kapitel 1 beschreibt und vergleicht Dinge und Leute, Kapitel 2 beschreibt, wie Leute etwas tun (die Kinder zeigen ein Stück vor: Peter läuft, Ellie malt, Amir liest). Tabellen: „Klassenzimmer-Poster · Anhänger und Treppe“ und „Schulkalender · …“ wachsen von Seite zu Seite. Figuren und Orte wie in #470 (nicht ändern).
+
+Wörter: Quelle ist der Grundwortschatz A1/A2 (`https://lernapps.net/apps/map/englisch/grundwortschatz/`, geöffnet 2026-11-21, geprüft). A1: big, small, tall, short, old, new, fast, slow, quick, quiet, loud, happy, sad, good, bad, easy, difficult, hard, careful, interesting, exciting, expensive, cheap, beautiful, funny, friendly, busy, hot, cold, long, young, strong, clean, nice, clever, warm; Adverbien slowly, quickly, quietly, loudly, carefully, happily, easily, kindly, early, late, well. A2: heavy, dirty, tidy, polite, badly, politely, patiently, safely, calmly, gently, softly, sadly. Außerhalb der Liste, auf der Seite mit Bedeutung eingeführt und im Inhaltsführer gelistet: die Steigerungsformen bigger, biggest, better, best, worse, worst (Formen der Liste-Wörter), exhibition (A2), poster. Nicht verwendet, weil nicht in der Liste: bakery, bridge, brave, lazy, neatly, project, duck.
+
+Muster (je mit `mistakes` und `hint`, leicht → schwer, mindestens vier je Seite, nicht überwiegend Raten):
+1. Anhänger anheften: `choice`-Lücke (Adjektiv oder Platz) und `ordering` der Satzteile (Anhänger vor das Nomen, nach be). Fehler: a house big, bigs houses.
+2. Treppe ordnen: `ordering` und `matching` (Adjektiv ↔ Stufe/Regel kurz, lang, unregelmäßig); `language-task` `table` für die Treppe eines Adjektivs (Grundform, Steigerung, Höchststufe).
+3. Form bilden: `language-task` `write` mit `cue` (`cue: "big · Steigerung"`, englisch ohne deutsches Wort), Satz ergänzen.
+4. Vergleichen: `choice` than / as … as, `write` mit Cue (Ellie · tall · Peter), `true-false` zu Aussagen über ein Bild mit Begründung.
+5. Entscheiden mit Begründung: `single-choice` „Ding oder Handlung?“ mit Rückmeldung, die die Frage nennt.
+6. Korrigieren: `language-task` Satz mit einem Fehler (She sings good → well).
+7. Übersetzen: `write` mit `source` (deutsch) und `accepted`/`(a|b)`.
+8. Hören: Diktat (höchstens drei ganze Sätze je Seite), Nachsprechen `speaking-task` (drei Sätze, andere als im Diktat). Je Seite sechs Sätze, 36 insgesamt, Namen am Satzende zweisilbig (Sophie, Ellie, Peter, Amir), erzeugt mit `regen_audio.py` aus #472.
+9. Anwenden: `open-task` (eigene Karte oder Anhänger für die Ausstellung, mit Punkten zu Form und Inhalt).
+
+Seiten, je eine Zeile Engagement (Opening / Wechsel / Belohnung / Geschichte):
+- `das-brauchst-du` (recap `englisch/to-be`, ohne Übung, Tabelle am Poster, leere Anhängerleiste und leere Treppe): Wiederholung von am/is/are, die Ausstellung beginnt.
+- `adjektive` (Musterseite; Opening: Foto-Karte, welcher Anhänger gehört an das Nomen; Wechsel: schauen, anheften, ordnen, schreiben; Belohnung: Karte hängt in der Ausstellung; weiter: Mr Hill fragt, wer größer ist).
+- `adjektive-steigern`: Treppe mit drei Stufen, kurz/lang/unregelmäßig; Opening: Peter und Ellie stellen sich an die Messlatte (tall – taller – the tallest); Rechtschreibung als Merke-Kasten (big – bigger, happy – happier).
+- `vergleiche`: Opening: Ellie ist größer als Peter; than und as … as legen zwei Dinge nebeneinander auf die Treppe; Rückblick des Kapitels am Ende.
+- `adverbien` (`adverbien-art-und-weise`): Opening: Amir zeichnet langsam und vorsichtig, Frage „Wie?“; Adverb-Anhänger mit -ly (y → ily), Sonderformen well, fast, hard; Merke-Kasten.
+- `adjektiv-oder-adverb`: Opening: a careful driver, she drives carefully; die Frage „Ding oder Handlung?“; nach be ein Adjektiv, good ↔ well.
+- `adverbien-steigern`: zweite Seite der Treppe (fast – faster – the fastest, carefully – more carefully – the most carefully, well – better – the best); Rückblick: beide Treppen und beide Anhänger am Poster. Kapitelende mit Rückblick.
+
+Bilder (eigene Zeichnung, CC-BY-4.0, `src/images/`, Hintergrund #f4efe2, Schrift mindestens 16 im 480er viewBox, 360 px tauglich, Skizzen in `.vibe/sketches/`): Figurenfamilie `anhaenger-<seite>.svg`: Adjektiv-Anhänger blau (#2c6fd8) rund mit Loch, hängt an einem Nomen-Karton oder nach „is“; Adverb-Anhänger orange (#d35400) mit -ly, hängt am Verbkarton; Treppe `treppe-<seite>.svg` aus drei Stufen (Grundform, Steigerung, Höchststufe), Adjektiv-Treppe grün (#138d75), Adverb-Treppe ebenso mit orangen Anhängern. Szenen `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` von #470 (hello-millbrook) und gleich gelassen; `alt` verrät nie die Lösung.
+
+Datendateien: keine. Komponenten: keine (`prefer-built-in-block`); eine Ziehen-Übung für Anhänger und Treppe wäre ein Wunsch für ein Inkrement.
+
+Wie ein späterer Agent ein Kapitel anfügt (Kapitel 3 und 4, Stufe 7-8): Ordner `src/<kapitel>/` mit `chapter.yaml`, Seiten mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter`; neue Anhänger-Zeichen und Treppenstufen in die Figurenfamilie, Zeilen in die Poster-Tabellen; Audio über `regen_audio.py`; `lernapps check`. Kapitel 3 legt die Satzkarten aus #473 an die Anhänger; Kapitel 4 nimmt dem Adjektiv-Anhänger das Nomen weg (one, the rich).
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
@@ -181,11 +209,19 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Musterseite kapitel 1 `adjektive`: Kapitel `beschreiben-und-vergleichen` mit `chapter.yaml` und der Seite `adjektive` (einstieg, neu, uebung, anwenden, weiter), Bilder `szene-adjektive` und `anhaenger-adjektive`, sechs Audiosätze (Diktat, Nachsprechen); zeigt Anhänger am Nomen und nach be.
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Seite `das-brauchst-du` (Recap `englisch/to-be`, ohne Übung, mit leerer Anhängerleiste und leerer Treppe) und Tabelle `Klassenzimmer-Poster · Anhänger und Treppe`.
+- [ ] Seite `adjektive-steigern` mit Treppenbild (kurz, lang, unregelmäßig), Merke-Kasten für Rechtschreibung, Übungen, sechs Audiosätze.
+- [ ] Seite `vergleiche` (than, as … as, not as … as), Kapitel-Rückblick, Selbsteinschätzung des Kapitels, sechs Audiosätze.
+- [ ] Kapitel `wie-jemand-etwas-tut` mit `chapter.yaml` und Seite `adverbien` (-ly, y → ily, well, fast, hard), Bilder, Übungen, sechs Audiosätze.
+- [ ] Seite `adjektiv-oder-adverb` (Frage Ding oder Handlung, nach be, good ↔ well), Übungen, sechs Audiosätze.
+- [ ] Seite `adverbien-steigern` (zweite Seite der Treppe, Rückblick beider Treppen), Kapitel-Rückblick, Selbsteinschätzung, sechs Audiosätze.
+- [ ] `app.yaml` (Titel, intro, scope, chapters) und Audio-Liste `audio-texte.json`, `regen_audio.py` aus #472, alle 36 Sätze erzeugt und angehört (Ausklingen abgeschnitten).
+<!-- tasks: pages (7 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-label="Skizze: Steigerungstreppe mit drei Stufen big, bigger, the biggest">
+<rect width="480" height="240" fill="#f4efe2"/>
+<rect x="40" y="150" width="120" height="50" fill="#138d75"/><text x="100" y="182" font-size="20" text-anchor="middle" fill="#fff">big</text>
+<rect x="160" y="110" width="120" height="90" fill="#138d75"/><text x="220" y="165" font-size="20" text-anchor="middle" fill="#fff">bigger</text>
+<rect x="280" y="70" width="150" height="130" fill="#138d75"/><text x="355" y="140" font-size="18" text-anchor="middle" fill="#fff">the biggest</text>
+<text x="240" y="30" font-size="16" text-anchor="middle">Grundform · Steigerung · Höchststufe</text></svg>

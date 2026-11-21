@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-label="Skizze: blauer Adjektiv-Anhänger am Nomen, oranger Adverb-Anhänger am Verb">
+<rect width="480" height="240" fill="#f4efe2"/>
+<rect x="20" y="40" width="190" height="60" rx="8" fill="#fff" stroke="#333"/><text x="115" y="78" font-size="20" text-anchor="middle">a  house</text>
+<line x1="75" y1="100" x2="75" y2="130" stroke="#333"/><circle cx="75" cy="150" r="22" fill="#2c6fd8"/><text x="75" y="156" font-size="16" text-anchor="middle" fill="#fff">big</text>
+<rect x="270" y="40" width="190" height="60" rx="8" fill="#fff" stroke="#333"/><text x="365" y="78" font-size="20" text-anchor="middle">Peter runs</text>
+<line x1="390" y1="100" x2="390" y2="130" stroke="#333"/><circle cx="390" cy="150" r="22" fill="#d35400"/><text x="390" y="156" font-size="16" text-anchor="middle" fill="#fff">-ly</text>
+<text x="240" y="220" font-size="16" text-anchor="middle">blau: am Nomen oder nach be · orange: am Verb</text></svg>
