@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Genauer beschreiben
 summary: Sophie ist jetzt in der achten Klasse und schreibt mit ihren Freunden Chats, Blogs und Interviews. Du liest Texte und lernst, nach look, sound, feel und taste ein Adjektiv zu setzen, Adverbien an die richtige Stelle zu stellen und mit very, quite und too genauer abzustufen.
-pages: [das-brauchst-du, sinnesverben, adverbien-stellung]
+pages: [das-brauchst-du, sinnesverben, adverbien-stellung, gradadverbien]

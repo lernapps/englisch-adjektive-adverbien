@@ -207,6 +207,23 @@ def satzkarten_stellung():
     b += text(42, 150, "Anfang", 20) + text(175, 150, "Mitte", 20) + text(525, 150, "Ende", 20) + text(337, 150, "gesperrt", 20)
     return svg(580, 190, "Drei Karten Amir, opened, the door mit drei orangefarbenen Haken davor, dahinter und am Ende und einem roten Kreuz zwischen opened und the door", b)
 
+@image
+def regler_gradadverbien():
+    b = f'  <line x1="40" y1="90" x2="520" y2="90" stroke="{INK}" stroke-width="6" stroke-linecap="round"/>\n'
+    for x, w in ((60, "not"), (170, "quite"), (280, "rather"), (390, "very"), (490, "extremely")):
+        b += f'  <circle cx="{x}" cy="90" r="9" fill="{ORANGE}" stroke="{INK}" stroke-width="2"/>\n' + text(x, 140, w, 22)
+    b += f'  <rect x="545" y="55" width="80" height="70" rx="10" fill="#c0392b" stroke="{INK}" stroke-width="3"/>\n' + text(585, 100, "too", 30, fill="#fff", weight="bold")
+    b += text(150, 40, "schwächer", 20) + text(430, 40, "stärker", 20) + text(585, 150, "zu viel", 20)
+    return svg(640, 180, "Ein Regler von not über quite, rather, very bis extremely, rechts daneben ein rotes Warnzeichen mit too", b)
+
+@image
+def szene_gradadverbien():
+    b = wall()
+    b += '  <rect x="230" y="160" width="180" height="14" fill="#7a5a35"/>\n'
+    b += '  <g stroke="#333" stroke-width="3"><line x1="290" y1="160" x2="290" y2="110"/><ellipse cx="290" cy="95" rx="18" ry="26" fill="#555"/><line x1="360" y1="160" x2="360" y2="110"/><ellipse cx="360" cy="95" rx="18" ry="26" fill="#555"/></g>\n'
+    b += kid("amir", 130, 110, .85) + kid("ellie", 40, 120, .75) + kid("sophie", 450, 110, .8)
+    return svg(640, 340, "Amir sitzt mit zwei Mikrofonen am Tisch im Radio-Studio und bereitet ein Interview vor, Ellie und Sophie schauen zu", b)
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)
     for n in names:
