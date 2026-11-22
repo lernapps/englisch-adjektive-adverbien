@@ -1,0 +1,257 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Der blaue Anhänger: Adjektive"
+description: "Sophie beschriftet ein Foto der Ausstellung. Du lernst, wo das Adjektiv steht: vor dem Nomen und nach be."
+competencies: [adjektive]
+scope: Die Seite führt das Adjektiv ein. Ein Adjektiv beschreibt ein Ding oder eine Person und ist der blaue Adjektiv-Anhänger. Er steht vor dem Nomen (a big house) oder nach be (The house is big). Er bekommt nie ein -s (two big houses). Nicht hier, weil es spätere Seiten sind. Steigerung, Vergleiche, Adverbien und Adjektive nach anderen Verben als be.
+blocks:
+  - type: section
+    id: einstieg
+    title: Eine Karte für das Foto
+    blocks:
+      - type: figure
+        image: images/szene-adjektive.svg
+        alt: Zwei Fotos hängen an der Wand im Flur der Millbrook School, eins zeigt einen Baum, eins ein Haus. Vor der Wand stehen vier Kinder.
+        caption: "Von links: Ellie (roter Pferdeschwanz), Amir (Brille), Peter (gelbe Jacke) und Sophie (Zöpfe)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Mr Hill baut im Flur der Millbrook School die Ausstellung **Our Millbrook** auf (exhibition = Ausstellung). Die Klasse hängt Fotos und Karten an die Wand. Auf zwei Fotos sind ein Baum (tree) und ein Haus (house) zu sehen. Der Baum ist groß, das englische Wort dafür ist **big**. Sophie (mit den Zöpfen) schreibt die Karte für den Baum.
+      - type: single-choice
+        id: adjektive-start
+        text: Sophie schreibt eine Karte für das Foto vom Baum. Welche Karte passt?
+        options:
+          - text: a big tree
+            correct: true
+            info: Das Wort big sagt, wie der Baum ist. Es steht vor dem Nomen tree.
+          - text: a tree big
+            correct: false
+            info: Das Wort big steht im Englischen vor dem Nomen tree, nicht dahinter.
+          - text: big a tree
+            correct: false
+            info: Der Anhänger big steht nach a und vor dem Nomen, nicht am Anfang.
+        explanation: Das Wort big beschreibt den Baum und steht vor ihm.
+        links:
+          - title: Lernlandkarte Englisch · Stellung der Adjektive
+            url: https://lernapps.net/apps/map/englisch/c/adjektive/
+      - type: text
+        text: "**Das kannst du danach:** Du beschreibst Dinge und Personen mit Adjektiven und weißt, wo das Adjektiv im Satz steht."
+  - type: section
+    id: neu
+    title: Der Adjektiv-Anhänger
+    blocks:
+      - type: text
+        text: "Ein **Nomen** ist das Wort für ein Ding oder eine Person, zum Beispiel house oder Peter. Ein **Adjektiv** (adjective) sagt, wie ein Ding oder eine Person ist: groß, alt, neu. Mr Hill gibt jedem Kind blaue Anhänger. Das ist der **Adjektiv-Anhänger**. Du kennst be schon (am, is, are). Der Anhänger hängt an zwei Plätzen."
+      - type: figure
+        image: images/anhaenger-adjektive.svg
+        alt: Zwei Kartenreihen. In der ersten stehen die Karten a und house, dazwischen hängt ein blauer Anhänger mit dem Wort big. In der zweiten stehen The house und is, rechts davon hängt ein blauer Anhänger mit dem Wort big.
+        caption: Der blaue Anhänger hängt vor dem Nomen oder nach is.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Der Adjektiv-Anhänger
+        header: [Platz, Beispiel]
+        rows:
+          - [vor dem Nomen, a long table]
+          - [nach be, The table is long.]
+          - [Mehrzahl, two long tables]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Der Anhänger hängt **vor dem Nomen** oder **nach be**. Er verändert sich nie: Auch bei mehreren Dingen bekommt er **kein -s** (two long tables, nicht two longs tables).
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [big, groß]
+          - [small, klein]
+          - [old, alt]
+          - [new, neu]
+          - [tall, hoch (Bäume) / groß gewachsen (Menschen)]
+          - [long, lang]
+          - [tree, Baum]
+          - [house, Haus]
+          - [garden, Garten]
+          - [rabbit, Kaninchen]
+          - [hamster, Hamster]
+          - [jacket, Jacke]
+          - [bike, Fahrrad]
+          - [table, Tisch]
+          - [this is, das ist]
+          - [two, zwei]
+          - [a, ein / eine]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: adjektive-platz
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Stelle für das Adjektiv.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Das ist ein kleines Kaninchen.
+            target: This is a [small rabbit].
+            distractors: [[rabbit small, small rabbits]]
+            mistakes:
+              - answer: This is a rabbit small.
+                message: Der Anhänger hängt davor, nicht dahinter.
+          - cue: Das ist eine neue Jacke.
+            target: This is a [new jacket].
+            distractors: [[jacket new, jackets new]]
+            mistakes:
+              - answer: This is a jacket new.
+                message: "Falscher Platz: Der Anhänger kommt vor das Nomen."
+          - cue: Das Haus ist alt.
+            target: The house [is old].
+            distractors: [[old, are old]]
+            mistakes:
+              - answer: The house old.
+                message: Nach dem Nomen kommt erst be. Dir fehlt is.
+              - answer: The house are old.
+                message: Zu house (ein Haus) gehört is, nicht are.
+          - cue: Die Fahrräder sind neu.
+            target: The bikes [are new].
+            distractors: [[new, is new]]
+            mistakes:
+              - answer: The bikes new.
+                message: Nach dem Nomen kommt erst be. Dir fehlt are.
+              - answer: The bikes is new.
+                message: Zu bikes (mehrere Fahrräder) gehört are, nicht is.
+        hint: Suche das Nomen und be.
+      - type: ordering
+        id: adjektive-reihe
+        text: Bringe die Teile in die richtige Reihenfolge, sodass ein Satz entsteht.
+        items:
+          - This
+          - is
+          - a
+          - big
+          - garden
+        explanation: Der Anhänger big hängt zwischen a und garden, also vor dem Nomen.
+        links:
+          - title: Lernlandkarte Englisch · Stellung der Adjektive
+            url: https://lernapps.net/apps/map/englisch/c/adjektive/
+      - type: language-task
+        id: adjektive-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: the garden · be · big
+            target: The garden is big.
+            accepted: [The garden's big.]
+            mistakes:
+              - answer: The garden big.
+                message: Nach dem Nomen kommt erst be, dann der Anhänger. Dir fehlt is.
+              - answer: The garden are big.
+                message: Zu garden (ein Garten) gehört is, nicht are.
+          - cue: this · be · a · hamster · small
+            target: This is a small hamster.
+            mistakes:
+              - answer: This is a hamster small.
+                message: Das Nomen steht hinten, der Anhänger davor.
+              - answer: This is a smalls hamster.
+                message: Der Anhänger bekommt nie ein -s.
+          - cue: they · be · two · tall · trees
+            target: They are two tall trees.
+            accepted: [They're two tall trees.]
+            mistakes:
+              - answer: They are two talls trees.
+                message: Das -s gehört an das Nomen (trees), nicht an den Anhänger. Der Anhänger bleibt gleich.
+              - answer: They are two trees tall.
+                message: Der Anhänger hängt vor dem Nomen.
+        hint: Finde zuerst das Nomen.
+      - type: language-task
+        id: adjektive-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: This is a jacket new.
+            target: This is a new jacket.
+            mistakes:
+              - answer: This is a jacket new.
+                message: Noch nicht ganz. Schau, wo das Nomen steht.
+              - answer: This is a jackets new.
+                message: Hier stimmen Platz und -s nicht. Der Anhänger kommt vor jacket, und jacket bleibt Einzahl.
+          - cue: The houses are olds.
+            target: The houses are old.
+            mistakes:
+              - answer: The houses are olds.
+                message: Noch nicht ganz. Bekommt der Anhänger bei mehreren Dingen ein -s?
+        hint: Prüfe den Platz und das -s.
+      - type: language-task
+        id: adjektive-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Das Haus ist neu.
+            target: The house is new.
+            accepted: [The house's new.]
+            mistakes:
+              - answer: The house new.
+                message: Nach dem Nomen kommt erst be. Dir fehlt is.
+              - answer: The house are new.
+                message: Zu house (ein Haus) gehört is, nicht are.
+          - source: Das ist ein großes Kaninchen.
+            target: This is a big rabbit.
+            mistakes:
+              - answer: This is a rabbit big.
+                message: Der Anhänger hängt vor dem Nomen.
+          - source: Die Bäume sind alt.
+            target: The trees are old.
+            mistakes:
+              - answer: The trees is old.
+                message: Zu trees (mehrere Bäume) gehört are.
+              - answer: The trees are olds.
+                message: Der Anhänger bekommt nie ein -s.
+      - type: language-task
+        id: adjektive-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-new-table-is-small.mp3
+            target: The new table is small.
+          - audio: the-hamster-is-small.mp3
+            target: The hamster is small.
+          - audio: the-jacket-is-old.mp3
+            target: The jacket is old.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: adjektive-nachsprechen
+        language: en
+        items:
+          - audio: this-is-a-big-hamster.mp3
+            text: This is a big hamster.
+          - audio: the-trees-are-tall.mp3
+            text: The trees are tall.
+          - audio: the-new-house-is-tall.mp3
+            text: The new house is tall.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: adjektive-karte
+        task: "Sophie schreibt zwei Karten für die Ausstellung. Schreibe zwei Sätze über ein Haus, einen Garten oder ein Tier: einen mit dem Anhänger vor dem Nomen und einen mit dem Anhänger nach is oder are."
+        points:
+          - text: Ein Satz hat den Adjektiv-Anhänger vor dem Nomen (zum Beispiel a big garden).
+            source: /beschreiben-und-vergleichen/adjektive/#neu
+          - text: Ein Satz hat den Adjektiv-Anhänger nach is oder are (zum Beispiel The garden is big.).
+            source: /beschreiben-und-vergleichen/adjektive/#neu
+          - text: Es sind ganze Sätze mit is oder are und einem Punkt am Ende.
+            kind: form
+        solution: |
+          This is a small house. The garden is big.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Die Karten hängen jetzt an den Fotos. Mr Hill will jetzt wissen, wer in der Klasse wie groß ist. Auf der nächsten Seite lernst du, wie du das auf Englisch sagst."

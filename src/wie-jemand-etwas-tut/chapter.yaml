@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wie jemand etwas tut
+summary: In der Ausstellung zeigen die Kinder, wie sie etwas tun. Du lernst orangefarbene Adverb-Anhänger mit -ly, die Frage Adjektiv oder Adverb und die zweite Seite der Treppe für Handlungen.
+pages: [adverbien, adjektiv-oder-adverb, adverbien-steigern]
+selfAssessment:
+  pages:
+    - exercises:
+        - /wie-jemand-etwas-tut/adverbien/#adverbien-form
+        - /wie-jemand-etwas-tut/adverbien/#adverbien-bilden
+    - exercises:
+        - /wie-jemand-etwas-tut/adjektiv-oder-adverb/#adjektiv-oder-adverb-wahl
+        - /wie-jemand-etwas-tut/adjektiv-oder-adverb/#adjektiv-oder-adverb-bilden
+    - exercises:
+        - /wie-jemand-etwas-tut/adverbien-steigern/#adverbien-steigern-wahl
+        - /wie-jemand-etwas-tut/adverbien-steigern/#adverbien-steigern-bilden

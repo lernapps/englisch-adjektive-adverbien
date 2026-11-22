@@ -1,0 +1,278 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Der orangefarbene Anhänger: Adverbien"
+description: "Amir malt vorsichtig, Peter rennt schnell. Du lernst, mit -ly zu sagen, wie jemand etwas tut, und die Sonderformen well, fast und hard."
+competencies: [adverbien-art-und-weise]
+scope: Die Seite führt das Adverb der Art und Weise ein. Es sagt, wie jemand etwas tut, und ist der orangefarbene Adverb-Anhänger, der am Verb hängt. Meist entsteht es aus dem Adjektiv mit -ly (quick – quickly), bei -y wird aus y ein i (happy – happily). Sonderformen sind fast (bleibt fast), hard (bleibt hard, hardly heißt kaum) und good (wird well). Nicht hier, weil es spätere Seiten sind. Die Entscheidung Adjektiv oder Adverb, die Steigerung der Adverbien, die Stellung der Adverbien im Satz und Gradadverbien.
+blocks:
+  - type: section
+    id: einstieg
+    title: Wie malt Amir?
+    blocks:
+      - type: figure
+        image: images/szene-adverbien.svg
+        alt: Amir malt an einer Staffelei, Peter rennt rechts davon, Sophie und Ellie schauen zu.
+        caption: "Von links: Sophie (Zöpfe), Amir (Brille), Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: Zur Eröffnung der Ausstellung zeigen die Kinder etwas vor. Amir malt ein Bild, und zwar **slow** (langsam). Mr Hill will nicht wissen, was Amir tut. Er will wissen, **wie** er es tut.
+      - type: single-choice
+        id: adverbien-start
+        text: "Sophie schreibt eine Karte: „Amir draws …“ Welches Wort sagt, dass er langsam malt?"
+        options:
+          - text: slowly
+            correct: true
+            info: Ein Wort, das sagt, wie jemand etwas tut, bekommt -ly. Aus slow wird slowly.
+          - text: slow
+            correct: false
+            info: slow beschreibt ein Ding oder eine Person, zum Beispiel a slow boy. Hier geht es um das Malen.
+          - text: more slow
+            correct: false
+            info: more brauchst du, wenn du etwas steigerst. Hier geht es um das Wort für „wie“.
+        explanation: Das Wort für „wie“ endet meistens auf -ly.
+        links:
+          - title: Lernlandkarte Englisch · Adverbien der Art und Weise
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-art-und-weise/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst auf Englisch, wie jemand etwas tut, und kennst die Wörter, die anders sind."
+  - type: section
+    id: neu
+    title: Der Adverb-Anhänger
+    blocks:
+      - type: text
+        text: "Ein **Adverb** sagt, **wie** jemand etwas tut. Mr Hill gibt den Kindern dafür **orangefarbene Anhänger**. Sie hängen am **Verb**, dem Wort für das, was jemand tut (run, sing). Bei he, she und it hängt am Verb ein -s (Peter runs), das kennst du schon von den Verben. Meistens hängst du **-ly** an das Adjektiv: quick – quickly. Endet das Adjektiv auf **-y**, wird aus y ein **i**: happy – happily."
+      - type: figure
+        image: images/anhaenger-adverbien.svg
+        alt: Drei Kartenpaare. Bei Peter runs hängt ein orangefarbener Anhänger mit quickly, bei einem zweiten Peter runs einer mit fast, bei He sings einer mit well.
+        caption: Der orangefarbene Anhänger hängt am Verb. Manche Wörter sind anders.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Der Adverb-Anhänger
+        header: [Adjektiv, Adverb]
+        rows:
+          - [quick, quickly]
+          - [slow, slowly]
+          - [happy, happily]
+          - [fast, fast]
+          - [hard, hard]
+          - [good, well]
+          - [late, late]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Meist gilt: Adjektiv + **-ly** (quick – quickly). Bei **-y** wird aus y ein i (happy – happily). **fast**, **hard** und **late** bleiben gleich, **good** wird **well**. Achtung: **hardly** heißt „kaum“, nicht „hart“.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [quiet, leise]
+          - [loud, laut]
+          - [careful, vorsichtig]
+          - [easy, leicht]
+          - [run, rennen]
+          - [speak, sprechen]
+          - [draw, zeichnen / malen]
+          - [sing, singen]
+          - [play, spielen]
+          - [work, arbeiten]
+          - [read, lesen]
+          - [write, schreiben]
+          - [football, Fußball]
+          - [book, Buch]
+          - [walk, gehen / laufen]
+          - [eat, essen]
+          - [fast, schnell]
+          - [late, spät]
+          - [hard, hart / schwer arbeiten]
+          - [hardly, kaum]
+          - [happy, froh]
+          - [quick, schnell]
+          - [slow, langsam]
+          - [good / well, gut]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: adverbien-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das Wort, das sagt, wie jemand etwas tut.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ellie singt leise.
+            target: Ellie sings [quietly].
+            distractors: [[quiet]]
+            mistakes:
+              - answer: Ellie sings quiet.
+                message: quiet beschreibt ein Ding oder eine Person. Hier sagt das Wort, wie Ellie singt, es braucht -ly.
+              - answer: Ellie sings quietely.
+                message: Nach quiet kommt -ly, ohne e dazwischen.
+          - cue: Peter spricht laut.
+            target: Peter speaks [loudly].
+            distractors: [[loud]]
+            mistakes:
+              - answer: Peter speaks loud.
+                message: Das Wort sagt, wie Peter spricht. Es braucht -ly.
+              - answer: Peter speaks loudy.
+                message: Das Ende ist -ly, nicht -y.
+          - cue: Amir malt vorsichtig.
+            target: Amir draws [carefully].
+            distractors: [[careful]]
+            mistakes:
+              - answer: Amir draws careful.
+                message: Das Wort sagt, wie Amir malt. Es braucht -ly.
+              - answer: Amir draws carefuly.
+                message: careful endet auf l, also kommt -ly dazu und du hast zwei l (carefully).
+          - cue: Sophie liest das Buch leicht.
+            target: Sophie reads the book [easily].
+            distractors: [[easy]]
+            mistakes:
+              - answer: Sophie reads the book easy.
+                message: Das Wort sagt, wie Sophie liest. Es braucht -ly.
+              - answer: Sophie reads the book easyly.
+                message: Aus y wird i, bevor -ly kommt.
+        hint: Die Frage ist „wie?“. Dann braucht das Wort -ly.
+      - type: matching
+        id: adverbien-paare
+        text: Welches Adverb gehört zu welchem Adjektiv?
+        pairs:
+          - left: quiet
+            right: quietly
+          - left: easy
+            right: easily
+          - left: late
+            right: late
+          - left: hard
+            right: hard
+          - left: good
+            right: well
+        explanation: Meist kommt -ly an das Wort, bei easy wird aus y ein i. late und hard bleiben gleich, good wird well.
+        hint: Prüfe zuerst die Sonderfälle late, hard und good. Sie haben kein -ly.
+        links:
+          - title: Lernlandkarte Englisch · Adverbien der Art und Weise
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-art-und-weise/
+      - type: language-task
+        id: adverbien-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Peter · play · late
+            target: Peter plays late.
+            mistakes:
+              - answer: Peter plays lately.
+                message: lately heißt „in letzter Zeit“. Für „spät“ bleibt late gleich.
+              - answer: Peter plays latly.
+                message: late bekommt kein -ly, es bleibt gleich.
+              - answer: Peter plays later.
+                message: later heißt „später“. Für „spät“ bleibt late gleich.
+              - answer: Peter play late.
+                message: He, she, it – das s muss mit. Peter ist „er“.
+          - cue: Amir · play · good · football
+            target: Amir plays football well.
+            mistakes:
+              - answer: Amir plays football good.
+                message: good beschreibt ein Ding. Wenn jemand etwas gut tut, heißt das Wort well.
+              - answer: Amir plays good football.
+                message: Das ist ein anderer Satz, denn good football heißt „guter Fußball“. Gemeint ist, wie Amir spielt, und dafür steht well.
+          - cue: Ellie · work · hard
+            target: Ellie works hard.
+            mistakes:
+              - answer: Ellie works hardly.
+                message: hardly heißt „kaum“. Für „hart“ steht hard.
+          - cue: Sophie · sing · happy
+            target: Sophie sings happily.
+            mistakes:
+              - answer: Sophie sings happyly.
+                message: Aus y wird i, bevor -ly kommt.
+              - answer: Sophie sings happy.
+                message: Das Wort sagt, wie Sophie singt. Es braucht -ly.
+        hint: Frage „wie?“ und prüfe, ob das Wort anders ist.
+      - type: language-task
+        id: adverbien-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ellie draws careful.
+            target: Ellie draws carefully.
+            mistakes:
+              - answer: Ellie draws careful.
+                message: Wie zeichnet Ellie? Das Wort braucht -ly.
+          - cue: Amir sings good.
+            target: Amir sings well.
+            mistakes:
+              - answer: Amir sings good.
+                message: Wenn jemand etwas gut tut, heißt das Wort anders. Schau in die Tabelle.
+        hint: Frage „wie?“.
+      - type: language-task
+        id: adverbien-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Peter spricht laut.
+            target: Peter speaks loudly.
+            mistakes:
+              - answer: Peter speaks loud.
+                message: Das Wort sagt, wie Peter spricht. Es braucht -ly.
+          - source: Sophie liest leise.
+            target: Sophie reads quietly.
+            mistakes:
+              - answer: Sophie reads quiet.
+                message: Das Wort sagt, wie Sophie liest. Es braucht -ly.
+          - source: Amir schreibt schnell.
+            target: Amir writes fast.
+            accepted: [Amir writes quickly.]
+            mistakes:
+              - answer: Amir writes fastly.
+                message: fast bleibt gleich, es bekommt kein -ly.
+      - type: language-task
+        id: adverbien-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: peter-walks-slowly.mp3
+            target: Peter walks slowly.
+          - audio: sophie-eats-quickly.mp3
+            target: Sophie eats quickly.
+          - audio: mr-hill-writes-carefully.mp3
+            target: Mr Hill writes carefully.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: adverbien-nachsprechen
+        language: en
+        items:
+          - audio: amir-eats-slowly.mp3
+            text: Amir eats slowly.
+          - audio: mr-hill-speaks-quietly.mp3
+            text: Mr Hill speaks quietly.
+          - audio: sophie-writes-well.mp3
+            text: Sophie writes well.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende -ly.
+      - type: open-task
+        id: adverbien-karte
+        task: "Sophie schreibt zwei Karten für die Eröffnung der Ausstellung. Schreibe zwei Sätze, wie die Kinder etwas tun: einen mit -ly und einen mit well, fast oder hard."
+        points:
+          - text: Ein Satz hat ein Adverb mit -ly am Verb (zum Beispiel Amir draws carefully).
+            source: /wie-jemand-etwas-tut/adverbien/#neu
+          - text: Ein Satz hat well, fast oder hard.
+            source: /wie-jemand-etwas-tut/adverbien/#neu
+          - text: Es sind ganze Sätze mit einem Verb und einem Punkt am Ende.
+            kind: form
+        solution: |
+          Ellie sings quietly. Peter runs fast.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mr Hill lobt die Kinder. Ihm fällt auf, dass manche Wörter fast gleich aussehen, mit oder ohne -ly. Auf der nächsten Seite lernst du, wann du welchen Anhänger brauchst."

@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Das Verb be noch einmal kurz, bevor Mr Hill die Anhänger für die Ausstellung verteilt.
+recap: englisch/to-be
+scope: Die Seite wiederholt nur das Verb be (am, is, are) und zeigt die Anhänger und die leere Treppe, die auf den nächsten Seiten gebraucht werden. Neue Inhalte gibt es nicht, auch keine Übung.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? **Ich kann die Formen von „to be“ (am, is, are) in Aussagen, Verneinungen und Fragen verwenden.** Das ist der Baustein „Verb to be“. Du brauchst ihn gleich: Das Adjektiv steht oft nach be, einem Verb (The house is big.). Ein Verb ist ein Wort für das, was jemand tut oder ist. Lies die Tabelle und prüfe in Gedanken, ob du alle Formen kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · Die Formen von be
+        header: [Person, Form]
+        rows:
+          - [I, am]
+          - [you, are]
+          - [he / she / it, is]
+          - [we / they, are]
+      - type: text
+        text: Nicht sicher? Wiederhole es auf der [Seite zum Verb to be](https://lernapps.net/apps/map/englisch/c/to-be/) der Lernlandkarte.
+  - type: section
+    id: ausstellung
+    title: Die Ausstellung und die Anhänger
+    blocks:
+      - type: text
+        text: |
+          **Sophie** (11) kommt aus Deutschland und wohnt bei der Familie Parker. **Ellie Parker** (11) ist ihre Gastschwester, **Peter** (9) ist Ellies kleiner Bruder. **Amir** (11) ist ein Freund. **Mr Hill** ist der Englischlehrer. Er baut im Flur der Millbrook School die Ausstellung „Our Millbrook“ auf.
+      - type: text
+        text: "Zum Beschriften gibt Mr Hill den Kindern zwei Sorten Anhänger. Die **blauen** beschreiben Dinge und Personen, sie heißen **Adjektiv-Anhänger**. Die **orangefarbenen** sagen, wie jemand etwas tut, sie heißen **Adverb-Anhänger**. Die Wörter lernst du bald. Dazu kommt eine **Treppe**, auf der du Wörter steigerst (zum Beispiel big – bigger). Auf den nächsten Seiten füllst du sie."
+      - type: figure
+        image: images/anhaenger-leer.svg
+        alt: Ein blauer Anhänger, ein orangefarbener Anhänger und eine leere Treppe mit drei Stufen.
+        caption: Zwei Sorten Anhänger und die leere Treppe.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Anhänger und Treppe
+        header: [Das Zeichen, Das macht es]
+        rows:
+          - [blauer Anhänger, beschreibt ein Ding oder eine Person]
+          - [orangefarbener Anhänger, "sagt, wie jemand etwas tut"]
+          - [Treppe, steigert ein Wort in drei Stufen]
