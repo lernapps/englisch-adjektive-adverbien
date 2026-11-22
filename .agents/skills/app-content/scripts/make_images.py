@@ -244,6 +244,15 @@ def anhaenger_one():
     b += text(400, 70, "Nomen schon genannt", 22) + text(400, 230, "one ersetzt das Nomen", 22)
     return svg(640, 320, "Oben die Karten the und jacket mit blauem Anhänger red, unten die Karten the und one mit demselben Anhänger, ein gestrichelter Pfeil von jacket nach one", b)
 
+@image
+def anhaenger_gruppe():
+    b = card(20, 40, 70, 50, "the", 24) + tag(75, 90, "rich", BLUE, 36, 20)
+    for i, c in enumerate(("#c0392b", "#2c6fd8", "#3a9a5b", "#e0b020", "#8e44ad")):
+        x = 270 + i * 70
+        b += f'  <circle cx="{x}" cy="70" r="16" fill="#f3d2b3" stroke="{INK}" stroke-width="2"/>\n  <path d="M{x-24} 140 C{x-24} 100 {x+24} 100 {x+24} 140 z" fill="{c}" stroke="{INK}" stroke-width="2"/>\n'
+    b += text(430, 175, "alle Menschen dieser Art", 22) + text(75, 225, "ohne Nomen", 22)
+    return svg(640, 245, "Links die Karte the mit blauem Anhänger rich, rechts fünf einfache Menschen in verschiedenen Farben", b)
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)
     for n in names:

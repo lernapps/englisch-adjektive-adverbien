@@ -151,7 +151,7 @@ Je Slice:
 - [x] Slice 1 (Musterseite, ich allein): Kapitel `genauer-beschreiben` mit `chapter.yaml`, Wiederholung `das-brauchst-du` (recap `englisch/wortstellung`) und Seite `sinnesverben` (`adjektive-nach-sinnesverben`): Lesestück als Chat (150 bis 300 Wörter, Randglossar), Aufgaben in drei Stufen, Grammatik-Übungen, Schreibauftrag, Bilder, Audio; neues Muster „Lesestück“ in den Inhaltsführer.
 - [x] Slice 2 (ich allein, Sub-Agent nur für das Lesestück möglich): Seite `adverbien-stellung` (`adverbien-stellung`) mit Blog-/Tagebuch-Lesestück, Satzkarten-Bild für Anfang, Mitte und Ende, Übungen, Audio.
 - [x] Slice 3 (ich allein): Seite `gradadverbien` (`gradadverbien`) mit Interview-Lesestück, Bild „Regler“ von not bis extremely und too als Warnzeichen, Übungen, Audio.
-- [ ] Slice 4 (ich allein): Kapitel `adjektive-ohne-nomen` mit `chapter.yaml`, Wiederholung `das-brauchst-du` (recap `englisch/artikel`) und Seite `stuetzwort-one` (`stuetzwort-one`) mit Chat-Lesestück (Basar), Anhänger-ohne-Nomen-Bild, Übungen, Audio.
+- [x] Slice 4 (ich allein): Kapitel `adjektive-ohne-nomen` mit `chapter.yaml`, Wiederholung `das-brauchst-du` (recap `englisch/artikel`) und Seite `stuetzwort-one` (`stuetzwort-one`) mit Chat-Lesestück (Basar), Anhänger-ohne-Nomen-Bild, Übungen, Audio.
 - [ ] Slice 5 (ich allein): Seite `substantivierte-adjektive` (`substantivierte-adjektive`) mit Zeitungsartikel-Lesestück (Schulzeitung, eigene Fakten), Bild, Übungen, Audio; `app.yaml` (`chapters`, `scope`, `intro`), Selbsteinschätzung der Kapitel 3 und 4.
 <!-- tasks: slices (5 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
