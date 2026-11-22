@@ -218,7 +218,7 @@ Schulkalender · Rückblick Kapitel 1:
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → The hamster is smaller than the rabbit.
+1. Audio → The dog is bigger than the hamster.
 2. Audio → The film is better than the game.
 3. Audio → The cake is as big as the pizza.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf than und as.

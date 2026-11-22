@@ -233,8 +233,8 @@ An der Wand hängt jetzt die Treppe. Mr Hill hängt zwei Fotos von Häusern dane
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → The tallest girl is Ellie.
-2. Audio → This is the best bike.
-3. Audio → This is the most exciting film.
+2. Audio → The best bike is new.
+3. Audio → The film is the most exciting.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#adjektive-steigern-hoeren](../?via=tutor#adjektive-steigern-hoeren)
@@ -244,9 +244,9 @@ An der Wand hängt jetzt die Treppe. Mr Hill hängt zwei Fotos von Häusern dane
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → This is the hottest day.
-2. Audio → The shortest boy is Peter.
-3. Audio → This is the cheapest pizza.
+1. Audio → It is the hottest day.
+2. Audio → The old bike is the cheapest.
+3. Audio → The game is the funniest.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das -est am Ende.
 - Link: [../?via=tutor#adjektive-steigern-nachsprechen](../?via=tutor#adjektive-steigern-nachsprechen)
 

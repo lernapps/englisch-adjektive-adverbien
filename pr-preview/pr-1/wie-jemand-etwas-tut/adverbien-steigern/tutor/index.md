@@ -215,9 +215,9 @@ Schulkalender · Rückblick Kapitel 2:
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Ellie runs faster than Sophie.
-2. Audio → Amir draws more carefully than Peter.
-3. Audio → Amir plays better than Sophie.
+1. Audio → Ellie works faster than Sophie.
+2. Audio → Amir sings more loudly than Peter.
+3. Audio → Peter works better than Sophie.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#adverbien-steigern-hoeren](../?via=tutor#adverbien-steigern-hoeren)
@@ -227,7 +227,7 @@ Schulkalender · Rückblick Kapitel 2:
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Peter works harder than Ellie.
+1. Audio → Ellie speaks more slowly than Peter.
 2. Audio → Ellie speaks more quietly than Amir.
 3. Audio → Sophie runs the fastest.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf than und more.

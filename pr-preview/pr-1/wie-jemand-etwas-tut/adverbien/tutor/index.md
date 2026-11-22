@@ -89,6 +89,8 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - write | schreiben
 - football | Fußball
 - book | Buch
+- walk | gehen / laufen
+- eat | essen
 - fast | schnell
 - late | spät
 - hard | hart / schwer arbeiten
@@ -223,9 +225,9 @@ Mr Hill lobt die Kinder. Ihm fällt auf, dass manche Wörter fast gleich aussehe
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Peter runs quickly.
-2. Audio → Sophie speaks slowly.
-3. Audio → Mr Hill works hard.
+1. Audio → Peter walks slowly.
+2. Audio → Sophie eats quickly.
+3. Audio → Mr Hill writes carefully.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#adverbien-hoeren](../?via=tutor#adverbien-hoeren)
@@ -235,9 +237,9 @@ Mr Hill lobt die Kinder. Ihm fällt auf, dass manche Wörter fast gleich aussehe
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Ellie sings happily.
-2. Audio → Amir draws carefully.
-3. Audio → Peter plays football well.
+1. Audio → Amir eats slowly.
+2. Audio → Mr Hill speaks quietly.
+3. Audio → Sophie writes well.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende -ly.
 - Link: [../?via=tutor#adverbien-nachsprechen](../?via=tutor#adverbien-nachsprechen)
 
