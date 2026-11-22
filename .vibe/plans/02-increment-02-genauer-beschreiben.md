@@ -201,12 +201,18 @@ Je Slice:
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Phase Commit erreicht (Push und Vorschau-Pull-Request nach Erlaubnis, nicht veröffentlicht, kein Katalogeintrag). Checkpoints bestanden: Recherche (Ja), Plan und Inhaltsmethode (Ja), Musterseite (Ja, Seiten kürzer halten). Der Checkpoint „Veröffentlichen“ steht aus.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Menschliche Ersteller:in: zwei Rückmeldungen nach der Bestätigung des Plans: der Auftrag, alle reinen Vokabel-Tabellen durch den neuen Vokabelblock zu ersetzen (über die Orchestrator-Session weitergegeben), und die ausdrückliche Erlaubnis zum Push („Ja, alle pushen“); dazu eine kurze Aufforderung, die unterbrochene Arbeit noch einmal zu versuchen. Orchestrator-Session (in der Rolle der Ersteller:in): drei Antworten an Checkpoints (Recherche Ja, Plan Ja, Musterseite Ja mit „Seiten etwas kürzer“, bis etwa 20 Aufgaben), dazu Hinweise: keine neuen Nebenfiguren ohne Rückfrage, Vorlagenpunkte nicht beheben.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+- Interview: Es gab kein Gespräch mit einer menschlichen Ersteller:in; Antworten aus dem Auftrag der Orchestrator-Session und aus Konventionen §8; wo beide schweigen, „(guess)“: Szenen nach der Ausstellung (Kochclub, Radio, Basar, Schulzeitung), eigene Lesestücke statt VOA/Wikinews, Wörter A1/A2 plus Randglossar.
+- Alle fünf Seiten habe ich selbst geschrieben, ohne Sub-Agenten (Audio und Lesestücke hängen an einer Umgebung); Sub-Agenten nur für Lerner-Check und Sprachprüfung.
+- Zeilenangabe „Zeile“ statt „Nachricht“ für Chat-Nummern: wie im Muster der Konventionen.
+- Beim Abhaken im Plan habe ich Slice 1 vor dem Bauen abgehakt und danach nachgeholt; die Zusatz-Aufgabe zu den Hörsätzen und die Befehle des Skills wurden danach eingehalten.
+- Der Gesamtcheck lief teils gegen einen älteren Stand der Seiten (Vokabelblock ohne passende Version im laufenden Dev-Server); seine Funde habe ich gegen den aktuellen Stand geprüft.
+- Vorlagenfehler, nur umgangen und gemeldet: Standardmeldung „Deine Fassung kann trotzdem richtig sein“, `choice` ohne Fehlerhinweis, `ordering` mit Auswahlfeldern; Beobachtung: Der Vokabelblock verlängert die Seiten bei 360 px.
+- Audio: kein Mensch hat die Dateien gehört; Hörliste im Inhaltsführer.
