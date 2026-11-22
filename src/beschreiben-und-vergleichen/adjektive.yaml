@@ -216,12 +216,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: this-is-a-small-rabbit.mp3
-            target: This is a small rabbit.
-          - audio: this-is-a-new-jacket.mp3
-            target: This is a new jacket.
-          - audio: the-garden-is-big.mp3
-            target: The garden is big.
+          - audio: the-new-table-is-small.mp3
+            target: The new table is small.
+          - audio: the-hamster-is-small.mp3
+            target: The hamster is small.
+          - audio: the-jacket-is-old.mp3
+            target: The jacket is old.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -234,8 +234,8 @@ blocks:
             text: This is a big hamster.
           - audio: the-trees-are-tall.mp3
             text: The trees are tall.
-          - audio: the-old-garden-is-big.mp3
-            text: The old garden is big.
+          - audio: the-new-house-is-tall.mp3
+            text: The new house is tall.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: adjektive-karte

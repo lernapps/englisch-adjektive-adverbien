@@ -218,12 +218,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: ellie-runs-faster-than-sophie.mp3
-            target: Ellie runs faster than Sophie.
-          - audio: amir-draws-more-carefully-than-peter.mp3
-            target: Amir draws more carefully than Peter.
-          - audio: amir-plays-better-than-sophie.mp3
-            target: Amir plays better than Sophie.
+          - audio: ellie-works-faster-than-sophie.mp3
+            target: Ellie works faster than Sophie.
+          - audio: amir-sings-more-loudly-than-peter.mp3
+            target: Amir sings more loudly than Peter.
+          - audio: peter-works-better-than-sophie.mp3
+            target: Peter works better than Sophie.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -232,8 +232,8 @@ blocks:
         id: adverbien-steigern-nachsprechen
         language: en
         items:
-          - audio: peter-works-harder-than-ellie.mp3
-            text: Peter works harder than Ellie.
+          - audio: ellie-speaks-more-slowly-than-peter.mp3
+            text: Ellie speaks more slowly than Peter.
           - audio: ellie-speaks-more-quietly-than-amir.mp3
             text: Ellie speaks more quietly than Amir.
           - audio: sophie-runs-the-fastest.mp3

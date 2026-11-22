@@ -82,6 +82,8 @@ blocks:
           - [write, schreiben]
           - [football, Fußball]
           - [book, Buch]
+          - [walk, gehen / laufen]
+          - [eat, essen]
           - [fast, schnell]
           - [late, spät]
           - [hard, hart / schwer arbeiten]
@@ -235,12 +237,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: peter-runs-quickly.mp3
-            target: Peter runs quickly.
-          - audio: sophie-speaks-slowly.mp3
-            target: Sophie speaks slowly.
-          - audio: mr-hill-works-hard.mp3
-            target: Mr Hill works hard.
+          - audio: peter-walks-slowly.mp3
+            target: Peter walks slowly.
+          - audio: sophie-eats-quickly.mp3
+            target: Sophie eats quickly.
+          - audio: mr-hill-writes-carefully.mp3
+            target: Mr Hill writes carefully.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -249,12 +251,12 @@ blocks:
         id: adverbien-nachsprechen
         language: en
         items:
-          - audio: ellie-sings-happily.mp3
-            text: Ellie sings happily.
-          - audio: amir-draws-carefully.mp3
-            text: Amir draws carefully.
-          - audio: peter-plays-football-well.mp3
-            text: Peter plays football well.
+          - audio: amir-eats-slowly.mp3
+            text: Amir eats slowly.
+          - audio: mr-hill-speaks-quietly.mp3
+            text: Mr Hill speaks quietly.
+          - audio: sophie-writes-well.mp3
+            text: Sophie writes well.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende -ly.
       - type: open-task
         id: adverbien-karte

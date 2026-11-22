@@ -205,8 +205,8 @@ blocks:
         id: vergleiche-nachsprechen
         language: en
         items:
-          - audio: the-hamster-is-smaller-than-the-rabbit.mp3
-            text: The hamster is smaller than the rabbit.
+          - audio: the-dog-is-bigger-than-the-hamster.mp3
+            text: The dog is bigger than the hamster.
           - audio: the-film-is-better-than-the-game.mp3
             text: The film is better than the game.
           - audio: the-cake-is-as-big-as-the-pizza.mp3

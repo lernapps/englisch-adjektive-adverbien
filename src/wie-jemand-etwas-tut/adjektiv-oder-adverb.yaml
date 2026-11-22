@@ -195,10 +195,10 @@ blocks:
         items:
           - audio: ellie-is-a-good-friend.mp3
             target: Ellie is a good friend.
-          - audio: the-boys-are-loud.mp3
-            target: The boys are loud.
-          - audio: ellie-plays-well.mp3
-            target: Ellie plays well.
+          - audio: peter-is-a-kind-boy.mp3
+            target: Peter is a kind boy.
+          - audio: the-teacher-is-nice.mp3
+            target: The teacher is nice.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -207,12 +207,12 @@ blocks:
         id: adjektiv-oder-adverb-nachsprechen
         language: en
         items:
-          - audio: peter-is-a-quick-boy.mp3
-            text: Peter is a quick boy.
-          - audio: peter-runs-fast.mp3
-            text: Peter runs fast.
-          - audio: the-girls-are-quiet.mp3
-            text: The girls are quiet.
+          - audio: ellie-is-a-nice-girl.mp3
+            text: Ellie is a nice girl.
+          - audio: the-teacher-is-kind.mp3
+            text: The teacher is kind.
+          - audio: peter-speaks-quietly.mp3
+            text: Peter speaks quietly.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
       - type: open-task
         id: adjektiv-oder-adverb-karte

@@ -241,10 +241,10 @@ blocks:
         items:
           - audio: the-tallest-girl-is-ellie.mp3
             target: The tallest girl is Ellie.
-          - audio: this-is-the-best-bike.mp3
-            target: This is the best bike.
-          - audio: this-is-the-most-exciting-film.mp3
-            target: This is the most exciting film.
+          - audio: the-best-bike-is-new.mp3
+            target: The best bike is new.
+          - audio: the-film-is-the-most-exciting.mp3
+            target: The film is the most exciting.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -253,12 +253,12 @@ blocks:
         id: adjektive-steigern-nachsprechen
         language: en
         items:
-          - audio: this-is-the-hottest-day.mp3
-            text: This is the hottest day.
-          - audio: the-shortest-boy-is-peter.mp3
-            text: The shortest boy is Peter.
-          - audio: this-is-the-cheapest-pizza.mp3
-            text: This is the cheapest pizza.
+          - audio: it-is-the-hottest-day.mp3
+            text: It is the hottest day.
+          - audio: the-old-bike-is-the-cheapest.mp3
+            text: The old bike is the cheapest.
+          - audio: the-game-is-the-funniest.mp3
+            text: The game is the funniest.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das -est am Ende.
       - type: open-task
         id: adjektive-steigern-karte

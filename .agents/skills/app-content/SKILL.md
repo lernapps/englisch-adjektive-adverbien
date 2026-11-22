@@ -71,13 +71,39 @@ Aufbau leicht → schwer: wählen/zuordnen → Lücke → schreiben mit Cue → 
 
 Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2, geöffnet 2026-11-21). Wörter der Übungen: Adjektive big, small, tall, short, old, new, fast, slow, quick, quiet, loud, happy, sad, good, bad, easy, difficult, hard, careful, interesting, exciting, expensive, cheap, beautiful, funny, friendly, busy, hot, cold, long, young, strong, clean, nice, clever, warm (A1), heavy, dirty, tidy, polite (A2); Adverbien slowly, quickly, quietly, loudly, carefully, happily, easily, kindly, early, late, well (A1), badly, politely, patiently, safely, calmly, gently, softly, sadly (A2). Außerhalb der Liste, jeweils mit Bedeutung auf der Seite eingeführt: die Steigerungs- und Höchstformen (bigger, taller, easier, better, best, worse, worst, faster, harder, earlier, more … und the most …; Formen von Wörtern der Liste), exhibition (A2, nur im Text), poster, two. Auf der Seite `vergleiche` stehen zusätzlich boring, rabbit, hamster, cake, test (alle in der Liste). Nicht verwendet: bakery, bridge, brave, lazy, neatly, project, duck. Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA): `Degrees of comparison of adjectives and adverbs` (-er/-est bei einer Silbe, more/most bei drei und mehr, unregelmäßige Formen, than und as … as, Doppelsteigerung als Fehler) und `Adverb` (Adverbien der Art und Weise oft mit -ly, flat adverbs wie fast, Steigerung mit more/most, well – better – best), geöffnet am 2026-11-21. Nicht geprüft: deutsche Wikipedia, Klexikon. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
 
+## Hörliste
+
+Hörsätze, die auf ein einsilbiges Wort enden (nach dem Erzeugen hatte die Stimme dort ein leises Ausklingen, `regen_audio.py` schneidet es ab). Die Ersteller:in hört sie gezielt, bevor die App veröffentlicht wird. Kein Hörsatz hängt einen Namen nur wegen des Klangs an; ein Name am Satzende steht nur, wo der Satz ihn braucht (The tallest girl is Ellie, … than Sophie).
+
+| Datei (`src/audio/`) | Satz |
+|---|---|
+| the-best-bike-is-new.mp3 | The best bike is new. |
+| it-is-the-hottest-day.mp3 | It is the hottest day. |
+| the-new-table-is-small.mp3 | The new table is small. |
+| the-hamster-is-small.mp3 | The hamster is small. |
+| the-jacket-is-old.mp3 | The jacket is old. |
+| the-trees-are-tall.mp3 | The trees are tall. |
+| the-new-house-is-tall.mp3 | The new house is tall. |
+| the-garden-is-bigger-than-the-house.mp3 | The garden is bigger than the house. |
+| the-pizza-is-not-as-cheap-as-the-cake.mp3 | The pizza is not as cheap as the cake. |
+| the-old-house-is-as-big-as-the-new-house.mp3 | The old house is as big as the new house. |
+| the-film-is-better-than-the-game.mp3 | The film is better than the game. |
+| ellie-is-a-good-friend.mp3 | Ellie is a good friend. |
+| peter-is-a-kind-boy.mp3 | Peter is a kind boy. |
+| the-teacher-is-nice.mp3 | The teacher is nice. |
+| ellie-is-a-nice-girl.mp3 | Ellie is a nice girl. |
+| the-teacher-is-kind.mp3 | The teacher is kind. |
+| sophie-writes-well.mp3 | Sophie writes well. |
+
+Nach jedem neuen Hörsatz: einsilbiges Ende → hier eintragen.
+
 ## Adding a chapter or round
 
 1. Baustein auf der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen.
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, Competency-ID setzen.
 3. Anhänger und Treppe in der Figurenfamilie erweitern (Kapitel 3: Satzkarten aus #473, Anhänger nach look, sound, taste, Regler für Gradadverbien; Kapitel 4: Anhänger ohne Nomen, one, the rich) und das Poster um die Zeilen der Seite.
 4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 je Seite in `selfAssessment` (Skill `lernapps-explainer-self-assessment`).
-5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, 6 je Seite: 3 für Diktat, 3 für Nachsprechen), erzeugt mit `regen_audio.py` (Skript aus #470/#472, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
+5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, 6 je Seite: 3 für Diktat, 3 für Nachsprechen), erzeugt mit `regen_audio.py` (Skript aus #470/#472, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen und nicht wörtlich (auch nicht mit getauschtem Namen) in Einstieg, Poster, Merke oder einer Übung derselben Seite; einsilbiges Ende in die Hörliste.
 6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 
 ## Rules learned from mistakes
@@ -87,7 +113,7 @@ Aus #470 und #472 übernommen:
 - Eine Tabelle, die eine Übung beantwortet, steht nicht direkt über ihr; die Antwort einer Frage steht nie im Absatz direkt darüber.
 - Englische Aufgaben enthalten kein deutsches Wort; der Cue ist englisch, der deutsche Hinweis steht in `source` oder in der Aufgabe.
 - Mit `(a|b)` gleichwertige richtige Antworten zulassen; `case: wrong` nur dort, wo die Seite Großschreibung unterrichtet.
-- Audio: das Ausklingen der Stimme am Satzende abschneiden, Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
+- Audio: das Ausklingen der Stimme am Satzende abschneiden (`regen_audio.py`), keinen Namen nur für den Klang anhängen, Hörlisten-Sätze (einsilbiges Ende) im Inhaltsführer führen; ein Name am Satzende nur, wo der Satz ihn braucht (zweisilbig: Sophie, Peter, Ellie, Amir).
 - Bilder: Beschriftungen innerhalb des `viewBox`; `alt` verrät nie die Lösung; die Bildunterschrift nennt, wer wer ist.
 - Der Merke-Kasten nennt andere Wörter als die Übungen, sonst schreiben die Kinder nur ab.
 - Als Auswahl nur echte Lernerfehler (more bigger, taller then), keine Unwörter.
