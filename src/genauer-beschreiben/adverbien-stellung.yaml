@@ -98,7 +98,7 @@ blocks:
     title: Schau in den Text
     blocks:
       - type: text
-        text: "Der Blog hat viele orangefarbene Anhänger, und sie hängen an verschiedenen Stellen. In Zeile 4 steht **Suddenly** ganz am **Anfang**, mit einem Komma dahinter. In Zeile 2 hängt **carefully** in der **Mitte**, direkt vor dem Verb. In Zeile 4 steht **quietly** ebenfalls in der Mitte, nach dem ersten Hilfsverb **had** (ein Hilfsverb wie can, has, had oder is). In Zeile 3 steht **clearly** am **Ende**. Nur eine Stelle bleibt immer leer: **zwischen dem Verb und seinem Objekt**."
+        text: "Der Blog hat viele orangefarbene Anhänger, und sie hängen an verschiedenen Stellen. In Zeile 4 steht **Suddenly** ganz am **Anfang**, mit einem Komma dahinter. In Zeile 2 hängt **carefully** in der **Mitte**, direkt vor dem Verb. In Zeile 4 steht **quietly** ebenfalls in der Mitte, nach dem ersten Hilfsverb **had**. In Zeile 3 steht **clearly** am **Ende**. Nur eine Stelle bleibt immer leer: **zwischen dem Verb und seinem Objekt**."
       - type: figure
         image: images/satzkarten-stellung.svg
         alt: Drei Karten Amir, opened und the door. Davor, zwischen Amir und opened und am Ende hängen orangefarbene Haken mit den Zahlen 1, 2 und 3. Zwischen opened und the door steht ein rotes Kreuz.
@@ -131,6 +131,12 @@ blocks:
           - { target: "window", source: "Fenster" }
           - { target: "lights", source: "Licht / Lichter" }
           - { target: "text", source: "Text" }
+          - { target: "clearly", source: "deutlich" }
+          - { target: "easily", source: "leicht" }
+          - { target: "carry", source: "tragen" }
+          - { target: "fix", source: "reparieren" }
+          - { target: "answer", source: "antworten" }
+          - { target: "pack", source: "einpacken" }
           - { target: "calmly", source: "ruhig" }
           - { target: "softly", source: "leise / sanft" }
           - { target: "sun", source: "Sonne" }
@@ -171,8 +177,6 @@ blocks:
             mistakes:
               - answer: Peter easily can fix it.
                 message: Mit einem Hilfsverb steht das Adverb nach dem Hilfsverb, nicht davor.
-              - answer: Peter can fix easily it.
-                message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt.
           - cue: Amir · politely · answer · the question
             target: (Politely, Amir answers the question|Amir politely answers the question|Amir answers the question politely).
             mistakes:

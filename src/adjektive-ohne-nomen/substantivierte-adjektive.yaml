@@ -52,7 +52,7 @@ blocks:
           - { target: "learn from each other", source: "voneinander lernen" }
       - type: text
         text: |
-          **5 ·** Sophie, 13, helped to organise the event. "People often think of the rich and the poor as two separate groups," she said. "On Saturday everybody worked together."
+          **5 ·** Sophie, one of the organisers, helped to run the event. "People often think of the rich and the poor as two separate groups," she said. "On Saturday everybody worked together."
 
           **6 ·** A group of students will now bring cake to the elderly every month.
 
@@ -71,9 +71,9 @@ blocks:
     blocks:
       - type: true-false
         id: substantivierte-adjektive-verstehen
-        text: "Der Basar hat mehr als 850 Pfund eingenommen. Stimmt das?"
+        text: "Der Basar hat mehr als 900 Pfund eingenommen. Stimmt das?"
         answer: false
-        explanation: Der Basar hat genau 850 Pfund eingenommen. Das steht in Zeile 2.
+        explanation: Der Basar hat 850 Pfund eingenommen, nicht mehr als 900. Das steht in Zeile 2.
         links:
           - title: Lernlandkarte Englisch · Substantivierte Adjektive
             url: https://lernapps.net/apps/map/englisch/c/substantivierte-adjektive/
@@ -124,6 +124,9 @@ blocks:
         languages: { source: de, target: en }
         entries:
           - { target: "elderly", source: "älter (the elderly = ältere Menschen)" }
+          - { target: "bazaar", source: "Basar" }
+          - { target: "held", source: "hielt (veranstaltete)" }
+          - { target: "alone", source: "allein" }
           - { target: "rich", source: "reich" }
           - { target: "poor", source: "arm" }
           - { target: "young", source: "jung" }
@@ -143,11 +146,11 @@ blocks:
         task: Wähle das richtige Wort.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Die Reichen haben viel Geld.
-            target: The [rich] have a lot of money.
-            distractors: [[riches]]
-          - cue: Die Älteren sind oft allein.
-            target: The elderly [are] often alone.
+          - cue: Die Alten sitzen im Park.
+            target: The [old] sit in the park.
+            distractors: [[olds]]
+          - cue: Die Jungen sind oft beschäftigt.
+            target: The young [are] often busy.
             distractors: [[is]]
           - cue: Die Jungen helfen gern.
             target: The [young] like to help.
@@ -160,7 +163,7 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Die Armen brauchen Hilfe.
-            target: The poor need help.
+            target: The poor (people |)need help.
             mistakes:
               - answer: The poor needs help.
                 message: Gemeint ist eine Gruppe von Menschen. Das Verb steht in der Mehrzahl.
@@ -201,7 +204,7 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Die Jungen mögen Musik.
-            target: The young like music.
+            target: (The young|Young people) like music.
             mistakes:
               - answer: The young likes music.
                 message: Gemeint ist eine Gruppe von Menschen. Das Verb steht in der Mehrzahl.
@@ -256,7 +259,7 @@ blocks:
       - type: text
         text: "Der Artikel erscheint in der Schulzeitung. Mr Hill hängt ihn an die Wand im Flur. Die Anhänger der Klasse sind jetzt nicht mehr nur ein Spiel: Sie beschreiben Dinge, Handlungen und sogar Gruppen von Menschen. Damit ist diese Reihe von Kapiteln zu Ende."
       - type: table
-        caption: Schulkalender · Rückblick Kapitel 3 und 4
+        caption: Schulkalender · Rückblick Genauer beschreiben und Adjektive ohne Nomen
         header: [Das willst du sagen, "So geht es"]
         rows:
           - [wie etwas aussieht oder schmeckt, "look, sound, feel, taste, smell + Adjektiv"]

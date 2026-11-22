@@ -258,7 +258,7 @@ blocks:
       - type: text
         text: "Du hast jetzt zwei Anhänger und die Treppe mit ihren zwei Seiten. Der blaue Anhänger beschreibt Dinge und Personen, der orangefarbene sagt, wie jemand etwas tut. Beide Seiten der Treppe steigen gleich: kurz mit -er und -est, lang mit more und most. Mr Hill hängt die Karten auf, und die Ausstellung „Our Millbrook“ kann beginnen."
       - type: table
-        caption: Schulkalender · Rückblick Kapitel 2
+        caption: Schulkalender · Rückblick Wie jemand etwas tut
         header: [Das willst du sagen, "So geht es"]
         rows:
           - [wie jemand etwas tut, "orangefarbener Anhänger am Verb, meist -ly"]

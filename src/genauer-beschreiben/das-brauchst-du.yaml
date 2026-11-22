@@ -12,9 +12,13 @@ blocks:
         text: "Kannst du das schon? **Ich kann Aussagesätze in der Reihenfolge Subjekt – Verb – Objekt bilden und Ortsangaben vor Zeitangaben stellen.** Das ist der Baustein „Wortstellung“. Das Subjekt ist das Wort, von dem der Satz handelt, das Objekt das, worauf sich das Verb richtet. Du brauchst ihn in diesem Kapitel, weil du Adverbien an die richtige Stelle im Satz setzt. Lies die Tabelle und prüfe in Gedanken, ob du die Reihenfolge kennst."
       - type: table
         caption: Klassenzimmer-Poster · Die Reihenfolge im Satz
-        header: [Subjekt, Verb, Objekt, Ort, Zeit]
+        header: [Satzteil, Beispiel]
         rows:
-          - [Sophie, reads, a book, in the library, on Monday.]
+          - [Subjekt, Sophie]
+          - [Verb, reads]
+          - [Objekt, a book]
+          - [Ort, in the library]
+          - [Zeit, on Monday]
       - type: text
         text: Nicht sicher? Wiederhole es auf der [Seite zur Wortstellung](https://lernapps.net/apps/map/englisch/c/wortstellung/) der Lernlandkarte.
   - type: section

@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: single-choice
         id: stuetzwort-one-start
-        text: "Aus Kapitel 1: Wo hängt der blaue Anhänger in „a big house“?"
+        text: "Aus dem Kapitel „Beschreiben und vergleichen“: Wo hängt der blaue Anhänger in „a big house“?"
         options:
           - text: vor dem Nomen house
             correct: true
@@ -128,7 +128,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **one** ersetzt ein Nomen in der **Einzahl**, das schon genannt ist, **ones** in der **Mehrzahl**. Der blaue Anhänger bleibt davor hängen: the red **one**. Ein einzelnes Adjektiv geht nicht, nicht „I like the red“, sondern „I like the red one“. Das gilt nur für Nomen, die du zählen kannst (nicht für water). Nach my, your oder her steht one nur mit einem Adjektiv: my new one.
+              **one** ersetzt ein Nomen in der **Einzahl**, das schon genannt ist, **ones** in der **Mehrzahl**. Der blaue Anhänger bleibt davor hängen: the red **one**. Ein einzelnes Adjektiv geht nicht, nicht „I want the blue“, sondern „I want the blue one“. Das gilt nur für Nomen, die du zählen kannst.
       - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         languages: { source: de, target: en }
@@ -143,6 +143,7 @@ blocks:
           - { target: "yours", source: "deins" }
           - { target: "prefer", source: "lieber mögen" }
           - { target: "apple", source: "Apfel" }
+          - { target: "a few", source: "ein paar" }
   - type: section
     id: uebung
     title: Übung
@@ -210,7 +211,7 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Die blauen Schuhe sind billiger als die grünen.
-            target: The blue shoes are cheaper than the green ones.
+            target: The blue shoes are cheaper than (the |)green ones.
             mistakes:
               - answer: The blue shoes are cheaper than the green.
                 message: Nach dem Anhänger green fehlt das Stützwort ones.

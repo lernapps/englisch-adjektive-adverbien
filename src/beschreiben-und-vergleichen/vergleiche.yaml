@@ -231,7 +231,7 @@ blocks:
       - type: text
         text: "Das hast du jetzt am Wandbild hängen: den blauen Anhänger vor dem Nomen und nach be, die Treppe mit drei Stufen und die kleinen Wörter than und as … as. Damit beschreibst du Dinge und vergleichst sie. Mr Hill ist zufrieden. Als Nächstes gibt es orangefarbene Anhänger, die sagen, **wie** jemand etwas tut."
       - type: table
-        caption: Schulkalender · Rückblick Kapitel 1
+        caption: Schulkalender · Rückblick Beschreiben und vergleichen
         header: [Das willst du sagen, "So geht es"]
         rows:
           - [ein Ding beschreiben, "blauer Anhänger vor dem Nomen oder nach be"]

@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: single-choice
         id: sinnesverben-start
-        text: "Du kennst aus Kapitel 1 und 2 zwei Anhänger. Ellie schreibt „The soup is great.“ Welcher Anhänger hängt nach is?"
+        text: "Du kennst aus den ersten Kapiteln zwei Anhänger. Ellie schreibt „The soup is great.“ Welcher Anhänger hängt nach is?"
         options:
           - text: der blaue Adjektiv-Anhänger
             correct: true
@@ -56,6 +56,7 @@ blocks:
         entries:
           - { target: "whole", source: "ganz" }
           - { target: "recipe", source: "Rezept" }
+          - { target: "almost", source: "fast" }
           - { target: "try", source: "Versuch / probieren" }
           - { target: "smell", source: "riechen" }
           - { target: "taste", source: "schmecken" }
@@ -68,7 +69,7 @@ blocks:
         text: |
           **7 · Amir:** I am. My dad's bread smells wonderful, and it feels warm when it comes out of the oven.
 
-          **8 · Peter:** I'm bringing the juice. It tastes sour, but my little sister likes it.
+          **8 · Peter:** I'm bringing the juice. It tastes sour, but my cousin likes it.
 
           **9 · Ellie:** Sophie, you sound tired. Are you OK?
 
@@ -97,7 +98,7 @@ blocks:
     blocks:
       - type: true-false
         id: sinnesverben-verstehen
-        text: "Ellies erste Suppe sah ganz normal rot aus. Stimmt das?"
+        text: "Ellies erste Suppe sah völlig normal rot aus. Stimmt das?"
         answer: false
         explanation: Ellies erster Versuch sah seltsam aus, die Suppe war fast orange. Das steht in Zeile 4.
         links:
@@ -237,16 +238,16 @@ blocks:
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: The pizza tastes deliciously.
-            target: The pizza tastes delicious.
+          - cue: The song sounds beautifully.
+            target: The song sounds beautiful.
             mistakes:
-              - answer: The pizza tastes deliciously.
+              - answer: The song sounds beautifully.
                 message: Ersetze tastes im Kopf durch is. Welches Wort passt dann?
-          - cue: I feel badly.
-            target: I feel bad.
+          - cue: You look nervously.
+            target: You look nervous.
             mistakes:
-              - answer: I feel badly.
-                message: Hier sagst du, wie du dich fühlst. Das Wort braucht keine Endung -ly.
+              - answer: You look nervously.
+                message: Hier sagst du, wie du aussiehst. Das Wort braucht keine Endung -ly.
         hint: Frage dich, ob das Wort sagt, wie jemand oder etwas ist.
       - type: language-task
         id: sinnesverben-hoeren
@@ -292,4 +293,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am nächsten Tag kocht Sophie. Sie ist nervös und rührt die Suppe langsam um. Sie schreibt später einen Blogeintrag über den Tag. Dort stehen Adverbien an ganz verschiedenen Stellen im Satz. Auf der nächsten Seite findest du heraus, wo sie hingehören."
+        text: "Am nächsten Tag kocht Sophie. Sie ist nervös und rührt die Suppe langsam um. Wenige Wochen später startet das Schul-Radio. Sophie schreibt darüber einen Blogeintrag. Dort stehen Adverbien an ganz verschiedenen Stellen im Satz. Auf der nächsten Seite findest du heraus, wo sie hingehören."

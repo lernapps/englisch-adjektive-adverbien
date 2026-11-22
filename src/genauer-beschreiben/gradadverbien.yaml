@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: single-choice
         id: gradadverbien-start
-        text: "Aus Kapitel 2: In welchem Satz steht ein orangefarbener Adverb-Anhänger?"
+        text: "Aus dem Kapitel „Wie jemand etwas tut“: In welchem Satz steht ein orangefarbener Adverb-Anhänger?"
         options:
           - text: Peter speaks loudly.
             correct: true
@@ -109,7 +109,7 @@ blocks:
     title: Schau in den Text
     blocks:
       - type: text
-        text: "Mr Hill stuft vieles ab. Sophie spricht **very quietly**, das Gebäude ist **quite old**, der Unterricht ist **rather difficult**, Peter ist **extremely loud**. Diese Wörter heißen **Gradadverbien**. Sie sitzen auf einem **Regler**: Je weiter rechts, desto stärker. Sie stehen **vor** dem Adjektiv oder Adverb, das sie abstufen. Das Wort **too** ist das rote Warnzeichen: Es heißt **zu**, also mehr als gut."
+        text: "Mr Hill stuft vieles ab. Manche Schüler sprechen **very quietly**, das Gebäude ist **quite old**, der Unterricht ist **rather difficult**, andere sind **extremely loud**. Diese Wörter heißen **Gradadverbien**. Sie sitzen auf einem **Regler**: Je weiter rechts, desto stärker. Sie stehen **vor** dem Adjektiv oder Adverb, das sie abstufen. Das Wort **too** ist das rote Warnzeichen: Es heißt **zu**, also mehr als gut."
       - type: figure
         image: images/regler-gradadverbien.svg
         alt: Ein Regler mit den Punkten not, quite, rather, very und extremely von links nach rechts, darüber schwächer und stärker. Daneben ein rotes Schild mit too und dem Wort zu viel.
@@ -130,11 +130,17 @@ blocks:
         blocks:
           - type: text
             text: |
-              Gradadverbien stehen **vor Adjektiven und Adverbien**: very friendly, very quietly. Vor einem **Verb** stehen sie nicht: nicht „I very like it“, sondern „I like it very much“. Und **too** heißt **zu**, nicht „sehr“: Der Tee ist too hot, du kannst ihn nicht trinken.
+              Gradadverbien stehen **vor Adjektiven und Adverbien**: very friendly, very quietly. Vor einem **Verb** stehen sie nicht: nicht „I very like it“, sondern „I like it very much“. Und **too** heißt **zu**, nicht „sehr“: Der Kaffee ist too hot, du kannst ihn nicht trinken.
       - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         languages: { source: de, target: en }
         entries:
+          - { target: "quite", source: "ziemlich" }
+          - { target: "rather", source: "ziemlich, eher" }
+          - { target: "very", source: "sehr" }
+          - { target: "extremely", source: "äußerst" }
+          - { target: "too", source: "zu" }
+          - { target: "not", source: "nicht" }
           - { target: "boring", source: "langweilig" }
           - { target: "empty", source: "leer" }
           - { target: "heavy", source: "schwer" }
@@ -173,9 +179,9 @@ blocks:
           - cue: Die Aufgabe ist sehr leicht.
             target: The task is [very] easy.
             distractors: [[too]]
-          - cue: Ich mag Fußball sehr.
-            target: I like football [very much].
-            distractors: [[very]]
+          - cue: Ich kenne ihn sehr gut.
+            target: I know him [very] well.
+            distractors: [[too]]
           - cue: Die Straße ist ziemlich lang.
             target: The street is [quite|rather] long.
             distractors: [[too]]
@@ -195,16 +201,16 @@ blocks:
             target: Peter speaks extremely loudly.
             mistakes:
               - answer: Peter speaks extremely loud.
-                message: Im Schulenglisch beschreibt das Wort hinter dem Verb, wie Peter spricht. Es braucht -ly.
+                message: Hinter dem Verb beschreibt das Wort, wie Peter spricht. Dafür braucht es -ly.
           - source: Das Wasser ist zu kalt.
             target: The water is too cold.
             mistakes:
               - answer: The water is very cold.
                 message: very heißt sehr, nicht zu. Das Warnzeichen heißt too.
-          - source: Ich mag Musik sehr (nutze very much).
-            target: I like music very much.
+          - source: Er hilft uns sehr (nutze very much).
+            target: He helps us very much.
             mistakes:
-              - answer: I very like music.
+              - answer: He very helps us.
                 message: Vor dem Verb steht very nicht. Sage very much hinter das Objekt.
         hint: Prüfe, ob du zu, sehr oder ziemlich sagen willst.
       - type: language-task
@@ -213,10 +219,10 @@ blocks:
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: I very like pizza.
-            target: I like pizza very much.
+          - cue: She very loves her dog.
+            target: She loves her dog very much.
             mistakes:
-              - answer: I very like pizza.
+              - answer: She very loves her dog.
                 message: Vor einem Verb steht very nicht. Wohin gehört very much?
           - cue: The cake is very much sweet.
             target: The cake is very sweet.

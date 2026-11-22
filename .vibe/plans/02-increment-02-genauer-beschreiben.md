@@ -193,6 +193,8 @@ Je Slice:
 
 - Auftrag der Ersteller:in (über die Orchestrator-Session, 2026-11-22): `lernapps update` (app-templates 0.14.0, tooling 0.18.4) und alle reinen Vokabel-Tabellen (Randglossare, „Wörter dieser Seite“) durch den Block `vocabulary` ersetzen: 20 Tabellen in 11 Dateien umgestellt (Seiten der ersten Version und des Inkrements); `definition`-Blöcke gibt es in der App nicht. `lernapps check`: 0 Fehler.
 
+- Gesamtcheck der neuen Seiten (Sub-Agent, Kind Klasse 7-8, 360 und 1280 px, 2026-11-22; er lief teils gegen einen älteren Stand, ohne die Vokabelblöcke) und Sprachprüfung Englisch/Deutsch: behoben: Kapitelnummern durch Kapiteltitel ersetzt, Peters „little sister“ durch „cousin“, Ende von `sinnesverben` passt zum Blog, Anfangsstellung und Zeitformen in den Stellungs-Aufgaben zugelassen, mehrere richtige Lösungen genannt, Regelsätze präzisiert (Adverbien auf -ly, Hilfsverb, one nur zählbar), „not too bad“ und Namen im Interview entfernt, Gradadverbien mit Bedeutungen (ziemlich, sehr, äußerst, zu), Glossare ergänzt (clearly, easily, almost, elderly, a few …), Doppelungen zwischen Auswahl und Korrektur sowie Merke und Aufgabe aufgelöst, sensible Hörsätze durch neutrale ersetzt, Höflichkeitshinweis zu the elderly/the old, Wiederholungsseite Kapitel 3 als zweispaltige Tabelle (360 px), Sophies Alter im Artikel gestrichen. Nicht behoben, Vorlage: Standardmeldung „Deine Fassung kann trotzdem richtig sein“, `choice` ohne Fehlerhinweis, Auswahl-Sortierfelder. Beobachtung: Der Vokabelblock zeigt jedes Wort als eigene Karte und macht die Seiten bei 360 px länger (rund 12 800 px bei `sinnesverben`).
+
 ## Retrospective
 
 <!-- At the end of Commit. Facts, short, no names. Read by review and evals. -->
