@@ -189,6 +189,24 @@ def anhaenger_sinnesverben():
     b += text(205, 245, "wie ist die Suppe?", 20) + text(485, 245, "wie ist sie?", 20) + text(280, 25, "blau = Adjektiv, Bogen = gehört zum Subjekt", 18)
     return svg(560, 270, "Zwei Kartenpaare, an jedem hängt ein blauer Anhänger nach dem Verb, der zum Subjekt zurückzeigt", b)
 
+@image
+def szene_adverbien_stellung():
+    b = wall()
+    b += '  <rect x="250" y="150" width="140" height="14" fill="#7a5a35"/>\n'
+    b += '  <g stroke="#333" stroke-width="3"><line x1="320" y1="150" x2="320" y2="95"/><ellipse cx="320" cy="80" rx="22" ry="30" fill="#555"/><rect x="290" y="130" width="60" height="8" fill="#333"/></g>\n'
+    b += '  <circle cx="560" cy="70" r="16" fill="#c0392b" stroke="#333" stroke-width="3"/>\n' + text(560, 112, "ON AIR", 18)
+    b += kid("sophie", 400, 110, .8) + kid("amir", 150, 110, .8) + kid("ellie", 40, 120, .8) + kid("peter", 280, 175, .6)
+    return svg(640, 340, "Vier Jugendliche im Schul-Radio-Studio, ein Mikrofon steht auf dem Tisch, eine rote Lampe leuchtet", b)
+
+@image
+def satzkarten_stellung():
+    b = card(60, 70, 100, 50, "Amir", 24) + card(190, 70, 130, 50, "opened", 24) + card(350, 70, 150, 50, "the door", 24)
+    for x, n in ((42, "1"), (175, "2"), (525, "3")):
+        b += f'  <circle cx="{x}" cy="95" r="13" fill="{ORANGE}" stroke="{INK}" stroke-width="2"/>\n' + text(x, 101, n, 18, fill="#fff", weight="bold")
+    b += f'  <path d="M325 80 l22 22 m0 -22 l-22 22" stroke="#c0392b" stroke-width="5" stroke-linecap="round"/>\n'
+    b += text(42, 150, "Anfang", 20) + text(175, 150, "Mitte", 20) + text(525, 150, "Ende", 20) + text(337, 150, "gesperrt", 20)
+    return svg(580, 190, "Drei Karten Amir, opened, the door mit drei orangefarbenen Haken davor, dahinter und am Ende und einem roten Kreuz zwischen opened und the door", b)
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)
     for n in names:
