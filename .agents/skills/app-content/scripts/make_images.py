@@ -242,7 +242,7 @@ def anhaenger_one():
     b += card(20, 190, 70, 50, "the", 24) + card(100, 190, 110, 50, "one", 24) + tag(95, 240, "red", BLUE, 34, 20)
     b += f'  <path d="M165 85 C 190 130 160 150 150 185" fill="none" stroke="{INK}" stroke-width="3" stroke-dasharray="7 5"/>\n'
     b += text(400, 70, "Nomen schon genannt", 22) + text(400, 230, "one ersetzt das Nomen", 22)
-    return svg(640, 320, "Oben die Karten the und jacket mit blauem Anhänger red, unten die Karten the und one mit demselben Anhänger, ein gestrichelter Pfeil von jacket nach one", b)
+    return svg(640, 345, "Oben die Karten the und jacket mit blauem Anhänger red, unten die Karten the und one mit demselben Anhänger, ein gestrichelter Pfeil von jacket nach one", b)
 
 @image
 def anhaenger_gruppe():
