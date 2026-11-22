@@ -171,6 +171,23 @@ def treppe_adverbien_steigern():
     b += stairs(5, 400, ["carefully", "more carefully", "the most carefully"], w=210, step=30, colour=ORANGE)
     return svg(640, 420, "Zwei Treppen mit drei Stufen: fast, faster, the fastest und carefully, more carefully, the most carefully", b)
 
+@image
+def szene_sinnesverben():
+    b = wall()
+    b += '  <rect x="220" y="170" width="200" height="14" fill="#7a5a35"/>\n'
+    b += '  <g stroke="#333" stroke-width="3"><path d="M250 120 h140 v50 h-140 z" fill="#c0392b"/><rect x="240" y="110" width="160" height="12" rx="6" fill="#999"/></g>\n'
+    b += '  <path d="M290 95 q-10 -20 0 -40 M320 95 q-10 -20 0 -40 M350 95 q-10 -20 0 -40" fill="none" stroke="#bbb" stroke-width="5" stroke-linecap="round"/>\n'
+    b += kid("sophie", 400, 120, .8) + kid("ellie", 40, 120, .8) + kid("amir", 130, 120, .8) + kid("peter", 520, 150, .65)
+    return svg(640, 340, "Vier Kinder stehen um einen Topf mit dampfender Suppe in der Schulküche", b)
+
+@image
+def anhaenger_sinnesverben():
+    b = card(10, 40, 130, 50, "The soup", 24) + card(150, 40, 110, 50, "tastes", 24) + tag(205, 90, "sweet", BLUE, 40, 20)
+    b += f'  <path d="M180 190 C150 215 90 215 75 95" fill="none" stroke="{BLUE}" stroke-width="3" stroke-dasharray="7 5"/>\n'
+    b += card(330, 40, 90, 50, "She", 24) + card(430, 40, 110, 50, "looks", 24) + tag(485, 90, "tired", BLUE, 40, 20)
+    b += text(205, 245, "wie ist die Suppe?", 20) + text(485, 245, "wie ist sie?", 20)
+    return svg(560, 270, "Zwei Kartenpaare, an jedem hängt ein blauer Anhänger nach dem Verb, der zum Subjekt zurückzeigt", b)
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)
     for n in names:

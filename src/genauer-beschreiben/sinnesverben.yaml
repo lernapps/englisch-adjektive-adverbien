@@ -1,0 +1,293 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Es schmeckt gut: Adjektive nach look, sound, feel und taste"
+description: "Der Chat des Kochclubs zeigt: Nach look, sound, feel, taste und smell steht ein Adjektiv, nicht ein Adverb."
+competencies: [adjektive-nach-sinnesverben]
+scope: Die Seite lehrt, dass nach den Verben look, sound, feel, taste und smell das Adjektiv steht und das Subjekt beschreibt (The soup tastes sweet.), wie nach be. Beschreibt das Wort dagegen eine Handlung, steht das Adverb (She looks at the soup carefully.). Typische Fehler sind tastes well, looks happily und feels badly. Nicht hier, weil es spätere Seiten sind. Die Stellung der Adverbien, Gradadverbien, one und substantivierte Adjektive.
+blocks:
+  - type: section
+    id: vorwissen
+    title: Was du schon weißt
+    blocks:
+      - type: figure
+        image: images/szene-sinnesverben.svg
+        alt: Vier Jugendliche stehen in der Schulküche um einen großen Topf mit dampfender Suppe.
+        caption: "Von links: Ellie (roter Pferdeschwanz), Amir (Brille), Sophie (Zöpfe) und Peter (gelbe Jacke)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: single-choice
+        id: sinnesverben-start
+        text: "Du kennst aus Kapitel 1 und 2 zwei Anhänger. Ellie schreibt „The soup is great.“ Welcher Anhänger hängt nach is?"
+        options:
+          - text: der blaue Adjektiv-Anhänger
+            correct: true
+            info: Nach be steht das Adjektiv. Es sagt, wie die Suppe ist.
+          - text: der orangefarbene Adverb-Anhänger
+            correct: false
+            info: Der orangefarbene Anhänger sagt, wie jemand etwas tut. Hier ist von einer Handlung keine Rede.
+          - text: gar kein Anhänger
+            correct: false
+            info: great beschreibt die Suppe. Das Wort ist ein Adjektiv und hängt an dem Satz.
+        explanation: Nach be steht der blaue Anhänger.
+        links:
+          - title: Lernlandkarte Englisch · Adjektiv oder Adverb
+            url: https://lernapps.net/apps/map/englisch/c/adjektiv-oder-adverb/
+  - type: section
+    id: lesen
+    title: Der Chat des Kochclubs
+    blocks:
+      - type: text
+        text: "Im Kochclub der Millbrook School kocht Sophie morgen eine Suppe. Am Abend davor schreibt die Gruppe einen Chat. Lies ihn zuerst ganz. Die Zeilen sind nummeriert."
+      - type: text
+        text: |
+          **1 · Sophie:** Hi everyone! Tomorrow is cooking club. I am making tomato soup for the whole class.
+
+          **2 · Ellie:** Great idea! I tried your recipe yesterday. The kitchen smelled fantastic.
+
+          **3 · Amir:** Did it taste good, too?
+
+          **4 · Ellie:** Very good! But my first try looked strange. The soup was almost orange.
+
+          **5 · Peter:** Orange? That sounds weird. Tomato soup is red!
+
+          **6 · Sophie:** Don't worry, Peter. It tastes the same. Who is bringing the bread?
+      - type: table
+        caption: Randglossar · Zeilen 1 bis 6
+        header: [Wort, Bedeutung]
+        rows:
+          - [whole, ganz]
+          - [recipe, Rezept]
+          - [strange, seltsam]
+          - [weird, komisch]
+          - [worry, sich Sorgen machen]
+      - type: text
+        text: |
+          **7 · Amir:** I am. My dad's bread smells wonderful, and it feels warm when it comes out of the oven.
+
+          **8 · Peter:** I am bringing the juice. It tastes sour, but my little sister likes it.
+
+          **9 · Ellie:** Sophie, you sound tired. Are you OK?
+
+          **10 · Sophie:** I feel a bit nervous. Mr Hill is coming to try the soup, and I want it to look perfect.
+
+          **11 · Amir:** Don't be nervous! Everybody feels hungry after school anyway.
+
+          **12 · Peter:** And hungry people think everything tastes good.
+
+          **13 · Sophie:** Thanks, you two. I feel better now. See you at four o'clock!
+      - type: table
+        caption: Randglossar · Zeilen 7 bis 13
+        header: [Wort, Bedeutung]
+        rows:
+          - [oven, Backofen]
+          - [sour, sauer]
+          - [nervous, nervös]
+          - [perfect, perfekt]
+          - [hungry, hungrig]
+          - [anyway, sowieso]
+  - type: section
+    id: verstehen
+    title: Hast du den Chat verstanden?
+    blocks:
+      - type: true-false
+        id: sinnesverben-verstehen
+        text: "Ellies erste Suppe sah ganz normal rot aus. Stimmt das?"
+        answer: false
+        explanation: Ellies erster Versuch sah seltsam aus, die Suppe war fast orange. Das steht in Zeile 4.
+        links:
+          - title: Lernlandkarte Englisch · Adjektive nach Sinnesverben
+            url: https://lernapps.net/apps/map/englisch/c/adjektive-nach-sinnesverben/
+      - type: single-choice
+        id: sinnesverben-belegen
+        text: Welche Zeile zeigt, dass Sophie vor dem Kochclub aufgeregt ist?
+        options:
+          - text: "Zeile 10: I feel a bit nervous."
+            correct: true
+            info: Sophie sagt hier selbst, wie sie sich fühlt.
+          - text: "Zeile 1: Tomorrow is cooking club."
+            correct: false
+            info: In dieser Zeile sagt Sophie nur, was morgen stattfindet.
+          - text: "Zeile 13: I feel better now."
+            correct: false
+            info: Diese Zeile zeigt, dass es Sophie nach dem Chat besser geht, nicht dass sie aufgeregt ist.
+        explanation: Aufgeregt ist Sophie in Zeile 10, in Zeile 13 geht es ihr besser.
+        links:
+          - title: Lernlandkarte Englisch · Adjektive nach Sinnesverben
+            url: https://lernapps.net/apps/map/englisch/c/adjektive-nach-sinnesverben/
+  - type: section
+    id: neu
+    title: Schau in den Text
+    blocks:
+      - type: text
+        text: "In Zeile 4 schreibt Ellie: „It looked strange.“ In Zeile 8 steht: „It tastes sour.“ Beide Verben, **look** und **taste**, sagen nichts über eine Handlung. Sie sagen, **wie etwas ist**. Dasselbe machen **sound** (klingen), **feel** (sich anfühlen) und **smell** (riechen). Darum hängt nach ihnen der **blaue Anhänger**, genau wie nach be."
+      - type: figure
+        image: images/anhaenger-sinnesverben.svg
+        alt: Zwei Kartenpaare. Bei The soup tastes hängt ein blauer Anhänger mit sweet, ein gestrichelter Bogen zeigt zurück auf The soup. Bei She looks hängt ein blauer Anhänger mit tired.
+        caption: Der blaue Anhänger nach dem Sinnesverb beschreibt das Subjekt.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Sinnesverben mit Adjektiv
+        header: [Verb, Beispiel]
+        rows:
+          - [look, Mr Hill looks friendly.]
+          - [sound, The idea sounds crazy.]
+          - [feel, The water feels cold.]
+          - [taste, The pizza tastes delicious.]
+          - [smell, The tea smells sweet.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Nach **look, sound, feel, taste** und **smell** steht das **Adjektiv**, wenn du sagst, wie etwas ist: It tastes **good**, nicht It tastes well. Ersetze das Verb im Kopf durch **is**. Passt der Satz noch, steht ein Adjektiv. Sagst du dagegen, was jemand **tut**, steht das Adverb: She looks at me **carefully**.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [sweet, süß]
+          - [bitter, bitter]
+          - [soft, weich]
+          - [fresh, frisch]
+          - [tired, müde]
+          - [happy, froh]
+          - [delicious, köstlich]
+          - [terrible, schrecklich]
+          - [cold, kalt]
+          - [tea, Tee]
+          - [cake, Kuchen]
+          - [jacket, Jacke]
+          - [interesting, interessant]
+          - [today, heute]
+          - [song, Lied]
+          - [music, Musik]
+          - [water, Wasser]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: sinnesverben-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Die Pizza riecht köstlich.
+            target: The pizza smells [delicious].
+            distractors: [[deliciously]]
+          - cue: Du siehst müde aus.
+            target: You look [tired].
+            distractors: [[tiredly]]
+          - cue: Die Musik klingt schrecklich.
+            target: The music sounds [terrible].
+            distractors: [[terribly]]
+          - cue: Ich fühle mich schlecht.
+            target: I feel [bad].
+            distractors: [[badly]]
+        hint: Sagt das Wort, wie jemand oder etwas ist? Dann steht das Adjektiv.
+      - type: single-choice
+        id: sinnesverben-handlung
+        text: Welcher Satz sagt, was jemand TUT?
+        options:
+          - text: Amir looks at the cake carefully.
+            correct: true
+            info: Hier tut Amir etwas, er schaut. Dafür steht das Adverb carefully.
+          - text: Amir looks happy.
+            correct: false
+            info: Hier sagt das Wort, wie Amir ist. Dafür steht das Adjektiv happy.
+          - text: Amir looks tired.
+            correct: false
+            info: Auch tired sagt, wie Amir ist, nicht was er tut.
+        explanation: Wer schaut, tut etwas. Dann hängt der orangefarbene Anhänger am Verb.
+        links:
+          - title: Lernlandkarte Englisch · Adjektive nach Sinnesverben
+            url: https://lernapps.net/apps/map/englisch/c/adjektive-nach-sinnesverben/
+      - type: language-task
+        id: sinnesverben-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Der Kuchen schmeckt süß.
+            target: The cake tastes sweet.
+            mistakes:
+              - answer: The cake tastes sweetly.
+                message: Das Wort sagt, wie der Kuchen ist, nicht was jemand tut. Nach taste steht das Adjektiv.
+          - source: Du klingst glücklich.
+            target: You sound happy.
+            mistakes:
+              - answer: You sound happily.
+                message: Das Wort sagt, wie du klingst. Nach sound steht das Adjektiv.
+          - source: Das Wasser fühlt sich kalt an.
+            target: The water feels cold.
+            mistakes:
+              - answer: The water feels coldly.
+                message: Das Wort sagt, wie das Wasser ist. Nach feel steht das Adjektiv.
+          - source: Der Tee riecht frisch.
+            target: The tea smells fresh.
+            mistakes:
+              - answer: The tea smells freshly.
+                message: Nach smell steht das Adjektiv, wenn du sagst, wie etwas ist.
+        hint: Setze das Adjektiv direkt nach das Verb, wie nach is.
+      - type: language-task
+        id: sinnesverben-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: The pizza tastes deliciously.
+            target: The pizza tastes delicious.
+            mistakes:
+              - answer: The pizza tastes deliciously.
+                message: Ersetze tastes im Kopf durch is. Welches Wort passt dann?
+          - cue: I feel badly.
+            target: I feel bad.
+            mistakes:
+              - answer: I feel badly.
+                message: Hier sagst du, wie du dich fühlst. Das Wort braucht keine Endung -ly.
+        hint: Frage dich, ob das Wort sagt, wie jemand oder etwas ist.
+      - type: language-task
+        id: sinnesverben-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: this-tea-tastes-bitter.mp3
+            target: This tea tastes bitter.
+          - audio: your-idea-sounds-interesting.mp3
+            target: Your idea sounds interesting.
+          - audio: the-new-jacket-feels-soft.mp3
+            target: The new jacket feels soft.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: sinnesverben-nachsprechen
+        language: en
+        items:
+          - audio: you-look-happy-today.mp3
+            text: You look happy today.
+          - audio: the-bread-smells-fresh.mp3
+            text: The bread smells fresh.
+          - audio: that-song-sounds-great.mp3
+            text: That song sounds great.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: sinnesverben-meinung
+        task: "Dein Kochclub kocht etwas. Schreibe in zwei bis vier Sätzen, wie dein Lieblingsessen aussieht, riecht und schmeckt. Sage auch, wie du dich danach fühlst."
+        points:
+          - text: Du nutzt mindestens zwei Sinnesverben (look, smell, taste, feel oder sound) mit einem Adjektiv.
+            source: /genauer-beschreiben/sinnesverben/#neu
+          - text: Kein Adjektiv nach einem Sinnesverb trägt die Endung -ly.
+            source: /genauer-beschreiben/sinnesverben/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          My favourite food is pasta. It looks simple, but it tastes great. After dinner I feel happy.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Am nächsten Tag kocht Sophie. Sie ist nervös und rührt die Suppe langsam um. Sie schreibt später einen Blogeintrag über den Tag. Dort stehen Adverbien an ganz verschiedenen Stellen im Satz. Auf der nächsten Seite findest du heraus, wo sie hingehören."

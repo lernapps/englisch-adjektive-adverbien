@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -102,8 +102,9 @@ Lernende der Klassen 7-8 beschreiben genauer: Sie setzen nach look, sound, feel 
 - [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Ja, so bauen. Zuschnitt und Lesestück-Muster passen. Musterseite sinnesverben mit Lerner-Check und Sprachprüfung. Push erst nach Erlaubnis der Ersteller:in.
 
 ### Content method
 
@@ -137,17 +138,17 @@ Je Slice:
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Slice 1 (Musterseite, ich allein): Kapitel `genauer-beschreiben` mit `chapter.yaml`, Wiederholung `das-brauchst-du` (recap `englisch/wortstellung`) und Seite `sinnesverben` (`adjektive-nach-sinnesverben`): Lesestück als Chat (150 bis 300 Wörter, Randglossar), Aufgaben in drei Stufen, Grammatik-Übungen, Schreibauftrag, Bilder, Audio; neues Muster „Lesestück“ in den Inhaltsführer.
+- [x] Slice 1 (Musterseite, ich allein): Kapitel `genauer-beschreiben` mit `chapter.yaml`, Wiederholung `das-brauchst-du` (recap `englisch/wortstellung`) und Seite `sinnesverben` (`adjektive-nach-sinnesverben`): Lesestück als Chat (150 bis 300 Wörter, Randglossar), Aufgaben in drei Stufen, Grammatik-Übungen, Schreibauftrag, Bilder, Audio; neues Muster „Lesestück“ in den Inhaltsführer.
 - [ ] Slice 2 (ich allein, Sub-Agent nur für das Lesestück möglich): Seite `adverbien-stellung` (`adverbien-stellung`) mit Blog-/Tagebuch-Lesestück, Satzkarten-Bild für Anfang, Mitte und Ende, Übungen, Audio.
 - [ ] Slice 3 (ich allein): Seite `gradadverbien` (`gradadverbien`) mit Interview-Lesestück, Bild „Regler“ von not bis extremely und too als Warnzeichen, Übungen, Audio.
 - [ ] Slice 4 (ich allein): Kapitel `adjektive-ohne-nomen` mit `chapter.yaml`, Wiederholung `das-brauchst-du` (recap `englisch/artikel`) und Seite `stuetzwort-one` (`stuetzwort-one`) mit Chat-Lesestück (Basar), Anhänger-ohne-Nomen-Bild, Übungen, Audio.

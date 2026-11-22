@@ -5,7 +5,7 @@ description: Use for any content work in this app - researching, writing, extend
 
 # Content guide of this app
 
-„Beschreiben und vergleichen: Adjektive und Adverbien“: Explainer (Strang-App `englisch/grammatik`, Format 2, Sprache Deutsch, englische Beispiele). Auftrag: Issue lernapps/apps#476 (Epic lernapps/apps#489, Konventionen dort). Die erste Version baut nur Stufe 5-6 (Kapitel 1 und 2); Kapitel 3 und 4 (Stufe 7-8: Adjektive nach Sinnesverben, Stellung der Adverbien, Gradadverbien, one, substantivierte Adjektive) kommen als Inkremente `increment/<NN>-<name>`.
+„Beschreiben und vergleichen: Adjektive und Adverbien“: Explainer (Strang-App `englisch/grammatik`, Format 2, Sprache Deutsch, englische Beispiele). Auftrag: Issue lernapps/apps#476 (Epic lernapps/apps#489, Konventionen dort). Die erste Version baut Stufe 5-6 (Kapitel 1 und 2). Das Inkrement `increment/02-genauer-beschreiben` (Stufe 7-8) baut Kapitel 3 `genauer-beschreiben` (Wiederholung `das-brauchst-du` mit `recap: englisch/wortstellung`, `sinnesverben`, `adverbien-stellung`, `gradadverbien`) und Kapitel 4 `adjektive-ohne-nomen` (Wiederholung `englisch/artikel`, `stuetzwort-one`, `substantivierte-adjektive`); gebaut sind bisher Kapitel 3 mit `das-brauchst-du` und `sinnesverben`.
 
 ## Curriculum
 
@@ -27,11 +27,16 @@ Alle sechs sind Lücken der Karte, Band 5-6. Eine Seite je Baustein, Ordnung nac
 
 Die „Ich kann“-Sätze stehen wie in der Karte in `src/<kapitel>/<seite>.yaml` (nicht umformulieren). Übungs-IDs: Präfix = Seite (`adjektive-form`), Diktat `<seite>-hoeren`, Nachsprechen `<seite>-nachsprechen`.
 
+## Lesestück-Muster (Stufe 7-8, ab Kapitel 3)
+
+Figuren sind 13 bis 14 Jahre alt (Sophie, Ellie, Amir 13, Peter 11), die Ausstellung „Our Millbrook“ ist vorbei. Jede Seite hat ein Lesestück als Kern, 150 bis 300 Wörter, eigener Text (Chat, Blog, Interview, Zeitungsartikel), Zeilen nummeriert als `**<n> · Name:** …` in `text`-Blöcken, nach jedem Abschnitt eine `table` „Randglossar · Zeilen a bis b“. Abschnitte in dieser Reihenfolge: `vorwissen` (Szene und eine `single-choice` zu bekanntem Stoff), `lesen`, `verstehen` (Verstehen: `true-false` oder `single-choice`; Belegen mit Zeile: `single-choice`, Optionen „Zeile n: …“), `neu` (die Regel aus dem Text abgeleitet, Bild, Poster-Tabelle, Merke, Wörter dieser Seite), `uebung`, `anwenden` (Nachsprechen und `open-task` als Meinung oder Schreibauftrag), `weiter`. Beispiel: `src/genauer-beschreiben/sinnesverben.yaml`. Höchstens etwa 25 Items, Lesestück zählt nicht zu den 350 Wörtern Erklärtext (der Check meldet nur einen Hinweis). Die Hörsätze stehen nicht im Lesestück und nicht wörtlich in einer Übung derselben Seite.
+
 ## Content structure
 
 - Pfad: `src/<kapitel>/chapter.yaml`, Seiten `src/<kapitel>/<seite>.yaml`.
 - Jede Seite hat dieselben Abschnitts-IDs in dieser Reihenfolge: `einstieg` (Szene der Figuren, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Anhänger- oder Treppenbild, Bau-Karte, Merke-Kasten, Poster-Tabelle), `uebung` (mindestens vier Übungen, leicht → schwer), `anwenden` (`speaking-task` und `open-task`), `weiter` (nächster Schritt in der Ausstellung; am Kapitelende ein Rückblick). Titel sagen, was der Abschnitt tut. Die Wiederholungsseite hat nur Text und Tabelle.
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung in den ersten vier Blöcken. Jede Seite bringt einen neuen Schritt (`explainer-one-step`).
+- Inkrement 02: `genauer-beschreiben/das-brauchst-du` (ohne Übung), `genauer-beschreiben/sinnesverben` (Chat „Kochclub“, Bilder `szene-sinnesverben`, `anhaenger-sinnesverben`, 6 Audiosätze: this-tea-tastes-bitter, your-idea-sounds-interesting, the-new-jacket-feels-soft, you-look-happy-today, the-bread-smells-fresh, that-song-sounds-great; kein Dip-Schnitt). Hörliste dazu: the-new-jacket-feels-soft, the-bread-smells-fresh, that-song-sounds-great enden einsilbig.
 - Gebaut: alle sechs Seiten und die Wiederholungsseite, 36 Audiosätze (6 je Seite: 3 Diktat, 3 Nachsprechen, Liste `.agents/skills/app-content/scripts/audio-texte.json`), je Kapitel eine Selbsteinschätzung (`chapter.yaml`, zwei Übungen je Seite). Wiederholung: `das-brauchst-du` (ohne Übung, mit den Tabellen „Die Formen von be“ und „Anhänger und Treppe“).
 - Geschichte: Mr Hill lässt die Klasse für den Schulflur die Ausstellung „Our Millbrook“ aufbauen: Fotos und Zeichnungen von Orten, Dingen und Leuten der Stadt. Sophie, Ellie, Peter und Amir beschriften sie mit Anhängern. Kapitel 1 beschreibt und vergleicht Dinge und Leute, Kapitel 2 beschreibt, wie Leute etwas tun. Figuren und Orte wie in #470 (nicht ändern): Sophie (blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers, 11 bis 12), Ellie Parker (11, roter Pferdeschwanz, rote Jacke), Peter Parker (9, kurze braune Haare, gelbe Jacke), Amir (11, schwarze Locken, Brille, blaue Jacke), Mr Hill (graue Haare, braune Jacke), Mrs Parker. Millbrook School, Schultag ab 8:45. Geburtstage: Peter 5. Mai, Ellie 10. Juli, Amir 12. Oktober, Sophie 14. Oktober. Tabellen heißen „Klassenzimmer-Poster · …“ und „Schulkalender · …“ und wachsen von Seite zu Seite.
 - Anrede „du“.
