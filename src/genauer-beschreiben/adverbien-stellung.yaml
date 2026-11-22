@@ -52,18 +52,18 @@ blocks:
           **6 ·** After the show, Mr Hill smiled happily. "You can easily do this every week," he said.
 
           **7 ·** We laughed loudly and drank a lot of orange juice.
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Zeilen 1 bis 7
-        header: [Wort, Bedeutung]
-        rows:
-          - [record, aufnehmen]
-          - [microphone, Mikrofon]
-          - [sort, ordnen]
-          - [light, Licht]
-          - [shake, zittern]
-          - [mistake, Fehler]
-          - [quietly, leise]
-          - [a lot of, viel]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "record", source: "aufnehmen" }
+          - { target: "microphone", source: "Mikrofon" }
+          - { target: "sort", source: "ordnen" }
+          - { target: "light", source: "Licht" }
+          - { target: "shake", source: "zittern" }
+          - { target: "mistake", source: "Fehler" }
+          - { target: "quietly", source: "leise" }
+          - { target: "a lot of", source: "viel" }
   - type: section
     id: verstehen
     title: Hast du den Blog verstanden?
@@ -119,21 +119,21 @@ blocks:
           - type: text
             text: |
               Ein Adverb auf -ly kann am **Anfang** (mit Komma), in der **Mitte** (vor dem Verb oder nach dem ersten Hilfsverb, also nach can, has, had oder is) oder am **Ende** stehen. **Zwischen Verb und Objekt** steht es nie: nicht „wrote quickly the text“, sondern „quickly wrote the text“ oder „wrote the text quickly“.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [suddenly, plötzlich]
-          - [politely, höflich]
-          - [kindly, freundlich]
-          - [finally, endlich]
-          - [question, Frage]
-          - [window, Fenster]
-          - [lights, Licht / Lichter]
-          - [text, Text]
-          - [calmly, ruhig]
-          - [softly, leise / sanft]
-          - [sun, Sonne]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "suddenly", source: "plötzlich" }
+          - { target: "politely", source: "höflich" }
+          - { target: "kindly", source: "freundlich" }
+          - { target: "finally", source: "endlich" }
+          - { target: "question", source: "Frage" }
+          - { target: "window", source: "Fenster" }
+          - { target: "lights", source: "Licht / Lichter" }
+          - { target: "text", source: "Text" }
+          - { target: "calmly", source: "ruhig" }
+          - { target: "softly", source: "leise / sanft" }
+          - { target: "sun", source: "Sonne" }
   - type: section
     id: uebung
     title: Übung

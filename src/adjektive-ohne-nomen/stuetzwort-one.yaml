@@ -48,14 +48,14 @@ blocks:
           **4 · Sophie:** Yes. The new ones stay in the box until Saturday.
 
           **5 · Ellie:** I need a bag for the books. Is there a big one?
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Zeilen 1 bis 5
-        header: [Wort, Bedeutung]
-        rows:
-          - [for sale, zu verkaufen]
-          - [already, schon]
-          - [until, bis]
-          - [box, Kiste]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "for sale", source: "zu verkaufen" }
+          - { target: "already", source: "schon" }
+          - { target: "until", source: "bis" }
+          - { target: "box", source: "Kiste" }
       - type: text
         text: |
           **6 · Sophie:** Here is a small one. And there is a green one under the table.
@@ -67,14 +67,14 @@ blocks:
           **9 · Ellie:** Good idea! I will ask him. And let's put a price on every single thing.
 
           **10 · Sophie:** OK. Two pounds for a small one, five pounds for a big one!
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Zeilen 6 bis 10
-        header: [Wort, Bedeutung]
-        rows:
-          - [price, Preis]
-          - [pound, Pfund (Geld)]
-          - [single, einzeln]
-          - [maybe, vielleicht]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "price", source: "Preis" }
+          - { target: "pound", source: "Pfund (Geld)" }
+          - { target: "single", source: "einzeln" }
+          - { target: "maybe", source: "vielleicht" }
   - type: section
     id: verstehen
     title: Hast du den Chat verstanden?
@@ -129,20 +129,20 @@ blocks:
           - type: text
             text: |
               **one** ersetzt ein Nomen in der **Einzahl**, das schon genannt ist, **ones** in der **Mehrzahl**. Der blaue Anhänger bleibt davor hängen: the red **one**. Ein einzelnes Adjektiv geht nicht, nicht „I like the red“, sondern „I like the red one“. Das gilt nur für Nomen, die du zählen kannst (nicht für water). Nach my, your oder her steht one nur mit einem Adjektiv: my new one.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [pullover, Pullover]
-          - [scarf, Schal]
-          - [cup, Tasse]
-          - [shoes, Schuhe]
-          - [broken, kaputt]
-          - [thick, dick]
-          - [phone, Handy]
-          - [yours, deins]
-          - [prefer, lieber mögen]
-          - [apple, Apfel]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "pullover", source: "Pullover" }
+          - { target: "scarf", source: "Schal" }
+          - { target: "cup", source: "Tasse" }
+          - { target: "shoes", source: "Schuhe" }
+          - { target: "broken", source: "kaputt" }
+          - { target: "thick", source: "dick" }
+          - { target: "phone", source: "Handy" }
+          - { target: "yours", source: "deins" }
+          - { target: "prefer", source: "lieber mögen" }
+          - { target: "apple", source: "Apfel" }
   - type: section
     id: uebung
     title: Übung

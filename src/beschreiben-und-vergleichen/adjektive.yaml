@@ -61,27 +61,27 @@ blocks:
           - type: text
             text: |
               Der Anhänger hängt **vor dem Nomen** oder **nach be**. Er verändert sich nie: Auch bei mehreren Dingen bekommt er **kein -s** (two long tables, nicht two longs tables).
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [big, groß]
-          - [small, klein]
-          - [old, alt]
-          - [new, neu]
-          - [tall, hoch (Bäume) / groß gewachsen (Menschen)]
-          - [long, lang]
-          - [tree, Baum]
-          - [house, Haus]
-          - [garden, Garten]
-          - [rabbit, Kaninchen]
-          - [hamster, Hamster]
-          - [jacket, Jacke]
-          - [bike, Fahrrad]
-          - [table, Tisch]
-          - [this is, das ist]
-          - [two, zwei]
-          - [a, ein / eine]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "big", source: "groß" }
+          - { target: "small", source: "klein" }
+          - { target: "old", source: "alt" }
+          - { target: "new", source: "neu" }
+          - { target: "tall", source: "hoch (Bäume) / groß gewachsen (Menschen)" }
+          - { target: "long", source: "lang" }
+          - { target: "tree", source: "Baum" }
+          - { target: "house", source: "Haus" }
+          - { target: "garden", source: "Garten" }
+          - { target: "rabbit", source: "Kaninchen" }
+          - { target: "hamster", source: "Hamster" }
+          - { target: "jacket", source: "Jacke" }
+          - { target: "bike", source: "Fahrrad" }
+          - { target: "table", source: "Tisch" }
+          - { target: "this is", source: "das ist" }
+          - { target: "two", source: "zwei" }
+          - { target: "a", source: "ein / eine" }
   - type: section
     id: uebung
     title: Übung

@@ -191,6 +191,8 @@ Je Slice:
 
 - Lerner-Check der Musterseite `sinnesverben` (Sub-Agent, Kind Klasse 7-8, 1280 und 360 px, 2026-11-22) und Sprachprüfung Englisch/Deutsch: behoben: Randglossar um die Sinnesverben (look, sound, feel, taste, smell) und weitere Wörter ergänzt, das Zitat aus Zeile 4 wörtlich, „nervös“ statt „aufgeregt“, Handlungsfall mit smell/taste/feel im Merke und in der Übung (Amir smells the cake carefully), die Probe mit is nur „ungefähr“ (I feel bad), Subjekt erklärt, Bild mit Bogen an beiden Sätzen und Legende, Poster-Beispiele anders als die Lösungen der Übungen, Wörtertabelle auf schwere Wörter gekürzt, Chat-Ton mit Kurzformen und haha, Hinweis „hinter das Verb“, Punkt der Meinungsaufgabe „kein Adverb auf -ly (nicht tastes sweetly)“, Wiederholungsseite erinnert an die Anhänger. Nicht behoben: Standardmeldung „Deine Fassung kann trotzdem richtig sein“ bei Tippfehlern, unvollständigen Sätzen und Hördiktaten und „1: nicht richtig.“ bei `choice` (Vorlage, bekannt); die Seite ist mit etwa zehn Aufgaben lang (Nachsprechen und Meinung sind der Anwendungsteil); „Zeile“ statt „Nachricht“ bleibt wie im Muster der Konventionen.
 
+- Auftrag der Ersteller:in (über die Orchestrator-Session, 2026-11-22): `lernapps update` (app-templates 0.14.0, tooling 0.18.4) und alle reinen Vokabel-Tabellen (Randglossare, „Wörter dieser Seite“) durch den Block `vocabulary` ersetzen: 20 Tabellen in 11 Dateien umgestellt (Seiten der ersten Version und des Inkrements); `definition`-Blöcke gibt es in der App nicht. `lernapps check`: 0 Fehler.
+
 ## Retrospective
 
 <!-- At the end of Commit. Facts, short, no names. Read by review and evals. -->

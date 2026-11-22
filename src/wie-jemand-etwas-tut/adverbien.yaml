@@ -64,34 +64,34 @@ blocks:
           - type: text
             text: |
               Meist gilt: Adjektiv + **-ly** (quick – quickly). Bei **-y** wird aus y ein i (happy – happily). **fast**, **hard** und **late** bleiben gleich, **good** wird **well**. Achtung: **hardly** heißt „kaum“, nicht „hart“.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [quiet, leise]
-          - [loud, laut]
-          - [careful, vorsichtig]
-          - [easy, leicht]
-          - [run, rennen]
-          - [speak, sprechen]
-          - [draw, zeichnen / malen]
-          - [sing, singen]
-          - [play, spielen]
-          - [work, arbeiten]
-          - [read, lesen]
-          - [write, schreiben]
-          - [football, Fußball]
-          - [book, Buch]
-          - [walk, gehen / laufen]
-          - [eat, essen]
-          - [fast, schnell]
-          - [late, spät]
-          - [hard, hart / schwer arbeiten]
-          - [hardly, kaum]
-          - [happy, froh]
-          - [quick, schnell]
-          - [slow, langsam]
-          - [good / well, gut]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "quiet", source: "leise" }
+          - { target: "loud", source: "laut" }
+          - { target: "careful", source: "vorsichtig" }
+          - { target: "easy", source: "leicht" }
+          - { target: "run", source: "rennen" }
+          - { target: "speak", source: "sprechen" }
+          - { target: "draw", source: "zeichnen / malen" }
+          - { target: "sing", source: "singen" }
+          - { target: "play", source: "spielen" }
+          - { target: "work", source: "arbeiten" }
+          - { target: "read", source: "lesen" }
+          - { target: "write", source: "schreiben" }
+          - { target: "football", source: "Fußball" }
+          - { target: "book", source: "Buch" }
+          - { target: "walk", source: "gehen / laufen" }
+          - { target: "eat", source: "essen" }
+          - { target: "fast", source: "schnell" }
+          - { target: "late", source: "spät" }
+          - { target: "hard", source: "hart / schwer arbeiten" }
+          - { target: "hardly", source: "kaum" }
+          - { target: "happy", source: "froh" }
+          - { target: "quick", source: "schnell" }
+          - { target: "slow", source: "langsam" }
+          - { target: "good / well", source: "gut" }
   - type: section
     id: uebung
     title: Übung

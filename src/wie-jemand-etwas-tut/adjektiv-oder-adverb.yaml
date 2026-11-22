@@ -60,22 +60,22 @@ blocks:
           - type: text
             text: |
               Nach **be** steht bei Wörtern wie nice, kind und slow das Adjektiv ohne -ly: The cake is **nice**, nicht The cake is nicely. Ein Sonderfall ist **good**: Mr Hill is a **good** teacher, aber he speaks **well**.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [friend, Freund / Freundin]
-          - [boys, Jungen]
-          - [girls, Mädchen]
-          - [quick, schnell]
-          - [careful, vorsichtig]
-          - [teacher, Lehrer]
-          - [kind, freundlich]
-          - [nice, nett / schön]
-          - [cake, Kuchen]
-          - [loud, laut]
-          - [quiet, leise]
-          - [easy, leicht]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "friend", source: "Freund / Freundin" }
+          - { target: "boys", source: "Jungen" }
+          - { target: "girls", source: "Mädchen" }
+          - { target: "quick", source: "schnell" }
+          - { target: "careful", source: "vorsichtig" }
+          - { target: "teacher", source: "Lehrer" }
+          - { target: "kind", source: "freundlich" }
+          - { target: "nice", source: "nett / schön" }
+          - { target: "cake", source: "Kuchen" }
+          - { target: "loud", source: "laut" }
+          - { target: "quiet", source: "leise" }
+          - { target: "easy", source: "leicht" }
   - type: section
     id: uebung
     title: Übung

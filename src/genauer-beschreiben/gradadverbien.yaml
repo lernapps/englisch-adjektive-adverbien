@@ -48,14 +48,14 @@ blocks:
           **4 · Mr Hill:** Sometimes it is rather difficult, especially on Monday mornings! But my classes are extremely funny.
 
           **5 · Amir:** What about homework? Is it too much for you?
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Zeilen 1 bis 5
-        header: [Wort, Bedeutung]
-        rows:
-          - [building, Gebäude]
-          - [especially, besonders]
-          - [homework, Hausaufgaben]
-          - [love, sehr gernhaben]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "building", source: "Gebäude" }
+          - { target: "especially", source: "besonders" }
+          - { target: "homework", source: "Hausaufgaben" }
+          - { target: "love", source: "sehr gernhaben" }
       - type: text
         text: |
           **6 · Mr Hill:** Marking homework is fine, but one hundred tests in one weekend is too much!
@@ -67,14 +67,14 @@ blocks:
           **9 · Amir:** One last question: Is English hard?
 
           **10 · Mr Hill:** It is quite easy at the beginning and very hard at the end. So practise every day!
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Zeilen 6 bis 10
-        header: [Wort, Bedeutung]
-        rows:
-          - [mark, korrigieren und benoten]
-          - [noisy, laut / unruhig]
-          - [beginning, Anfang]
-          - [practise, üben]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "mark", source: "korrigieren und benoten" }
+          - { target: "noisy", source: "laut / unruhig" }
+          - { target: "beginning", source: "Anfang" }
+          - { target: "practise", source: "üben" }
   - type: section
     id: verstehen
     title: Hast du das Interview verstanden?
@@ -131,19 +131,19 @@ blocks:
           - type: text
             text: |
               Gradadverbien stehen **vor Adjektiven und Adverbien**: very friendly, very quietly. Vor einem **Verb** stehen sie nicht: nicht „I very like it“, sondern „I like it very much“. Und **too** heißt **zu**, nicht „sehr“: Der Tee ist too hot, du kannst ihn nicht trinken.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [boring, langweilig]
-          - [empty, leer]
-          - [heavy, schwer]
-          - [bag, Tasche]
-          - [park, Park]
-          - [film, Film]
-          - [street, Straße]
-          - [task, Aufgabe]
-          - [football, Fußball]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "boring", source: "langweilig" }
+          - { target: "empty", source: "leer" }
+          - { target: "heavy", source: "schwer" }
+          - { target: "bag", source: "Tasche" }
+          - { target: "park", source: "Park" }
+          - { target: "film", source: "Film" }
+          - { target: "street", source: "Straße" }
+          - { target: "task", source: "Aufgabe" }
+          - { target: "football", source: "Fußball" }
   - type: section
     id: uebung
     title: Übung

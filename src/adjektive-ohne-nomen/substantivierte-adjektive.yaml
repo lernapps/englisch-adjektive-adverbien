@@ -42,14 +42,14 @@ blocks:
           **3 ·** The money will help the elderly in our town. Many of them live alone, and they do not often get visitors.
 
           **4 ·** "The old and the young can learn a lot from each other," said teacher Mr Hill.
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Zeilen 1 bis 4
-        header: [Wort, Bedeutung]
-        rows:
-          - [charity, guter Zweck / Wohltätigkeit]
-          - [raise, einsammeln]
-          - [visitor, Besucher]
-          - [learn from each other, voneinander lernen]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "charity", source: "guter Zweck / Wohltätigkeit" }
+          - { target: "raise", source: "einsammeln" }
+          - { target: "visitor", source: "Besucher" }
+          - { target: "learn from each other", source: "voneinander lernen" }
       - type: text
         text: |
           **5 ·** Sophie, 13, helped to organise the event. "People often think of the rich and the poor as two separate groups," she said. "On Saturday everybody worked together."
@@ -57,14 +57,14 @@ blocks:
           **6 ·** A group of students will now bring cake to the elderly every month.
 
           **7 ·** Peter, 11, is the youngest helper. "The young can help the old, and the old can help the young," he said. "That is just fair."
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Zeilen 5 bis 7
-        header: [Wort, Bedeutung]
-        rows:
-          - [organise, organisieren]
-          - [separate, getrennt]
-          - [event, Veranstaltung]
-          - [fair, gerecht]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "organise", source: "organisieren" }
+          - { target: "separate", source: "getrennt" }
+          - { target: "event", source: "Veranstaltung" }
+          - { target: "fair", source: "gerecht" }
   - type: section
     id: verstehen
     title: Hast du den Artikel verstanden?
@@ -119,19 +119,19 @@ blocks:
           - type: text
             text: |
               **the + Adjektiv** meint **alle Menschen dieser Art**. Das Verb steht in der **Mehrzahl** (The elderly **are** alone). Das Adjektiv bekommt **kein -s** (nicht „the riches“) und kein **a** (für eine Person brauchst du ein Nomen: a rich **man**). Über Menschen spricht man höflich: the elderly klingt besser als the old, und über einzelne Menschen sagst du lieber a poor family oder an old man.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [elderly, älter (the elderly = ältere Menschen)]
-          - [rich, reich]
-          - [poor, arm]
-          - [young, jung]
-          - [old, alt]
-          - [money, Geld]
-          - [future, Zukunft]
-          - [together, zusammen]
-          - [grandmother, Großmutter]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "elderly", source: "älter (the elderly = ältere Menschen)" }
+          - { target: "rich", source: "reich" }
+          - { target: "poor", source: "arm" }
+          - { target: "young", source: "jung" }
+          - { target: "old", source: "alt" }
+          - { target: "money", source: "Geld" }
+          - { target: "future", source: "Zukunft" }
+          - { target: "together", source: "zusammen" }
+          - { target: "grandmother", source: "Großmutter" }
   - type: section
     id: uebung
     title: Übung

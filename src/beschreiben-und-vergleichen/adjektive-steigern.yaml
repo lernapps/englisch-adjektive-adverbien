@@ -64,30 +64,30 @@ blocks:
           - type: text
             text: |
               **Eine Silbe** (tall) und **-y** (happy): **-er** und **-est**. Steht vor dem letzten Buchstaben ein Vokal und danach nur ein Konsonant, kommt er doppelt (big – bigger), bei cheap nicht. Aus y wird i (happier). **Zwei Silben ohne -y** (boring) und **drei Silben und mehr** (interesting): **more** und **the most**, das Wort selbst bleibt gleich. **good** und **bad** haben eigene Formen. Vor der Höchststufe steht immer **the**.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [small, klein]
-          - [short, kurz / klein gewachsen]
-          - [old, alt]
-          - [cheap, billig]
-          - [easy, leicht]
-          - [hot, heiß]
-          - [funny, lustig]
-          - [difficult, schwierig]
-          - [exciting, spannend]
-          - [interesting, interessant]
-          - [film, Film]
-          - [boring, langweilig]
-          - [beautiful, schön]
-          - [boy, Junge]
-          - [girl, Mädchen]
-          - [day, Tag]
-          - [game, Spiel]
-          - [pizza, Pizza]
-          - [bike, Fahrrad]
-          - [this is, das ist]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "small", source: "klein" }
+          - { target: "short", source: "kurz / klein gewachsen" }
+          - { target: "old", source: "alt" }
+          - { target: "cheap", source: "billig" }
+          - { target: "easy", source: "leicht" }
+          - { target: "hot", source: "heiß" }
+          - { target: "funny", source: "lustig" }
+          - { target: "difficult", source: "schwierig" }
+          - { target: "exciting", source: "spannend" }
+          - { target: "interesting", source: "interessant" }
+          - { target: "film", source: "Film" }
+          - { target: "boring", source: "langweilig" }
+          - { target: "beautiful", source: "schön" }
+          - { target: "boy", source: "Junge" }
+          - { target: "girl", source: "Mädchen" }
+          - { target: "day", source: "Tag" }
+          - { target: "game", source: "Spiel" }
+          - { target: "pizza", source: "Pizza" }
+          - { target: "bike", source: "Fahrrad" }
+          - { target: "this is", source: "das ist" }
   - type: section
     id: uebung
     title: Übung

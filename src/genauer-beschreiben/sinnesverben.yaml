@@ -50,20 +50,20 @@ blocks:
           **5 · Peter:** Orange? That sounds weird. Tomato soup is red!
 
           **6 · Sophie:** Don't worry, Peter. It tastes the same. Who is bringing the bread?
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Zeilen 1 bis 6
-        header: [Wort, Bedeutung]
-        rows:
-          - [whole, ganz]
-          - [recipe, Rezept]
-          - [try, Versuch / probieren]
-          - [smell, riechen]
-          - [taste, schmecken]
-          - [look, aussehen]
-          - [sound, klingen]
-          - [strange, seltsam]
-          - [weird, komisch]
-          - [worry, sich Sorgen machen]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "whole", source: "ganz" }
+          - { target: "recipe", source: "Rezept" }
+          - { target: "try", source: "Versuch / probieren" }
+          - { target: "smell", source: "riechen" }
+          - { target: "taste", source: "schmecken" }
+          - { target: "look", source: "aussehen" }
+          - { target: "sound", source: "klingen" }
+          - { target: "strange", source: "seltsam" }
+          - { target: "weird", source: "komisch" }
+          - { target: "worry", source: "sich Sorgen machen" }
       - type: text
         text: |
           **7 · Amir:** I am. My dad's bread smells wonderful, and it feels warm when it comes out of the oven.
@@ -79,18 +79,18 @@ blocks:
           **12 · Peter:** Haha, and hungry people think everything tastes good.
 
           **13 · Sophie:** Thanks, you two. I feel better now. See you at four o'clock!
-      - type: table
+      - type: vocabulary
         caption: Randglossar · Zeilen 7 bis 13
-        header: [Wort, Bedeutung]
-        rows:
-          - [oven, Backofen]
-          - [feel, sich fühlen / sich anfühlen]
-          - [wonderful, wunderbar]
-          - [sour, sauer]
-          - [a bit, ein bisschen]
-          - [nervous, nervös]
-          - [hungry, hungrig]
-          - [anyway, sowieso]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "oven", source: "Backofen" }
+          - { target: "feel", source: "sich fühlen / sich anfühlen" }
+          - { target: "wonderful", source: "wunderbar" }
+          - { target: "sour", source: "sauer" }
+          - { target: "a bit", source: "ein bisschen" }
+          - { target: "nervous", source: "nervös" }
+          - { target: "hungry", source: "hungrig" }
+          - { target: "anyway", source: "sowieso" }
   - type: section
     id: verstehen
     title: Hast du den Chat verstanden?
@@ -147,22 +147,22 @@ blocks:
           - type: text
             text: |
               Nach **look, sound, feel, taste** und **smell** steht das **Adjektiv**, wenn du sagst, wie etwas ist: It tastes **good**, nicht It tastes well. Ersetze das Verb im Kopf durch **is**. Passt der Satz noch ungefähr gleich, steht ein Adjektiv. Sagst du dagegen, was jemand **tut**, steht das Adverb: She looks at me **carefully**. Auch taste, smell und feel können eine Handlung sein: He tastes the soup **slowly**. Die Probe mit is gilt nur ungefähr: I feel bad heißt „ich fühle mich schlecht“.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [sweet, süß]
-          - [bitter, bitter]
-          - [soft, weich]
-          - [fresh, frisch]
-          - [delicious, köstlich]
-          - [terrible, schrecklich]
-          - [friendly, freundlich (auch ein Adjektiv auf -ly)]
-          - [crazy, verrückt]
-          - [lovely, "schön (ein Adjektiv, obwohl es auf -ly endet)"]
-          - [salty, salzig]
-          - [flowers, Blumen]
-          - [lemon, Zitrone]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "sweet", source: "süß" }
+          - { target: "bitter", source: "bitter" }
+          - { target: "soft", source: "weich" }
+          - { target: "fresh", source: "frisch" }
+          - { target: "delicious", source: "köstlich" }
+          - { target: "terrible", source: "schrecklich" }
+          - { target: "friendly", source: "freundlich (auch ein Adjektiv auf -ly)" }
+          - { target: "crazy", source: "verrückt" }
+          - { target: "lovely", source: "schön (ein Adjektiv, obwohl es auf -ly endet)" }
+          - { target: "salty", source: "salzig" }
+          - { target: "flowers", source: "Blumen" }
+          - { target: "lemon", source: "Zitrone" }
   - type: section
     id: uebung
     title: Übung
