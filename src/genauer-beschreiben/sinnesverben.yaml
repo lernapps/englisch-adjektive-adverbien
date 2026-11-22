@@ -36,7 +36,7 @@ blocks:
     title: Der Chat des Kochclubs
     blocks:
       - type: text
-        text: "Im Kochclub der Millbrook School kocht Sophie morgen eine Suppe. Am Abend davor schreibt die Gruppe einen Chat. Lies ihn zuerst ganz. Die Zeilen sind nummeriert."
+        text: "Im Kochclub der Millbrook School kocht Sophie morgen eine Suppe. Am Abend davor schreibt die Gruppe in einem Chat. Lies ihn zuerst ganz. Die Zeilen sind nummeriert."
       - type: text
         text: |
           **1 · Sophie:** Hi everyone! Tomorrow is cooking club. I am making tomato soup for the whole class.
@@ -98,7 +98,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/adjektive-nach-sinnesverben/
       - type: single-choice
         id: sinnesverben-belegen
-        text: Welche Zeile zeigt, dass Sophie vor dem Kochclub aufgeregt ist?
+        text: Welche Zeile zeigt, dass Sophie vor dem Kochclub nervös ist?
         options:
           - text: "Zeile 10: I feel a bit nervous."
             correct: true
@@ -109,7 +109,7 @@ blocks:
           - text: "Zeile 13: I feel better now."
             correct: false
             info: Diese Zeile zeigt, dass es Sophie nach dem Chat besser geht, nicht dass sie aufgeregt ist.
-        explanation: Aufgeregt ist Sophie in Zeile 10, in Zeile 13 geht es ihr besser.
+        explanation: Nervös ist Sophie in Zeile 10, in Zeile 13 geht es ihr besser.
         links:
           - title: Lernlandkarte Englisch · Adjektive nach Sinnesverben
             url: https://lernapps.net/apps/map/englisch/c/adjektive-nach-sinnesverben/
@@ -118,7 +118,7 @@ blocks:
     title: Schau in den Text
     blocks:
       - type: text
-        text: "In Zeile 4 schreibt Ellie: „It looked strange.“ In Zeile 8 steht: „It tastes sour.“ Beide Verben, **look** und **taste**, sagen nichts über eine Handlung. Sie sagen, **wie etwas ist**. Dasselbe machen **sound** (klingen), **feel** (sich anfühlen) und **smell** (riechen). Darum hängt nach ihnen der **blaue Anhänger**, genau wie nach be."
+        text: "In Zeile 4 schreibt Ellie: „My first try looked strange.“ In Zeile 8 steht: „It tastes sour.“ Beide Verben, **look** und **taste**, sagen nichts über eine Handlung. Sie sagen, **wie das Subjekt ist**, also das Wort, von dem der Satz handelt. Genauso verhalten sich **sound** (klingen), **feel** (sich anfühlen) und **smell** (riechen). Darum hängt nach ihnen der **blaue Anhänger**, genau wie nach be."
       - type: figure
         image: images/anhaenger-sinnesverben.svg
         alt: Zwei Kartenpaare. Bei The soup tastes hängt ein blauer Anhänger mit sweet, ein gestrichelter Bogen zeigt zurück auf The soup. Bei She looks hängt ein blauer Anhänger mit tired.
@@ -139,7 +139,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Nach **look, sound, feel, taste** und **smell** steht das **Adjektiv**, wenn du sagst, wie etwas ist: It tastes **good**, nicht It tastes well. Ersetze das Verb im Kopf durch **is**. Passt der Satz noch, steht ein Adjektiv. Sagst du dagegen, was jemand **tut**, steht das Adverb: She looks at me **carefully**.
+              Nach **look, sound, feel, taste** und **smell** steht das **Adjektiv**, wenn du sagst, wie etwas ist: It tastes **good**, nicht It tastes well. Ersetze das Verb im Kopf durch **is**. Passt der Satz noch ungefähr gleich, steht ein Adjektiv. Sagst du dagegen, was jemand **tut**, steht das Adverb: She looks at me **carefully**. Auch taste, smell und feel können eine Handlung sein: He tastes the soup **slowly**.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -189,16 +189,16 @@ blocks:
         id: sinnesverben-handlung
         text: Welcher Satz sagt, was jemand TUT?
         options:
-          - text: Amir looks at the cake carefully.
+          - text: Amir smells the cake carefully.
             correct: true
-            info: Hier tut Amir etwas, er schaut. Dafür steht das Adverb carefully.
+            info: Hier tut Amir etwas, er riecht am Kuchen. Dafür steht das Adverb carefully.
           - text: Amir looks happy.
             correct: false
             info: Hier sagt das Wort, wie Amir ist. Dafür steht das Adjektiv happy.
           - text: Amir looks tired.
             correct: false
             info: Auch tired sagt, wie Amir ist, nicht was er tut.
-        explanation: Wer schaut, tut etwas. Dann hängt der orangefarbene Anhänger am Verb.
+        explanation: Wer an etwas riecht, tut etwas. Dann hängt der orangefarbene Anhänger am Verb.
         links:
           - title: Lernlandkarte Englisch · Adjektive nach Sinnesverben
             url: https://lernapps.net/apps/map/englisch/c/adjektive-nach-sinnesverben/
@@ -228,7 +228,7 @@ blocks:
             mistakes:
               - answer: The tea smells freshly.
                 message: Nach smell steht das Adjektiv, wenn du sagst, wie etwas ist.
-        hint: Setze das Adjektiv direkt nach das Verb, wie nach is.
+        hint: Setze das Adjektiv direkt hinter das Verb, wie nach is.
       - type: language-task
         id: sinnesverben-korrektur
         languages: { source: de, target: en }
@@ -279,7 +279,7 @@ blocks:
         points:
           - text: Du nutzt mindestens zwei Sinnesverben (look, smell, taste, feel oder sound) mit einem Adjektiv.
             source: /genauer-beschreiben/sinnesverben/#neu
-          - text: Kein Adjektiv nach einem Sinnesverb trägt die Endung -ly.
+          - text: Nach einem Sinnesverb steht kein Adverb auf -ly (nicht tastes sweetly).
             source: /genauer-beschreiben/sinnesverben/#neu
           - text: Es sind ganze Sätze mit einem Punkt am Ende.
             kind: form
