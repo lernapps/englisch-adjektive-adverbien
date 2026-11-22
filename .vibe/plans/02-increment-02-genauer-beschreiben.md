@@ -1,0 +1,185 @@
+---
+# Read by the hooks, the review, the evals. Schema: @lernapps/tooling/guidance/plan-front-matter.v1.schema.json
+# Written by `lernapps plan` and the hooks. Never change a key or a value by hand.
+# Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
+archetype: explainer
+# Current phase. Allowed values: explore, plan, code, commit.
+phase: explore
+# prePushFailures: failed pre-push runs of this increment, written by the hook.
+prePushFailures: 0
+# failedChecks: failed rules and runs, written by lernapps check and the hooks.
+failedChecks: {}
+---
+
+# Increment: increment-02-genauer-beschreiben
+
+<!--
+For you, the assistant. One increment of a published app: new competencies, chapters, pages, rounds, questions, or a
+correction. The process is in AGENTS.md; this plan holds the method.
+- `npx --no -- lernapps plan next` prints the task to do now, `plan done` ticks it and prints the next one.
+- You write only below Goal, Key decisions, Notes, Answers, Content method and Retrospective, in the creator's
+  language. Delete the comment of a section once the section is filled.
+- The first version's decisions stand: archetype, content method, content guide. Never change an earlier plan.
+- Work on the branch `increment/<NN>-<short name>`. Until Commit everything is local: push nothing.
+-->
+
+*Started 2026-11-22. Explore, Plan, Code, Commit.*
+
+## Goal
+
+Lernende der Klassen 7-8 beschreiben genauer: Sie setzen nach look, sound, feel und taste ein Adjektiv, stellen Adverbien an die richtige Stelle, stufen mit Gradadverbien ab, ersetzen ein Nomen mit one und ones und nennen Gruppen von Menschen mit dem Adjektiv allein (the rich). Der Inkrement baut die Kapitel 3 „Genauer beschreiben“ und 4 „Adjektive ohne Nomen“ (Issue #476, Stufe 7-8) mit je einem Lesestück als Kern der Seite.
+
+## Key decisions
+
+- Kapitel und Seiten (Vorgabe Issue #476 und Konventionen Abschnitt 8): Kapitel 3 `genauer-beschreiben` mit Wiederholung (`englisch/wortstellung`), `sinnesverben`, `adverbien-stellung`, `gradadverbien`; Kapitel 4 `adjektive-ohne-nomen` mit Wiederholung (`englisch/artikel`), `one`, `substantivierte-adjektive`. Die Wiederholungsseiten stehen am Kapitelanfang, weil `wortstellung` und `artikel` nicht in dieser App geübt werden.
+- Form: Sophie ist 13 bis 14, sie bleibt in England; Chat-Verläufe, Blog- und Tagebucheinträge, ein Interview, ein kurzer Zeitungsartikel; ein Bild nur wo es etwas zeigt (Konventionen §2 und §8). Die Anhänger und die Treppe aus Stufe 5-6 kehren als Zeichen wieder (blau, orange, Treppe; neu: Regler für Gradadverbien, ein Anhänger ohne Nomen).
+- Lesestücke sind eigene Texte der Figuren, 150 bis 300 Wörter, nach Fakten aus geöffneten Quellen; keine fremden Sätze (Konventionen §8). Keine VOA-, Wikinews- oder African-Storybook-Texte: Das Thema ist Grammatik an eigenen Alltagstexten (guess).
+- Szenen: Die Ausstellung „Our Millbrook“ ist vorbei; neue Szenen aus dem Schuljahr (Schul-Radio, Kochclub, Wohltätigkeits-Basar, Schulzeitung). Neue Orte und Personen nur, wo ein Text sie braucht, und dann mit Eintrag in `konventionen.md` (guess).
+- Aufbau jeder Seite: Vorwissen-Frage, Lesestück in Abschnitten mit Randglossar, Aufgaben in drei Stufen (Verstehen, Belegen mit Zeile, Meinung), danach die Grammatik-Übungen und ein Schreib- oder Sprechauftrag, höchstens etwa 25 Items (Konventionen §8).
+- Audio: `bf_emma`, nur kurze Abschnitte des Lesestücks und Diktat und Nachsprechen als ganze Sätze; Hörliste im Inhaltsführer; nichts Ungehörtes als „geprüft“ ausgeben.
+
+## Notes
+
+- Strang `englisch/grammatik`, Band 7-8, alle fünf Bausteine Lücken der Karte (`practisedBy` leer), Karte geöffnet 2026-11-22.
+- Kapitel 3 · Genauer beschreiben (Ich kann nach Sinnesverben das Adjektiv setzen, Adverbien an die richtige Stelle im Satz stellen und mit Gradadverbien abstufen):
+  - `adjektive-nach-sinnesverben` (Schritt 1): „Ich kann nach Verben wie look, sound, feel und taste ein Adjektiv verwenden (It tastes good.).“ Braucht `adjektiv-oder-adverb` (Kapitel 2 dieser App).
+  - `adverbien-stellung` (Schritt 1): „Ich kann Adverbien an die richtige Stelle im Satz setzen, zum Beispiel nach dem ersten Hilfsverb.“ Braucht `adverbien-art-und-weise` (Kapitel 2) und `wortstellung` (Stufe 5-6, #473: „Ich kann Aussagesätze in der Reihenfolge Subjekt – Verb – Objekt bilden und Ortsangaben vor Zeitangaben stellen.“): Wiederholungsseite `das-brauchst-du` am Anfang von Kapitel 3, `recap: englisch/wortstellung`.
+  - `gradadverbien` (Schritt 1): „Ich kann Adjektive und Adverbien mit Wörtern wie very, quite, rather, extremely und too genauer abstufen.“ Braucht `adverbien-art-und-weise`.
+- Kapitel 4 · Adjektive ohne Nomen (Ich kann mit one ein Nomen ersetzen (the red one) und Adjektive wie the rich für eine Gruppe von Menschen verwenden):
+  - `stuetzwort-one` (Schritt 1): „Ich kann mit one und ones ein Nomen ersetzen, um Wiederholungen zu vermeiden (the red one).“ Braucht `adjektive` (Kapitel 1).
+  - `substantivierte-adjektive` (Schritt 1): „Ich kann Adjektive als Nomen für Gruppen von Menschen verwenden (the rich, the elderly).“ Braucht `adjektive` und `artikel` (Stufe 5-6: „Ich kann die Artikel a, an und the richtig verwenden und „the“ vor Vokalen richtig aussprechen.“): Wiederholungsseite am Anfang von Kapitel 4, `recap: englisch/artikel`.
+- Sprachlich kein Fehler der Karte; Hinweis: Die Karte führt `wortstellung` und `artikel` auf Stufe 5-6 (Explainer #473 bzw. #470 und #475 üben sie); die Wiederholungsseiten verweisen auf die Karte.
+- Didaktik je Baustein: `sinnesverben`: Der Adjektiv-Anhänger geht nach look, sound, feel, taste zum Subjekt wie nach be; die Frage „Ding oder Handlung?“ wird zu „Beschreibt es, wie das Subjekt ist (blau), oder was jemand tut (orange)?“ (She looks tired. – She looks at me carefully.). `adverbien-stellung`: Satzkarten (S – V – O aus der Wortstellung) legen und den orangefarbenen Anhänger an Anfang, Mitte (vor dem Verb, nach dem ersten Hilfsverb) oder Ende hängen; nie zwischen Verb und Objekt (He ate quickly his lunch ist falsch). `gradadverbien`: Ein Regler von not bis extremely (quite, rather, very, extremely), too als Warnzeichen (too cold = zu kalt); Gradadverbien stehen vor dem Adjektiv oder Adverb, nicht vor Verben (nicht: I very like it). `one`: Der Anhänger bleibt hängen, wenn das Nomen weggeht (the red one, the red ones); nach a steht one (a red one), nicht nach „my/this“ allein ohne Adjektiv (this one geht). `substantivierte-adjektive`: the + Adjektiv allein meint alle Menschen dieser Art und steht im Plural (The rich are …), nicht -s anhängen, kein a davor.
+- Scope: drin die fünf Bausteine (look, sound, feel, taste, seem und smell mit Adjektiv; Stellung am Anfang, in der Mitte und am Ende; very, quite, rather, extremely, too; one und ones; the rich, the poor, the elderly, the young), je Seite ein Lesestück. Draußen: Adjektivreihenfolge, enough, so … that, Steigerung mit Gradadverbien (much better), Zahlwort one, Possessivpronomen mit one, substantivierte Adjektive für Nationalitäten und Abstraktes (the unknown), Satzadverbien (fortunately). Datenumfang: höchstens etwa 25 Items je Seite, 150 bis 300 Wörter je Lesestück.
+- Typische Fehler (je eine eigene Meldung): It tastes well; She looks happily; I feel badly (aber I feel bad); He very quickly ate … ist korrekt, He ate quickly his lunch / He ate his lunch very-quickly falsch; I very like pizza; It is too good = zu gut (Missverständnis mit very); the red (ohne one), a red ones, the rich is …, the riches, a rich.
+- Quellen (nur Fakten, 2026-11-22 geöffnet): Wikipedia „Copula (linguistics)“ (look, sound, feel, taste verbinden das Subjekt mit einem Adjektiv und fügen Bedeutung hinzu), „Intensifier“ (very, quite, rather, extremely, too als Verstärker und Abschwächer vor Adjektiven und Adverbien), „Adverb“ (Stellung und Funktion), „One (pronoun)“ (Stützwort, one und ones ersetzen ein Nomen) und „Nominalized adjective“ (the poor, the rich als Gruppenbezeichnung mit Plural). Nicht geprüft: deutsche Wikipedia, Klexikon, Simple English Wikipedia. Alle Lesestücke sind eigene Texte der Figuren; Material der Ersteller:in: keines.
+- Wörter: Grundwortschatz A1/A2 plus B1-Wörter, wo das Lesestück sie braucht (Randglossar, Inhaltsführer listet sie).
+
+## Explore
+
+<!--
+- All content questions belong here; Plan maps the answers onto the app. Ask; write no code.
+- Skip what earlier answers or the app already tell. At most 2 questions per message, one topic each.
+-->
+
+### Tasks
+
+- [x] Read the README of the archetype's template (its path is in skill `lernapps-app`): what the app can do now.
+      Tell the creator what is new, if it matters for this increment.
+- [x] Load the content guide `.agents/skills/app-content/SKILL.md` and read the earlier plans in `.vibe/plans/`: what
+      the app teaches, how its content is made, what is open.
+- [x] Interview, one topic per question, the creator's words under "Answers": which competencies, chapters or rounds,
+      for which school years; hurdles and examples; the amount; any change of look and feel or of terms. No answer:
+      ask once more, then write your assumption with "(guess)".
+- [x] Load skill `lernapps-content-research`. Research what the content guide does not cover. Write under "Notes":
+      the new competencies by chapter with their ids, the sources you opened.
+- [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
+- [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
+      of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
+- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+      scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+
+### Answers
+
+- Aus dem Auftrag der Orchestrator-Session vom 2026-11-22 (Mensch: keine Antwort): Kapitel 3 und 4 als Inkrement in dasselbe Repository, Konventionen Abschnitt 8, `lernapps update`, Branch `increment/02-genauer-beschreiben`, Regeln aus Abschnitt 7, Vorschau-Pull-Request offen, nichts nach `main`, kein Katalogeintrag.
+- Look, Begriffe, Sprache, Zielgruppe: wie die erste Version (Inhaltsführer); Alter der Figuren 13 bis 14.
+
+## Plan
+
+<!--
+- Map the new content onto the app with the guide's patterns. The creator confirms the plan in one read.
+- After the yes you work on your own.
+-->
+
+### Tasks
+
+- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+      order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
+      write it in parallel, if any.
+- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+      `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
+- [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
+- [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
+      what is new. At most 2 questions.
+- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+      them, then ask again.
+
+### Content method
+
+<!-- One line each: the guide's patterns, figures and components used, and where; anything new, what it does and
+cannot. Something new goes into the guide in the slice that adds it. -->
+<!-- An explainer: per figure, model and component its learning action in two to four sentences
+(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
+page, which a link. -->
+
+## Code
+
+<!--
+- Build locally on the branch, on your own. After each task: `plan done`, then one commit with the work and this
+  plan. The hooks check each commit; a failing check is fixed from its message, as skill `lernapps-cli` says.
+- What you cannot decide: choose, write it under "Key decisions" with "(guess)", go on.
+- The creator asks for a change: say your reading in one sentence first.
+-->
+
+### Tasks
+
+- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+      findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
+- [ ] Load skill `lernapps-explainer` and the content guide.
+- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+      `.agents/skills/lernapps-explainer/references/blocks.md` and
+      `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
+      `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
+- [ ] Decide whether the app needs `scope`, as "`scope`" in
+      `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
+<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+      the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
+      finds, then ask the creator whether the others may follow it, and wait.
+- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [ ] Run `npx --no -- lernapps check` until it passes.
+- [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+
+## Commit
+
+<!--
+- Publish with the creator's yes. A push to `main` publishes.
+- Open the pull requests (to `main`, to the catalog) without asking: they publish nothing.
+-->
+
+### Tasks
+
+- [ ] If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
+      as it says. Commit.
+- [ ] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
+      says.
+- [ ] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
+      and wait for the yes.
+- [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: the pull request squash-merged into
+      `main`, the run of `Pages` watched to its end.
+- [ ] Open the address the job `deploy` printed and confirm the new content. Never use a derived address.
+- [ ] The app is listed and its entry changes (school years, summary): load skill `lernapps-listing` and write the
+      changed entry. Else skip this task.
+- [ ] Fill the retrospective.
+- [ ] Commit this plan on `main` and push it. A push of only `.vibe/` publishes nothing.
+- [ ] **Checkpoint:** list. The entry changed: open the pull request to the catalog as skill `lernapps-listing`
+      says, without asking first, see it to "bestanden", then show the creator the pull request and its result. The
+      entry did not change: tell the creator that the catalog updates the app by itself.
+- [ ] If the plan changed since its last push, commit it on `main` and push again.
+
+## Retrospective
+
+<!-- At the end of Commit. Facts, short, no names. Read by review and evals. -->
+
+### Phases reached
+
+<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+
+### Creator turns after the plan
+
+<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+
+### Where I had to guess
+
+<!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
