@@ -224,6 +224,26 @@ def szene_gradadverbien():
     b += kid("amir", 130, 110, .85) + kid("ellie", 40, 120, .75) + kid("sophie", 450, 110, .8)
     return svg(640, 340, "Amir sitzt mit zwei Mikrofonen am Tisch im Radio-Studio und bereitet ein Interview vor, Ellie und Sophie schauen zu", b)
 
+@image
+def szene_stuetzwort_one():
+    b = wall()
+    b += '  <rect x="60" y="150" width="520" height="14" fill="#7a5a35"/>\n'
+    cols = ["#c0392b", "#2c6fd8", "#3a9a5b", "#c0392b"]
+    for i, c in enumerate(cols):
+        x = 100 + i * 120
+        b += f'  <g stroke="{INK}" stroke-width="3"><path d="M{x} 100 l40 -10 l40 10 l-10 50 h-60 z" fill="{c}"/></g>\n'
+    b += text(320, 60, "Basar der Millbrook School", 26)
+    b += kid("sophie", 40, 170, .65) + kid("ellie", 480, 170, .65)
+    return svg(640, 340, "Auf einem Tisch beim Schulbasar liegen vier Jacken, zwei rote, eine blaue und eine grüne, Sophie und Ellie stehen daneben", b)
+
+@image
+def anhaenger_one():
+    b = card(20, 30, 70, 50, "the", 24) + card(100, 30, 130, 50, "jacket", 24) + tag(95, 80, "red", BLUE, 34, 20)
+    b += card(20, 190, 70, 50, "the", 24) + card(100, 190, 110, 50, "one", 24) + tag(95, 240, "red", BLUE, 34, 20)
+    b += f'  <path d="M165 85 C 190 130 160 150 150 185" fill="none" stroke="{INK}" stroke-width="3" stroke-dasharray="7 5"/>\n'
+    b += text(400, 70, "Nomen schon genannt", 22) + text(400, 230, "one ersetzt das Nomen", 22)
+    return svg(640, 320, "Oben die Karten the und jacket mit blauem Anhänger red, unten die Karten the und one mit demselben Anhänger, ein gestrichelter Pfeil von jacket nach one", b)
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)
     for n in names:

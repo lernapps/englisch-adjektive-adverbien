@@ -1,0 +1,266 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Nicht noch einmal das Nomen: one und ones"
+description: "Beim Basar sortieren Sophie und Ellie Jacken, Taschen und Schuhe. Du lernst, mit one und ones ein Nomen zu ersetzen."
+competencies: [stuetzwort-one]
+scope: Die Seite lehrt das Stützwort one (Einzahl) und ones (Mehrzahl), das ein schon genanntes zählbares Nomen ersetzt, damit es nicht wiederholt wird (the red one, a big one, the old ones). Der Adjektiv-Anhänger bleibt vor one hängen. Nach a oder einem Adjektiv steht one, nie ein einzelnes Adjektiv (nicht I like the red). Nicht hier, weil es spätere Seiten sind. Substantivierte Adjektive wie the rich.
+blocks:
+  - type: section
+    id: vorwissen
+    title: Was du schon weißt
+    blocks:
+      - type: figure
+        image: images/szene-stuetzwort-one.svg
+        alt: Auf einem Tisch beim Schulbasar liegen vier Jacken, zwei rote, eine blaue und eine grüne. Sophie und Ellie stehen daneben.
+        caption: "Von links: Sophie (Zöpfe) und Ellie (roter Pferdeschwanz)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: single-choice
+        id: stuetzwort-one-start
+        text: "Aus Kapitel 1: Wo hängt der blaue Anhänger in „a big house“?"
+        options:
+          - text: vor dem Nomen house
+            correct: true
+            info: Der blaue Adjektiv-Anhänger hängt vor dem Nomen.
+          - text: hinter dem Nomen house
+            correct: false
+            info: Im Englischen steht das Adjektiv nie hinter dem Nomen, ein Satz wie a house big ist falsch.
+          - text: Er hängt nur nach be.
+            correct: false
+            info: Nach be hängt er auch, aber vor einem Nomen ebenso.
+        explanation: Vor dem Nomen oder nach be.
+        links:
+          - title: Lernlandkarte Englisch · Stellung der Adjektive
+            url: https://lernapps.net/apps/map/englisch/c/adjektive/
+  - type: section
+    id: lesen
+    title: Der Basar-Chat
+    blocks:
+      - type: text
+        text: "Sophie und Ellie sortieren am Freitagnachmittag die Spenden für den Schulbasar. Dabei chatten sie mit dem Handy. Lies den Chat ganz. Die Zeilen sind nummeriert."
+      - type: text
+        text: |
+          **1 · Ellie:** Wow, look at all these jackets! Which one do you like?
+
+          **2 · Sophie:** I like the red one, but the blue one is cheaper.
+
+          **3 · Ellie:** Are the old ones for sale already?
+
+          **4 · Sophie:** Yes. The new ones stay in the box until Saturday.
+
+          **5 · Ellie:** I need a bag for the books. Is there a big one?
+      - type: table
+        caption: Randglossar · Zeilen 1 bis 5
+        header: [Wort, Bedeutung]
+        rows:
+          - [for sale, zu verkaufen]
+          - [already, schon]
+          - [until, bis]
+          - [box, Kiste]
+      - type: text
+        text: |
+          **6 · Sophie:** Here is a small one. And there is a green one under the table.
+
+          **7 · Ellie:** The green one is perfect! Do we have any more of these?
+
+          **8 · Sophie:** Only red ones, I think. Maybe Amir has some more at home.
+
+          **9 · Ellie:** Good idea! I will ask him. And let us put a price on every single thing.
+
+          **10 · Sophie:** OK. Two pounds for a small one, five pounds for a big one!
+      - type: table
+        caption: Randglossar · Zeilen 6 bis 10
+        header: [Wort, Bedeutung]
+        rows:
+          - [price, Preis]
+          - [pound, Pfund (Geld)]
+          - [single, einzeln]
+          - [maybe, vielleicht]
+  - type: section
+    id: verstehen
+    title: Hast du den Chat verstanden?
+    blocks:
+      - type: true-false
+        id: stuetzwort-one-verstehen
+        text: "Sophie findet die blaue Jacke teurer als die rote. Stimmt das?"
+        answer: false
+        explanation: Die blaue Jacke ist billiger, sagt Sophie in Zeile 2.
+        links:
+          - title: Lernlandkarte Englisch · Stützwort one
+            url: https://lernapps.net/apps/map/englisch/c/stuetzwort-one/
+      - type: single-choice
+        id: stuetzwort-one-belegen
+        text: Welche Zeile zeigt, dass die neuen Sachen bis Samstag in der Kiste bleiben?
+        options:
+          - text: "Zeile 4: The new ones stay in the box until Saturday."
+            correct: true
+            info: Hier steht, wie lange die neuen Sachen in der Kiste bleiben.
+          - text: "Zeile 3: Are the old ones for sale already?"
+            correct: false
+            info: Diese Zeile fragt, ob die alten Sachen schon verkauft werden.
+          - text: "Zeile 8: Only red ones, I think."
+            correct: false
+            info: Hier geht es um die roten Jacken, die noch fehlen.
+        explanation: Die neuen Sachen bleiben laut Zeile 4 bis Samstag in der Kiste.
+        links:
+          - title: Lernlandkarte Englisch · Stützwort one
+            url: https://lernapps.net/apps/map/englisch/c/stuetzwort-one/
+  - type: section
+    id: neu
+    title: Schau in den Text
+    blocks:
+      - type: text
+        text: "Sophie sagt in Zeile 2: „I like the **red one**.“ Sie meint die rote Jacke. Das Wort **jacket** hat Ellie in Zeile 1 schon genannt, darum wiederholt Sophie es nicht. Stattdessen steht **one**. Der blaue Anhänger **red** bleibt hängen, nur das Nomen fehlt. In der Mehrzahl heißt es **ones** (Zeile 4: the new ones)."
+      - type: figure
+        image: images/anhaenger-one.svg
+        alt: Oben die Karten the und jacket mit einem blauen Anhänger red. Unten die Karten the und one mit demselben Anhänger. Ein gestrichelter Pfeil geht von jacket nach one.
+        caption: Der blaue Anhänger bleibt hängen, one nimmt den Platz des Nomens ein.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · one und ones
+        header: [Mit Nomen, Mit one]
+        rows:
+          - [the sweet apple, the sweet one]
+          - [two warm scarves, two warm ones]
+          - [this chair, this one]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **one** ersetzt ein Nomen in der **Einzahl**, das schon genannt ist, **ones** in der **Mehrzahl**. Der blaue Anhänger bleibt davor hängen: the red **one**. Ein einzelnes Adjektiv geht nicht, nicht „I like the red“, sondern „I like the red one“. Das gilt nur für Nomen, die du zählen kannst.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [pullover, Pullover]
+          - [scarf, Schal]
+          - [cup, Tasse]
+          - [shoes, Schuhe]
+          - [broken, kaputt]
+          - [thick, dick]
+          - [phone, Handy]
+          - [yours, deins]
+          - [prefer, lieber mögen]
+          - [apple, Apfel]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: stuetzwort-one-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle one oder ones.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ich mag die grüne Tasche. Die blaue ist zu klein.
+            target: I like the green bag. The blue [one] is too small.
+            distractors: [[ones]]
+          - cue: Das sind meine alten Schuhe. Ich will neue.
+            target: These are my old shoes. I want new [ones].
+            distractors: [[one]]
+          - cue: Welches Buch willst du? Das dicke.
+            target: Which book do you want? The thick [one].
+            distractors: [[ones]]
+        hint: Einzahl oder Mehrzahl? Das Nomen, das du ersetzt, entscheidet.
+      - type: language-task
+        id: stuetzwort-one-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Welchen Pullover möchtest du? Den roten.
+            target: Which (pullover|one) do you want? (I want |)the red one.
+            mistakes:
+              - answer: Which pullover do you want? The red.
+                message: Ein einzelnes Adjektiv reicht nicht. Setze das Stützwort dahinter.
+          - source: Ich habe große Tassen. Hast du kleine?
+            target: I have big cups. Do you have small ones?
+            mistakes:
+              - answer: I have big cups. Do you have small?
+                message: Das Adjektiv small braucht in der Mehrzahl das Stützwort ones.
+          - source: Der alte Tisch ist kaputt, aber der neue ist gut.
+            target: The old table is broken, but the new one is good.
+            mistakes:
+              - answer: The old table is broken, but the new is good.
+                message: Nach dem Artikel the und dem Adjektiv new fehlt das Stützwort one.
+        hint: Das Nomen ist schon genannt. Ersetze es mit one oder ones.
+      - type: language-task
+        id: stuetzwort-one-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: I like the red.
+            target: I like the red one.
+            mistakes:
+              - answer: I like the red.
+                message: Nach dem Anhänger red fehlt das Stützwort.
+          - cue: She has a red ones.
+            target: She has a red one.
+            mistakes:
+              - answer: She has a red ones.
+                message: Nach a steht die Einzahl. Welche Form von one passt?
+        hint: Ein einzelnes Adjektiv und a mit ones gehen nicht.
+      - type: language-task
+        id: stuetzwort-one-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Die blauen Schuhe sind billiger als die grünen.
+            target: The blue shoes are cheaper than the green ones.
+            mistakes:
+              - answer: The blue shoes are cheaper than the green.
+                message: Nach dem Anhänger green fehlt das Stützwort ones.
+          - source: Ich will keinen kleinen, ich will einen großen.
+            target: (I do not want|I don't want) a small one, I want a big one.
+            mistakes:
+              - answer: I do not want a small, I want a big.
+                message: Nach a und dem Adjektiv steht one.
+      - type: language-task
+        id: stuetzwort-one-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: do-you-like-the-yellow-ones.mp3
+            target: Do you like the yellow ones?
+          - audio: my-old-phone-is-broken-so-i-need-a-new-one.mp3
+            target: My old phone is broken, so I need a new one.
+          - audio: the-small-cups-are-cheaper-than-the-big-ones.mp3
+            target: The small cups are cheaper than the big ones.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: stuetzwort-one-nachsprechen
+        language: en
+        items:
+          - audio: which-one-is-yours.mp3
+            text: Which one is yours?
+          - audio: i-prefer-the-white-ones.mp3
+            text: I prefer the white ones.
+          - audio: we-have-a-few-more-black-ones.mp3
+            text: We have a few more black ones.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: stuetzwort-one-meinung
+        task: "Du hilfst beim Basar und beschreibst deinen Freunden, was du kaufen willst, ohne ein Nomen zu wiederholen. Schreibe drei bis fünf Sätze mit one oder ones."
+        points:
+          - text: Mindestens zwei Sätze benutzen one oder ones.
+            source: /adjektive-ohne-nomen/stuetzwort-one/#neu
+          - text: Vor one oder ones steht ein Adjektiv oder ein Artikel (the red one, a big one).
+            source: /adjektive-ohne-nomen/stuetzwort-one/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          I want a warm scarf. The grey one is nice, but the blue one is cheaper. I will take two thick ones for my brother.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Der Basar sammelt Geld für ältere Menschen aus der Stadt. Die Schulzeitung will darüber berichten. Im Artikel steht ein Adjektiv ganz allein, ohne Nomen und ohne one. Auf der nächsten Seite findest du heraus, was es bedeutet."
