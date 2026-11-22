@@ -97,6 +97,19 @@ Hörsätze, die auf ein einsilbiges Wort enden (nach dem Erzeugen hatte die Stim
 
 Nach jedem neuen Hörsatz: einsilbiges Ende → hier eintragen.
 
+### Fehllaut-Schnitt (`valley_cut`, Skript aus `lernapps/start`, 2026-11-22)
+
+`regen_audio.py` schneidet den Fehllaut nach dem letzten Wort (Regel: `orchestrierung/audio/README-schnitt.md` in `lernapps/start`). Bei diesen 4 von 36 Dateien hat der Schnitt gegriffen; die Ersteller:in hört sie gezielt:
+
+| Datei | Satz | entfernt |
+|---|---|---|
+| the-old-bike-is-the-cheapest.mp3 | The old bike is the cheapest. | 25 ms |
+| the-jacket-is-old.mp3 | The jacket is old. | 25 ms |
+| ellie-is-a-good-friend.mp3 | Ellie is a good friend. | 45 ms |
+| the-teacher-is-kind.mp3 | The teacher is kind. | 45 ms |
+
+Zweisilbig oder länger am Satzende (Risiko, dass eine Silbe angeschnitten wird; hier hat kein Schnitt gegriffen außer bei „cheapest“, dort 25 ms): The tallest girl is Ellie., The film is the most exciting., The old bike is the cheapest., The game is the funniest., This is a big hamster., The dog is bigger than the hamster., The cake is as big as the pizza., Peter speaks quietly., Ellie works faster than Sophie., Amir sings more loudly than Peter., Peter works better than Sophie., Ellie speaks more slowly than Peter., Ellie speaks more quietly than Amir., Sophie runs the fastest., Peter walks slowly., Sophie eats quickly., Mr Hill writes carefully., Amir eats slowly., Mr Hill speaks quietly.
+
 ## Adding a chapter or round
 
 1. Baustein auf der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen.
