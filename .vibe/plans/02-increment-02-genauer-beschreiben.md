@@ -152,13 +152,14 @@ Je Slice:
 - [x] Slice 2 (ich allein, Sub-Agent nur für das Lesestück möglich): Seite `adverbien-stellung` (`adverbien-stellung`) mit Blog-/Tagebuch-Lesestück, Satzkarten-Bild für Anfang, Mitte und Ende, Übungen, Audio.
 - [x] Slice 3 (ich allein): Seite `gradadverbien` (`gradadverbien`) mit Interview-Lesestück, Bild „Regler“ von not bis extremely und too als Warnzeichen, Übungen, Audio.
 - [x] Slice 4 (ich allein): Kapitel `adjektive-ohne-nomen` mit `chapter.yaml`, Wiederholung `das-brauchst-du` (recap `englisch/artikel`) und Seite `stuetzwort-one` (`stuetzwort-one`) mit Chat-Lesestück (Basar), Anhänger-ohne-Nomen-Bild, Übungen, Audio.
-- [ ] Slice 5 (ich allein): Seite `substantivierte-adjektive` (`substantivierte-adjektive`) mit Zeitungsartikel-Lesestück (Schulzeitung, eigene Fakten), Bild, Übungen, Audio; `app.yaml` (`chapters`, `scope`, `intro`), Selbsteinschätzung der Kapitel 3 und 4.
+- [x] Slice 5 (ich allein): Seite `substantivierte-adjektive` (`substantivierte-adjektive`) mit Zeitungsartikel-Lesestück (Schulzeitung, eigene Fakten), Bild, Übungen, Audio; `app.yaml` (`chapters`, `scope`, `intro`), Selbsteinschätzung der Kapitel 3 und 4.
 <!-- tasks: slices (5 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
+      Creator: Ja, die anderen vier Seiten dürfen nach dem Muster folgen. Vorlagenpunkte nicht beheben, Seiten etwas kürzer (bis etwa 20 Aufgaben), kein Push bis zur Erlaubnis der Ersteller:in.
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit

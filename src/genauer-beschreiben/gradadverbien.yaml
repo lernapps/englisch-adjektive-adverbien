@@ -141,6 +141,7 @@ blocks:
           - [bag, Tasche]
           - [park, Park]
           - [film, Film]
+          - [street, Straße]
           - [task, Aufgabe]
           - [football, Fußball]
   - type: section
@@ -175,8 +176,8 @@ blocks:
           - cue: Ich mag Fußball sehr.
             target: I like football [very much].
             distractors: [[very]]
-          - cue: Der Film ist ziemlich lang.
-            target: The film is [quite|rather] long.
+          - cue: Die Straße ist ziemlich lang.
+            target: The street is [quite|rather] long.
             distractors: [[too]]
         hint: Zu heißt too. Vor Adjektiven steht very, aber vor einem Verb very much.
       - type: language-task

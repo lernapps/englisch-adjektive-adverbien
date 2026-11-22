@@ -268,8 +268,8 @@ blocks:
         items:
           - audio: you-look-happy-today.mp3
             text: You look happy today.
-          - audio: the-bread-smells-fresh.mp3
-            text: The bread smells fresh.
+          - audio: the-air-feels-cold-today.mp3
+            text: The air feels cold today.
           - audio: that-song-sounds-great.mp3
             text: That song sounds great.
         hint: Hör den Satz zuerst. Sprich dann langsam nach.
