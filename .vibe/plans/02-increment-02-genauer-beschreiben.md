@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -76,8 +76,9 @@ Lernende der Klassen 7-8 beschreiben genauer: Sie setzen nach look, sound, feel 
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Ja, Plan so fortsetzen (zwei Kapitel, fünf Seiten, Lesestück je Seite, Regler für Gradadverbien). Neue Nebenfiguren nur nach Rückfrage. Push des Inkrement-Branches erst nach Erlaubnis, bis dahin lokal.
 
 ### Answers
 
@@ -93,24 +94,37 @@ Lernende der Klassen 7-8 beschreiben genauer: Sie setzen nach look, sound, feel 
 
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
-- [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
+- [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
+- [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
 
 ### Content method
 
-<!-- One line each: the guide's patterns, figures and components used, and where; anything new, what it does and
-cannot. Something new goes into the guide in the slice that adds it. -->
-<!-- An explainer: per figure, model and component its learning action in two to four sentences
-(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
-page, which a link. -->
+Die Muster der ersten Version gelten weiter (Inhaltsführer: Anhänger blau und orange, Treppe, `language-task` in den Modi `choice`, `write`, `table`, `gap`, Diktat `language-task` mit `audio`, `speaking-task`, `open-task`; Wörter aus A1/A2). Neu für die Stufe 7-8 ist **das Lesestück als Kern der Seite**. Warum die Muster der ersten Version nicht reichen: Dort erklärt kurzer Text mit Szenenbild; ab Stufe 7-8 lernen die Kinder an einem zusammenhängenden Text (Konventionen §8).
+
+Neues Muster „Lesestück“ (kommt in der Slice 1 in den Inhaltsführer, mit Beispiel):
+- Abschnitte der Seite in dieser Reihenfolge: `vorwissen` (eine `single-choice` zu etwas, das die Kinder schon können), `lesen` (das Lesestück: 2 bis 3 `text`-Blöcke je Abschnitt des Lesestücks, nach jedem Abschnitt eine `table` „Randglossar“ mit den schweren Wörtern), `verstehen` (drei Stufen: Verstehen mit `single-choice` oder `true-false`; Belegen mit einer `single-choice`, deren Optionen Zeilen des Textes mit Zeilenangabe sind; Meinung als `open-task` am Ende der Seite), `neu` (die Regel, aus dem Text abgeleitet: „Schau in den Text“, Bild, Poster-Tabelle, Merke), `uebung` (Grammatik-Übungen, leicht → schwer), `anwenden` (`speaking-task`, `open-task`), `weiter`.
+- Lesestück: 150 bis 300 Wörter, eigener Text nach Fakten der geöffneten Quellen, Sorten: Chat (Sophie, Ellie, Amir, Peter), Blog- und Tagebucheintrag, Interview, kurzer Zeitungsartikel. Chat-Zeilen als `text` mit fettem Namen, jede Zeile eine Nummer (Zeilenangabe). Höchstens ein Lesestück je Seite, höchstens etwa 25 Items. Die Länge des Lesestücks zählt nicht zu den 350 Wörtern Erklärtext (der Check meldet es als Hinweis).
+- Hörtext: nur kurze Abschnitte als Hörsätze (Diktat und Nachsprechen, ganze Sätze), `bf_emma`, Hörliste im Inhaltsführer; keine Sätze des Lesestücks, die in einer Übung derselben Seite wörtlich stehen.
+- Keine Lösung im Text darüber: Poster, Merke und Bild nennen andere Beispiele als die Übungen; Distraktoren sind echte Lernerfehler; je Fehler eine eigene Meldung (Modus `choice` zeigt `mistakes` nicht: dort Fehler im Modus `write` fragen); `punctuation: ok`.
+
+Je Slice:
+- Slice 1 `sinnesverben`: Lesestück „Kochclub-Chat“ (Sophie, Ellie, Amir, Peter planen und probieren eine Suppe). Bild `anhaenger-sinnesverben` (Adjektiv-Anhänger hängt nach tastes zum Subjekt zurück, wie nach is); Szene `szene-sinnesverben` (Kochclub). Übungen: Anhänger wählen (`choice`: nach taste, look, feel, sound das Adjektiv), Handlung oder Zustand (look at me carefully – she looks tired) als `single-choice`, Satz bilden (`write`), Korrigieren (It tastes well, I feel badly), Übersetzen, Diktat. Fehler: tastes well, looks happily, feels badly.
+- Slice 2 `adverbien-stellung`: Lesestück „Sophies Blog“ (Eintrag über das Schul-Radio). Bild `satzkarten-stellung` (Satzkarten Subjekt, Verb, Objekt aus der Wortstellung, drei Haken für den orangefarbenen Anhänger: Anfang, Mitte, Ende; zwischen Verb und Objekt gesperrt). Übungen: Haken wählen (`choice`), Satzteile ordnen (`ordering`), Satz bilden (`write`), Korrigieren (He ate quickly his lunch), Übersetzen, Diktat.
+- Slice 3 `gradadverbien`: Lesestück „Interview für die Schulzeitung“ (Amir interviewt Mr Hill). Bild `regler-gradadverbien` (Regler von not über quite, rather, very bis extremely, too als rotes Warnzeichen am Ende). Übungen: Regler einstellen (`matching` Satz ↔ Stufe), Wort wählen (`choice`), Satz bilden (`write`), Korrigieren (I very like it, It is too good), Übersetzen, Diktat.
+- Slice 4 `stuetzwort-one`: Lesestück „Basar-Chat“ (Sophie und Ellie sortieren Spenden). Bild `anhaenger-one` (der blaue Anhänger bleibt hängen, das Nomen fehlt, `one` steht als Platzhalter). Übungen: one oder ones (`choice`), Satz kürzen (`write`), Korrigieren (the red, a red ones), Übersetzen, Diktat.
+- Slice 5 `substantivierte-adjektive`: Lesestück „Zeitungsartikel der Schulzeitung“ (Hilfsaktion für ältere Nachbarn: eigene Fakten, keine echte Statistik). Bild `anhaenger-gruppe` (der Anhänger hängt allein an `the`, daneben eine Gruppe Menschen). Übungen: the + Adjektiv oder Nomen (`choice`), Plural-Verb wählen (are statt is), Satz bilden (`write`), Korrigieren (the riches, a rich), Übersetzen, Diktat.
+- Alle Bilder: eigene Zeichnung, `CC-BY-4.0`, erzeugt von `make_images.py` (Funktionen ergänzen), Kinder aus `millbrook-klassenzimmer.svg` von #470 kopiert. Kein Mrs Parker, kein Mr Hill gezeichnet.
+- Wiederholungsseiten: `das-brauchst-du` (Kapitel 3, `recap: englisch/wortstellung`, Satzkarten Subjekt – Verb – Objekt, Ort vor Zeit; Text nennt die Karteneintrag-Beschreibung) und `das-brauchst-du` (Kapitel 4, `recap: englisch/artikel`, a, an, the); ohne Übung.
+- Prerequisites, die die App nicht übt: `wortstellung` (Recap Kapitel 3), `artikel` (Recap Kapitel 4). Alle anderen `requires` stehen auf früheren Seiten dieser App.
+- Daten: keine Datendateien, keine Komponenten (`prefer-built-in-block`): Regler und Satzkarten sind Bilder; ein Ziehen-Regler wäre ein Wunsch für ein späteres Inkrement.
 
 ## Code
 
@@ -133,7 +147,12 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] Slice 1 (Musterseite, ich allein): Kapitel `genauer-beschreiben` mit `chapter.yaml`, Wiederholung `das-brauchst-du` (recap `englisch/wortstellung`) und Seite `sinnesverben` (`adjektive-nach-sinnesverben`): Lesestück als Chat (150 bis 300 Wörter, Randglossar), Aufgaben in drei Stufen, Grammatik-Übungen, Schreibauftrag, Bilder, Audio; neues Muster „Lesestück“ in den Inhaltsführer.
+- [ ] Slice 2 (ich allein, Sub-Agent nur für das Lesestück möglich): Seite `adverbien-stellung` (`adverbien-stellung`) mit Blog-/Tagebuch-Lesestück, Satzkarten-Bild für Anfang, Mitte und Ende, Übungen, Audio.
+- [ ] Slice 3 (ich allein): Seite `gradadverbien` (`gradadverbien`) mit Interview-Lesestück, Bild „Regler“ von not bis extremely und too als Warnzeichen, Übungen, Audio.
+- [ ] Slice 4 (ich allein): Kapitel `adjektive-ohne-nomen` mit `chapter.yaml`, Wiederholung `das-brauchst-du` (recap `englisch/artikel`) und Seite `stuetzwort-one` (`stuetzwort-one`) mit Chat-Lesestück (Basar), Anhänger-ohne-Nomen-Bild, Übungen, Audio.
+- [ ] Slice 5 (ich allein): Seite `substantivierte-adjektive` (`substantivierte-adjektive`) mit Zeitungsartikel-Lesestück (Schulzeitung, eigene Fakten), Bild, Übungen, Audio; `app.yaml` (`chapters`, `scope`, `intro`), Selbsteinschätzung der Kapitel 3 und 4.
+<!-- tasks: slices (5 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
