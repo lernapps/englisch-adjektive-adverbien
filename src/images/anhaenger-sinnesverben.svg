@@ -52,7 +52,9 @@
   <circle cx="485" cy="152" r="40" fill="#2c6fd8" stroke="#333" stroke-width="2"/>
   <circle cx="485" cy="118" r="3" fill="#f4efe2"/>
   <text x="485" y="158.66666666666666" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#fff">tired</text>
+  <path d="M440 190 C410 215 380 215 365 95" fill="none" stroke="#2c6fd8" stroke-width="3" stroke-dasharray="7 5"/>
   <text x="205" y="245" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="normal" fill="#333">wie ist die Suppe?</text>
   <text x="485" y="245" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="normal" fill="#333">wie ist sie?</text>
+  <text x="280" y="25" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="normal" fill="#333">blau = Adjektiv, Bogen = gehört zum Subjekt</text>
 
 </svg>

@@ -188,6 +188,8 @@ Je Slice:
       entry did not change: tell the creator that the catalog updates the app by itself.
 - [ ] If the plan changed since its last push, commit it on `main` and push again.
 
+- Lerner-Check der Musterseite `sinnesverben` (Sub-Agent, Kind Klasse 7-8, 1280 und 360 px, 2026-11-22) und Sprachprüfung Englisch/Deutsch: behoben: Randglossar um die Sinnesverben (look, sound, feel, taste, smell) und weitere Wörter ergänzt, das Zitat aus Zeile 4 wörtlich, „nervös“ statt „aufgeregt“, Handlungsfall mit smell/taste/feel im Merke und in der Übung (Amir smells the cake carefully), die Probe mit is nur „ungefähr“ (I feel bad), Subjekt erklärt, Bild mit Bogen an beiden Sätzen und Legende, Poster-Beispiele anders als die Lösungen der Übungen, Wörtertabelle auf schwere Wörter gekürzt, Chat-Ton mit Kurzformen und haha, Hinweis „hinter das Verb“, Punkt der Meinungsaufgabe „kein Adverb auf -ly (nicht tastes sweetly)“, Wiederholungsseite erinnert an die Anhänger. Nicht behoben: Standardmeldung „Deine Fassung kann trotzdem richtig sein“ bei Tippfehlern, unvollständigen Sätzen und Hördiktaten und „1: nicht richtig.“ bei `choice` (Vorlage, bekannt); die Seite ist mit etwa zehn Aufgaben lang (Nachsprechen und Meinung sind der Anwendungsteil); „Zeile“ statt „Nachricht“ bleibt wie im Muster der Konventionen.
+
 ## Retrospective
 
 <!-- At the end of Commit. Facts, short, no names. Read by review and evals. -->

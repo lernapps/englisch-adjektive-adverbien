@@ -185,7 +185,8 @@ def anhaenger_sinnesverben():
     b = card(10, 40, 130, 50, "The soup", 24) + card(150, 40, 110, 50, "tastes", 24) + tag(205, 90, "sweet", BLUE, 40, 20)
     b += f'  <path d="M180 190 C150 215 90 215 75 95" fill="none" stroke="{BLUE}" stroke-width="3" stroke-dasharray="7 5"/>\n'
     b += card(330, 40, 90, 50, "She", 24) + card(430, 40, 110, 50, "looks", 24) + tag(485, 90, "tired", BLUE, 40, 20)
-    b += text(205, 245, "wie ist die Suppe?", 20) + text(485, 245, "wie ist sie?", 20)
+    b += f'  <path d="M440 190 C410 215 380 215 365 95" fill="none" stroke="{BLUE}" stroke-width="3" stroke-dasharray="7 5"/>\n'
+    b += text(205, 245, "wie ist die Suppe?", 20) + text(485, 245, "wie ist sie?", 20) + text(280, 25, "blau = Adjektiv, Bogen = gehört zum Subjekt", 18)
     return svg(560, 270, "Zwei Kartenpaare, an jedem hängt ein blauer Anhänger nach dem Verb, der zum Subjekt zurückzeigt", b)
 
 if __name__ == "__main__":

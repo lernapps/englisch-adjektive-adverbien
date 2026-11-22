@@ -39,13 +39,13 @@ blocks:
         text: "Im Kochclub der Millbrook School kocht Sophie morgen eine Suppe. Am Abend davor schreibt die Gruppe in einem Chat. Lies ihn zuerst ganz. Die Zeilen sind nummeriert."
       - type: text
         text: |
-          **1 · Sophie:** Hi everyone! Tomorrow is cooking club. I am making tomato soup for the whole class.
+          **1 · Sophie:** Hi everyone! Tomorrow is cooking club. I'm making tomato soup for the whole class.
 
           **2 · Ellie:** Great idea! I tried your recipe yesterday. The kitchen smelled fantastic.
 
           **3 · Amir:** Did it taste good, too?
 
-          **4 · Ellie:** Very good! But my first try looked strange. The soup was almost orange.
+          **4 · Ellie:** Very good! But my first try looked strange. The soup was almost orange, haha.
 
           **5 · Peter:** Orange? That sounds weird. Tomato soup is red!
 
@@ -56,6 +56,11 @@ blocks:
         rows:
           - [whole, ganz]
           - [recipe, Rezept]
+          - [try, Versuch / probieren]
+          - [smell, riechen]
+          - [taste, schmecken]
+          - [look, aussehen]
+          - [sound, klingen]
           - [strange, seltsam]
           - [weird, komisch]
           - [worry, sich Sorgen machen]
@@ -63,15 +68,15 @@ blocks:
         text: |
           **7 · Amir:** I am. My dad's bread smells wonderful, and it feels warm when it comes out of the oven.
 
-          **8 · Peter:** I am bringing the juice. It tastes sour, but my little sister likes it.
+          **8 · Peter:** I'm bringing the juice. It tastes sour, but my little sister likes it.
 
           **9 · Ellie:** Sophie, you sound tired. Are you OK?
 
-          **10 · Sophie:** I feel a bit nervous. Mr Hill is coming to try the soup, and I want it to look perfect.
+          **10 · Sophie:** I feel a bit nervous. Our teacher Mr Hill is coming to try the soup, and I want it to look perfect.
 
           **11 · Amir:** Don't be nervous! Everybody feels hungry after school anyway.
 
-          **12 · Peter:** And hungry people think everything tastes good.
+          **12 · Peter:** Haha, and hungry people think everything tastes good.
 
           **13 · Sophie:** Thanks, you two. I feel better now. See you at four o'clock!
       - type: table
@@ -79,9 +84,11 @@ blocks:
         header: [Wort, Bedeutung]
         rows:
           - [oven, Backofen]
+          - [feel, sich fühlen / sich anfühlen]
+          - [wonderful, wunderbar]
           - [sour, sauer]
+          - [a bit, ein bisschen]
           - [nervous, nervös]
-          - [perfect, perfekt]
           - [hungry, hungrig]
           - [anyway, sowieso]
   - type: section
@@ -122,7 +129,7 @@ blocks:
       - type: figure
         image: images/anhaenger-sinnesverben.svg
         alt: Zwei Kartenpaare. Bei The soup tastes hängt ein blauer Anhänger mit sweet, ein gestrichelter Bogen zeigt zurück auf The soup. Bei She looks hängt ein blauer Anhänger mit tired.
-        caption: Der blaue Anhänger nach dem Sinnesverb beschreibt das Subjekt.
+        caption: Der blaue Anhänger nach dem Sinnesverb beschreibt das Subjekt. Der gestrichelte Bogen zeigt, zu welchem Wort er gehört.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -130,16 +137,16 @@ blocks:
         header: [Verb, Beispiel]
         rows:
           - [look, Mr Hill looks friendly.]
-          - [sound, The idea sounds crazy.]
-          - [feel, The water feels cold.]
-          - [taste, The pizza tastes delicious.]
-          - [smell, The tea smells sweet.]
+          - [sound, The plan sounds crazy.]
+          - [feel, My hands feel warm.]
+          - [taste, The lemon tastes sour.]
+          - [smell, The flowers smell lovely.]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              Nach **look, sound, feel, taste** und **smell** steht das **Adjektiv**, wenn du sagst, wie etwas ist: It tastes **good**, nicht It tastes well. Ersetze das Verb im Kopf durch **is**. Passt der Satz noch ungefähr gleich, steht ein Adjektiv. Sagst du dagegen, was jemand **tut**, steht das Adverb: She looks at me **carefully**. Auch taste, smell und feel können eine Handlung sein: He tastes the soup **slowly**.
+              Nach **look, sound, feel, taste** und **smell** steht das **Adjektiv**, wenn du sagst, wie etwas ist: It tastes **good**, nicht It tastes well. Ersetze das Verb im Kopf durch **is**. Passt der Satz noch ungefähr gleich, steht ein Adjektiv. Sagst du dagegen, was jemand **tut**, steht das Adverb: She looks at me **carefully**. Auch taste, smell und feel können eine Handlung sein: He tastes the soup **slowly**. Die Probe mit is gilt nur ungefähr: I feel bad heißt „ich fühle mich schlecht“.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -148,19 +155,12 @@ blocks:
           - [bitter, bitter]
           - [soft, weich]
           - [fresh, frisch]
-          - [tired, müde]
-          - [happy, froh]
           - [delicious, köstlich]
           - [terrible, schrecklich]
-          - [cold, kalt]
-          - [tea, Tee]
-          - [cake, Kuchen]
-          - [jacket, Jacke]
-          - [interesting, interessant]
-          - [today, heute]
-          - [song, Lied]
-          - [music, Musik]
-          - [water, Wasser]
+          - [lovely, "schön (ein Adjektiv, obwohl es auf -ly endet)"]
+          - [salty, salzig]
+          - [flowers, Blumen]
+          - [lemon, Zitrone]
   - type: section
     id: uebung
     title: Übung
