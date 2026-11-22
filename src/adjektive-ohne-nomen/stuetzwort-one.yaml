@@ -64,7 +64,7 @@ blocks:
 
           **8 · Sophie:** Only red ones, I think. Maybe Amir has some more at home.
 
-          **9 · Ellie:** Good idea! I will ask him. And let us put a price on every single thing.
+          **9 · Ellie:** Good idea! I will ask him. And let's put a price on every single thing.
 
           **10 · Sophie:** OK. Two pounds for a small one, five pounds for a big one!
       - type: table
@@ -99,7 +99,7 @@ blocks:
             info: Diese Zeile fragt, ob die alten Sachen schon verkauft werden.
           - text: "Zeile 8: Only red ones, I think."
             correct: false
-            info: Hier geht es um die roten Jacken, die noch fehlen.
+            info: Hier geht es um die roten Taschen, die noch fehlen.
         explanation: Die neuen Sachen bleiben laut Zeile 4 bis Samstag in der Kiste.
         links:
           - title: Lernlandkarte Englisch · Stützwort one
@@ -109,7 +109,7 @@ blocks:
     title: Schau in den Text
     blocks:
       - type: text
-        text: "Sophie sagt in Zeile 2: „I like the **red one**.“ Sie meint die rote Jacke. Das Wort **jacket** hat Ellie in Zeile 1 schon genannt, darum wiederholt Sophie es nicht. Stattdessen steht **one**. Der blaue Anhänger **red** bleibt hängen, nur das Nomen fehlt. In der Mehrzahl heißt es **ones** (Zeile 4: the new ones)."
+        text: "Sophie sagt in Zeile 2: „I like the **red one**.“ Sie meint die rote Jacke. Das Wort **jackets** hat Ellie in Zeile 1 schon genannt, darum wiederholt Sophie es nicht. Stattdessen steht **one**. Der blaue Anhänger **red** bleibt hängen, nur das Nomen fehlt. In der Mehrzahl heißt es **ones** (Zeile 4: the new ones)."
       - type: figure
         image: images/anhaenger-one.svg
         alt: Oben die Karten the und jacket mit einem blauen Anhänger red. Unten die Karten the und one mit demselben Anhänger. Ein gestrichelter Pfeil geht von jacket nach one.
@@ -128,7 +128,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **one** ersetzt ein Nomen in der **Einzahl**, das schon genannt ist, **ones** in der **Mehrzahl**. Der blaue Anhänger bleibt davor hängen: the red **one**. Ein einzelnes Adjektiv geht nicht, nicht „I like the red“, sondern „I like the red one“. Das gilt nur für Nomen, die du zählen kannst.
+              **one** ersetzt ein Nomen in der **Einzahl**, das schon genannt ist, **ones** in der **Mehrzahl**. Der blaue Anhänger bleibt davor hängen: the red **one**. Ein einzelnes Adjektiv geht nicht, nicht „I like the red“, sondern „I like the red one“. Das gilt nur für Nomen, die du zählen kannst (nicht für water). Nach my, your oder her steht one nur mit einem Adjektiv: my new one.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -171,12 +171,12 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Welchen Pullover möchtest du? Den roten.
-            target: Which (pullover|one) do you want? (I want |)the red one.
+            target: Which (pullover|jumper|one) (do you want|would you like)? (I want |I would like |I'd like |)the red one.
             mistakes:
               - answer: Which pullover do you want? The red.
                 message: Ein einzelnes Adjektiv reicht nicht. Setze das Stützwort dahinter.
           - source: Ich habe große Tassen. Hast du kleine?
-            target: I have big cups. Do you have small ones?
+            target: I have (big|large) cups. (Do you have|Have you got) small ones?
             mistakes:
               - answer: I have big cups. Do you have small?
                 message: Das Adjektiv small braucht in der Mehrzahl das Stützwort ones.
@@ -193,12 +193,12 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - cue: I like the red.
-            target: I like the red one.
+            target: I like the red (one|ones).
             mistakes:
               - answer: I like the red.
                 message: Nach dem Anhänger red fehlt das Stützwort.
           - cue: She has a red ones.
-            target: She has a red one.
+            target: She has (a red one|red ones).
             mistakes:
               - answer: She has a red ones.
                 message: Nach a steht die Einzahl. Welche Form von one passt?

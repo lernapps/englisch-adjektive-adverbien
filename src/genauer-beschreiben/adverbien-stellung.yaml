@@ -98,7 +98,7 @@ blocks:
     title: Schau in den Text
     blocks:
       - type: text
-        text: "Der Blog hat viele orangefarbene Anhänger, und sie hängen an verschiedenen Stellen. In Zeile 4 steht **Suddenly** ganz am **Anfang**, mit einem Komma dahinter. In Zeile 2 hängt **carefully** in der **Mitte**, direkt vor dem Verb. In Zeile 4 steht **quietly** ebenfalls in der Mitte, nach dem ersten Hilfsverb **had**. In Zeile 3 steht **clearly** am **Ende**. Nur eine Stelle bleibt immer frei: **zwischen dem Verb und seinem Objekt**."
+        text: "Der Blog hat viele orangefarbene Anhänger, und sie hängen an verschiedenen Stellen. In Zeile 4 steht **Suddenly** ganz am **Anfang**, mit einem Komma dahinter. In Zeile 2 hängt **carefully** in der **Mitte**, direkt vor dem Verb. In Zeile 4 steht **quietly** ebenfalls in der Mitte, nach dem ersten Hilfsverb **had** (ein Hilfsverb wie can, has, had oder is). In Zeile 3 steht **clearly** am **Ende**. Nur eine Stelle bleibt immer leer: **zwischen dem Verb und seinem Objekt**."
       - type: figure
         image: images/satzkarten-stellung.svg
         alt: Drei Karten Amir, opened und the door. Davor, zwischen Amir und opened und am Ende hängen orangefarbene Haken mit den Zahlen 1, 2 und 3. Zwischen opened und the door steht ein rotes Kreuz.
@@ -118,7 +118,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Ein Adverb kann am **Anfang** (mit Komma), in der **Mitte** (vor dem Verb oder nach dem ersten Hilfsverb wie can, has, had, is) oder am **Ende** stehen. **Zwischen Verb und Objekt** steht es nie: nicht „wrote quickly the text“, sondern „quickly wrote the text“ oder „wrote the text quickly“.
+              Ein Adverb auf -ly kann am **Anfang** (mit Komma), in der **Mitte** (vor dem Verb oder nach dem ersten Hilfsverb, also nach can, has, had oder is) oder am **Ende** stehen. **Zwischen Verb und Objekt** steht es nie: nicht „wrote quickly the text“, sondern „quickly wrote the text“ oder „wrote the text quickly“.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -140,7 +140,7 @@ blocks:
     blocks:
       - type: single-choice
         id: adverbien-stellung-wahl
-        text: "Welcher Satz ist richtig? Ellie packt die Tasche schnell ein."
+        text: "Welcher Satz ist richtig? Ellie packte die Tasche schnell ein."
         options:
           - text: Ellie quickly packed the bag.
             correct: true
@@ -158,23 +158,23 @@ blocks:
       - type: language-task
         id: adverbien-stellung-bilden
         languages: { source: de, target: en }
-        task: Schreibe den Satz. Das Adverb darf an jedem erlaubten Platz stehen.
+        task: Schreibe den Satz im Präsens. Das Adverb darf an jedem erlaubten Platz stehen.
         form: { case: hint, punctuation: ok }
         items:
           - cue: Ellie · carefully · carry · the box
-            target: Ellie (carefully carries the box|carries the box carefully).
+            target: (Carefully, Ellie carries the box|Ellie carefully carries the box|Ellie carries the box carefully).
             mistakes:
               - answer: Ellie carries carefully the box.
                 message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt. Setze das Adverb vor das Verb oder hinter das Objekt.
           - cue: Peter · easily · can · fix · it
-            target: Peter (can easily fix it|can fix it easily).
+            target: (Easily, Peter can fix it|Peter can easily fix it|Peter can fix it easily).
             mistakes:
               - answer: Peter easily can fix it.
                 message: Mit einem Hilfsverb steht das Adverb nach dem Hilfsverb, nicht davor.
               - answer: Peter can fix easily it.
                 message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt.
           - cue: Amir · politely · answer · the question
-            target: Amir (politely answers the question|answers the question politely).
+            target: (Politely, Amir answers the question|Amir politely answers the question|Amir answers the question politely).
             mistakes:
               - answer: Amir answers politely the question.
                 message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt.
@@ -182,19 +182,19 @@ blocks:
       - type: language-task
         id: adverbien-stellung-korrektur
         languages: { source: de, target: en }
-        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig. Es gibt zwei richtige Möglichkeiten.
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig. Es gibt mehrere richtige Möglichkeiten.
         form: { case: hint, punctuation: ok }
         items:
           - cue: Amir opened carefully the door.
-            target: Amir (carefully opened the door|opened the door carefully).
+            target: (Carefully, Amir opened the door|Amir carefully opened the door|Amir opened the door carefully).
             mistakes:
               - answer: Amir opened carefully the door.
                 message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt.
-          - cue: She easily can win.
-            target: She (can easily win|can win easily).
+          - cue: Peter can fix easily it.
+            target: (Easily, Peter can fix it|Peter can easily fix it|Peter can fix it easily).
             mistakes:
-              - answer: She easily can win.
-                message: Nach einem Hilfsverb wie can steht das Adverb, nicht davor.
+              - answer: Peter can fix easily it.
+                message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt.
         hint: Schau, wo das Adverb zwischen Verb und Objekt oder vor dem Hilfsverb steht.
       - type: language-task
         id: adverbien-stellung-uebersetzen
@@ -202,13 +202,13 @@ blocks:
         task: Schreibe den Satz auf Englisch.
         form: { case: hint, punctuation: ok }
         items:
-          - source: Plötzlich ging das Licht aus (ein Licht).
-            target: (Suddenly, the light went out|The light suddenly went out).
+          - source: Das Licht ging plötzlich aus.
+            target: (Suddenly, the light went out|The light suddenly went out|The light went out suddenly).
             mistakes:
               - answer: The light went suddenly out.
-                message: Das Adverb steht vor dem Verb, nicht mitten im Verb went out.
+                message: Das Adverb steht nicht mitten im Verb went out. Setze es an den Anfang, vor das Verb oder ans Ende.
           - source: Sophie hat das Fenster endlich geschlossen.
-            target: (Finally, Sophie has closed the window|Sophie has finally closed the window|Sophie has closed the window finally).
+            target: (Finally, Sophie has closed the window|Sophie has finally closed the window|Finally, Sophie closed the window|Sophie finally closed the window).
             mistakes:
               - answer: Sophie has closed finally the window.
                 message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt.

@@ -58,11 +58,11 @@ blocks:
           - [love, sehr gernhaben]
       - type: text
         text: |
-          **6 · Mr Hill:** Marking homework is not too bad, but one hundred tests in one weekend is too much!
+          **6 · Mr Hill:** Marking homework is fine, but one hundred tests in one weekend is too much!
 
           **7 · Amir:** Are the students too noisy sometimes?
 
-          **8 · Mr Hill:** Sometimes. Sophie speaks very quietly, but Peter is extremely loud.
+          **8 · Mr Hill:** Sometimes. Some students speak very quietly, but others are extremely loud.
 
           **9 · Amir:** One last question: Is English hard?
 
@@ -81,9 +81,9 @@ blocks:
     blocks:
       - type: true-false
         id: gradadverbien-verstehen
-        text: "Mr Hill sagt, dass Peter extrem leise ist. Stimmt das?"
+        text: "Mr Hill sagt, dass alle Schüler sehr leise sprechen. Stimmt das?"
         answer: false
-        explanation: Mr Hill sagt, dass Peter extrem laut ist. Sophie ist die Leise. Das steht in Zeile 8.
+        explanation: Manche Schüler sprechen sehr leise, andere sind extrem laut. Das steht in Zeile 8.
         links:
           - title: Lernlandkarte Englisch · Gradadverbien
             url: https://lernapps.net/apps/map/englisch/c/gradadverbien/
@@ -150,7 +150,7 @@ blocks:
     blocks:
       - type: ordering
         id: gradadverbien-reihe
-        text: Ordne die Sätze vom schwächsten zum stärksten.
+        text: Ordne die Sätze vom schwächsten zum stärksten, so wie auf dem Regler der Seite.
         items:
           - The soup is quite cold.
           - The soup is rather cold.
@@ -195,13 +195,13 @@ blocks:
             target: Peter speaks extremely loudly.
             mistakes:
               - answer: Peter speaks extremely loud.
-                message: Hinter dem Verb beschreibt das Wort, wie Peter spricht. Es braucht -ly.
+                message: Im Schulenglisch beschreibt das Wort hinter dem Verb, wie Peter spricht. Es braucht -ly.
           - source: Das Wasser ist zu kalt.
             target: The water is too cold.
             mistakes:
               - answer: The water is very cold.
                 message: very heißt sehr, nicht zu. Das Warnzeichen heißt too.
-          - source: Ich mag Musik sehr.
+          - source: Ich mag Musik sehr (nutze very much).
             target: I like music very much.
             mistakes:
               - answer: I very like music.
@@ -234,7 +234,7 @@ blocks:
             target: The book is too long.
             mistakes:
               - answer: The book is very long.
-                message: very heißt sehr, nicht zu. Dann wäre das Buch nur lang.
+                message: very heißt sehr, nicht zu. Dann wäre das Buch sehr lang, aber nicht zu lang.
           - source: Das Spiel ist sehr spannend.
             target: The game is very exciting.
             mistakes:

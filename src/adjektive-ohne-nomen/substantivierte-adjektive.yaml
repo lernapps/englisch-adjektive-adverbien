@@ -99,7 +99,7 @@ blocks:
     title: Schau in den Text
     blocks:
       - type: text
-        text: "In Zeile 3 steht **the elderly**. Gemeint sind nicht ein Mensch oder ein Ding, sondern **alle älteren Menschen**. Das Nomen **people** fehlt, der blaue Anhänger **elderly** hängt allein hinter **the**. Genauso steht es mit **the rich** und **the poor** in Zeile 5 und mit **the old** und **the young** in Zeile 4. Weil eine Gruppe gemeint ist, steht das Verb in der **Mehrzahl**: The elderly **live** alone."
+        text: "In Zeile 3 steht **the elderly**. Gemeint sind nicht ein Mensch oder ein Ding, sondern **alle älteren Menschen**. Das Nomen **people** fehlt, der blaue Anhänger **elderly** hängt allein hinter **the**. Genauso steht es mit **the rich** und **the poor** in Zeile 5 und mit **the old** und **the young** in Zeile 4. Weil eine Gruppe gemeint ist, steht das Verb in der **Mehrzahl** (zum Beispiel: The elderly **live** alone)."
       - type: figure
         image: images/anhaenger-gruppe.svg
         alt: Links die Karte the mit einem blauen Anhänger rich, darunter das Wort ohne Nomen. Rechts fünf einfache Menschen in verschiedenen Farben, darunter alle Menschen dieser Art.
@@ -118,12 +118,12 @@ blocks:
         blocks:
           - type: text
             text: |
-              **the + Adjektiv** meint **alle Menschen dieser Art**. Das Verb steht in der **Mehrzahl** (The elderly **are** alone). Das Adjektiv bekommt **kein -s** (nicht „the riches“) und kein **a** (für eine Person brauchst du ein Nomen: a rich **man**).
+              **the + Adjektiv** meint **alle Menschen dieser Art**. Das Verb steht in der **Mehrzahl** (The elderly **are** alone). Das Adjektiv bekommt **kein -s** (nicht „the riches“) und kein **a** (für eine Person brauchst du ein Nomen: a rich **man**). Über Menschen spricht man höflich: the elderly klingt besser als the old, und über einzelne Menschen sagst du lieber a poor family oder an old man.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
         rows:
-          - [elderly, ältere Menschen]
+          - [elderly, älter (the elderly = ältere Menschen)]
           - [rich, reich]
           - [poor, arm]
           - [young, jung]
@@ -132,7 +132,6 @@ blocks:
           - [future, Zukunft]
           - [together, zusammen]
           - [grandmother, Großmutter]
-          - [coat, Mantel]
   - type: section
     id: uebung
     title: Übung
@@ -173,7 +172,7 @@ blocks:
               - answer: The young helps the elderly.
                 message: Gemeint ist eine Gruppe von Menschen. Das Verb steht in der Mehrzahl.
           - source: Die Armen und die Reichen leben in derselben Stadt.
-            target: The poor and the rich live in the same town.
+            target: The poor and the rich live in the same (town|city).
             mistakes:
               - answer: Poor and rich live in the same town.
                 message: Vor dem Adjektiv fehlt der Artikel the.
@@ -207,7 +206,7 @@ blocks:
               - answer: The young likes music.
                 message: Gemeint ist eine Gruppe von Menschen. Das Verb steht in der Mehrzahl.
           - source: Meine Großmutter ist eine alte Frau.
-            target: My grandmother is an old woman.
+            target: My grandmother is (an old woman|an old lady|an elderly woman|an elderly lady).
             mistakes:
               - answer: My grandmother is an old.
                 message: Für eine einzelne Person braucht das Adjektiv ein Nomen.
@@ -217,8 +216,8 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: the-rich-do-not-always-feel-happy.mp3
-            target: The rich do not always feel happy.
+          - audio: the-elderly-often-enjoy-visitors.mp3
+            target: The elderly often enjoy visitors.
           - audio: we-should-listen-to-the-elderly.mp3
             target: We should listen to the elderly.
           - audio: the-young-and-the-old-sit-together.mp3
@@ -231,8 +230,8 @@ blocks:
         id: substantivierte-adjektive-nachsprechen
         language: en
         items:
-          - audio: the-rich-can-help-the-poor.mp3
-            text: The rich can help the poor.
+          - audio: many-of-the-young-play-football.mp3
+            text: Many of the young play football.
           - audio: my-grandmother-helps-the-elderly.mp3
             text: My grandmother helps the elderly.
           - audio: the-young-are-the-future.mp3
@@ -262,6 +261,6 @@ blocks:
         rows:
           - [wie etwas aussieht oder schmeckt, "look, sound, feel, taste, smell + Adjektiv"]
           - [wo das Adverb steht, "Anfang, Mitte oder Ende, nie zwischen Verb und Objekt"]
-          - [wie stark etwas ist, "quite, rather, very, extremely, too"]
+          - [wie stark oder zu stark etwas ist, "quite, rather, very, extremely, too"]
           - [das Nomen weglassen, "the red one, the old ones"]
           - [eine Gruppe von Menschen, "the + Adjektiv, Verb in der Mehrzahl"]

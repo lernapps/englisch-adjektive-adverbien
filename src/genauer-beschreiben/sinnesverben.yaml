@@ -23,10 +23,10 @@ blocks:
             info: Nach be steht das Adjektiv. Es sagt, wie die Suppe ist.
           - text: der orangefarbene Adverb-Anhänger
             correct: false
-            info: Der orangefarbene Anhänger sagt, wie jemand etwas tut. Hier ist von einer Handlung keine Rede.
+            info: Der orangefarbene Anhänger sagt, wie jemand etwas tut. Hier geht es um keine Handlung.
           - text: gar kein Anhänger
             correct: false
-            info: great beschreibt die Suppe. Das Wort ist ein Adjektiv und hängt an dem Satz.
+            info: great beschreibt die Suppe. Dafür braucht es den blauen Anhänger.
         explanation: Nach be steht der blaue Anhänger.
         links:
           - title: Lernlandkarte Englisch · Adjektiv oder Adverb
@@ -157,6 +157,8 @@ blocks:
           - [fresh, frisch]
           - [delicious, köstlich]
           - [terrible, schrecklich]
+          - [friendly, freundlich (auch ein Adjektiv auf -ly)]
+          - [crazy, verrückt]
           - [lovely, "schön (ein Adjektiv, obwohl es auf -ly endet)"]
           - [salty, salzig]
           - [flowers, Blumen]
