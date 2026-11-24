@@ -45,7 +45,7 @@ Beim Basar sortieren Sophie und Ellie Jacken, Taschen und Schuhe. Du lernst, mit
 
 ### Was du schon weißt
 
-Bild: Auf einem Tisch beim Schulbasar liegen vier Jacken, zwei rote, eine blaue und eine grüne. Sophie und Ellie stehen daneben. Bildunterschrift: Von links: Sophie (Zöpfe) und Ellie (roter Pferdeschwanz).
+Bild: Auf einem Tisch beim Schulbasar liegen vier Jacken, zwei rote, eine blaue und eine grüne. Sophie und Ellie stehen daneben. Bildunterschrift: Von links: Sophie und Ellie.
 
 - Aufgabe `stuetzwort-one-start` (unten)
 

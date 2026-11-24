@@ -45,7 +45,7 @@ Amir malt vorsichtig, Peter rennt schnell. Du lernst, mit -ly zu sagen, wie jema
 
 ### Wie malt Amir?
 
-Bild: Amir malt an einer Staffelei, Peter rennt rechts davon, Sophie und Ellie schauen zu. Bildunterschrift: Von links: Sophie (Zöpfe), Amir (Brille), Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz).
+Bild: Amir malt an einer Staffelei, Peter rennt rechts davon, Sophie und Ellie schauen zu. Bildunterschrift: Von links: Sophie, Amir, Peter und Ellie.
 
 Zur Eröffnung der Ausstellung zeigen die Kinder etwas vor. Amir malt ein Bild, und zwar **slow** (langsam). Mr Hill will nicht wissen, was Amir tut. Er will wissen, **wie** er es tut.
 

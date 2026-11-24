@@ -45,7 +45,7 @@ Der Chat des Kochclubs zeigt: Nach look, sound, feel, taste und smell steht ein 
 
 ### Was du schon weißt
 
-Bild: Vier Jugendliche stehen in der Schulküche um einen großen Topf mit dampfender Suppe. Bildunterschrift: Von links: Ellie (roter Pferdeschwanz), Amir (Brille), Sophie (Zöpfe) und Peter (gelbe Jacke).
+Bild: Vier Jugendliche stehen in der Schulküche um einen großen Topf mit dampfender Suppe. Bildunterschrift: Von links: Ellie, Amir, Sophie und Peter.
 
 - Aufgabe `sinnesverben-start` (unten)
 
@@ -84,7 +84,7 @@ Vokabeln (Englisch – Deutsch): Randglossar · Zeilen 1 bis 6
 
 **9 · Ellie:** Sophie, you sound tired. Are you OK?
 
-**10 · Sophie:** I feel a bit nervous. Our teacher Mr Hill is coming to try the soup, and I want it to look perfect.
+**10 · Sophie:** I feel a bit nervous. Mr Hill is coming to try the soup, and I want it to look perfect.
 
 **11 · Amir:** Don't be nervous! Everybody feels hungry after school anyway.
 

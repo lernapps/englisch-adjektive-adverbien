@@ -45,7 +45,7 @@ Peter rennt schneller als Amir. Du lernst, Adverbien zu steigern und damit Handl
 
 ### Wer rennt schneller?
 
-Bild: Peter rennt im Flur vor Amir her. Ellie und Sophie stehen rechts und schauen zu. Bildunterschrift: Von links: Amir (Brille), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz) und Sophie (Zöpfe).
+Bild: Peter rennt im Flur vor Amir her. Ellie und Sophie stehen rechts und schauen zu. Bildunterschrift: Von links: Amir, Peter, Ellie und Sophie.
 
 Die Kinder machen für die Ausstellung ein Wettrennen durch den Flur. Peter rennt, und Amir ist nur ein bisschen langsamer. Ellie sagt, wer vorn ist. Sie vergleicht keine Dinge, sondern **Handlungen**.
 

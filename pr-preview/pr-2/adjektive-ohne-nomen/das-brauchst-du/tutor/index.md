@@ -57,4 +57,4 @@ Nicht sicher? Wiederhole es auf der [Seite zu den Artikeln](https://lernapps.net
 
 ### Und jetzt zum Basar
 
-Am Samstag veranstaltet die Millbrook School einen Basar für einen guten Zweck. Sophie und Ellie sortieren die Spenden. Du liest ihren Chat, bevor du die Regel kennenlernst.
+Beim Basar der Schule werden Spenden sortiert. Du liest den Chat dazu, bevor du die Regel kennenlernst.

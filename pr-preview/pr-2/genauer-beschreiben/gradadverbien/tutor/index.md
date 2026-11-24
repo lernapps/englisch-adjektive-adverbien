@@ -45,13 +45,13 @@ Amir interviewt Mr Hill für das Schul-Radio. Du lernst, wie very, quite, rather
 
 ### Was du schon weißt
 
-Bild: Amir sitzt an einem Tisch mit zwei Mikrofonen im Radio-Studio, Ellie und Sophie stehen daneben. Bildunterschrift: Von links: Ellie (roter Pferdeschwanz), Amir (Brille) und Sophie (Zöpfe).
+Bild: Amir sitzt an einem Tisch mit zwei Mikrofonen im Radio-Studio, Ellie und Sophie stehen daneben. Bildunterschrift: Von links: Ellie, Amir und Sophie.
 
 - Aufgabe `gradadverbien-start` (unten)
 
 ### Amir interviewt Mr Hill
 
-Für das Schul-Radio führt Amir ein Interview mit dem Lehrer Mr Hill. Lies es ganz. Die Zeilen sind nummeriert.
+Amir führt für das Schul-Radio ein Interview mit Mr Hill. Lies es ganz. Die Zeilen sind nummeriert.
 
 **1 · Amir:** Mr Hill, how do you like our school?
 

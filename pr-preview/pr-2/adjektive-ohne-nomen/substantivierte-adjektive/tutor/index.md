@@ -59,7 +59,7 @@ Sophie schreibt für die Schulzeitung der Millbrook School. Hier ist ihr Artikel
 
 **3 ·** The money will help the elderly in our town. Many of them live alone, and they do not often get visitors.
 
-**4 ·** "The old and the young can learn a lot from each other," said teacher Mr Hill.
+**4 ·** "The old and the young can learn a lot from each other," said Mr Hill.
 
 Vokabeln (Englisch – Deutsch): Randglossar · Zeilen 1 bis 4
 - charity – guter Zweck / Wohltätigkeit
@@ -71,7 +71,7 @@ Vokabeln (Englisch – Deutsch): Randglossar · Zeilen 1 bis 4
 
 **6 ·** A group of students will now bring cake to the elderly every month.
 
-**7 ·** Peter, 11, is the youngest helper. "The young can help the old, and the old can help the young," he said. "That is just fair."
+**7 ·** Peter is the youngest helper. "The young can help the old, and the old can help the young," he said. "That is just fair."
 
 Vokabeln (Englisch – Deutsch): Randglossar · Zeilen 5 bis 7
 - organise – organisieren

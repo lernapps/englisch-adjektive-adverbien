@@ -45,7 +45,7 @@ Sophies Blog über die erste Radiosendung zeigt, wo Adverbien im englischen Satz
 
 ### Was du schon weißt
 
-Bild: Vier Jugendliche in einem kleinen Studio, ein Mikrofon steht auf einem Tisch, eine rote Lampe leuchtet. Bildunterschrift: Von links: Ellie (roter Pferdeschwanz), Amir (Brille), Peter (gelbe Jacke) und Sophie (Zöpfe).
+Bild: Vier Jugendliche in einem kleinen Studio, ein Mikrofon steht auf einem Tisch, eine rote Lampe leuchtet. Bildunterschrift: Von links: Ellie, Amir, Peter und Sophie.
 
 - Aufgabe `adverbien-stellung-start` (unten)
 
@@ -59,7 +59,7 @@ Sophie schreibt einen Blog für die Schulzeitung. Heute berichtet sie von der er
 
 **3 ·** Peter was nervous, but he spoke clearly when the red light came on.
 
-**4 ·** Suddenly, the door opened. It was our teacher, Mr Hill. He had quietly come in to listen.
+**4 ·** Suddenly, the door opened. It was Mr Hill. He had quietly come in to listen.
 
 **5 ·** I was shaking a little, but I read my text slowly and I did not make a mistake.
 

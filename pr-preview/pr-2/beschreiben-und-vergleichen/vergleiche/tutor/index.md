@@ -45,7 +45,7 @@ Das alte Haus ist größer als das neue. Du lernst, zwei Dinge mit than und as �
 
 ### Das alte und das neue Haus
 
-Bild: Drei Kinder stehen im Flur vor zwei Fotos. Das linke Foto zeigt ein großes Haus, das rechte ein kleines Haus. Bildunterschrift: Von links: Sophie (Zöpfe), Amir (Brille) und Ellie (roter Pferdeschwanz).
+Bild: Drei Kinder stehen im Flur vor zwei Fotos. Das linke Foto zeigt ein großes Haus, das rechte ein kleines Haus. Bildunterschrift: Von links: Sophie, Amir und Ellie.
 
 Für die Ausstellung hängen zwei Fotos an der Wand, das alte Haus und das neue Haus. Das alte ist größer. Amir will das auf einer Karte sagen. Er braucht ein kleines Wort zwischen **bigger** und **the new house**.
 

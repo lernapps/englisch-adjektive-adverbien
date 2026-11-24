@@ -59,4 +59,4 @@ Nicht sicher? Wiederhole es auf der [Seite zur Wortstellung](https://lernapps.ne
 
 ### Und jetzt zu den Texten
 
-Zwei Jahre sind vergangen. Die Ausstellung „Our Millbrook“ ist längst abgebaut. **Sophie** ist jetzt 13, **Ellie** ebenfalls 13, **Amir** 13 und **Peter** 11. Sie schreiben sich Chats und Blogeinträge. Du liest diese Texte, bevor du die Regeln dazu lernst. Die Anhänger kennst du noch: Der blaue beschreibt Dinge und Personen und steht auch nach be, der orangefarbene sagt, wie jemand etwas tut.
+Du liest in diesem Kapitel Chats, Blogs und Interviews. Die Anhänger kennst du noch: Der blaue beschreibt Dinge und Personen und steht auch nach be, der orangefarbene sagt, wie jemand etwas tut.

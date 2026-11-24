@@ -45,9 +45,9 @@ Sophie beschriftet ein Foto der Ausstellung. Du lernst, wo das Adjektiv steht: v
 
 ### Eine Karte für das Foto
 
-Bild: Zwei Fotos hängen an der Wand im Flur der Millbrook School, eins zeigt einen Baum, eins ein Haus. Vor der Wand stehen vier Kinder. Bildunterschrift: Von links: Ellie (roter Pferdeschwanz), Amir (Brille), Peter (gelbe Jacke) und Sophie (Zöpfe).
+Bild: Zwei Fotos hängen an der Wand im Flur der Millbrook School, eins zeigt einen Baum, eins ein Haus. Vor der Wand stehen vier Kinder. Bildunterschrift: Von links: Ellie, Amir, Peter und Sophie.
 
-Mr Hill baut im Flur der Millbrook School die Ausstellung **Our Millbrook** auf (exhibition = Ausstellung). Die Klasse hängt Fotos und Karten an die Wand. Auf zwei Fotos sind ein Baum (tree) und ein Haus (house) zu sehen. Der Baum ist groß, das englische Wort dafür ist **big**. Sophie (mit den Zöpfen) schreibt die Karte für den Baum.
+Mr Hill baut im Flur der Millbrook School die Ausstellung **Our Millbrook** auf (exhibition = Ausstellung). Die Klasse hängt Fotos und Karten an die Wand. Auf zwei Fotos sind ein Baum (tree) und ein Haus (house) zu sehen. Der Baum ist groß, das englische Wort dafür ist **big**. Sophie schreibt die Karte für den Baum.
 
 - Aufgabe `adjektive-start` (unten)
 

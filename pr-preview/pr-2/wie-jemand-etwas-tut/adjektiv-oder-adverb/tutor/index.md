@@ -45,7 +45,7 @@ Zwei Wörter sehen fast gleich aus, mit und ohne -ly. Du lernst mit einer Frage 
 
 ### Zwei Karten, zwei Anhänger
 
-Bild: Zwei leere Karten hängen an der Wand. An der linken hängt ein blauer, an der rechten ein orangefarbener Anhänger. Davor stehen vier Kinder. Bildunterschrift: Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke).
+Bild: Zwei leere Karten hängen an der Wand. An der linken hängt ein blauer, an der rechten ein orangefarbener Anhänger. Davor stehen vier Kinder. Bildunterschrift: Von links: Sophie, Ellie, Amir und Peter.
 
 Mr Hill hat zwei Karten über Amir aufgehängt. Auf die eine kommt ein blauer Anhänger, auf die andere ein orangefarbener. Die Kinder müssen entscheiden, welcher wohin gehört.
 
