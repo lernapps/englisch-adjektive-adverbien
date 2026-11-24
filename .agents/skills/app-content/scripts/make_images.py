@@ -171,6 +171,88 @@ def treppe_adverbien_steigern():
     b += stairs(5, 400, ["carefully", "more carefully", "the most carefully"], w=210, step=30, colour=ORANGE)
     return svg(640, 420, "Zwei Treppen mit drei Stufen: fast, faster, the fastest und carefully, more carefully, the most carefully", b)
 
+@image
+def szene_sinnesverben():
+    b = wall()
+    b += '  <rect x="220" y="170" width="200" height="14" fill="#7a5a35"/>\n'
+    b += '  <g stroke="#333" stroke-width="3"><path d="M250 120 h140 v50 h-140 z" fill="#c0392b"/><rect x="240" y="110" width="160" height="12" rx="6" fill="#999"/></g>\n'
+    b += '  <path d="M290 95 q-10 -20 0 -40 M320 95 q-10 -20 0 -40 M350 95 q-10 -20 0 -40" fill="none" stroke="#bbb" stroke-width="5" stroke-linecap="round"/>\n'
+    b += kid("sophie", 400, 120, .8) + kid("ellie", 40, 120, .8) + kid("amir", 130, 120, .8) + kid("peter", 520, 150, .65)
+    return svg(640, 340, "Vier Kinder stehen um einen Topf mit dampfender Suppe in der Schulküche", b)
+
+@image
+def anhaenger_sinnesverben():
+    b = card(10, 40, 130, 50, "The soup", 24) + card(150, 40, 110, 50, "tastes", 24) + tag(205, 90, "sweet", BLUE, 40, 20)
+    b += f'  <path d="M180 190 C150 215 90 215 75 95" fill="none" stroke="{BLUE}" stroke-width="3" stroke-dasharray="7 5"/>\n'
+    b += card(330, 40, 90, 50, "She", 24) + card(430, 40, 110, 50, "looks", 24) + tag(485, 90, "tired", BLUE, 40, 20)
+    b += f'  <path d="M440 190 C410 215 380 215 365 95" fill="none" stroke="{BLUE}" stroke-width="3" stroke-dasharray="7 5"/>\n'
+    b += text(205, 245, "wie ist die Suppe?", 20) + text(485, 245, "wie ist sie?", 20) + text(280, 25, "blau = Adjektiv, Bogen = gehört zum Subjekt", 18)
+    return svg(560, 270, "Zwei Kartenpaare, an jedem hängt ein blauer Anhänger nach dem Verb, der zum Subjekt zurückzeigt", b)
+
+@image
+def szene_adverbien_stellung():
+    b = wall()
+    b += '  <rect x="250" y="150" width="140" height="14" fill="#7a5a35"/>\n'
+    b += '  <g stroke="#333" stroke-width="3"><line x1="320" y1="150" x2="320" y2="95"/><ellipse cx="320" cy="80" rx="22" ry="30" fill="#555"/><rect x="290" y="130" width="60" height="8" fill="#333"/></g>\n'
+    b += '  <circle cx="560" cy="70" r="16" fill="#c0392b" stroke="#333" stroke-width="3"/>\n' + text(560, 112, "ON AIR", 18)
+    b += kid("sophie", 400, 110, .8) + kid("amir", 150, 110, .8) + kid("ellie", 40, 120, .8) + kid("peter", 280, 175, .6)
+    return svg(640, 340, "Vier Jugendliche im Schul-Radio-Studio, ein Mikrofon steht auf dem Tisch, eine rote Lampe leuchtet", b)
+
+@image
+def satzkarten_stellung():
+    b = card(60, 70, 100, 50, "Amir", 24) + card(190, 70, 130, 50, "opened", 24) + card(350, 70, 150, 50, "the door", 24)
+    for x, n in ((42, "1"), (175, "2"), (525, "3")):
+        b += f'  <circle cx="{x}" cy="95" r="13" fill="{ORANGE}" stroke="{INK}" stroke-width="2"/>\n' + text(x, 101, n, 18, fill="#fff", weight="bold")
+    b += f'  <path d="M325 80 l22 22 m0 -22 l-22 22" stroke="#c0392b" stroke-width="5" stroke-linecap="round"/>\n'
+    b += text(42, 150, "Anfang", 20) + text(175, 150, "Mitte", 20) + text(525, 150, "Ende", 20) + text(337, 150, "gesperrt", 20)
+    return svg(580, 190, "Drei Karten Amir, opened, the door mit drei orangefarbenen Haken davor, dahinter und am Ende und einem roten Kreuz zwischen opened und the door", b)
+
+@image
+def regler_gradadverbien():
+    b = f'  <line x1="40" y1="90" x2="520" y2="90" stroke="{INK}" stroke-width="6" stroke-linecap="round"/>\n'
+    for x, w in ((60, "not"), (170, "quite"), (280, "rather"), (390, "very"), (490, "extremely")):
+        b += f'  <circle cx="{x}" cy="90" r="9" fill="{ORANGE}" stroke="{INK}" stroke-width="2"/>\n' + text(x, 140, w, 22)
+    b += f'  <rect x="545" y="55" width="80" height="70" rx="10" fill="#c0392b" stroke="{INK}" stroke-width="3"/>\n' + text(585, 100, "too", 30, fill="#fff", weight="bold")
+    b += text(150, 40, "schwächer", 20) + text(430, 40, "stärker", 20) + text(585, 150, "zu viel", 20)
+    return svg(640, 180, "Ein Regler von not über quite, rather, very bis extremely, rechts daneben ein rotes Warnzeichen mit too", b)
+
+@image
+def szene_gradadverbien():
+    b = wall()
+    b += '  <rect x="230" y="160" width="180" height="14" fill="#7a5a35"/>\n'
+    b += '  <g stroke="#333" stroke-width="3"><line x1="290" y1="160" x2="290" y2="110"/><ellipse cx="290" cy="95" rx="18" ry="26" fill="#555"/><line x1="360" y1="160" x2="360" y2="110"/><ellipse cx="360" cy="95" rx="18" ry="26" fill="#555"/></g>\n'
+    b += kid("amir", 130, 110, .85) + kid("ellie", 40, 120, .75) + kid("sophie", 450, 110, .8)
+    return svg(640, 340, "Amir sitzt mit zwei Mikrofonen am Tisch im Radio-Studio und bereitet ein Interview vor, Ellie und Sophie schauen zu", b)
+
+@image
+def szene_stuetzwort_one():
+    b = wall()
+    b += '  <rect x="60" y="150" width="520" height="14" fill="#7a5a35"/>\n'
+    cols = ["#c0392b", "#2c6fd8", "#3a9a5b", "#c0392b"]
+    for i, c in enumerate(cols):
+        x = 100 + i * 120
+        b += f'  <g stroke="{INK}" stroke-width="3"><path d="M{x} 100 l40 -10 l40 10 l-10 50 h-60 z" fill="{c}"/></g>\n'
+    b += text(320, 60, "Basar der Millbrook School", 26)
+    b += kid("sophie", 40, 170, .65) + kid("ellie", 480, 170, .65)
+    return svg(640, 340, "Auf einem Tisch beim Schulbasar liegen vier Jacken, zwei rote, eine blaue und eine grüne, Sophie und Ellie stehen daneben", b)
+
+@image
+def anhaenger_one():
+    b = card(20, 30, 70, 50, "the", 24) + card(100, 30, 130, 50, "jacket", 24) + tag(95, 80, "red", BLUE, 34, 20)
+    b += card(20, 190, 70, 50, "the", 24) + card(100, 190, 110, 50, "one", 24) + tag(95, 240, "red", BLUE, 34, 20)
+    b += f'  <path d="M165 85 C 190 130 160 150 150 185" fill="none" stroke="{INK}" stroke-width="3" stroke-dasharray="7 5"/>\n'
+    b += text(400, 70, "Nomen schon genannt", 22) + text(400, 230, "one ersetzt das Nomen", 22)
+    return svg(640, 345, "Oben die Karten the und jacket mit blauem Anhänger red, unten die Karten the und one mit demselben Anhänger, ein gestrichelter Pfeil von jacket nach one", b)
+
+@image
+def anhaenger_gruppe():
+    b = card(20, 40, 70, 50, "the", 24) + tag(75, 90, "rich", BLUE, 36, 20)
+    for i, c in enumerate(("#c0392b", "#2c6fd8", "#3a9a5b", "#e0b020", "#8e44ad")):
+        x = 270 + i * 70
+        b += f'  <circle cx="{x}" cy="70" r="16" fill="#f3d2b3" stroke="{INK}" stroke-width="2"/>\n  <path d="M{x-24} 140 C{x-24} 100 {x+24} 100 {x+24} 140 z" fill="{c}" stroke="{INK}" stroke-width="2"/>\n'
+    b += text(430, 175, "alle Menschen dieser Art", 22) + text(75, 225, "ohne Nomen", 22)
+    return svg(640, 245, "Links die Karte the mit blauem Anhänger rich, rechts fünf einfache Menschen in verschiedenen Farben", b)
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(IMAGES)
     for n in names:

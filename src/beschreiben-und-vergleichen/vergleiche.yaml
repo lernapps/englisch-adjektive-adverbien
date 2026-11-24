@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-vergleiche.svg
         alt: Drei Kinder stehen im Flur vor zwei Fotos. Das linke Foto zeigt ein großes Haus, das rechte ein kleines Haus.
-        caption: "Von links: Sophie (Zöpfe), Amir (Brille) und Ellie (roter Pferdeschwanz)."
+        caption: "Von links: Sophie, Amir und Ellie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -60,27 +60,27 @@ blocks:
           - type: text
             text: |
               Nach der Steigerung steht **than**, nie then. Bei **as … as** steht das Wort in der **Grundform**, nicht in der Steigerung: as tall as, nicht as taller as.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [than, als]
-          - [as … as, so … wie]
-          - [not as … as, nicht so … wie]
-          - [rabbit, Kaninchen]
-          - [hamster, Hamster]
-          - [dog, Hund]
-          - [bike, Fahrrad]
-          - [cake, Kuchen]
-          - [test, Test]
-          - [expensive, teuer]
-          - [boring, langweilig]
-          - [film, Film]
-          - [garden, Garten]
-          - [pizza, Pizza]
-          - [cheap, billig]
-          - [easy, leicht]
-          - [difficult, schwierig]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "than", source: "als" }
+          - { target: "as … as", source: "so … wie" }
+          - { target: "not as … as", source: "nicht so … wie" }
+          - { target: "rabbit", source: "Kaninchen" }
+          - { target: "hamster", source: "Hamster" }
+          - { target: "dog", source: "Hund" }
+          - { target: "bike", source: "Fahrrad" }
+          - { target: "cake", source: "Kuchen" }
+          - { target: "test", source: "Test" }
+          - { target: "expensive", source: "teuer" }
+          - { target: "boring", source: "langweilig" }
+          - { target: "film", source: "Film" }
+          - { target: "garden", source: "Garten" }
+          - { target: "pizza", source: "Pizza" }
+          - { target: "cheap", source: "billig" }
+          - { target: "easy", source: "leicht" }
+          - { target: "difficult", source: "schwierig" }
   - type: section
     id: uebung
     title: Übung
@@ -231,7 +231,7 @@ blocks:
       - type: text
         text: "Das hast du jetzt am Wandbild hängen: den blauen Anhänger vor dem Nomen und nach be, die Treppe mit drei Stufen und die kleinen Wörter than und as … as. Damit beschreibst du Dinge und vergleichst sie. Mr Hill ist zufrieden. Als Nächstes gibt es orangefarbene Anhänger, die sagen, **wie** jemand etwas tut."
       - type: table
-        caption: Schulkalender · Rückblick Kapitel 1
+        caption: Schulkalender · Rückblick Beschreiben und vergleichen
         header: [Das willst du sagen, "So geht es"]
         rows:
           - [ein Ding beschreiben, "blauer Anhänger vor dem Nomen oder nach be"]

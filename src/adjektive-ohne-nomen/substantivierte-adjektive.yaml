@@ -1,0 +1,269 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "The rich, the elderly: Adjektive für Gruppen von Menschen"
+description: "Ein Zeitungsartikel der Schulzeitung zeigt, wie ein Adjektiv mit the allein für eine Gruppe von Menschen steht."
+competencies: [substantivierte-adjektive]
+scope: Die Seite lehrt, dass ein Adjektiv mit the ohne Nomen eine ganze Gruppe von Menschen meint (the rich, the poor, the young, the old, the elderly). Es steht in der Mehrzahl mit dem Verb in der Mehrzahl (The elderly are alone), bekommt kein -s und steht nicht mit a. Nicht hier, weil es spätere Seiten sind. Nationalitäten und abstrakte Begriffe wie the unknown. Der Artikel der Schulzeitung ist erfunden, Zahlen und Namen sind ausgedacht.
+blocks:
+  - type: section
+    id: vorwissen
+    title: Was du schon weißt
+    blocks:
+      - type: single-choice
+        id: substantivierte-adjektive-start
+        text: "Von der letzten Seite: Welches Wort fehlt? „I like the red jacket, but the blue … is cheaper.“"
+        options:
+          - text: one
+            correct: true
+            info: one ersetzt das Nomen jacket, der blaue Anhänger bleibt hängen.
+          - text: ones
+            correct: false
+            info: ones ist die Mehrzahl. Gemeint ist eine einzelne Jacke.
+          - text: gar nichts
+            correct: false
+            info: Ein einzelnes Adjektiv hinter the geht bei Dingen nicht, es braucht one.
+        explanation: Bei Dingen ersetzt one das Nomen.
+        links:
+          - title: Lernlandkarte Englisch · Stützwort one
+            url: https://lernapps.net/apps/map/englisch/c/stuetzwort-one/
+  - type: section
+    id: lesen
+    title: Ein Artikel der Schulzeitung
+    blocks:
+      - type: text
+        text: "Sophie schreibt für die Schulzeitung der Millbrook School. Hier ist ihr Artikel über den Basar. Er ist erfunden, die Zahlen und die Namen sind ausgedacht. Lies ihn ganz. Die Zeilen sind nummeriert."
+      - type: text
+        text: |
+          **Millbrook bazaar helps the elderly**
+
+          **1 ·** Last Saturday, Millbrook School held its first charity bazaar.
+
+          **2 ·** More than three hundred visitors came, and the school raised eight hundred and fifty pounds.
+
+          **3 ·** The money will help the elderly in our town. Many of them live alone, and they do not often get visitors.
+
+          **4 ·** "The old and the young can learn a lot from each other," said Mr Hill.
+      - type: vocabulary
+        caption: Randglossar · Zeilen 1 bis 4
+        languages: { source: de, target: en }
+        entries:
+          - { target: "charity", source: "guter Zweck / Wohltätigkeit" }
+          - { target: "raise", source: "einsammeln" }
+          - { target: "visitor", source: "Besucher" }
+          - { target: "learn from each other", source: "voneinander lernen" }
+      - type: text
+        text: |
+          **5 ·** Sophie, one of the organisers, helped to run the event. "People often think of the rich and the poor as two separate groups," she said. "On Saturday everybody worked together."
+
+          **6 ·** A group of students will now bring cake to the elderly every month.
+
+          **7 ·** Peter is the youngest helper. "The young can help the old, and the old can help the young," he said. "That is just fair."
+      - type: vocabulary
+        caption: Randglossar · Zeilen 5 bis 7
+        languages: { source: de, target: en }
+        entries:
+          - { target: "organise", source: "organisieren" }
+          - { target: "separate", source: "getrennt" }
+          - { target: "event", source: "Veranstaltung" }
+          - { target: "fair", source: "gerecht" }
+  - type: section
+    id: verstehen
+    title: Hast du den Artikel verstanden?
+    blocks:
+      - type: true-false
+        id: substantivierte-adjektive-verstehen
+        text: "Der Basar hat mehr als 900 Pfund eingenommen. Stimmt das?"
+        answer: false
+        explanation: Der Basar hat 850 Pfund eingenommen, nicht mehr als 900. Das steht in Zeile 2.
+        links:
+          - title: Lernlandkarte Englisch · Substantivierte Adjektive
+            url: https://lernapps.net/apps/map/englisch/c/substantivierte-adjektive/
+      - type: single-choice
+        id: substantivierte-adjektive-belegen
+        text: Welche Zeile zeigt, dass Kinder der Schule den älteren Menschen etwas bringen wollen?
+        options:
+          - text: "Zeile 6: A group of students will now bring cake to the elderly every month."
+            correct: true
+            info: Die Schüler bringen den Älteren jeden Monat Kuchen.
+          - text: "Zeile 1: Last Saturday, Millbrook School held its first charity bazaar."
+            correct: false
+            info: Diese Zeile nennt nur den Basar.
+          - text: "Zeile 3: Many of them live alone."
+            correct: false
+            info: Diese Zeile sagt, dass viele ältere Menschen allein leben.
+        explanation: Den Älteren bringen die Schüler laut Zeile 6 Kuchen.
+        links:
+          - title: Lernlandkarte Englisch · Substantivierte Adjektive
+            url: https://lernapps.net/apps/map/englisch/c/substantivierte-adjektive/
+  - type: section
+    id: neu
+    title: Schau in den Text
+    blocks:
+      - type: text
+        text: "In Zeile 3 steht **the elderly**. Gemeint sind nicht ein Mensch oder ein Ding, sondern **alle älteren Menschen**. Das Nomen **people** fehlt, der blaue Anhänger **elderly** hängt allein hinter **the**. Genauso steht es mit **the rich** und **the poor** in Zeile 5 und mit **the old** und **the young** in Zeile 4. Weil eine Gruppe gemeint ist, steht das Verb in der **Mehrzahl** (zum Beispiel: The elderly **live** alone)."
+      - type: figure
+        image: images/anhaenger-gruppe.svg
+        alt: Links die Karte the mit einem blauen Anhänger rich, darunter das Wort ohne Nomen. Rechts fünf einfache Menschen in verschiedenen Farben, darunter alle Menschen dieser Art.
+        caption: the + Adjektiv meint alle Menschen dieser Art.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Adjektive für Gruppen
+        header: [Mit Nomen, Ohne Nomen]
+        rows:
+          - [the old people, the old]
+          - [the young people, the young]
+          - [the poor people, the poor]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **the + Adjektiv** meint **alle Menschen dieser Art**. Das Verb steht in der **Mehrzahl** (The elderly **are** alone). Das Adjektiv bekommt **kein -s** (nicht „the riches“) und kein **a** (für eine Person brauchst du ein Nomen: a rich **man**). Über Menschen spricht man höflich: the elderly klingt besser als the old, und über einzelne Menschen sagst du lieber a poor family oder an old man.
+      - type: vocabulary
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        languages: { source: de, target: en }
+        entries:
+          - { target: "elderly", source: "älter (the elderly = ältere Menschen)" }
+          - { target: "bazaar", source: "Basar" }
+          - { target: "held", source: "hielt (veranstaltete)" }
+          - { target: "alone", source: "allein" }
+          - { target: "rich", source: "reich" }
+          - { target: "poor", source: "arm" }
+          - { target: "young", source: "jung" }
+          - { target: "old", source: "alt" }
+          - { target: "money", source: "Geld" }
+          - { target: "future", source: "Zukunft" }
+          - { target: "together", source: "zusammen" }
+          - { target: "grandmother", source: "Großmutter" }
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: substantivierte-adjektive-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Die Alten sitzen im Park.
+            target: The [old] sit in the park.
+            distractors: [[olds]]
+          - cue: Die Jungen sind oft beschäftigt.
+            target: The young [are] often busy.
+            distractors: [[is]]
+          - cue: Die Jungen helfen gern.
+            target: The [young] like to help.
+            distractors: [[youngs]]
+        hint: "Bei einer Gruppe von Menschen steht kein -s am Adjektiv, und das Verb steht in der Mehrzahl."
+      - type: language-task
+        id: substantivierte-adjektive-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Die Armen brauchen Hilfe.
+            target: The poor (people |)need help.
+            mistakes:
+              - answer: The poor needs help.
+                message: Gemeint ist eine Gruppe von Menschen. Das Verb steht in der Mehrzahl.
+              - answer: The poors need help.
+                message: Das Adjektiv bekommt kein -s.
+          - source: Die Jungen helfen den Älteren.
+            target: The young help the (elderly|old).
+            mistakes:
+              - answer: The young helps the elderly.
+                message: Gemeint ist eine Gruppe von Menschen. Das Verb steht in der Mehrzahl.
+          - source: Die Armen und die Reichen leben in derselben Stadt.
+            target: The poor and the rich live in the same (town|city).
+            mistakes:
+              - answer: Poor and rich live in the same town.
+                message: Vor dem Adjektiv fehlt der Artikel the.
+        hint: Das Nomen people fehlt, aber the bleibt.
+      - type: language-task
+        id: substantivierte-adjektive-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: The elderly is often alone.
+            target: The elderly are often alone.
+            mistakes:
+              - answer: The elderly is often alone.
+                message: Gemeint sind viele Menschen. Welche Form von be passt?
+          - cue: The riches have a lot of money.
+            target: The rich have a lot of money.
+            mistakes:
+              - answer: The riches have a lot of money.
+                message: Das Adjektiv bekommt hier kein -s.
+        hint: Das Verb steht in der Mehrzahl, das Adjektiv bekommt nichts angehängt.
+      - type: language-task
+        id: substantivierte-adjektive-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Die Jungen mögen Musik.
+            target: (The young|Young people) like music.
+            mistakes:
+              - answer: The young likes music.
+                message: Gemeint ist eine Gruppe von Menschen. Das Verb steht in der Mehrzahl.
+          - source: Meine Großmutter ist eine alte Frau.
+            target: My grandmother is (an old woman|an old lady|an elderly woman|an elderly lady).
+            mistakes:
+              - answer: My grandmother is an old.
+                message: Für eine einzelne Person braucht das Adjektiv ein Nomen.
+      - type: language-task
+        id: substantivierte-adjektive-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-elderly-often-enjoy-visitors.mp3
+            target: The elderly often enjoy visitors.
+          - audio: we-should-listen-to-the-elderly.mp3
+            target: We should listen to the elderly.
+          - audio: the-young-and-the-old-sit-together.mp3
+            target: The young and the old sit together.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: substantivierte-adjektive-nachsprechen
+        language: en
+        items:
+          - audio: many-of-the-young-play-football.mp3
+            text: Many of the young play football.
+          - audio: my-grandmother-helps-the-elderly.mp3
+            text: My grandmother helps the elderly.
+          - audio: the-young-are-the-future.mp3
+            text: The young are the future.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: substantivierte-adjektive-meinung
+        task: "Die Schulzeitung fragt: Wie können die Jungen und die Älteren in deiner Stadt zusammenarbeiten? Schreibe drei bis fünf Sätze mit mindestens zwei Adjektiven für Gruppen (zum Beispiel the young, the elderly, the poor)."
+        points:
+          - text: Mindestens zwei Adjektive mit the stehen allein für eine Gruppe von Menschen.
+            source: /adjektive-ohne-nomen/substantivierte-adjektive/#neu
+          - text: Das Verb steht in der Mehrzahl, und das Adjektiv hat kein -s.
+            source: /adjektive-ohne-nomen/substantivierte-adjektive/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          The young can visit the elderly once a week. The elderly are often happy about visitors. The young can learn a lot from them.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Der Artikel erscheint in der Schulzeitung. Mr Hill hängt ihn an die Wand im Flur. Die Anhänger der Klasse sind jetzt nicht mehr nur ein Spiel: Sie beschreiben Dinge, Handlungen und sogar Gruppen von Menschen. Damit ist diese Reihe von Kapiteln zu Ende."
+      - type: table
+        caption: Schulkalender · Rückblick Genauer beschreiben und Adjektive ohne Nomen
+        header: [Das willst du sagen, "So geht es"]
+        rows:
+          - [wie etwas aussieht oder schmeckt, "look, sound, feel, taste, smell + Adjektiv"]
+          - [wo das Adverb steht, "Anfang, Mitte oder Ende, nie zwischen Verb und Objekt"]
+          - [wie stark oder zu stark etwas ist, "quite, rather, very, extremely, too"]
+          - [das Nomen weglassen, "the red one, the old ones"]
+          - [eine Gruppe von Menschen, "the + Adjektiv, Verb in der Mehrzahl"]

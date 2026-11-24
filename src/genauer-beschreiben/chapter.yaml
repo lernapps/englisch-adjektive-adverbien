@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Genauer beschreiben
+summary: Du liest Chats, Blogs und Interviews und lernst, nach look, sound, feel und taste ein Adjektiv zu setzen, Adverbien an die richtige Stelle zu stellen und mit very, quite und too genauer abzustufen.
+pages: [das-brauchst-du, sinnesverben, adverbien-stellung, gradadverbien]
+selfAssessment:
+  pages:
+    - exercises:
+        - /genauer-beschreiben/sinnesverben/#sinnesverben-bilden
+        - /genauer-beschreiben/sinnesverben/#sinnesverben-korrektur
+    - exercises:
+        - /genauer-beschreiben/adverbien-stellung/#adverbien-stellung-bilden
+        - /genauer-beschreiben/adverbien-stellung/#adverbien-stellung-korrektur
+    - exercises:
+        - /genauer-beschreiben/gradadverbien/#gradadverbien-bilden
+        - /genauer-beschreiben/gradadverbien/#gradadverbien-korrektur

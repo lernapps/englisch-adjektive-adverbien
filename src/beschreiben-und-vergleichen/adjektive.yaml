@@ -11,12 +11,12 @@ blocks:
       - type: figure
         image: images/szene-adjektive.svg
         alt: Zwei Fotos hängen an der Wand im Flur der Millbrook School, eins zeigt einen Baum, eins ein Haus. Vor der Wand stehen vier Kinder.
-        caption: "Von links: Ellie (roter Pferdeschwanz), Amir (Brille), Peter (gelbe Jacke) und Sophie (Zöpfe)."
+        caption: "Von links: Ellie, Amir, Peter und Sophie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Mr Hill baut im Flur der Millbrook School die Ausstellung **Our Millbrook** auf (exhibition = Ausstellung). Die Klasse hängt Fotos und Karten an die Wand. Auf zwei Fotos sind ein Baum (tree) und ein Haus (house) zu sehen. Der Baum ist groß, das englische Wort dafür ist **big**. Sophie (mit den Zöpfen) schreibt die Karte für den Baum.
+          Mr Hill baut im Flur der Millbrook School die Ausstellung **Our Millbrook** auf (exhibition = Ausstellung). Die Klasse hängt Fotos und Karten an die Wand. Auf zwei Fotos sind ein Baum (tree) und ein Haus (house) zu sehen. Der Baum ist groß, das englische Wort dafür ist **big**. Sophie schreibt die Karte für den Baum.
       - type: single-choice
         id: adjektive-start
         text: Sophie schreibt eine Karte für das Foto vom Baum. Welche Karte passt?
@@ -61,27 +61,27 @@ blocks:
           - type: text
             text: |
               Der Anhänger hängt **vor dem Nomen** oder **nach be**. Er verändert sich nie: Auch bei mehreren Dingen bekommt er **kein -s** (two long tables, nicht two longs tables).
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [big, groß]
-          - [small, klein]
-          - [old, alt]
-          - [new, neu]
-          - [tall, hoch (Bäume) / groß gewachsen (Menschen)]
-          - [long, lang]
-          - [tree, Baum]
-          - [house, Haus]
-          - [garden, Garten]
-          - [rabbit, Kaninchen]
-          - [hamster, Hamster]
-          - [jacket, Jacke]
-          - [bike, Fahrrad]
-          - [table, Tisch]
-          - [this is, das ist]
-          - [two, zwei]
-          - [a, ein / eine]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "big", source: "groß" }
+          - { target: "small", source: "klein" }
+          - { target: "old", source: "alt" }
+          - { target: "new", source: "neu" }
+          - { target: "tall", source: "hoch (Bäume) / groß gewachsen (Menschen)" }
+          - { target: "long", source: "lang" }
+          - { target: "tree", source: "Baum" }
+          - { target: "house", source: "Haus" }
+          - { target: "garden", source: "Garten" }
+          - { target: "rabbit", source: "Kaninchen" }
+          - { target: "hamster", source: "Hamster" }
+          - { target: "jacket", source: "Jacke" }
+          - { target: "bike", source: "Fahrrad" }
+          - { target: "table", source: "Tisch" }
+          - { target: "this is", source: "das ist" }
+          - { target: "two", source: "zwei" }
+          - { target: "a", source: "ein / eine" }
   - type: section
     id: uebung
     title: Übung

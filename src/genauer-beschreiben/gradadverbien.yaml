@@ -1,0 +1,293 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wie sehr? Der Regler für very, quite und too"
+description: "Amir interviewt Mr Hill für das Schul-Radio. Du lernst, wie very, quite, rather, extremely und too Adjektive und Adverbien genauer abstufen."
+competencies: [gradadverbien]
+scope: Die Seite lehrt die Gradadverbien quite, rather, very, extremely und too. Sie stehen vor einem Adjektiv oder einem Adverb (very friendly, very quietly), nicht vor einem Verb (nicht I very like it, sondern I like it very much). too heißt zu, also mehr als gut. Nicht hier, weil es spätere Seiten sind. one und substantivierte Adjektive, Steigerung mit Gradadverbien.
+blocks:
+  - type: section
+    id: vorwissen
+    title: Was du schon weißt
+    blocks:
+      - type: figure
+        image: images/szene-gradadverbien.svg
+        alt: Amir sitzt an einem Tisch mit zwei Mikrofonen im Radio-Studio, Ellie und Sophie stehen daneben.
+        caption: "Von links: Ellie, Amir und Sophie."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: single-choice
+        id: gradadverbien-start
+        text: "Aus dem Kapitel „Wie jemand etwas tut“: In welchem Satz steht ein orangefarbener Adverb-Anhänger?"
+        options:
+          - text: Peter speaks loudly.
+            correct: true
+            info: loudly sagt, wie Peter spricht. Dafür steht das Adverb.
+          - text: Peter is loud.
+            correct: false
+            info: Nach is steht der blaue Adjektiv-Anhänger.
+          - text: Peter is a loud boy.
+            correct: false
+            info: Vor einem Nomen steht der blaue Adjektiv-Anhänger.
+        explanation: Das Adverb sagt, wie jemand etwas tut.
+        links:
+          - title: Lernlandkarte Englisch · Adverbien der Art und Weise
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-art-und-weise/
+  - type: section
+    id: lesen
+    title: Amir interviewt Mr Hill
+    blocks:
+      - type: text
+        text: "Amir führt für das Schul-Radio ein Interview mit Mr Hill. Lies es ganz. Die Zeilen sind nummeriert."
+      - type: text
+        text: |
+          **1 · Amir:** Mr Hill, how do you like our school?
+
+          **2 · Mr Hill:** I like it very much. The students are very friendly, and the building is quite old, but I love it.
+
+          **3 · Amir:** Is teaching English difficult?
+
+          **4 · Mr Hill:** Sometimes it is rather difficult, especially on Monday mornings! But my classes are extremely funny.
+
+          **5 · Amir:** What about homework? Is it too much for you?
+      - type: vocabulary
+        caption: Randglossar · Zeilen 1 bis 5
+        languages: { source: de, target: en }
+        entries:
+          - { target: "building", source: "Gebäude" }
+          - { target: "especially", source: "besonders" }
+          - { target: "homework", source: "Hausaufgaben" }
+          - { target: "love", source: "sehr gernhaben" }
+      - type: text
+        text: |
+          **6 · Mr Hill:** Marking homework is fine, but one hundred tests in one weekend is too much!
+
+          **7 · Amir:** Are the students too noisy sometimes?
+
+          **8 · Mr Hill:** Sometimes. Some students speak very quietly, but others are extremely loud.
+
+          **9 · Amir:** One last question: Is English hard?
+
+          **10 · Mr Hill:** It is quite easy at the beginning and very hard at the end. So practise every day!
+      - type: vocabulary
+        caption: Randglossar · Zeilen 6 bis 10
+        languages: { source: de, target: en }
+        entries:
+          - { target: "mark", source: "korrigieren und benoten" }
+          - { target: "noisy", source: "laut / unruhig" }
+          - { target: "beginning", source: "Anfang" }
+          - { target: "practise", source: "üben" }
+  - type: section
+    id: verstehen
+    title: Hast du das Interview verstanden?
+    blocks:
+      - type: true-false
+        id: gradadverbien-verstehen
+        text: "Mr Hill sagt, dass alle Schüler sehr leise sprechen. Stimmt das?"
+        answer: false
+        explanation: Manche Schüler sprechen sehr leise, andere sind extrem laut. Das steht in Zeile 8.
+        links:
+          - title: Lernlandkarte Englisch · Gradadverbien
+            url: https://lernapps.net/apps/map/englisch/c/gradadverbien/
+      - type: single-choice
+        id: gradadverbien-belegen
+        text: Welche Zeile zeigt, dass Mr Hill hundert Klassenarbeiten an einem Wochenende zu viel findet?
+        options:
+          - text: "Zeile 6: … one hundred tests in one weekend is too much!"
+            correct: true
+            info: too much heißt „zu viel“.
+          - text: "Zeile 4: … it is rather difficult …"
+            correct: false
+            info: In dieser Zeile geht es um den Englischunterricht, nicht um Tests.
+          - text: "Zeile 10: It is quite easy at the beginning …"
+            correct: false
+            info: Hier spricht Mr Hill über das Lernen von Englisch.
+        explanation: Zu viel sind die Tests in Zeile 6.
+        links:
+          - title: Lernlandkarte Englisch · Gradadverbien
+            url: https://lernapps.net/apps/map/englisch/c/gradadverbien/
+  - type: section
+    id: neu
+    title: Schau in den Text
+    blocks:
+      - type: text
+        text: "Mr Hill stuft vieles ab. Manche Schüler sprechen **very quietly**, das Gebäude ist **quite old**, der Unterricht ist **rather difficult**, andere sind **extremely loud**. Diese Wörter heißen **Gradadverbien**. Sie sitzen auf einem **Regler**: Je weiter rechts, desto stärker. Sie stehen **vor** dem Adjektiv oder Adverb, das sie abstufen. Das Wort **too** ist das rote Warnzeichen: Es heißt **zu**, also mehr als gut."
+      - type: figure
+        image: images/regler-gradadverbien.svg
+        alt: Ein Regler mit den Punkten not, quite, rather, very und extremely von links nach rechts, darüber schwächer und stärker. Daneben ein rotes Schild mit too und dem Wort zu viel.
+        caption: Von not bis extremely wird es stärker. too ist ein Warnzeichen für zu viel.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Gradadverbien
+        header: [Wort, Beispiel]
+        rows:
+          - [quite, "The lake is quite deep."]
+          - [rather, "The path is rather steep."]
+          - [very, "The cake is very big."]
+          - [extremely, "The sun is extremely hot."]
+          - [too, "The coffee is too strong."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Gradadverbien stehen **vor Adjektiven und Adverbien**: very friendly, very quietly. Vor einem **Verb** stehen sie nicht: nicht „I very like it“, sondern „I like it very much“. Und **too** heißt **zu**, nicht „sehr“: Der Kaffee ist too hot, du kannst ihn nicht trinken.
+      - type: vocabulary
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        languages: { source: de, target: en }
+        entries:
+          - { target: "quite", source: "ziemlich" }
+          - { target: "rather", source: "ziemlich, eher" }
+          - { target: "very", source: "sehr" }
+          - { target: "extremely", source: "äußerst" }
+          - { target: "too", source: "zu" }
+          - { target: "not", source: "nicht" }
+          - { target: "boring", source: "langweilig" }
+          - { target: "empty", source: "leer" }
+          - { target: "heavy", source: "schwer" }
+          - { target: "bag", source: "Tasche" }
+          - { target: "park", source: "Park" }
+          - { target: "film", source: "Film" }
+          - { target: "street", source: "Straße" }
+          - { target: "task", source: "Aufgabe" }
+          - { target: "football", source: "Fußball" }
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: gradadverbien-reihe
+        text: Ordne die Sätze vom schwächsten zum stärksten, so wie auf dem Regler der Seite.
+        items:
+          - The soup is quite cold.
+          - The soup is rather cold.
+          - The soup is very cold.
+          - The soup is extremely cold.
+        explanation: Auf dem Regler stehen quite, rather, very und extremely in dieser Reihenfolge.
+        links:
+          - title: Lernlandkarte Englisch · Gradadverbien
+            url: https://lernapps.net/apps/map/englisch/c/gradadverbien/
+      - type: language-task
+        id: gradadverbien-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Der Tee ist zu heiß zum Trinken.
+            target: The tea is [too] hot to drink.
+            distractors: [[very]]
+          - cue: Die Aufgabe ist sehr leicht.
+            target: The task is [very] easy.
+            distractors: [[too]]
+          - cue: Ich kenne ihn sehr gut.
+            target: I know him [very] well.
+            distractors: [[too]]
+          - cue: Die Straße ist ziemlich lang.
+            target: The street is [quite|rather] long.
+            distractors: [[too]]
+        hint: Zu heißt too. Vor Adjektiven steht very, aber vor einem Verb very much.
+      - type: language-task
+        id: gradadverbien-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Die Suppe ist ziemlich heiß.
+            target: The soup is (quite|rather) hot.
+            mistakes:
+              - answer: The soup is very hot.
+                message: very heißt sehr. Gesucht ist ein schwächeres Wort auf dem Regler.
+          - source: Peter spricht äußerst laut.
+            target: Peter speaks extremely loudly.
+            mistakes:
+              - answer: Peter speaks extremely loud.
+                message: Hinter dem Verb beschreibt das Wort, wie Peter spricht. Dafür braucht es -ly.
+          - source: Das Wasser ist zu kalt.
+            target: The water is too cold.
+            mistakes:
+              - answer: The water is very cold.
+                message: very heißt sehr, nicht zu. Das Warnzeichen heißt too.
+          - source: Er hilft uns sehr (nutze very much).
+            target: He helps us very much.
+            mistakes:
+              - answer: He very helps us.
+                message: Vor dem Verb steht very nicht. Sage very much hinter das Objekt.
+        hint: Prüfe, ob du zu, sehr oder ziemlich sagen willst.
+      - type: language-task
+        id: gradadverbien-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: She very loves her dog.
+            target: She loves her dog very much.
+            mistakes:
+              - answer: She very loves her dog.
+                message: Vor einem Verb steht very nicht. Wohin gehört very much?
+          - cue: The cake is very much sweet.
+            target: The cake is very sweet.
+            mistakes:
+              - answer: The cake is very much sweet.
+                message: Vor einem Adjektiv steht very ohne much.
+        hint: Gradadverbien stehen vor Adjektiven und Adverbien.
+      - type: language-task
+        id: gradadverbien-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Das Buch ist zu lang.
+            target: The book is too long.
+            mistakes:
+              - answer: The book is very long.
+                message: very heißt sehr, nicht zu. Dann wäre das Buch sehr lang, aber nicht zu lang.
+          - source: Das Spiel ist sehr spannend.
+            target: The game is very exciting.
+            mistakes:
+              - answer: The game is too exciting.
+                message: too heißt zu. Dann wäre das Spiel zu spannend.
+      - type: language-task
+        id: gradadverbien-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-film-is-rather-boring.mp3
+            target: The film is rather boring.
+          - audio: my-bag-is-extremely-heavy.mp3
+            target: My bag is extremely heavy.
+          - audio: the-jacket-is-too-small-for-me.mp3
+            target: The jacket is too small for me.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: gradadverbien-nachsprechen
+        language: en
+        items:
+          - audio: the-park-is-quite-empty.mp3
+            text: The park is quite empty.
+          - audio: that-test-was-very-hard.mp3
+            text: That test was very hard.
+          - audio: she-sings-extremely-well.mp3
+            text: She sings extremely well.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: gradadverbien-meinung
+        task: "Amir fragt dich im Interview: Wie findest du die Schule, die Hausaufgaben und das Essen in der Kantine? Antworte in drei bis fünf Sätzen und stufe mit Gradadverbien ab."
+        points:
+          - text: Mindestens drei verschiedene Gradadverbien kommen vor (quite, rather, very, extremely oder too).
+            source: /genauer-beschreiben/gradadverbien/#neu
+          - text: Die Gradadverbien stehen vor einem Adjektiv oder Adverb, nicht vor einem Verb.
+            source: /genauer-beschreiben/gradadverbien/#neu
+          - text: Es sind ganze Sätze mit einem Punkt am Ende.
+            kind: form
+        solution: |
+          School is quite good. The homework is rather boring, but sometimes it is too much. The lunch is extremely tasty.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Das Interview kommt gut an. Nach der Sendung räumt die Gruppe die Spenden für den Basar der Schule auf. Es gibt viele rote und blaue Sachen, und Sophie muss sie ordnen, ohne jedes Mal das Nomen zu wiederholen. Auf der nächsten Seite lernst du, wie das geht."

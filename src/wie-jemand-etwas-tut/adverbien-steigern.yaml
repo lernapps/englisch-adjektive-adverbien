@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-adverbien-steigern.svg
         alt: Peter rennt im Flur vor Amir her. Ellie und Sophie stehen rechts und schauen zu.
-        caption: "Von links: Amir (Brille), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz) und Sophie (Zöpfe)."
+        caption: "Von links: Amir, Peter, Ellie und Sophie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -62,19 +62,19 @@ blocks:
           - type: text
             text: |
               Wie bei den Adjektiven: **kurz** gibt **-er** und **-est**, **-ly** gibt **more** und **most**. Zwei Handlungen vergleichst du mit **than**: Peter runs **faster than** Amir. Vor der Höchststufe darfst du bei Adverbien das the weglassen (Sophie sings best). **early** endet auf -ly, ist aber kurz und steigt wie fast.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [slowly, langsam]
-          - [loudly, laut]
-          - [quietly, leise]
-          - [early, früh]
-          - [late, spät]
-          - [badly, schlecht]
-          - [speak, sprechen]
-          - [sing, singen]
-          - [work, arbeiten]
+        languages: { source: de, target: en }
+        entries:
+          - { target: "slowly", source: "langsam" }
+          - { target: "loudly", source: "laut" }
+          - { target: "quietly", source: "leise" }
+          - { target: "early", source: "früh" }
+          - { target: "late", source: "spät" }
+          - { target: "badly", source: "schlecht" }
+          - { target: "speak", source: "sprechen" }
+          - { target: "sing", source: "singen" }
+          - { target: "work", source: "arbeiten" }
   - type: section
     id: uebung
     title: Übung
@@ -258,7 +258,7 @@ blocks:
       - type: text
         text: "Du hast jetzt zwei Anhänger und die Treppe mit ihren zwei Seiten. Der blaue Anhänger beschreibt Dinge und Personen, der orangefarbene sagt, wie jemand etwas tut. Beide Seiten der Treppe steigen gleich: kurz mit -er und -est, lang mit more und most. Mr Hill hängt die Karten auf, und die Ausstellung „Our Millbrook“ kann beginnen."
       - type: table
-        caption: Schulkalender · Rückblick Kapitel 2
+        caption: Schulkalender · Rückblick Wie jemand etwas tut
         header: [Das willst du sagen, "So geht es"]
         rows:
           - [wie jemand etwas tut, "orangefarbener Anhänger am Verb, meist -ly"]

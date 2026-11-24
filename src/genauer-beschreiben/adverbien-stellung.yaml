@@ -1,0 +1,263 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wohin mit dem Adverb? Die Stellung im Satz"
+description: "Sophies Blog über die erste Radiosendung zeigt, wo Adverbien im englischen Satz stehen: vorn, in der Mitte oder hinten, aber nie zwischen Verb und Objekt."
+competencies: [adverbien-stellung]
+scope: Die Seite lehrt die Stellung der Adverbien der Art und Weise im Aussagesatz. Sie stehen am Anfang (mit Komma), in der Mitte vor dem Vollverb oder nach dem ersten Hilfsverb (can easily fix, had quietly come) oder am Ende nach dem Objekt. Zwischen Verb und Objekt stehen sie nie (nicht opened carefully the door). Nicht hier, weil es spätere Seiten sind. Gradadverbien, one und substantivierte Adjektive.
+blocks:
+  - type: section
+    id: vorwissen
+    title: Was du schon weißt
+    blocks:
+      - type: figure
+        image: images/szene-adverbien-stellung.svg
+        alt: Vier Jugendliche in einem kleinen Studio, ein Mikrofon steht auf einem Tisch, eine rote Lampe leuchtet.
+        caption: "Von links: Ellie, Amir, Peter und Sophie."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: single-choice
+        id: adverbien-stellung-start
+        text: "Aus der Wiederholung: Welcher Satz hat die richtige Reihenfolge?"
+        options:
+          - text: Sophie reads a book in the library on Monday.
+            correct: true
+            info: Der Ort steht vor der Zeit. Das Objekt kommt direkt nach dem Verb.
+          - text: Sophie reads in the library a book on Monday.
+            correct: false
+            info: Zwischen dem Verb und dem Objekt steht hier ein Ortswort. Das Objekt gehört direkt hinter das Verb.
+          - text: Sophie reads a book on Monday in the library.
+            correct: false
+            info: Zeitangaben stehen nach den Ortsangaben.
+        explanation: Subjekt, Verb, Objekt, dann Ort, dann Zeit.
+        links:
+          - title: Lernlandkarte Englisch · Wortstellung
+            url: https://lernapps.net/apps/map/englisch/c/wortstellung/
+  - type: section
+    id: lesen
+    title: Sophies Blog über die Radiosendung
+    blocks:
+      - type: text
+        text: "Sophie schreibt einen Blog für die Schulzeitung. Heute berichtet sie von der ersten Sendung des Schul-Radios. Lies den Eintrag ganz. Die Zeilen sind nummeriert."
+      - type: text
+        text: |
+          **1 ·** Yesterday we finally recorded our first school radio show.
+
+          **2 ·** Amir carefully checked the microphone, and Ellie quickly sorted the music.
+
+          **3 ·** Peter was nervous, but he spoke clearly when the red light came on.
+
+          **4 ·** Suddenly, the door opened. It was Mr Hill. He had quietly come in to listen.
+
+          **5 ·** I was shaking a little, but I read my text slowly and I did not make a mistake.
+
+          **6 ·** After the show, Mr Hill smiled happily. "You can easily do this every week," he said.
+
+          **7 ·** We laughed loudly and drank a lot of orange juice.
+      - type: vocabulary
+        caption: Randglossar · Zeilen 1 bis 7
+        languages: { source: de, target: en }
+        entries:
+          - { target: "record", source: "aufnehmen" }
+          - { target: "microphone", source: "Mikrofon" }
+          - { target: "sort", source: "ordnen" }
+          - { target: "light", source: "Licht" }
+          - { target: "shake", source: "zittern" }
+          - { target: "mistake", source: "Fehler" }
+          - { target: "quietly", source: "leise" }
+          - { target: "a lot of", source: "viel" }
+  - type: section
+    id: verstehen
+    title: Hast du den Blog verstanden?
+    blocks:
+      - type: true-false
+        id: adverbien-stellung-verstehen
+        text: "Peter sprach leise in das Mikrofon. Stimmt das?"
+        answer: false
+        explanation: Peter sprach deutlich, nicht leise. Das steht in Zeile 3.
+        links:
+          - title: Lernlandkarte Englisch · Stellung der Adverbien
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-stellung/
+      - type: single-choice
+        id: adverbien-stellung-belegen
+        text: Welche Zeile zeigt, dass Mr Hill unbemerkt in das Studio kam?
+        options:
+          - text: "Zeile 4: He had quietly come in to listen."
+            correct: true
+            info: quietly sagt, dass er leise hereinkam.
+          - text: "Zeile 6: Mr Hill smiled happily."
+            correct: false
+            info: Hier ist die Sendung schon vorbei. Mr Hill lächelt nur.
+          - text: "Zeile 2: Amir carefully checked the microphone."
+            correct: false
+            info: Diese Zeile handelt von Amir und dem Mikrofon.
+        explanation: Leise hereingekommen ist Mr Hill in Zeile 4.
+        links:
+          - title: Lernlandkarte Englisch · Stellung der Adverbien
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-stellung/
+  - type: section
+    id: neu
+    title: Schau in den Text
+    blocks:
+      - type: text
+        text: "Der Blog hat viele orangefarbene Anhänger, und sie hängen an verschiedenen Stellen. In Zeile 4 steht **Suddenly** ganz am **Anfang**, mit einem Komma dahinter. In Zeile 2 hängt **carefully** in der **Mitte**, direkt vor dem Verb. In Zeile 4 steht **quietly** ebenfalls in der Mitte, nach dem ersten Hilfsverb **had**. In Zeile 3 steht **clearly** am **Ende**. Nur eine Stelle bleibt immer leer: **zwischen dem Verb und seinem Objekt**."
+      - type: figure
+        image: images/satzkarten-stellung.svg
+        alt: Drei Karten Amir, opened und the door. Davor, zwischen Amir und opened und am Ende hängen orangefarbene Haken mit den Zahlen 1, 2 und 3. Zwischen opened und the door steht ein rotes Kreuz.
+        caption: Die Haken 1, 2 und 3 sind frei. Zwischen Verb und Objekt ist der Platz gesperrt.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Wo das Adverb stehen darf
+        header: [Platz, Beispiel]
+        rows:
+          - [Anfang, "Slowly, the sun rose."]
+          - [Mitte, "The girls happily danced."]
+          - [Mitte nach Hilfsverb, "Mr Hill has calmly answered."]
+          - [Ende, "He closed the door softly."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Ein Adverb auf -ly kann am **Anfang** (mit Komma), in der **Mitte** (vor dem Verb oder nach dem ersten Hilfsverb, also nach can, has, had oder is) oder am **Ende** stehen. **Zwischen Verb und Objekt** steht es nie: nicht „wrote quickly the text“, sondern „quickly wrote the text“ oder „wrote the text quickly“.
+      - type: vocabulary
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        languages: { source: de, target: en }
+        entries:
+          - { target: "suddenly", source: "plötzlich" }
+          - { target: "politely", source: "höflich" }
+          - { target: "kindly", source: "freundlich" }
+          - { target: "finally", source: "endlich" }
+          - { target: "question", source: "Frage" }
+          - { target: "window", source: "Fenster" }
+          - { target: "lights", source: "Licht / Lichter" }
+          - { target: "text", source: "Text" }
+          - { target: "clearly", source: "deutlich" }
+          - { target: "easily", source: "leicht" }
+          - { target: "carry", source: "tragen" }
+          - { target: "fix", source: "reparieren" }
+          - { target: "answer", source: "antworten" }
+          - { target: "pack", source: "einpacken" }
+          - { target: "calmly", source: "ruhig" }
+          - { target: "softly", source: "leise / sanft" }
+          - { target: "sun", source: "Sonne" }
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: adverbien-stellung-wahl
+        text: "Welcher Satz ist richtig? Ellie packte die Tasche schnell ein."
+        options:
+          - text: Ellie quickly packed the bag.
+            correct: true
+            info: quickly steht in der Mitte, vor dem Verb.
+          - text: Ellie packed quickly the bag.
+            correct: false
+            info: Das Adverb steht zwischen dem Verb und dem Objekt. Dort ist der Platz gesperrt.
+          - text: Quickly packed Ellie the bag.
+            correct: false
+            info: So würde man es im Deutschen sagen. Im englischen Aussagesatz bleibt das Subjekt vorn.
+        explanation: Vor dem Verb oder hinter dem Objekt, nie dazwischen.
+        links:
+          - title: Lernlandkarte Englisch · Stellung der Adverbien
+            url: https://lernapps.net/apps/map/englisch/c/adverbien-stellung/
+      - type: language-task
+        id: adverbien-stellung-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den Satz im Präsens. Das Adverb darf an jedem erlaubten Platz stehen.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ellie · carefully · carry · the box
+            target: (Carefully, Ellie carries the box|Ellie carefully carries the box|Ellie carries the box carefully).
+            mistakes:
+              - answer: Ellie carries carefully the box.
+                message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt. Setze das Adverb vor das Verb oder hinter das Objekt.
+          - cue: Peter · easily · can · fix · it
+            target: (Easily, Peter can fix it|Peter can easily fix it|Peter can fix it easily).
+            mistakes:
+              - answer: Peter easily can fix it.
+                message: Mit einem Hilfsverb steht das Adverb nach dem Hilfsverb, nicht davor.
+          - cue: Amir · politely · answer · the question
+            target: (Politely, Amir answers the question|Amir politely answers the question|Amir answers the question politely).
+            mistakes:
+              - answer: Amir answers politely the question.
+                message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt.
+        hint: Vor das Verb, nach das Hilfsverb oder hinter das Objekt.
+      - type: language-task
+        id: adverbien-stellung-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig. Es gibt mehrere richtige Möglichkeiten.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Amir opened carefully the door.
+            target: (Carefully, Amir opened the door|Amir carefully opened the door|Amir opened the door carefully).
+            mistakes:
+              - answer: Amir opened carefully the door.
+                message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt.
+          - cue: Peter can fix easily it.
+            target: (Easily, Peter can fix it|Peter can easily fix it|Peter can fix it easily).
+            mistakes:
+              - answer: Peter can fix easily it.
+                message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt.
+        hint: Schau, wo das Adverb zwischen Verb und Objekt oder vor dem Hilfsverb steht.
+      - type: language-task
+        id: adverbien-stellung-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Das Licht ging plötzlich aus.
+            target: (Suddenly, the light went out|The light suddenly went out|The light went out suddenly).
+            mistakes:
+              - answer: The light went suddenly out.
+                message: Das Adverb steht nicht mitten im Verb went out. Setze es an den Anfang, vor das Verb oder ans Ende.
+          - source: Sophie hat das Fenster endlich geschlossen.
+            target: (Finally, Sophie has closed the window|Sophie has finally closed the window|Finally, Sophie closed the window|Sophie finally closed the window).
+            mistakes:
+              - answer: Sophie has closed finally the window.
+                message: Zwischen dem Verb und dem Objekt ist der Platz gesperrt.
+      - type: language-task
+        id: adverbien-stellung-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: sophie-slowly-closed-the-window.mp3
+            target: Sophie slowly closed the window.
+          - audio: they-can-easily-win-the-game.mp3
+            target: They can easily win the game.
+          - audio: the-teacher-answered-the-question-politely.mp3
+            target: The teacher answered the question politely.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: adverbien-stellung-nachsprechen
+        language: en
+        items:
+          - audio: suddenly-the-lights-went-out.mp3
+            text: Suddenly, the lights went out.
+          - audio: peter-has-carefully-read-the-text.mp3
+            text: Peter has carefully read the text.
+          - audio: she-spoke-to-us-kindly.mp3
+            text: She spoke to us kindly.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: adverbien-stellung-meinung
+        task: "Schreibe für das Schul-Radio einen Eintrag in drei bis fünf Sätzen: Was habt ihr heute in der Pause oder im Unterricht gemacht, und wie? Setze die Adverbien an verschiedene erlaubte Stellen."
+        points:
+          - text: Mindestens drei Adverbien der Art und Weise (zum Beispiel quietly, quickly, carefully) stehen im Text.
+            source: /genauer-beschreiben/adverbien-stellung/#neu
+          - text: Mindestens zwei verschiedene Stellen kommen vor (Anfang, Mitte oder Ende).
+            source: /genauer-beschreiben/adverbien-stellung/#neu
+          - text: Kein Adverb steht zwischen Verb und Objekt.
+            source: /genauer-beschreiben/adverbien-stellung/#neu
+        solution: |
+          Suddenly, the bell rang. We quickly packed our bags and walked outside. Amir carefully carried the football.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mr Hill schlägt vor, dass die Gruppe das Schul-Radio jede Woche macht. Für die nächste Sendung will Amir Mr Hill interviewen. Er fragt, wie gern er die Schule hat. Mr Hill antwortet mit Wörtern wie very, quite und extremely. Auf der nächsten Seite findest du heraus, wie sie wirken."

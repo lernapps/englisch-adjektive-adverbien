@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Die Reihenfolge im englischen Satz noch einmal kurz, bevor du Texte der Klasse liest.
+recap: englisch/wortstellung
+scope: Die Seite wiederholt nur die Wortstellung im Aussagesatz, also Subjekt – Verb – Objekt und Ortsangaben vor Zeitangaben. Neue Inhalte gibt es nicht, auch keine Übung.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? **Ich kann Aussagesätze in der Reihenfolge Subjekt – Verb – Objekt bilden und Ortsangaben vor Zeitangaben stellen.** Das ist der Baustein „Wortstellung“. Das Subjekt ist das Wort, von dem der Satz handelt, das Objekt das, worauf sich das Verb richtet. Du brauchst ihn in diesem Kapitel, weil du Adverbien an die richtige Stelle im Satz setzt. Lies die Tabelle und prüfe in Gedanken, ob du die Reihenfolge kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · Die Reihenfolge im Satz
+        header: [Satzteil, Beispiel]
+        rows:
+          - [Subjekt, Sophie]
+          - [Verb, reads]
+          - [Objekt, a book]
+          - [Ort, in the library]
+          - [Zeit, on Monday]
+      - type: text
+        text: Nicht sicher? Wiederhole es auf der [Seite zur Wortstellung](https://lernapps.net/apps/map/englisch/c/wortstellung/) der Lernlandkarte.
+  - type: section
+    id: weiter
+    title: Und jetzt zu den Texten
+    blocks:
+      - type: text
+        text: "Du liest in diesem Kapitel Chats, Blogs und Interviews. Die Anhänger kennst du noch: Der blaue beschreibt Dinge und Personen und steht auch nach be, der orangefarbene sagt, wie jemand etwas tut."

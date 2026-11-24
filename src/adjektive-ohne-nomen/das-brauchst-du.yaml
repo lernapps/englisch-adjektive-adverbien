@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Die Artikel a, an und the noch einmal kurz, bevor es um Adjektive ohne Nomen geht.
+recap: englisch/artikel
+scope: Die Seite wiederholt nur die Artikel a, an und the. Neue Inhalte gibt es nicht, auch keine Übung.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? **Ich kann die Artikel a, an und the richtig verwenden und „the“ vor Vokalen richtig aussprechen.** Das ist der Baustein „Artikel“. Du brauchst ihn in diesem Kapitel, weil ein Artikel oft vor einem Adjektiv ohne Nomen steht (the rich). Lies die Tabelle und prüfe in Gedanken, ob du die Regeln kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · Die Artikel
+        header: [Artikel, Wann, Beispiel]
+        rows:
+          - [a, vor Konsonanten, a book]
+          - [an, vor Vokalen, an orange]
+          - [the, etwas Bestimmtes, the book]
+      - type: text
+        text: Nicht sicher? Wiederhole es auf der [Seite zu den Artikeln](https://lernapps.net/apps/map/englisch/c/artikel/) der Lernlandkarte.
+  - type: section
+    id: weiter
+    title: Und jetzt zum Basar
+    blocks:
+      - type: text
+        text: "Beim Basar der Schule werden Spenden sortiert. Du liest den Chat dazu, bevor du die Regel kennenlernst."

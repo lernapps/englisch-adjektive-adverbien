@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Adjektive ohne Nomen
+summary: Beim Basar der Schule sortieren die Kinder Spenden. Du lernst, mit one und ones ein Nomen zu ersetzen, und liest, wie Adjektive wie the rich und the elderly allein für Gruppen von Menschen stehen.
+pages: [das-brauchst-du, stuetzwort-one, substantivierte-adjektive]
+selfAssessment:
+  pages:
+    - exercises:
+        - /adjektive-ohne-nomen/stuetzwort-one/#stuetzwort-one-bilden
+        - /adjektive-ohne-nomen/stuetzwort-one/#stuetzwort-one-korrektur
+    - exercises:
+        - /adjektive-ohne-nomen/substantivierte-adjektive/#substantivierte-adjektive-bilden
+        - /adjektive-ohne-nomen/substantivierte-adjektive/#substantivierte-adjektive-korrektur
