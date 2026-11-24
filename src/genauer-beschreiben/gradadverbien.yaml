@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-gradadverbien.svg
         alt: Amir sitzt an einem Tisch mit zwei Mikrofonen im Radio-Studio, Ellie und Sophie stehen daneben.
-        caption: "Von links: Ellie (roter Pferdeschwanz), Amir (Brille) und Sophie (Zöpfe)."
+        caption: "Von links: Ellie, Amir und Sophie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: single-choice
@@ -36,7 +36,7 @@ blocks:
     title: Amir interviewt Mr Hill
     blocks:
       - type: text
-        text: "Für das Schul-Radio führt Amir ein Interview mit dem Lehrer Mr Hill. Lies es ganz. Die Zeilen sind nummeriert."
+        text: "Amir führt für das Schul-Radio ein Interview mit Mr Hill. Lies es ganz. Die Zeilen sind nummeriert."
       - type: text
         text: |
           **1 · Amir:** Mr Hill, how do you like our school?

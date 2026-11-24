@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-adverbien.svg
         alt: Amir malt an einer Staffelei, Peter rennt rechts davon, Sophie und Ellie schauen zu.
-        caption: "Von links: Sophie (Zöpfe), Amir (Brille), Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz)."
+        caption: "Von links: Sophie, Amir, Peter und Ellie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

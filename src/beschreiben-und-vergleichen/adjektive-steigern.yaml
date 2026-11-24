@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-adjektive-steigern.svg
         alt: Ellie und Peter stehen im Flur neben einer Messlatte an der Wand. Ellie ist deutlich größer als Peter. Sophie steht links, Amir rechts.
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Peter (gelbe Jacke) und Amir (Brille)."
+        caption: "Von links: Sophie, Ellie, Peter und Amir."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

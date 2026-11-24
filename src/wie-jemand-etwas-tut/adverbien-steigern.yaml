@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-adverbien-steigern.svg
         alt: Peter rennt im Flur vor Amir her. Ellie und Sophie stehen rechts und schauen zu.
-        caption: "Von links: Amir (Brille), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz) und Sophie (Zöpfe)."
+        caption: "Von links: Amir, Peter, Ellie und Sophie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

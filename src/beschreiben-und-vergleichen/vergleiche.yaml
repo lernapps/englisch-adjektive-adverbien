@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-vergleiche.svg
         alt: Drei Kinder stehen im Flur vor zwei Fotos. Das linke Foto zeigt ein großes Haus, das rechte ein kleines Haus.
-        caption: "Von links: Sophie (Zöpfe), Amir (Brille) und Ellie (roter Pferdeschwanz)."
+        caption: "Von links: Sophie, Amir und Ellie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

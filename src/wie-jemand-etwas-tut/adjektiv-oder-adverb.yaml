@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-adjektiv-oder-adverb.svg
         alt: Zwei leere Karten hängen an der Wand. An der linken hängt ein blauer, an der rechten ein orangefarbener Anhänger. Davor stehen vier Kinder.
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke)."
+        caption: "Von links: Sophie, Ellie, Amir und Peter."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

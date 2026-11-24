@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-stuetzwort-one.svg
         alt: Auf einem Tisch beim Schulbasar liegen vier Jacken, zwei rote, eine blaue und eine grüne. Sophie und Ellie stehen daneben.
-        caption: "Von links: Sophie (Zöpfe) und Ellie (roter Pferdeschwanz)."
+        caption: "Von links: Sophie und Ellie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: single-choice

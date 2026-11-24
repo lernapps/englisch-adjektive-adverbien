@@ -11,12 +11,12 @@ blocks:
       - type: figure
         image: images/szene-adjektive.svg
         alt: Zwei Fotos hängen an der Wand im Flur der Millbrook School, eins zeigt einen Baum, eins ein Haus. Vor der Wand stehen vier Kinder.
-        caption: "Von links: Ellie (roter Pferdeschwanz), Amir (Brille), Peter (gelbe Jacke) und Sophie (Zöpfe)."
+        caption: "Von links: Ellie, Amir, Peter und Sophie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Mr Hill baut im Flur der Millbrook School die Ausstellung **Our Millbrook** auf (exhibition = Ausstellung). Die Klasse hängt Fotos und Karten an die Wand. Auf zwei Fotos sind ein Baum (tree) und ein Haus (house) zu sehen. Der Baum ist groß, das englische Wort dafür ist **big**. Sophie (mit den Zöpfen) schreibt die Karte für den Baum.
+          Mr Hill baut im Flur der Millbrook School die Ausstellung **Our Millbrook** auf (exhibition = Ausstellung). Die Klasse hängt Fotos und Karten an die Wand. Auf zwei Fotos sind ein Baum (tree) und ein Haus (house) zu sehen. Der Baum ist groß, das englische Wort dafür ist **big**. Sophie schreibt die Karte für den Baum.
       - type: single-choice
         id: adjektive-start
         text: Sophie schreibt eine Karte für das Foto vom Baum. Welche Karte passt?
